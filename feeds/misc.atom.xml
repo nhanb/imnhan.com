@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Nerdy Weekly - misc</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2014-01-25T10:37:00+07:00</updated><subtitle>Musings on the joy of computing... or lack thereof</subtitle><entry><title>“Have you built anything cool?”</title><link href="https://hi.imnhan.com/posts/have-you-built-anything-cool/" rel="alternate"></link><published>2014-01-25T10:37:00+07:00</published><updated>2014-01-25T10:37:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-01-25:/posts/have-you-built-anything-cool/</id><summary type="html">&lt;p&gt;So recently I went to a &lt;em&gt;networking event&lt;/em&gt;&amp;#8212;something I have never liked or been good at. I&amp;#8217;m
+not sure if I&amp;#8217;m one of those introverts or if I&amp;#8217;m just socially awkward, but the very idea of
+going around trying to converse with total strangers just to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;So recently I went to a &lt;em&gt;networking event&lt;/em&gt;&amp;#8212;something I have never liked or been good at. I&amp;#8217;m
+not sure if I&amp;#8217;m one of those introverts or if I&amp;#8217;m just socially awkward, but the very idea of
+going around trying to converse with total strangers just to exchange business cards is not at all
+appealing to me. Anyway, that&amp;#8217;s another story. Right now I want to write about something a guy
+from a non-tech company asked&amp;nbsp;me:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;- Have you built anything cool?&lt;br&gt;
+- [pause] Well, more or less&amp;#8230;&lt;br&gt;
+- What do you mean by &amp;#8220;more or less&amp;#8221;? [&amp;#8230;] Have you built anything at&amp;nbsp;all?  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then I went on trying to explain what my recent side project&amp;#8212;
+&lt;a href="https://pytaku-legacy.appspot.com"&gt;pytaku&lt;/a&gt;&amp;#8212;does and why it is awesome for me. He seemed to be
+disinterested halfway through so I decided to shut up&amp;nbsp;anyway.&lt;/p&gt;
+&lt;p&gt;Sure, I have done stuff now and then, be it assignment work or something I decided to create
+for my own amusement. It is just funny how I have already stepped into to my final year without
+taking a proper look back at what I have done in these past 2 years, so I&amp;#8217;m going to do just&amp;nbsp;that.&lt;/p&gt;
+&lt;p&gt;If you&amp;#8212;Nicholas&amp;#8212;are reading this and don&amp;#8217;t want all the nerdy stuff, here are my condensed&amp;nbsp;answers:&lt;/p&gt;
+&lt;h3&gt;Have you built&amp;nbsp;anything?&lt;/h3&gt;
+&lt;p&gt;Yes, I have made desktop and Android games, a movie ticket sales program, a desktop manga
+grabber, a web version of it that talks to dropbox, and several small shell scripts / web&amp;nbsp;utilities.&lt;/p&gt;
+&lt;h3&gt;So, nothing&amp;nbsp;cool?&lt;/h3&gt;
+&lt;p&gt;If you&amp;#8217;re neither a tech geek nor an otaku (which I assume you&amp;#8217;re not) then no, there&amp;#8217;s probably
+nothing I&amp;#8217;ve done that you would find&amp;nbsp;interesting.&lt;/p&gt;
+&lt;h2&gt;Nerd&amp;nbsp;alert!&lt;/h2&gt;
+&lt;p&gt;The rest of this post is aimed at the &lt;del&gt;nerdier&lt;/del&gt; more tech-savvy audience. You have been
+warned&amp;nbsp;;)&lt;/p&gt;
+&lt;h2&gt;First year&amp;#8212;Welcome to the web, and the &lt;span class="caps"&gt;GUI&lt;/span&gt; programming&amp;nbsp;disillusionment&lt;/h2&gt;
+&lt;p&gt;I had touched &lt;em&gt;web stuff&lt;/em&gt; before in high school: a vBulletin forum that I created (unofficially)
+for students in my middle school. However, I only properly learned &lt;span class="caps"&gt;PHP&lt;/span&gt; and &lt;span class="caps"&gt;JS&lt;/span&gt; when I started the
+Web Programming course here. With (moderately) great power came great desires, so I set out to
+build a basic &lt;span class="caps"&gt;PHP&lt;/span&gt; site to scrape a youtube view page&amp;#8217;s &lt;span class="caps"&gt;HTML&lt;/span&gt; to get direct video links (not working
+anymore since a recent youtube&amp;nbsp;update)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="tubegrab v2.9" src="/images/tubegrab.jpg" title="tubegrab v2.9"&gt;&lt;/p&gt;
+&lt;p&gt;That was my first touch on jQueryUI and regular expressions; I also learned how &lt;span class="caps"&gt;RMIT&lt;/span&gt;&amp;#8217;s mekong
+server sucked to the point that it didn&amp;#8217;t allow &lt;code&gt;get_file_contents()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;About school assignments? Nothing interesting: standard minimal &lt;span class="caps"&gt;LAMP&lt;/span&gt; &lt;span class="caps"&gt;CMS&lt;/span&gt; with jQuery glitter
+sprinkled on top. Not a bad experience but&amp;nbsp;meh.&lt;/p&gt;
+&lt;p&gt;I also learned about &lt;span class="caps"&gt;MVC&lt;/span&gt; and &lt;span class="caps"&gt;GUI&lt;/span&gt; programming with Java swing. I did write a movie ticket program
+with a (pretty minimal) seat picker and
+&lt;a href="https://github.com/nhanb/sealord"&gt;a battleship-inspired game&lt;/a&gt;: &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Cinema Movie Picker" src="/images/cinema_1.png" title="Cinema Movie Picker"&gt;
+&lt;img alt="Seat Picker" src="/images/cinema_2.png" title="Seat Picker"&gt;
+&lt;img alt="Sealord" src="/images/sealord.png"&gt;&lt;/p&gt;
+&lt;p&gt;Then it occurred to me that programming &lt;span class="caps"&gt;GUI&lt;/span&gt; interfaces for desktop programs was much more tedious
+than doing it for the web, especially when working with the now-not-favored Swing toolkit.
+Nightmarish&amp;nbsp;days&amp;#8230;&lt;/p&gt;
+&lt;p&gt;Another lesson learned the hard way was that &amp;#8220;&lt;span class="caps"&gt;MVC&lt;/span&gt;&amp;#8221; is not even a concrete thing, and there is
+hardly any obvious &amp;#8220;one true way&amp;#8221; to implement that. I spent much more time planning for plumbing
+code than I the time I spent actually writing &amp;#8220;feature&amp;#8221; code. And the result, now looking back, was
+not even that good. And yeah, there was no such thing as &amp;#8220;separation of concerns&amp;#8221; in my code back
+then, which eventually led to countless times of tracing obscure stack traces for debugging (good
+thing I had a lot of free time back&amp;nbsp;then).&lt;/p&gt;
+&lt;p&gt;To rub salt in the wound, I came to realize that nobody cared how Swing looked on any desktop
+environment other than &lt;span class="caps"&gt;OS&lt;/span&gt; X and Windows. Font rendering was painful to look at, and the only way to
+make it &lt;em&gt;a little bit&lt;/em&gt; more acceptable was using a
+&lt;a href="http://www.webupd8.org/2013/06/install-openjdk-patched-with-font-fixes.html"&gt;forked version of OpenJDK&lt;/a&gt;.
+&lt;span class="caps"&gt;WTF&lt;/span&gt; guys? And that&amp;#8217;s not the only problem; let&amp;#8217;s talk Look And Feel. Java&amp;#8217;s built-in
+getSystemLookAndFeel() could only detect &lt;span class="caps"&gt;GNOME&lt;/span&gt;&amp;#8217;s. When developing &lt;code&gt;ajmg&lt;/code&gt; I discovered that and had
+to write my own method that extended the thing to detect more DEs, but soon after that I thought
+&amp;#8220;What the hell, why do I even have to do this?&amp;#8221; and decided that Swing was dead to me (or any
+desktop Linux user for that&amp;nbsp;matter).&lt;/p&gt;
+&lt;h2&gt;Second year: enough of this &lt;del&gt;bull&lt;/del&gt; school crap. I&amp;#8217;m making stuff for&amp;nbsp;myself!&lt;/h2&gt;
+&lt;p&gt;To be fair, the following year has offered a number of new stuff: C/C++ programming, a taste of the
+M$ .&lt;span class="caps"&gt;NET&lt;/span&gt; C# stack (still impressed by Visual Studio&amp;#8217;s vi mode plugin), more Java,
+&lt;a href="http://truongtx.me/2013/05/02/agent-069-game/"&gt;Android app programming&lt;/a&gt;, and some neat security
+tricks. However, none of those intrigued me much, so I decided to start making things for my&amp;nbsp;own:&lt;/p&gt;
+&lt;h3&gt;Shell&amp;nbsp;scripts&lt;/h3&gt;
+&lt;p&gt;If you have taken a look at my &lt;a href="https://github.com/nhanb/dotfiles"&gt;dotfiles&lt;/a&gt;, you&amp;#8217;ll notice that I
+do write a bunch of shell scripts to automate stuff I do often. The one I&amp;#8217;m currently proudest of
+is &lt;a href="https://github.com/nhanb/dotfiles/blob/master/scripts/rmitproxy_silent"&gt;rmiproxy_silent&lt;/a&gt;, a
+script that automatically detects whether I am using &lt;span class="caps"&gt;RMIT&lt;/span&gt;&amp;#8217;s network and set/clear the appropriate
+proxy settings. Another one that I can&amp;#8217;t live without is
+&lt;a href="https://github.com/nhanb/dotfiles/blob/master/install.sh"&gt;install.sh&lt;/a&gt;, a script that helps install
+all my dotfiles, sets up zsh and various things. It saved me &lt;em&gt;a lot&lt;/em&gt; of time whenever I reinstall
+my&amp;nbsp;system.&lt;/p&gt;
+&lt;p&gt;Obligatory shout-out to &lt;a href="https://github.com/robbyrussell/oh-my-zsh/"&gt;oh-my-zsh&lt;/a&gt;, greatest invention
+since sliced bread! Those guys are&amp;nbsp;awesome!&lt;/p&gt;
+&lt;h3&gt;&lt;span class="caps"&gt;AJMG&lt;/span&gt;, then Pytaku, then&amp;#8230; who&amp;nbsp;knows?&lt;/h3&gt;
+&lt;p&gt;The original idea was actually creating a Java Swing program that helps download manga. It was born
+out of frustration of &lt;a href="http://blog.domdomsoft.com/"&gt;DomDomSoft&lt;/a&gt;, a manga downloader that requires
+&amp;#8220;donation&amp;#8221; to unlock full functionalities. &amp;#8220;I could do that, and I&amp;#8217;ll open source the crap out of
+it, because open source is awesome&amp;#8221;, I thought. Then I spent some time and got the minimal program
+working&amp;nbsp;program:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/ajmg.png"&gt;&lt;/p&gt;
+&lt;p&gt;This program did help me get a firm knowledge of java&amp;#8217;s thread manipulation and using http proxy
+(so I could exploit &lt;span class="caps"&gt;RMIT&lt;/span&gt;&amp;#8217;s awesome network bandwidth). I also succeeded in achieving separation of
+concern to a certain level this time, allowing contributors (if any) to easily add support for
+other manga reader sites. But then again, Swing&amp;#8217;s quirks put me off, so my bad habit of losing
+interest quickly kicked in and the project stopped&amp;nbsp;there.&lt;/p&gt;
+&lt;p&gt;Then came &lt;a href="https://pytaku-legacy.appspot.com"&gt;Pytaku&lt;/a&gt;, ajmg&amp;#8217;s spiritual successor. At this point I
+knew enough of python and wanted to try out Google App Engine, so I decided to make a web version
+of &lt;span class="caps"&gt;AJMG&lt;/span&gt;, with the difference that instead of downloading directly, it forwards everything to the
+user&amp;#8217;s Dropbox folder. Why not Google Drive you ask? Because they haven&amp;#8217;t even bothered to release
+an official Linux client for it. Shame on you,&amp;nbsp;Google!&lt;/p&gt;
+&lt;p&gt;Loads of exciting things were learned along the way: how &lt;span class="caps"&gt;URL&lt;/span&gt; handling works in webapp2 and in other
+web frameworks in general, proper templating (can&amp;#8217;t believe I ever wrote &lt;code&gt;&amp;lt;title&amp;gt;&amp;lt;?php echo $title;
+?&amp;gt;&amp;lt;/title&amp;gt;&lt;/code&gt;&amp;#8230; not cool!), OAuth2 (more than a few &amp;#8220;Aha!&amp;#8221; moments working with this little guy&amp;#8230;),
+Google&amp;#8217;s Datastore and NoSQL in general, and of course, Twitter Bootstrap&amp;#8212;saving clueless
+non-designer developers since its&amp;nbsp;inception.&lt;/p&gt;
+&lt;p&gt;And now, I&amp;#8217;m rewriting it from scratch, this time trying out &lt;span class="caps"&gt;TDD&lt;/span&gt;, making use of
+&lt;a href="https://travis-ci.org/nhanb/pytaku"&gt;travis-ci&lt;/a&gt;, which will be especially helpful to periodically
+test if a manga site has changed its page layout and screwed up Pytaku&amp;#8217;s scraping code. I have
+encountered a number of quirks when trying to set up the correct testing boilerplate for a Google
+App Engine project, but it seems everything will be smooth from now on. This holiday season I plan
+to at least roll out an alpha version to show off. Stay tuned if you&amp;#8217;re&amp;nbsp;interested!&lt;/p&gt;
+&lt;h2&gt;To sum it&amp;nbsp;up&amp;#8230;&lt;/h2&gt;
+&lt;p&gt;I don&amp;#8217;t believe in developing products I myself don&amp;#8217;t want to use. I want to make things that make
+my life easier, and if that helps others too then it&amp;#8217;s a huge bonus. This is why Github is my
+favorite company right now, and
+&lt;a href="https://www.youtube.com/watch?v=qyz3jkOBbQY"&gt;How GitHub uses GitHub to build GitHub&lt;/a&gt; remains the
+best developer speech I have ever&amp;nbsp;seen.&lt;/p&gt;
+&lt;p&gt;Right now I haven&amp;#8217;t made a full-blown program that I can confidently distribute to end users, but I
+certainly have made quite a few nifty tools to improve my day-to-day computing tasks and learned a
+lot along the way. Right now I cannot confidently answer this big question by pointing them to a
+polished website detailing every nook and cranny of my shiny widely-used, battle-tested program,
+but I&amp;#8217;m confident I have the right knowledge to get there. If there is such a thing as &amp;#8220;Lunar New
+Year Resolution&amp;#8221;, I guess mine is that one year from now, I will have a satisfying answer to this
+question. Watch out world, I&amp;#8217;m&amp;nbsp;coming!&lt;/p&gt;
+&lt;p&gt;If you managed to get here, you are probably a tech geek like me. So, have &lt;em&gt;you&lt;/em&gt; built anything
+cool&amp;nbsp;recently?&lt;/p&gt;</content></entry></feed>

@@ -1,0 +1,208 @@
+/* ====================================
+ * Basic stuff
+ * ==================================== */
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Source Serif Pro", serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    margin: 0 0;
+    padding: 0 0;
+    border: none;
+}
+
+#main {
+    max-width: 700px;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+}
+
+hr {
+    border: 1px solid #777;
+}
+
+a {
+    color: #ce0000;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+a:hover {
+    background-color: #ffefef;
+}
+
+a:active {
+    background-color: #ce0000;
+    color: white;
+}
+
+p {
+    line-height: 1.5;
+    margin-top: 1.7em;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+h1, h2, h3, h4 {
+    line-height: 1.2;
+}
+
+h1 + p, h2 + p, h3 + p, h4 + p {
+    margin-top: -10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 34px;
+    margin-top: 42px;
+}
+
+h3 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+article img {
+    max-width: 100%;
+}
+
+pre {
+    padding: 15px 15px;
+    width: calc(100% - 30px); /* Cancels out the left/right paddings */
+    font-size: 16px;
+    overflow-x: auto;
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-size: 0.8em;
+    padding: 3px 5px 1px 5px;
+}
+
+.pagination {
+    margin-top: 40px;
+}
+
+.next {
+    float: right;
+}
+
+.prev {
+    float: left;
+}
+
+#content {
+    margin-top: 50px;
+    clear: both;
+}
+
+time {
+    color: black;
+    font-size: 0.9em;
+}
+
+/* ====================================
+ * Navbar
+ * ==================================== */
+
+nav {
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.navbar {
+    padding: 0px 0px;
+    margin: 5px -15px 12px 0px;
+    /* -15 to cancel out navbar>li's right margin */
+}
+
+.navbar > li {
+    display: inline;
+    list-style-type: none;
+    margin: 0px 15px 0px 0px;
+}
+
+#left-navbar {
+    float: left;
+}
+
+#right-navbar {
+    float: right;
+}
+
+#hr-nav {
+    clear: both;
+}
+
+/* ====================================
+ * Header
+ * ==================================== */
+
+#site-name {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#site-subtitle {
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+/* ====================================
+ * Footer
+ * ==================================== */
+
+footer {
+    font-size: 18px;
+}
+
+#hr-comment, #hr-footer {
+    margin-top: 40px;
+}
+
+
+/* ====================================
+ * Phone / small tablet sizes
+ * ==================================== */
+@media (max-width: 767px) {
+    nav {
+        font-size: 24px;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 480px) {
+    #main {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}

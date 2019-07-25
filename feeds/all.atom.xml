@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Nerdy Weekly</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2016-03-12T01:13:00+07:00</updated><subtitle>Musings on the joy of computing... or lack thereof</subtitle><entry><title>I did NOT sign that online petition!</title><link href="https://hi.imnhan.com/posts/i-did-not-sign-that-rmit-sc-petition/" rel="alternate"></link><published>2016-03-12T01:13:00+07:00</published><updated>2016-03-12T01:13:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2016-03-12:/posts/i-did-not-sign-that-rmit-sc-petition/</id><summary type="html">&lt;p&gt;This evening I received a rather strange&amp;nbsp;email:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/rmitsc_01_wtf.png"&gt;&lt;/p&gt;
+&lt;p&gt;Um&amp;#8230; I don&amp;#8217;t remember signing any petition recently (or ever, for that&amp;nbsp;matter)?&lt;/p&gt;
+&lt;h2&gt;What&amp;nbsp;happened?&lt;/h2&gt;
+&lt;p&gt;Apparently someone used my &lt;span class="caps"&gt;RMIT&lt;/span&gt; student email address to sign some petition for disbanding the
+university&amp;#8217;s Student Council. Said petition was apparently started by some …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This evening I received a rather strange&amp;nbsp;email:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/rmitsc_01_wtf.png"&gt;&lt;/p&gt;
+&lt;p&gt;Um&amp;#8230; I don&amp;#8217;t remember signing any petition recently (or ever, for that&amp;nbsp;matter)?&lt;/p&gt;
+&lt;h2&gt;What&amp;nbsp;happened?&lt;/h2&gt;
+&lt;p&gt;Apparently someone used my &lt;span class="caps"&gt;RMIT&lt;/span&gt; student email address to sign some petition for disbanding the
+university&amp;#8217;s Student Council. Said petition was apparently started by some Ms. Trần Ngọc Tuệ Mẫn -
+Student Council&amp;#8217;s vice president. Well&amp;#8230; yay for free speech, I guess? Anyway, my name was really
+among the signers&amp;nbsp;list:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/rmitsc_02_names.png"&gt;&lt;/p&gt;
+&lt;p&gt;How did this happen? Well, turns out &lt;strong&gt;iPetition does not require email confirmation upon
+signing&lt;/strong&gt;, so anyone can effectively enter any email and name they want and the stupid website will
+happily accept that as an absolutely definitely most positively legit supporter of your cause. Cool&amp;nbsp;huh?&lt;/p&gt;
+&lt;p&gt;Upon further inspection, almost all of the signer names are in one same format: the one that &lt;span class="caps"&gt;RMIT&lt;/span&gt;
+uses for its student names. So apparently a very motivated supporter of Ms. Mẫn&amp;#8217;s&amp;#8230; interesting
+campaign has been helpful enough to go through &lt;span class="caps"&gt;RMIT&lt;/span&gt; students&amp;#8217; IDs and names and sign us up, without
+us even having to know what it&amp;#8217;s all about. Gee,&amp;nbsp;thanks!&lt;/p&gt;
+&lt;h2&gt;Why do I even&amp;nbsp;care?&lt;/h2&gt;
+&lt;p&gt;I just don&amp;#8217;t like people using my name without my consent. More importantly, I have my reasons to
+disagree with the sentiments expressed in her petition description. Also I thought this could be a
+somewhat useful public service announcement, or a mildly entertaining daily wtf story. I don&amp;#8217;t&amp;nbsp;know.&lt;/p&gt;
+&lt;p&gt;Hell, let&amp;#8217;s throw in some of my own random thoughts to make this more like a blog&amp;nbsp;post:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;What&amp;#8217;s with these petition websites? Have people actually achieved anything using these? Even if
+  a petition website does send confirmation emails, what&amp;#8217;s stopping me from using trash addresses?
+  The signers&amp;#8217; email addresses are not displayed anyway so president@rmit.edu.vn won&amp;#8217;t be too
+  different from lol0042@spam.me now, will it? If you&amp;#8217;re an official co-leader of something
+  official who wants to do something official about it, maybe try a more, I don&amp;#8217;t know, official&amp;nbsp;channel?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The number of signers keep going up steadily, but slowly. Maybe our friendly neighborhood
+  signerman is doing it all by hand instead of a script? If it&amp;#8217;s the former&amp;#8230; let&amp;#8217;s say I do
+  admire the dedication &lt;strike&gt;and abhor the absolute stupidity&lt;/strike&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Is it normal for a student council to be this full of&amp;nbsp;drama?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That concludes my mostly pointless blog post. Hopefully I&amp;#8217;ll come up with something actually worth
+sharing soon. Until then, have an awesome&amp;nbsp;weekend!&lt;/p&gt;</content></entry><entry><title>My first DIY fightstick - Part 2</title><link href="https://hi.imnhan.com/posts/my-first-diy-fightstick-part-2/" rel="alternate"></link><published>2016-01-23T17:10:00+07:00</published><updated>2016-01-23T17:10:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2016-01-23:/posts/my-first-diy-fightstick-part-2/</id><summary type="html">&lt;p&gt;It&amp;#8217;s been a while since I &lt;a href="https://hi.imnhan.com/posts/my-first-diy-fightstick-part-1/"&gt;started&lt;/a&gt; my arcade stick project. To be honest I got lazy and paused
+the whole thing for a while, but yesterday I needed a distraction so&amp;#8230; everything came together
+much more nicely than I&amp;nbsp;thought!&lt;/p&gt;
+&lt;h2&gt;I did&amp;nbsp;it!&lt;/h2&gt;
+&lt;p&gt;I was almost done in …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It&amp;#8217;s been a while since I &lt;a href="https://hi.imnhan.com/posts/my-first-diy-fightstick-part-1/"&gt;started&lt;/a&gt; my arcade stick project. To be honest I got lazy and paused
+the whole thing for a while, but yesterday I needed a distraction so&amp;#8230; everything came together
+much more nicely than I&amp;nbsp;thought!&lt;/p&gt;
+&lt;h2&gt;I did&amp;nbsp;it!&lt;/h2&gt;
+&lt;p&gt;I was almost done in Part 1, except for the fact that button holes on the top panels didn&amp;#8217;t align,
+and the topmost panel flexed a bit because of imprecise screw&amp;nbsp;holes:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ewww" src="/images/fightstick_24_gap.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;To fix the button holes, I simply wrapped my roughest sandpaper around the drill bit and used it as
+a poor man&amp;#8217;s sander to make the holes slightly bigger, just enough for buttons to fit. This took a
+while because the sandpaper pieces kept failing on me. Good thing I stock a huge roll in the first
+place!&amp;nbsp;:-)&lt;/p&gt;
+&lt;p&gt;The flexing panel was surprisingly trivial to fix: I simply made one corner&amp;#8217;s hole a bit bigger to
+allow its screw to go all the way in properly. No more stupid&amp;nbsp;gaps!&lt;/p&gt;
+&lt;p&gt;Now that every piece was how it should be, the fun part began: assembling. The inside looked like&amp;nbsp;this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick2_01_wires.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Notice the knot where the &lt;span class="caps"&gt;USB&lt;/span&gt; cable poked out? It was there as a safeguard against pulling so that
+the &lt;span class="caps"&gt;PCB&lt;/span&gt; doesn&amp;#8217;t get yanked around. Later on I actually labeled every pair of wires for each button
+and secured the &lt;span class="caps"&gt;PCB&lt;/span&gt; better with more resilient tape, but I forgot to take photos and I&amp;#8217;m now too
+lazy to open up the whole thing again so&amp;#8230; you get the&amp;nbsp;idea.&lt;/p&gt;
+&lt;p&gt;As for the top panel artwork, I planned quite a few colored designs, but was too lazy to go to a
+printing shop. As luck would have it, I had a black and white printer at home, so I grabbed some
+random Galford image on the internet and printed out one sheet just to see how it would look. It
+turned out much better than expected so I kept it that&amp;nbsp;way.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick2_02_top.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Note that I bought translucent buttons. These are worth the higher price tag because it is possible
+to take them apart and &lt;a href="http://forums.shoryuken.com/discussion/25926/guide-how-to-put-art-under-clear-seimitsu-buttons"&gt;insert artwork pieces&lt;/a&gt; under the cover. Just google custom fightsticks
+and you&amp;#8217;ll find people making use of these buttons with &lt;a href="http://static.giantbomb.com/uploads/original/2/25628/2658140-photo+oct+04,+7+24+53+pm.jpg"&gt;stunning&lt;/a&gt; &lt;a href="http://technabob.com/blog/wp-content/uploads/2011/09/custom-steampunk-fight-stick-by-sam-kurd-aka-b15sdm-designs.jpg"&gt;results&lt;/a&gt;. But then again,
+I&amp;#8217;m a lazy butt so my minimalistic design actually saved me from some tedious button modding.
+Maybe when I get better inspirations,&amp;nbsp;maybe.&lt;/p&gt;
+&lt;p&gt;Following the monochrome theme, the placeholder &amp;#8220;Ken Flowchart&amp;#8221; bottom piece from last post became
+official (I also trimmed the excess paper&amp;nbsp;later):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_23_bottom.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Oh, and here&amp;#8217;s a front shot for completeness&amp;#8217;&amp;nbsp;sake:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick2_03_front.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;Thoughts&lt;/h2&gt;
+&lt;p&gt;All in all, this turned out much better than I expected. The whole thing feels solid to play with,
+and the plexiglass top panel makes a nice feeling palm rest. However, since I went a bit liberal on
+panel layers, it&amp;#8217;s a tad heavier than my previous stick (which is already heavier than your average
+big brand sticks). On the flip side, I can be more aggressive with my joystick spinning sessions
+thanks to the extra&amp;nbsp;weight.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m also thinking of adding non-slip padding to the bottom. I almost exclusively play with the
+fightstick on my lap so it&amp;#8217;s not actually necessary gameplay-wise, but without padding, the bottom
+screw heads stick out and would definitely scratch my table whenever I place the stick on it.
+Better be safe than&amp;nbsp;sorry!&lt;/p&gt;
+&lt;p&gt;That&amp;#8217;s it! This project has been fun, and to me it served as an awesome gateway drug to the &lt;span class="caps"&gt;DIY&lt;/span&gt;
+world. Hopefully I inspired some of you to start your own projects too. Let me know how it&amp;nbsp;goes!&lt;/p&gt;</content></entry><entry><title>My first DIY fightstick - Part 1</title><link href="https://hi.imnhan.com/posts/my-first-diy-fightstick-part-1/" rel="alternate"></link><published>2015-12-08T12:50:00+07:00</published><updated>2015-12-08T12:50:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-12-08:/posts/my-first-diy-fightstick-part-1/</id><summary type="html">&lt;p&gt;Ever since I started practicing Street Fighter seriously (albeit with modest results), I&amp;#8217;ve
+always wanted to make myself a custom fightstick. Now that I&amp;#8217;m not working full-time for anyone,
+there&amp;#8217;s no better time to Just Do&amp;nbsp;It.&lt;/p&gt;
+&lt;p&gt;If you&amp;#8217;ve done any research on &lt;span class="caps"&gt;DIY&lt;/span&gt; fightsticks, you …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Ever since I started practicing Street Fighter seriously (albeit with modest results), I&amp;#8217;ve
+always wanted to make myself a custom fightstick. Now that I&amp;#8217;m not working full-time for anyone,
+there&amp;#8217;s no better time to Just Do&amp;nbsp;It.&lt;/p&gt;
+&lt;p&gt;If you&amp;#8217;ve done any research on &lt;span class="caps"&gt;DIY&lt;/span&gt; fightsticks, you&amp;#8217;ll know that the 2 best places to find guides
+are &lt;a href="http://www.slagcoin.com/"&gt;Slagcoin&lt;/a&gt; and &lt;a href="http://forums.shoryuken.com/categories/tech-talk"&gt;Shoryuken Tech Talk&lt;/a&gt;. I decided to follow the &lt;a href="http://www.slagcoin.com/joystick/example2.html"&gt;basic
+design&lt;/a&gt; on&amp;nbsp;Slagcoin:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://www.slagcoin.com/joystick/example2/simple1.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;Materials and&amp;nbsp;tools&lt;/h2&gt;
+&lt;p&gt;If you live in Hồ Chí Minh City like me, you can probably get everything you need from shops on
+Bạch Đằng Street. The only hard part for me was convincing a small wood shop to sell &lt;span class="caps"&gt;MDF&lt;/span&gt; panels cut
+to my specifications in small&amp;nbsp;quantity:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;4 pieces x 30cm x 20cm x 1cm&amp;nbsp;*&lt;/li&gt;
+&lt;li&gt;2 pieces x 20cm x 4cm x&amp;nbsp;2cm&lt;/li&gt;
+&lt;li&gt;2 pieces x 20cm x 7cm x&amp;nbsp;2cm&lt;/li&gt;
+&lt;li&gt;1 piece x 26cm x 4cm x&amp;nbsp;2cm&lt;/li&gt;
+&lt;li&gt;4 pieces x 34cm x 7cm x 2cm&amp;nbsp;*&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All that set me back 120,000 &lt;span class="caps"&gt;VND&lt;/span&gt;. The cost was mostly for cutting labor instead of actual material.
+The items with asterisks (*) are those I bought in abundance to make room for drilling&amp;nbsp;errors.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_01_mdf.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The top panel would be layered with 1 &lt;span class="caps"&gt;MDF&lt;/span&gt; and 2 plexiglass pieces (mad illustrating skillz, I&amp;nbsp;know):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_02_top_plan.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;The bottom would simply be 1 &lt;span class="caps"&gt;MDF&lt;/span&gt; and 1 plexiglass so I could also insert bottom&amp;nbsp;artwork.&lt;/p&gt;
+&lt;p&gt;Since I had zero woodworking experience, I joined the &lt;span class="caps"&gt;MDF&lt;/span&gt; pieces with simple butt joints and good
+old wood glue. You&amp;#8217;ll notice that there&amp;#8217;s a significant gap on one corner - turns out the shop
+wasn&amp;#8217;t too accurate with their cutting. It&amp;#8217;s not shown here but eventually I had to saw a longer
+&lt;span class="caps"&gt;MDF&lt;/span&gt; piece to replace&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_03_glue.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I already had a hand drill laying around so all it took was buying a couple of hole saws - 24mm and
+30mm in diameter respectively. The bigger one was used for drilling main button holes while the
+other was for joystick hole and smaller front side&amp;nbsp;buttons.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_04_hole_saw.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don&amp;#8217;t buy&lt;/strong&gt; hole saws like the one below - you will not be able to drill through thick panels
+(like the 20mm thick one I&amp;nbsp;bought):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_05_nope_saw.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;As for the actual parts, I ordered the joystick and buttons from &lt;a href="https://www.akishop.jp/"&gt;Akishop&lt;/a&gt;. It ships from
+Japan so the shipping cost to Vietnam is much more reasonable than if I buy from the &lt;span class="caps"&gt;US&lt;/span&gt;. I also
+bought a &lt;a href="http://www.ebay.com/itm/Zero-Delay-USB-Encoder-to-PC-Joystick-For-Arcade-DIY-KIT-Sanwa-Parts-MAME-/191558265304?hash=item2c99c329d8#shpCntId"&gt;Zero Delay &lt;span class="caps"&gt;PCB&lt;/span&gt; kit&lt;/a&gt; from ebay. This one even offers free shipping since it&amp;#8217;s from
+China. This kit offers easy solder-free wires too so it saved me from a lot of trouble (I still
+can&amp;#8217;t find where to quick-disconnect terminals to this date). I connected everything to my &lt;span class="caps"&gt;PC&lt;/span&gt; to
+test if things worked as&amp;nbsp;expected:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_26_electronics.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Quick note: the popular wisdom is to buy screw-in buttons for thick panels and scap-in for thin
+ones. However, as my panel is &lt;em&gt;way&lt;/em&gt; too thick even for screw-ins, snap-ins are actually the better
+choice: you just need to put the buttons in normally - the 2 sides of the button will push against
+the hole and keep it there fairly firmly. I never had a problem with my previous stick which was
+build this&amp;nbsp;way.&lt;/p&gt;
+&lt;h2&gt;Actually making&amp;nbsp;it&lt;/h2&gt;
+&lt;p&gt;I drilled holes in the front side: first using the 30mm bit to drill halfway, then went all the way
+with the 24mm bit. This allows a small button to be placed deep into the case, avoiding
+accidentally button&amp;nbsp;presses.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_06_front_holes.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Then I glued the case body together. I didn&amp;#8217;t have big clamps laying around so I had to make do
+with an elastic string. It worked terribly&amp;nbsp;though.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_07_glue_body.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Note that the bottom panel was just there to keep the whole thing in shape. I took it out&amp;nbsp;later:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_08_glue_body2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;See the gap in the top left corner? That&amp;#8217;s the gap I was talking about earlier. Good thing I had a
+spare piece laying around, so I sawed it to the correct length to use as a&amp;nbsp;replacement:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_09_saw_side.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Now everything fitted together but there was some excess on one long side. Much sanding&amp;nbsp;awaits!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_10_excess.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Initial sanding effort with 140 grit&amp;nbsp;sandpaper:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_11_sanded.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;By the way, I recommend using a sanding block. It helps you apply more pressure evenly. I simply
+wrapped my sandpaper around a spare piece of &lt;span class="caps"&gt;MDF&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_12_sanding_block.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Now on to the inner sides. These would support the top and bottom panels. I used a long piece of
+scrap plexiglass to apply pressure instead of a clamp. This time I put one 10mm-thick wood panel
+and one 3mm-thick plexiglass panel under it to make sure the inner supports are glued at the
+correct&amp;nbsp;position.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_13_inner_support.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;With all 3 inner sides&amp;nbsp;glued:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_14_inner_support2.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Now you must be wondering why I had 2 inner pieces on the left side. I originally wanted to save
+some space and weight by sawing those into shorter support bits instead of long whole pieces that
+covered the full length. After sawing the first piece I decided that it wasn&amp;#8217;t worth the effort
+anyway so&amp;#8230; there you have&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;Here comes the next challenge: putting paint on the &lt;span class="caps"&gt;MDF&lt;/span&gt;. There is an &lt;a href="http://forums.shoryuken.com/discussion/67501/how-to-paint-mdf-to-a-mirror-finish-worklog"&gt;extremely elaborate
+method&lt;/a&gt; explained on Shoryuken Tech Talk that helps you achieve a mirror-like glossy
+finish. Of course I don&amp;#8217;t have the tools and patience to follow all that, but I followed the first
+few steps (cover edges with non-absorbent material, sand and spray paint multiple times) to achieve
+an acceptably smooth&amp;nbsp;finish.&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s the first step: cover edges with non-absorbent material. The tutorial suggested using
+spackling, which I have no idea how to obtain from here. I settled with something Vietnamese people
+&amp;#8220;matic&amp;#8221; (mastic, perhaps?) which my friends said was to be used for the same purpose. The thing was
+yellow-ish and much more runny than spackling. It was also difficult as hell to work with: the
+moment it&amp;#8217;s spread on the &lt;span class="caps"&gt;MDF&lt;/span&gt; edge, it starts drying, at which point you can&amp;#8217;t touch it again
+unless you want an ugly grungy finish (is that even a&amp;nbsp;word?):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_15_mastic.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I waited for the yellow thing to dry, then sanded it again. After a first few coats with glossy
+black spray paint, things didn&amp;#8217;t look too&amp;nbsp;sexy:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_16_first_coat.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;It did get better with sanding (1200 grit) and more coats though. But then I made the most stupid
+decision: glueing the top panel on before&amp;nbsp;drilling:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_17_top_panel.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Now why was this bad? Because now I would be forced to drill top panel holes &lt;em&gt;with&lt;/em&gt; the whole body
+attached, which will expose the whole thing to sawdust, which was generally &lt;span class="caps"&gt;PITA&lt;/span&gt; to clean up - the
+top panel made it a closed shape with corners and spaces all over the place. Also, if I screwed up
+the top &lt;span class="caps"&gt;MDF&lt;/span&gt; panel (which I eventually kinda did), the whole thing would be&amp;nbsp;ruined.&lt;/p&gt;
+&lt;p&gt;As if that wasn&amp;#8217;t enough, I did paint it too. The paint layer would later make disgusting drill&amp;nbsp;holes:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_18_joystick_hole.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;But I&amp;#8217;m getting ahead of myself. Here&amp;#8217;s how the case looked after a few more black coats and one
+clear coat (also put buttons in there to see how they&amp;nbsp;fit):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_19_finished_coat.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I did drill an extra button hole because I realized I&amp;#8217;d need the &amp;#8220;Playstation&amp;#8221; button too if I want
+to use a &lt;span class="caps"&gt;PS4&lt;/span&gt; controller &lt;span class="caps"&gt;PCB&lt;/span&gt; later (which I plan to do). Unfortunately I only ordered 2 small
+buttons from Akishop so I had to use a green Chinese button I had laying&amp;nbsp;around.&lt;/p&gt;
+&lt;p&gt;Now here comes the hard part: drilling the top panel. As mentioned earlier, the top panel would be&amp;nbsp;3-layer:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_02_top_plan.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I placed all 3 pieces onto the case, but with the 4mm plexiglass on top (in the plan it&amp;#8217;s supposed
+to be in the middle - I&amp;#8217;ll explain later). Then I printed the Blast City button layout found on
+Slagcoin and taped it onto the whole&amp;nbsp;thing:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_20_top_layout.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Notice the extra two holes I drew above and below the joystick hole. Those are for screw holes for
+mounting the joystick. This is why I put the 4mm piece on top: I was going to drill these two holes
+on the 4mm piece only to leave room for screw heads. This way I didn&amp;#8217;t need to &amp;#8220;route&amp;#8221; the extra 2
+holes on my &lt;span class="caps"&gt;MDF&lt;/span&gt; piece like the original plan (I was afraid the 10mm &lt;span class="caps"&gt;MDF&lt;/span&gt; thickness was already too&amp;nbsp;thin).&lt;/p&gt;
+&lt;p&gt;After drilling the necessary holes, I removed the plexiglass pieces and drilled the aformentioned 2
+joystick mounting holes into to &lt;span class="caps"&gt;MDF&lt;/span&gt;, then I placed the joystick mounting plate onto the surface to
+plot the rectangular part that needed to be cut&amp;nbsp;off:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_21_joystick_square.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Since I don&amp;#8217;t have any power tool, I used my handy hand drill with the circular hole saw to
+gradually drill out the&amp;nbsp;shape:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_22_joystick_drills.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;After much sanding and&amp;nbsp;cleaning:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_18_joystick_hole.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;See the glorious tears? That&amp;#8217;s what premature painting does to you. Friends don&amp;#8217;t let friends paint&amp;nbsp;prematurely!&lt;/p&gt;
+&lt;p&gt;Anyway, I also drilled 3 hole on the bottom to install the bottom pieces (1 &lt;span class="caps"&gt;MDF&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; 1 plexiglass). I
+also printed a quick picture as a placeholder artwork to see how it would&amp;nbsp;look:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_23_bottom.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;As I was excited to finish the putting the top panel together, I hit a wall: because I couldn&amp;#8217;t
+possibly drill perfectly perpendicular screw holes, they could not property&amp;nbsp;attach:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_25_loose_screw.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;Also, thanks to the switching positions between the two plexiglass pieces, the button holes didn&amp;#8217;t
+align anymore. I had to waste a buttload of time sanding the lower piece&amp;#8217;s holes to make them&amp;nbsp;bigger.&lt;/p&gt;
+&lt;p&gt;But that&amp;#8217;s not even the worst issue: because the screw holes were not aligned, once I screwed all
+four corners, the top plexiglass piece flexed, creating a blatantly noticeable&amp;nbsp;gap:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fightstick_24_gap.jpg"&gt;&lt;/p&gt;
+&lt;h2&gt;Um&amp;#8230; that&amp;#8217;s it (for&amp;nbsp;now).&lt;/h2&gt;
+&lt;p&gt;That&amp;#8217;s all of my progress so far. I&amp;#8217;m visiting my &lt;a href="http://fablabsaigon.org/"&gt;local Fablab&lt;/a&gt;, which is advertised to
+have &lt;span class="caps"&gt;CNC&lt;/span&gt; machines and laser cutters so I&amp;#8217;ll probably have a chance to produce more accurate panels.
+Hell, I may even redo the whole thing using machine-cut pieces for absolute accuracy and save
+myself from a world of&amp;nbsp;pain.&lt;/p&gt;
+&lt;p&gt;I took a lot of photos as I went, so if you want to see more photos of my progress, just check out
+my &lt;a href="https://www.flickr.com/photos/nhanb/albums/72157661059385592"&gt;flickr album&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Till next&amp;nbsp;time!&lt;/p&gt;</content></entry><entry><title>Look ma, no stock theme!</title><link href="https://hi.imnhan.com/posts/look-ma-no-stock-theme/" rel="alternate"></link><published>2015-06-05T13:54:00+07:00</published><updated>2015-06-05T13:54:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-06-05:/posts/look-ma-no-stock-theme/</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;October 2017 Update&lt;/strong&gt;: Now that I like high contrast more, I just updated the theme to a
+black/white/red palette with a &lt;a href="https://github.com/adobe-fonts/source-serif-pro"&gt;high-quality serif font&lt;/a&gt; instead. Thanks &lt;a href="https://practicaltypography.com/"&gt;Mr. Butterick&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;I just redesigned my&amp;nbsp;blog.&lt;/p&gt;
+&lt;p&gt;To be totally honest, the previous design was not mine at all. I&amp;#8217;ve always …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;October 2017 Update&lt;/strong&gt;: Now that I like high contrast more, I just updated the theme to a
+black/white/red palette with a &lt;a href="https://github.com/adobe-fonts/source-serif-pro"&gt;high-quality serif font&lt;/a&gt; instead. Thanks &lt;a href="https://practicaltypography.com/"&gt;Mr. Butterick&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+&lt;hr&gt;
+
+&lt;p&gt;I just redesigned my&amp;nbsp;blog.&lt;/p&gt;
+&lt;p&gt;To be totally honest, the previous design was not mine at all. I&amp;#8217;ve always been using
+&lt;a href="https://github.com/duilio/pelican-octopress-theme/"&gt;pelican-octopress-theme&lt;/a&gt;, which is a Pelican port of the default theme for Octopress. It&amp;#8217;s not
+that I have anything to complain about that theme: it was clean, readable and easy on the eyes. I
+just want my site to look unique. Content is king, sure, but it wouldn&amp;#8217;t hurt to stand out from the
+crowd once in a&amp;nbsp;while.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m not a professional designer, but everything turned out quite well if I could say so. In this
+post I&amp;#8217;ll explain my design goals and how I (hopefully) achieved&amp;nbsp;them.&lt;/p&gt;
+&lt;h2&gt;Clean and&amp;nbsp;lightweight&lt;/h2&gt;
+&lt;p&gt;The web is messy. I&amp;#8217;m not talking blinking-marquee-fire-animated-header messy (thank god we&amp;#8217;re done
+with that&amp;#8230; &lt;a href="https://developers.google.com/fonts/docs/getting_started#Effects"&gt;or are we?&lt;/a&gt;). I&amp;#8217;m talking megabytes-of-useless-javascript-and-css messy. For
+whatever reason, some people now think it&amp;#8217;s cool to include Bootstrap/Foundation to every project,
+or to include that new shiny parallax library to ruin scrolling for everybody. Oh, and don&amp;#8217;t forget
+the marvellous invention that is &lt;a href="https://xkcd.com/1309/"&gt;&amp;#8220;infinite scrolling&amp;#8221;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="http://imgs.xkcd.com/comics/infinite_scrolling.png"&gt;&lt;/p&gt;
+&lt;p&gt;In fact, the main motivation of my new theme is &lt;a href="http://motherfuckingwebsite.com/"&gt;this satire page&lt;/a&gt; on the sad state of the web
+we&amp;#8217;re in&amp;nbsp;today.&lt;/p&gt;
+&lt;p&gt;That&amp;#8217;s why I decided to do no fancy cosmetic &lt;span class="caps"&gt;JS&lt;/span&gt; and try to keep my use of static assets to a&amp;nbsp;minimum:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/mofo_01_loads.png"&gt;&lt;/p&gt;
+&lt;p&gt;I guess there&amp;#8217;s nothing I can do about the font files though, since I need to make sure my
+Vietnamese posts are rendered in a font that supports it. Oh well, at least it looks&amp;nbsp;awesome.&lt;/p&gt;
+&lt;h2&gt;Content is&amp;nbsp;king&lt;/h2&gt;
+&lt;p&gt;No more distracting sidebar with &amp;#8220;latest news&amp;#8221;, &amp;#8220;related posts&amp;#8221;, etc. with thumbnails popping up
+all over the place, just a good old article body from start to&amp;nbsp;finish.&lt;/p&gt;
+&lt;h2&gt;Easy on the&amp;nbsp;eye&lt;/h2&gt;
+&lt;p&gt;While &lt;a href="http://bettermotherfuckingwebsite.com/"&gt;bettermotherfuckingwebsite&lt;/a&gt; does a good job at demonstrating how far you can go with a
+few simple &lt;span class="caps"&gt;CSS&lt;/span&gt; rules (hint: very far), I found Tommi Kaikkonen&amp;#8217;s &lt;a href="http://www.kaikkonendesign.fi/typography/"&gt;Interactive Guide to Blog
+Typography&lt;/a&gt; much more comprehensive and informative. I implemented many of the ideas found
+in that&amp;nbsp;guide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Big body&amp;nbsp;font&lt;/li&gt;
+&lt;li&gt;Constrained line width to aid&amp;nbsp;reading&lt;/li&gt;
+&lt;li&gt;Generous line height, liberal whitespace to help with visual&amp;nbsp;hierarchy&lt;/li&gt;
+&lt;li&gt;Lower background-foreground contrast. I also find the slightly yellow-ish background somewhat&amp;nbsp;soothing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;That&amp;#8217;s&amp;nbsp;it!&lt;/h2&gt;
+&lt;p&gt;You can find the source code to my theme &lt;a href="https://github.com/nhanb/motherfucking-pelican-theme"&gt;on GitHub&lt;/a&gt;. I don&amp;#8217;t recommend using it as-is though,
+since I haven&amp;#8217;t implemented many required templates (authors, tags, categories, etc.) because I
+don&amp;#8217;t use them. There&amp;#8217;s also the hardcoded content in footer and probably a few more places. Maybe
+someday I&amp;#8217;ll stop being lazy and fix all that. &lt;em&gt;Maybe&lt;/em&gt;.&lt;/p&gt;</content></entry><entry><title>How to install PyQt5 on a virtualenv on Ubuntu 14.04</title><link href="https://hi.imnhan.com/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/" rel="alternate"></link><published>2015-02-14T22:33:00+07:00</published><updated>2015-02-14T22:33:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-02-14:/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/</id><summary type="html">&lt;p&gt;The official way to install PyQt5 for development is to download and compile &lt;span class="caps"&gt;SIP&lt;/span&gt; + PyQt5 from
+source, which is painstakingly slow (compiling PyQt5 took like 10 minutes on my &lt;span class="caps"&gt;PC&lt;/span&gt;). If you&amp;#8217;re
+&lt;a href="https://michalcodes4life.wordpress.com/2014/03/16/pyqt5-python-3-3-in-virtualenv-on-ubuntu/"&gt;compiling it against a virtualenv&lt;/a&gt;, rinse and repeat for each new virtualenv you create.
+Alhough it is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The official way to install PyQt5 for development is to download and compile &lt;span class="caps"&gt;SIP&lt;/span&gt; + PyQt5 from
+source, which is painstakingly slow (compiling PyQt5 took like 10 minutes on my &lt;span class="caps"&gt;PC&lt;/span&gt;). If you&amp;#8217;re
+&lt;a href="https://michalcodes4life.wordpress.com/2014/03/16/pyqt5-python-3-3-in-virtualenv-on-ubuntu/"&gt;compiling it against a virtualenv&lt;/a&gt;, rinse and repeat for each new virtualenv you create.
+Alhough it is doable, I prefer something&amp;nbsp;faster.&lt;/p&gt;
+&lt;p&gt;And yes, there is something faster. Today I came across a &lt;a href="http://stackoverflow.com/a/1962076"&gt;Stack Overflow answer&lt;/a&gt; that suggested
+a neat trick: installing PyQt globally, then copy the whole thing to your virtualenv
+&lt;strong&gt;site-packages&lt;/strong&gt; directory. Here&amp;#8217;s how I did it on Ubuntu 14.04, python3.4 and&amp;nbsp;PyQt5:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# assuming you already have virtualenv &amp;amp; virtualenvwrapper installed&lt;/span&gt;
+
+&lt;span class="c1"&gt;# install pyqt5 globally&lt;/span&gt;
+sudo apt-get install python3-pyqt5
+
+mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; cookies
+&lt;span class="c1"&gt;# (replace &amp;quot;cookies&amp;quot; with your actual virtualenv name, duh!)&lt;/span&gt;
+
+&lt;span class="nv"&gt;LIBDIR&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/virtualenvs/cookies/lib/python3.4/site-packages&amp;quot;&lt;/span&gt;
+cp -r /usr/lib/python3/dist-packages/PyQt5 &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$LIBDIR&lt;/span&gt;&lt;span class="s2"&gt;/PyQt5&amp;quot;&lt;/span&gt;
+cp /usr/lib/python3/dist-packages/sip.cpython-*.so &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$LIBDIR&lt;/span&gt;&lt;span class="s2"&gt;/&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And you&amp;#8217;re done with no compiling involved. Isn&amp;#8217;t that neat?&amp;nbsp;:)&lt;/p&gt;</content></entry><entry><title>Dẹp ibus-unikey đi, dùng fcitx-unikey nhé!</title><link href="https://hi.imnhan.com/posts/ibus-is-dead-to-me-use-fcitx-instead-vi/" rel="alternate"></link><published>2015-01-29T20:41:00+07:00</published><updated>2015-01-29T20:41:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-01-29:/posts/ibus-is-dead-to-me-use-fcitx-instead-vi/</id><summary type="html">&lt;p&gt;Sáng ra Netrunner bảo có vài chục cái update, mình chủ quan &lt;code&gt;dist-upgrade -y&lt;/code&gt; rồi để đó không màng
+đến nữa. Nửa tiếng sau, ibus không thèm chơi với firefox!&amp;nbsp;:|&lt;/p&gt;
+&lt;p&gt;Chuyện gõ tiếng Việt trên linux thì muôn đời trần ai rồi, mình không muốn bàn thêm nữa. Ngô &amp;#8220;Chin …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Sáng ra Netrunner bảo có vài chục cái update, mình chủ quan &lt;code&gt;dist-upgrade -y&lt;/code&gt; rồi để đó không màng
+đến nữa. Nửa tiếng sau, ibus không thèm chơi với firefox!&amp;nbsp;:|&lt;/p&gt;
+&lt;p&gt;Chuyện gõ tiếng Việt trên linux thì muôn đời trần ai rồi, mình không muốn bàn thêm nữa. Ngô &amp;#8220;Chin&amp;#8221;
+- một trong những người phát triển chính của &lt;a href="http://ibus-bogo.readthedocs.org/"&gt;ibus-bogo&lt;/a&gt; - đã viết một bài blog rất hay về tình
+trạng gõ tiếng Việt hiện nay trên linux nói chung, ai quan tâm có thể tham khảo thêm &lt;a href="http://ngochin.com/2014/07/31/uoc-mo-bo-go-kieu-unikey/"&gt;ở đây&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;fcitx-unikey&lt;/h2&gt;
+&lt;p&gt;Lọ mọ trên trang github của bogo, mình vô tình phát hiện ra &lt;a href="https://github.com/BoGoEngine/fcitx-bogo"&gt;fcitx-bogo&lt;/a&gt;: dự án này thực chất
+cũng dùng bogo-engine nhưng chạy với &lt;a href="https://github.com/fcitx/fcitx"&gt;fcitx&lt;/a&gt; chứ không phải ibus như bình thường. Rất tiếc là
+khi mình cài đặt và chạy thử fcitx-bogo thì nó luôn crash fcitx trước khi xử lý ra được chữ tiếng
+Việt nào.&amp;nbsp;:P&lt;/p&gt;
+&lt;p&gt;Dạo một vòng quanh trang github của fcitx, mình thấy dự án này vẫn được phát triển đều đặn chứ
+không bị cảnh đem con bỏ chợ như ibus, và thứ làm mình ngạc nhiên và mừng nhất chính là một repo
+với cái tên rất hứa hẹn: &lt;a href="https://github.com/fcitx/fcitx-unikey"&gt;fcitx-unikey&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Cách compile và cài đặt đã được nêu rõ trên &lt;span class="caps"&gt;README&lt;/span&gt; nên mình sẽ không nói lại ở đây nữa. Một vài
+nhận xét sau khi dùng thử trên Netrunner 14 (em họ của&amp;nbsp;Kubuntu):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Không hiện popup vô duyên khi chuyển method như&amp;nbsp;ibus.&lt;/li&gt;
+&lt;li&gt;Không bật method tiếng Việt vô tội vạ như ibus. Trước đây khi dùng ibus, mặc dù đã tắt tính năng
+  &amp;#8220;Share same input method among all applications&amp;#8221;, method tiếng Việt vẫn được kích hoạt mặc định
+  trong các system dialog của &lt;span class="caps"&gt;KDE&lt;/span&gt;, rất khó chịu (bực nhất là nó bật preedit trên ô điền password
+  nên mỗi khi khóa máy rồi login lại là password hiện lên hết). Fcitx không bị như vậy, vì method
+  mặc định luôn là tiếng&amp;nbsp;Anh.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Một điểm trừ là khi dùng trên skype, phần text đang trong preedit bị hiển thị trong một ô riêng chứ
+không chỉ là text bị gạch dưới như trong những chương trình khác. (xem hình&amp;nbsp;dưới)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/fcitx-skype.png"&gt;&lt;/p&gt;
+&lt;h2&gt;vim-fcitx&lt;/h2&gt;
+&lt;p&gt;Những ai đã thử gõ tiếng Việt trên vim chắc chắn đều biết: không tài nào dùng normal mode khi
+preedit đang bật được. Ngày xưa khi dùng ibus mình có thử viết &lt;a href="https://github.com/nhanb/vim-bogo"&gt;một plugin&lt;/a&gt; để bật tiếng Việt
+khi vào insert mode và trở lại tiếng Anh khi ra normal mode, nhưng cuối cùng không dùng vì preedit
+trong insert mode làm hư &lt;code&gt;inoremap jj &amp;lt;esc&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Plugin &lt;a href="https://github.com/nhanb/vim-bogo"&gt;vim-fcitx&lt;/a&gt; hoạt động tương tự như trên, và vấn đề map jj nêu trên có thể được giải quyết
+bằng cách sửa mã nguồn của&amp;nbsp;fcitx-unikey.&lt;/p&gt;
+&lt;p&gt;Mình gõ tiếng Việt kiểu &lt;span class="caps"&gt;VNI&lt;/span&gt; nên bộ gõ chắc chắn không bao giờ xử lý ký tự &lt;code&gt;j&lt;/code&gt; =&amp;gt; có thể thêm ký tự
+&lt;code&gt;j&lt;/code&gt; vào danh sách WordBreakSyms trong &lt;strong&gt;src/unikey-im.cpp&lt;/strong&gt;. (&lt;a href="https://github.com/nhanb/fcitx-unikey/commit/d976a64f560510125bfddf02bd892d42bc94e5b5"&gt;xem tại đây&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Sau đó chỉ cần compile lại fcitx-unikey là&amp;nbsp;xong!&lt;/p&gt;</content></entry><entry><title>Introducing Pytaku - the only online manga reader you’ll ever need</title><link href="https://hi.imnhan.com/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/" rel="alternate"></link><published>2015-01-02T21:19:00+07:00</published><updated>2015-01-02T21:19:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-01-02:/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/</id><summary type="html">&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Pytaku&lt;/a&gt; is an online manga reader that scrapes data from multiple Vietnamese and English
+manga sites, giving you one single place to keep track of your reading progress and watch for new
+chapters with ease. Here are some of the features implemented so&amp;nbsp;far:&lt;/p&gt;
+&lt;h2&gt;Lightning fast, ad-free reading&amp;nbsp;experience&lt;/h2&gt;
+&lt;p&gt;All …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Pytaku&lt;/a&gt; is an online manga reader that scrapes data from multiple Vietnamese and English
+manga sites, giving you one single place to keep track of your reading progress and watch for new
+chapters with ease. Here are some of the features implemented so&amp;nbsp;far:&lt;/p&gt;
+&lt;h2&gt;Lightning fast, ad-free reading&amp;nbsp;experience&lt;/h2&gt;
+&lt;p&gt;All pages in a chapter are loaded at once, unlike most other sites that only let you view one page
+at a time, forcing you to reload their distracting advertisements and disrupt you flow (especially
+for people with not-so-fast internet&amp;nbsp;connection).&lt;/p&gt;
+&lt;p&gt;And it gets better: using state-of-the-art &lt;span class="caps"&gt;AJAX&lt;/span&gt; dark magic, even navigation between chapters is
+lightning fast. Loaded pages are cached, so pressing &amp;#8220;Back&amp;#8221; or &amp;#8220;Forward&amp;#8221; on your browser happens&amp;nbsp;instantly.&lt;/p&gt;
+&lt;h2&gt;Keep track of your reading progress.&amp;nbsp;Automatically.&lt;/h2&gt;
+&lt;p&gt;Each logged in user will have a nice badge on each chapter showing their progress: (keeping a
+chapter page open for a few seconds registers it as &amp;#8220;reading&amp;#8221;, and scrolling to the bottom marks it
+as&amp;nbsp;&amp;#8220;finished&amp;#8221;)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Chapter progress badge" src="/images/pytaku_01_chapter_progress.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Bookmark series to watch for&amp;nbsp;updates&lt;/h2&gt;
+&lt;p&gt;Maintain a list of series so you can have one single place to find out whether there are new
+chapters for the series you&amp;nbsp;love.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Bookmarked series" src="/images/pytaku_02_bookmarked_series.png"&gt;&lt;/p&gt;
+&lt;h2&gt;English, Vietnamese and support for other&amp;nbsp;languages&lt;/h2&gt;
+&lt;p&gt;Pytaku comes in English by default and configurable to be in Vietnamese. If you want to translate
+it to your own language, feel free to download the &lt;a href="https://github.com/nhanb/pytaku/blob/master/frontend/languages/en.yaml"&gt;English language file&lt;/a&gt; and start translating
+on that, then send it to me to&amp;nbsp;install.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Vietnamese interface" src="/images/pytaku_03_vietnamese.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Open source and free to run your own&amp;nbsp;site&lt;/h2&gt;
+&lt;p&gt;Pytaku&amp;#8217;s source code is released under the free-as-in-freedom &lt;a href="https://www.gnu.org/licenses/quick-guide-gplv3.html"&gt;GPLv3&lt;/a&gt; and &lt;a href="https://github.com/nhanb/pytaku"&gt;put on GitHub&lt;/a&gt;.
+Since it&amp;#8217;s written to be run on Google App Engine which is free for small sites, tech-savvy people
+can set up their own private pytaku clone in a few minutes. Check out the &lt;a href="https://github.com/nhanb/pytaku/blob/master/README.markdown"&gt;&lt;span class="caps"&gt;README&lt;/span&gt; file&lt;/a&gt; for&amp;nbsp;instructions.&lt;/p&gt;
+&lt;h2&gt;Open to suggestions and (hopefully contructive)&amp;nbsp;criticism&lt;/h2&gt;
+&lt;p&gt;Want another manga site to be included as source? Need a feature that you think many others can
+benefit from? Feel free to open an issue on GitHub, or give me a shout on the official &lt;a href="https://gitter.im/nhanb/pytaku"&gt;support
+chat room&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Give it a&amp;nbsp;spin&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Click here&lt;/a&gt; to go to the app. Have fun!&amp;nbsp;:)&lt;/p&gt;</content><category term="pytaku"></category></entry><entry><title>Virtualenv(wrapper), python2 and python3</title><link href="https://hi.imnhan.com/posts/virtualenwrapper-python2-python3/" rel="alternate"></link><published>2014-12-16T21:35:00+07:00</published><updated>2014-12-16T21:35:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-12-16:/posts/virtualenwrapper-python2-python3/</id><summary type="html">&lt;p&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;: Install virtualenv via &lt;code&gt;apt-get&lt;/code&gt;, not &lt;code&gt;pip&lt;/code&gt;, then &lt;code&gt;mkvirtualenv -p /path/to/python/executable&lt;/code&gt;.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Virtualenv and virtualenvwrapper make it super easy to have a sandboxed python environment for each
+of your projects, no doubt about it (if you&amp;#8217;re not using them already, feel free to google how to
+get&amp;nbsp;started).&lt;/p&gt;
+&lt;p&gt;By default, &lt;code&gt;mkvirtualenv my-env-name&lt;/code&gt; will create a virtualenv using the &lt;span class="caps"&gt;OS&lt;/span&gt;&amp;#8217;s default python
+version (in Ubuntu&amp;#8217;s case, that&amp;#8217;s python2). If you want a virtualenv that has &lt;code&gt;python&lt;/code&gt; mapped to
+python3 instead, use the &lt;code&gt;-p&lt;/code&gt; argument:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; my-env-name
+&lt;span class="c1"&gt;# assumming you have python3 installed already, of course!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;However, on Ubuntu this will fail if you installed virtualenv as a pip package. If that&amp;#8217;s the case,
+simply remove it and install the Ubuntu package instead. It goes like this for Ubuntu&amp;nbsp;14.04:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo pip uninstall virtualenv
+$ sudo apt-get install python-virtualenv
+$ sudo pip install virtualenvwrapper  &lt;span class="c1"&gt;# yes, you can install virtualenvwrapper via pip&lt;/span&gt;
+$ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; my-env-name
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Neat,&amp;nbsp;eh?&lt;/p&gt;</content><category term="linux"></category><category term="vim"></category><category term="python"></category></entry><entry><title>Enable italic text inside vim inside tmux inside gnome-terminal</title><link href="https://hi.imnhan.com/posts/enable-italic-text-vim-tmux-gnome-terminal/" rel="alternate"></link><published>2014-08-02T16:46:00+07:00</published><updated>2014-08-02T16:46:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-08-02:/posts/enable-italic-text-vim-tmux-gnome-terminal/</id><summary type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: As &lt;code&gt;egmont&lt;/code&gt; pointed out in the comments: setting &lt;code&gt;TERM=xterm&lt;/code&gt; inside tmux is
+discouraged and will cause wrong behavior in some programs. Changing all instances of
+&lt;code&gt;xterm-256color&lt;/code&gt; to &lt;code&gt;screen-256color&lt;/code&gt; in this tutorial should work, but I&amp;#8217;m no longer using
+gnome-terminal so I can&amp;#8217;t test that. I&amp;#8217;m …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: As &lt;code&gt;egmont&lt;/code&gt; pointed out in the comments: setting &lt;code&gt;TERM=xterm&lt;/code&gt; inside tmux is
+discouraged and will cause wrong behavior in some programs. Changing all instances of
+&lt;code&gt;xterm-256color&lt;/code&gt; to &lt;code&gt;screen-256color&lt;/code&gt; in this tutorial should work, but I&amp;#8217;m no longer using
+gnome-terminal so I can&amp;#8217;t test that. I&amp;#8217;m now a &lt;span class="caps"&gt;KDE&lt;/span&gt; convert by the way; italic text Just
+Works&lt;sup&gt;tm&lt;/sup&gt; with Konsole. Neat,&amp;nbsp;eh?&lt;/p&gt;
+&lt;p&gt;It has bothered me for a while what I can&amp;#8217;t get terminal vim to display &lt;em&gt;italic&lt;/em&gt; text. It might
+seem trivial but it makes a world of difference when I&amp;#8217;m editing Markdown or &lt;span class="caps"&gt;HTML&lt;/span&gt;. Here&amp;#8217;s what gvim
+looks&amp;nbsp;like:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/italic_01_gvim.png"&gt;&lt;/p&gt;
+&lt;p&gt;Neat, right? This is what terminal vim&amp;nbsp;shows:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/italic_02_vim.png"&gt;&lt;/p&gt;
+&lt;p&gt;I don&amp;#8217;t know about you, but the second one looks catastrophically messy and counterintuitive to me.
+Let&amp;#8217;s change that. My current setup is terminal vim running inside a tmux session on
+gnome-terminal. Let&amp;#8217;s go through these&amp;nbsp;things.&lt;/p&gt;
+&lt;h2&gt;gnome-terminal&lt;/h2&gt;
+&lt;p&gt;Note that older versions of &lt;code&gt;gnome-terminal&lt;/code&gt; do not support italic text. To check if your terminal
+does support it, run this&amp;nbsp;command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;echo&lt;/span&gt; -e &lt;span class="s2"&gt;&amp;quot;\e[3m foo \e[23m&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If your version of gnome-terminal supports it, an italic &lt;em&gt;foo&lt;/em&gt; will appear. If not, upgrade it!&amp;nbsp;:)&lt;/p&gt;
+&lt;h2&gt;vim&lt;/h2&gt;
+&lt;p&gt;You may have noticed: &lt;code&gt;[3m&lt;/code&gt; and &lt;code&gt;[23m&lt;/code&gt; are the special sequences to start and stop printing
+italic text. Unfortunately, vim doesn&amp;#8217;t care about those. It expects &lt;code&gt;sitm&lt;/code&gt; and &lt;code&gt;ritm&lt;/code&gt; instead.
+We&amp;#8217;ll need to map them manually. Simply use these&amp;nbsp;commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Download a custom terminfo that defines sitm and ritm&lt;/span&gt;
+$ wget https://gist.githubusercontent.com/sos4nt/3187620/raw/8e13c1fec5b72d415ed2917590348451de5f8e58/xterm-256color-italic.terminfo
+&lt;span class="c1"&gt;# Compile it&lt;/span&gt;
+$ tic xterm-256color-italic.terminfo
+&lt;span class="c1"&gt;# Activate xterm-256color-italic.terminfo automatically&lt;/span&gt;
+&lt;span class="c1"&gt;# (edit filename accordingly if you&amp;#39;re using another shell)&lt;/span&gt;
+$ &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export TERM=xterm-256color-italic&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Open a new terminal window and try the first command again. You should now see an italic &lt;em&gt;foo&lt;/em&gt;. If
+not, I can&amp;#8217;t help you any further&amp;nbsp;:P&lt;/p&gt;
+&lt;h2&gt;tmux&lt;/h2&gt;
+&lt;p&gt;The only reason I use terminal vim instead of gvim is tmux integration, therefore I almost always
+run vim inside a tmux session. Unfortunately tmux does some weird things to your terminal, one of
+them is altering the &lt;code&gt;$TERM&lt;/code&gt; environment variable. When we open a tmux session, it will typically
+reset &lt;code&gt;$TERM&lt;/code&gt; to &lt;code&gt;screen-256color&lt;/code&gt; or something like&amp;nbsp;that.&lt;/p&gt;
+&lt;p&gt;If you did the previous step, the &lt;code&gt;export&lt;/code&gt; command in your &lt;code&gt;.bashrc&lt;/code&gt; should have overridden tmux&amp;#8217;s
+&lt;code&gt;$TERM&lt;/code&gt; value. If for some reason it doesn&amp;#8217;t work, you can directly tell tmux to use the correct
+value. Add this line to &lt;code&gt;~/.tmux.conf&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="k"&gt;g&lt;/span&gt; &lt;span class="k"&gt;default&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;terminal&lt;/span&gt; &lt;span class="ss"&gt;&amp;quot;xterm-256color-italic&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;More on&amp;nbsp;vim&lt;/h2&gt;
+&lt;p&gt;If you still can&amp;#8217;t see any italic text in a markdown file, it might be because your colorscheme
+deliberately disables it. Try using another colorscheme (I highly recommend &lt;a href="http://ethanschoonover.com/solarized"&gt;solarized&lt;/a&gt;). You
+can also check if your markdown syntax plugin does use italics; I&amp;#8217;m currently using &lt;a href="https://github.com/tpope/vim-markdown"&gt;Tim Pope&amp;#8217;s
+markdown plugin&lt;/a&gt; and it works&amp;nbsp;great!&lt;/p&gt;
+&lt;h2&gt;References:&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="http://superuser.com/questions/204743/terminal-that-supports-ansi-italic-escape-code"&gt;Terminal that supports &lt;span class="caps"&gt;ANSI&lt;/span&gt; italic escape&amp;nbsp;code?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://stackoverflow.com/a/21077380"&gt;gnome-terminal&amp;#8217;s italic escape&amp;nbsp;codes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://alexpearce.me/2014/05/italics-in-iterm2-vim-tmux/"&gt;Enabling italic fonts in iTerm2, tmux, and&amp;nbsp;vim&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</content><category term="linux"></category><category term="vim"></category></entry><entry><title>Setting up your development environment for a node-webkit project</title><link href="https://hi.imnhan.com/posts/setting-up-your-development-environment-for-a-node-webkit-project/" rel="alternate"></link><published>2014-05-01T08:23:00+07:00</published><updated>2014-05-01T08:23:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-05-01:/posts/setting-up-your-development-environment-for-a-node-webkit-project/</id><summary type="html">&lt;p&gt;&lt;img alt="" src="/images/nw_xp.png" title="XP support y'all!"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rogerwang/node-webkit"&gt;Node-webkit&lt;/a&gt; lets you write cross-platform (Mac + Linux + Winbloze) desktop applications using
+&lt;span class="caps"&gt;HTML5&lt;/span&gt; and nodejs. That&amp;#8217;s a fancy way of saying &amp;#8220;a webkit wrapper that also gives you filesystem
+access, disables same-origin policy and has nodejs embedded&amp;#8221;. It&amp;#8217;s the lazy web developers&amp;#8217; dream
+come true. Who needs Qt, &lt;span class="caps"&gt;GTK …&lt;/span&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="" src="/images/nw_xp.png" title="XP support y'all!"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/rogerwang/node-webkit"&gt;Node-webkit&lt;/a&gt; lets you write cross-platform (Mac + Linux + Winbloze) desktop applications using
+&lt;span class="caps"&gt;HTML5&lt;/span&gt; and nodejs. That&amp;#8217;s a fancy way of saying &amp;#8220;a webkit wrapper that also gives you filesystem
+access, disables same-origin policy and has nodejs embedded&amp;#8221;. It&amp;#8217;s the lazy web developers&amp;#8217; dream
+come true. Who needs Qt, &lt;span class="caps"&gt;GTK&lt;/span&gt;, or any other legitimate battle-tested, performant cross-platform &lt;span class="caps"&gt;GUI&lt;/span&gt;
+toolkit when you can slap in Bootstrap/Foundation with some hip JavaScript framework&amp;nbsp;instead?&lt;/p&gt;
+&lt;p&gt;Joking aside, this is an interesting take on desktop development. Firefox &lt;span class="caps"&gt;OS&lt;/span&gt; is on the horizon, and
+even Ubuntu is pushing the &amp;#8220;&lt;span class="caps"&gt;HTML5&lt;/span&gt; apps as first-class citizens&amp;#8221; paradigm. Why not give it a&amp;nbsp;try?&lt;/p&gt;
+&lt;p&gt;If you already have experience in client-side web development tools, you can just clone
+&lt;a href="https://github.com/Anonyfox/node-webkit-hipster-seed"&gt;node-webkit-hipster-seed&lt;/a&gt; and digest the code. That&amp;#8217;s a project skeleton that integrates all
+kinds of stuff: Jade/Coffescript/&lt;span class="caps"&gt;LESS&lt;/span&gt; automatic compiler, node-webkit, grunt&amp;nbsp;tasks&amp;#8230;&lt;/p&gt;
+&lt;p&gt;This tutorial is like a stripped down version of that. In the end we&amp;#8217;ll&amp;nbsp;have:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatic app reload when source code changes with &lt;code&gt;livereload&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Single command to build binaries for mac + linux + win with &lt;code&gt;grunt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;That&amp;#8217;s it,&amp;nbsp;really&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Install node-webkit on your&amp;nbsp;machine&lt;/h2&gt;
+&lt;p&gt;Follow the &lt;span class="caps"&gt;README&lt;/span&gt; on &lt;a href="https://github.com/rogerwang/node-webkit"&gt;node-webkit&amp;#8217;s GitHub page&lt;/a&gt; to download a precompiled &lt;code&gt;nw&lt;/code&gt; binary for your
+platform. If you&amp;#8217;re using Arch Linux, you&amp;#8217;re in luck since there&amp;#8217;s already an &lt;span class="caps"&gt;AUR&lt;/span&gt;&amp;nbsp;package:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ yaourt -S node-webkit
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If you&amp;#8217;re on Ubuntu or some other repo and you get some error about &lt;code&gt;libudev.so.0&lt;/code&gt;, &lt;a href="http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux"&gt;read this&lt;/a&gt;
+for a&amp;nbsp;hotfix.&lt;/p&gt;
+&lt;p&gt;The rest of this tutorial will assume that you have &lt;code&gt;nw&lt;/code&gt; accessible as an executable in your $&lt;span class="caps"&gt;PATH&lt;/span&gt;.&lt;/p&gt;
+&lt;h2&gt;Running an&amp;nbsp;app&lt;/h2&gt;
+&lt;p&gt;First, take a look at nw&amp;#8217;s &lt;a href="https://github.com/rogerwang/node-webkit#quick-start"&gt;quickstart guide&lt;/a&gt;. We&amp;#8217;ll make a somewhat different structure,
+allowing the &lt;strong&gt;dist&lt;/strong&gt; directory to store our binary&amp;nbsp;releases:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;  &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;css&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;  &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;js&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;  &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="k"&gt;index&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;  &lt;span class="err"&gt;└──&lt;/span&gt; &lt;span class="n"&gt;package&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;
+&lt;span class="err"&gt;└──&lt;/span&gt; &lt;span class="n"&gt;dist&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;package.json&lt;/strong&gt; stores the information that &lt;code&gt;nw&lt;/code&gt; requires. Its content goes like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;your-project-name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;0.0.1&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;main&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;index.html&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;window&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+      &lt;span class="nt"&gt;&amp;quot;toolbar&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
+  &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;code&gt;window.toolbar&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt; by default so we don&amp;#8217;t actually need it. Switch it to &lt;code&gt;false&lt;/code&gt; if you
+want to hide the browser-like address&amp;nbsp;bar.&lt;/p&gt;
+&lt;p&gt;To embed css/js files, don&amp;#8217;t use absolute urls. Use relative ones like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;link&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;css/style.css&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;rel&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There&amp;#8217;s no point in using CDNs because we&amp;#8217;re distributing the whole app with its assets as a
+one-time download. Things like automatic css/js minification or concatination aren&amp;#8217;t needed either.
+For simplicity&amp;#8217;s sake, we&amp;#8217;ll just download a minified version of whatever js/css library that we
+need and stuff them into &lt;strong&gt;css&lt;/strong&gt; or &lt;strong&gt;js&lt;/strong&gt; dir. For example: (&lt;strong&gt;dist&lt;/strong&gt; directory&amp;nbsp;omitted)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;css&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;└──&lt;/span&gt; &lt;span class="n"&gt;bootstrap&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="k"&gt;min&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;css&lt;/span&gt;
+&lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;js&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;bootstrap&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="k"&gt;min&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;js&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;knockout&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="k"&gt;min&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;js&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;jquery&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="k"&gt;min&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;js&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;└──&lt;/span&gt; &lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;js&lt;/span&gt;
+&lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="k"&gt;index&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;
+&lt;span class="err"&gt;└──&lt;/span&gt; &lt;span class="n"&gt;package&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If you&amp;#8217;re experienced in front-end web development tools, feel free to go wild with bower,
+grunt/gulp/whatever. Again, check out the &lt;a href="https://github.com/Anonyfox/node-webkit-hipster-seed"&gt;node-webkit-hipster-seed&lt;/a&gt; project if you know what
+you&amp;#8217;re&amp;nbsp;doing.&lt;/p&gt;
+&lt;p&gt;You can now test run your app with the &lt;code&gt;nw &amp;lt;directory&amp;gt;&lt;/code&gt; command. In our case: &lt;code&gt;nw app&lt;/code&gt;. Notice the
+weird url, which is why we can&amp;#8217;t use absolute urls in the first&amp;nbsp;place:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;///&lt;/span&gt;&lt;span class="n"&gt;home&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;nhanb&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;Dropbox&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;small_projects&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;ajmg&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;nw&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;index&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Once you&amp;#8217;ve packaged your app to a single executable, the url will be something like&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;file&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="o"&gt;///&lt;/span&gt;&lt;span class="n"&gt;tmp&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;org&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;chromium&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;Chromium&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;IJWqkq&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;index&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;But let&amp;#8217;s not get ahead of ourselves. Let&amp;#8217;s solve the most obvious dev issue&amp;nbsp;first:&lt;/p&gt;
+&lt;h2&gt;Automatic&amp;nbsp;reload&lt;/h2&gt;
+&lt;p&gt;Sure enough, at first glance your app is just another html page. You may be tempted to run some
+simple http server and open localhost in Google Chrome (&lt;code&gt;python2 -m SimpleHTTPServer 8080&lt;/code&gt;
+anyone?). There are tons of ways to make Google Chrome automatically reload a page,&amp;nbsp;right?&lt;/p&gt;
+&lt;p&gt;But then, the true strength of &lt;code&gt;node-webkit&lt;/code&gt; is the ability to use nodejs modules, which Google
+Chrome certainly doesn&amp;#8217;t offer. Therefore, the only way to check out how the app really works is
+using &lt;code&gt;nw app&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;#8217;ll use &lt;code&gt;livereload&lt;/code&gt; to make automatic reloading possible. The idea is quite simple: we fire off
+a &lt;code&gt;livereload&lt;/code&gt; daemon that watches for any change in our &lt;strong&gt;app/&lt;/strong&gt; directory. In our app, we embed a
+certain piece of javascript that connects to that &lt;code&gt;livereload&lt;/code&gt; daemon and refreshes the page
+whenever a &amp;#8220;change&amp;#8221; event is&amp;nbsp;broadcast.&lt;/p&gt;
+&lt;p&gt;There are many &lt;code&gt;livereload&lt;/code&gt; daemon implementations. Considering the fact that most of us developers
+have python and pip installed, let&amp;#8217;s go with the &lt;code&gt;livereload&lt;/code&gt; pip package (it&amp;#8217;s only compatible
+with python2, by the way). If you&amp;#8217;re on Ubuntu and don&amp;#8217;t know what I&amp;#8217;m talking&amp;nbsp;about:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo apt-get install python-pip
+$ sudo pip install livereload
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There are ruby/javascript implementations too. Google them if you prefer those&amp;nbsp;things.&lt;/p&gt;
+&lt;p&gt;Either way, we can now fire off a livereload&amp;nbsp;server:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="n"&gt;don&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;t know why but seems like the python implementation doesn&amp;#39;&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="k"&gt;work&lt;/span&gt;
+&lt;span class="o"&gt;#&lt;/span&gt; &lt;span class="k"&gt;when&lt;/span&gt; &lt;span class="n"&gt;I&lt;/span&gt; &lt;span class="k"&gt;type&lt;/span&gt; &lt;span class="o"&gt;`&lt;/span&gt;&lt;span class="n"&gt;livereload&lt;/span&gt; &lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="o"&gt;`&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt; &lt;span class="n"&gt;Weird&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;app&lt;/span&gt;
+&lt;span class="err"&gt;$&lt;/span&gt; &lt;span class="n"&gt;livereload&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now how do we inject the livereload javascript? On Google Chrome there is an official livereload
+plugin, but we&amp;#8217;re using node-webkit so that&amp;#8217;s not possible. No problem! The &lt;code&gt;livereload&lt;/code&gt; daemon we
+fired off earlier is actually a web server which also serves the necessary livereload client
+JavaScript snippet too. Simply embed it to your &lt;strong&gt;index.html&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://localhost:35729/livereload.js&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Fire off the app with &lt;code&gt;nw app&lt;/code&gt; again and you&amp;#8217;ll have automatic reloading. Cool&amp;nbsp;eh?&lt;/p&gt;
+&lt;p&gt;Another problem: we only want livereload in our development version, not in the released app. Let&amp;#8217;s
+modify our javascript snippet in &lt;strong&gt;index.html&lt;/strong&gt; to only load livereload when a certain environment
+variable is set to &lt;code&gt;1&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;span class="c1"&gt;// Load livereload if in dev environment&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;process&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;NW_DEV_MY_AWESOME_PROJECT&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;script&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createElement&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;script&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nx"&gt;script&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;src&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;http://localhost:35729/livereload.js&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;body&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;appendChild&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;script&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now to start the&amp;nbsp;app:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;NW_DEV_MY_AWESOME_PROJECT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+$ nw app
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Simple cross-platform build&amp;nbsp;command&lt;/h2&gt;
+&lt;p&gt;To be honest, you can manually write shell scripts to build for each platform. Check out &lt;a href="https://github.com/rogerwang/node-webkit/wiki/How-to-package-and-distribute-your-apps"&gt;this wiki
+article&lt;/a&gt; if you prefer the do-it-yourself&amp;nbsp;way.&lt;/p&gt;
+&lt;p&gt;But if you&amp;#8217;re lazy (like me) and don&amp;#8217;t have a problem using nodejs/grunt, just use the excellent
+&lt;a href="https://github.com/mllrsohn/grunt-node-webkit-builder"&gt;grunt-node-webkit-builder&lt;/a&gt;. Again, for newcomers using&amp;nbsp;Ubuntu:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo add-apt-repository ppa:chris-lea/node.js
+$ sudo apt-get update
+$ sudo apt-get install python-software-properties python g++ make nodejs
+$ sudo npm install -g grunt-cli
+$ &lt;span class="c1"&gt;# cd to your project root (the one containing app/ and dist/)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Create &lt;code&gt;package.json&lt;/code&gt; and &lt;code&gt;Gruntfile.js&lt;/code&gt; in project&amp;nbsp;root:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;app&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;css&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;js&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="k"&gt;index&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;
+&lt;span class="err"&gt;│&lt;/span&gt;   &lt;span class="err"&gt;└──&lt;/span&gt; &lt;span class="n"&gt;package&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;
+&lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;dist&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;
+&lt;span class="err"&gt;├──&lt;/span&gt; &lt;span class="n"&gt;Gruntfile&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;js&lt;/span&gt;
+&lt;span class="err"&gt;└──&lt;/span&gt; &lt;span class="n"&gt;package&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;json&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;package.json&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;whatever&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;0.0.1&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;description&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Whatever&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="nt"&gt;&amp;quot;author&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Bui Thanh Nhan&amp;quot;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Gruntfile.js&lt;/strong&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;initConfig&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
+        &lt;span class="nx"&gt;pkg&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;file&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;readJSON&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;package.json&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
+        &lt;span class="nx"&gt;nodewebkit&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="nx"&gt;options&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+                &lt;span class="nx"&gt;build_dir&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;./dist&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="c1"&gt;// choose what platforms to compile for here&lt;/span&gt;
+                &lt;span class="nx"&gt;mac&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="nx"&gt;win&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="nx"&gt;linux32&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                &lt;span class="nx"&gt;linux64&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
+            &lt;span class="p"&gt;},&lt;/span&gt;
+            &lt;span class="nx"&gt;src&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;./app/**/*&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+    &lt;span class="p"&gt;})&lt;/span&gt;
+
+    &lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;loadNpmTasks&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;grunt-node-webkit-builder&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;registerTask&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;nodewebkit&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]);&lt;/span&gt;
+&lt;span class="p"&gt;};&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ npm install grunt grunt-node-webkit-builder --save-dev
+$ grunt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The first time will be slow because grunt will download precompiled nw binaries for all supported
+platforms, which will be stored in &lt;strong&gt;dist/cache/&lt;/strong&gt;. From now you can compile for mac + linux + win
+with a simple &lt;code&gt;grunt&lt;/code&gt; command. The compiled binaries will be stored in &lt;strong&gt;dist/releases/&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Congratulations! You now know how to use yet another weird stack born out of the &lt;span class="caps"&gt;HTML5&lt;/span&gt; craze that
+isn&amp;#8217;t guaranteed to still be alive the next year (or even next month). For extra credit, use it to
+piss off long-time &lt;span class="caps"&gt;UNIX&lt;/span&gt; Philosophy believers. The &lt;a href="http://suckless.org/philosophy"&gt;suckless&lt;/a&gt; community would be a good place to
+start.&amp;nbsp;;)&lt;/p&gt;</content><category term="linux"></category><category term="webdev"></category></entry><entry><title>How I bypassed my university’s domain blocker to watch movies on hdviet.com</title><link href="https://hi.imnhan.com/posts/how-i-bypassed-my-university-domain-blocker-to-access-hdviet/" rel="alternate"></link><published>2014-03-17T21:58:00+07:00</published><updated>2014-03-17T21:58:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-03-17:/posts/how-i-bypassed-my-university-domain-blocker-to-access-hdviet/</id><summary type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;&lt;/strong&gt;: Clone &lt;a href="https://github.com/nhanb/twisted-connect-proxy"&gt;my script from GitHub&lt;/a&gt;, run it with &lt;code&gt;python2 server.py 8080&lt;/code&gt;, configure your
+browser to use localhost:8080 as &lt;span class="caps"&gt;HTTP&lt;/span&gt; and &lt;span class="caps"&gt;HTTPS&lt;/span&gt; proxy,&amp;nbsp;profit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: The sole reason I came up with this trick and documented it was to satisfy my
+curiosity. I don&amp;#8217;t come to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;&lt;/strong&gt;: Clone &lt;a href="https://github.com/nhanb/twisted-connect-proxy"&gt;my script from GitHub&lt;/a&gt;, run it with &lt;code&gt;python2 server.py 8080&lt;/code&gt;, configure your
+browser to use localhost:8080 as &lt;span class="caps"&gt;HTTP&lt;/span&gt; and &lt;span class="caps"&gt;HTTPS&lt;/span&gt; proxy,&amp;nbsp;profit.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Disclaimer&lt;/strong&gt;: The sole reason I came up with this trick and documented it was to satisfy my
+curiosity. I don&amp;#8217;t come to campus often anymore so it&amp;#8217;s not like I&amp;#8217;m going to spend 8 hours a day
+wasting the university&amp;#8217;s internet bandwidth for &amp;#8220;Two and a half men&amp;#8221;&amp;nbsp;anyway&amp;#8230;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Another Note&lt;/strong&gt; (last one, promise!): If you&amp;#8217;re using Mac &lt;span class="caps"&gt;OS&lt;/span&gt; X or Windows, Proxifier will probably
+do the trick way better and without any hassle. If you&amp;#8217;re using Linux or you simply want to learn
+more about this stuff, read&amp;nbsp;on!&lt;/p&gt;
+&lt;h2&gt;The&amp;nbsp;problem&lt;/h2&gt;
+&lt;p&gt;This semester the &lt;span class="caps"&gt;RMIT&lt;/span&gt;-&lt;span class="caps"&gt;WPA&lt;/span&gt; wifi network no longer requires manual proxy configuration (probably
+because it makes Web Programming students miserable - they have to use Google App Engine), which is
+good news. Nevertheless, that annoying domain filter is still up and running, meaning we still
+can&amp;#8217;t go to certain blacklisted websites. (mediafire, fshare, gamevn, vnsharing,&amp;nbsp;etc.)&lt;/p&gt;
+&lt;p&gt;Hdviet&amp;#8217;s case is a bit special: the domain &lt;code&gt;hdviet.com&lt;/code&gt; itself is not blocked, but the domain of
+the actual server hosting its playlists &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; videos, &lt;code&gt;v-01.vn-hd.com&lt;/code&gt;, is. A quick look at Firefox&amp;#8217;s
+excellent Network inspector confirmed&amp;nbsp;that:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/hdviet_01_forbidden.png"&gt;&lt;/p&gt;
+&lt;p&gt;If you request the file&amp;nbsp;directly:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/hdviet_02_forbidden_direct.png"&gt;&lt;/p&gt;
+&lt;h2&gt;Going for the &lt;span class="caps"&gt;IP&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Naturally, I wanted to check if I could access the resource directly via the &lt;span class="caps"&gt;IP&lt;/span&gt;. An easy way to look
+up a domain&amp;#8217;s &lt;span class="caps"&gt;IP&lt;/span&gt; is using &lt;a href="http://ping.eu/ping/"&gt;ping.eu&lt;/a&gt;. Once you&amp;#8217;ve got the &lt;span class="caps"&gt;IP&lt;/span&gt;, try replacing the domain with it in
+the failed&amp;nbsp;request:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/hdviet_03_ip.png"&gt;&lt;/p&gt;
+&lt;p&gt;This time it works, which means only the domain is blocked, not the &lt;span class="caps"&gt;IP&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;One thing worth noting about hdviet: The video is not served as 1 single file, it is instead
+chopped into multiple parts, which are loaded in order. Therefore, our first job is to
+automatically replace &lt;code&gt;v-01.vn-hd.com&lt;/code&gt; with the &lt;span class="caps"&gt;IP&lt;/span&gt; in all of the&amp;nbsp;requests.&lt;/p&gt;
+&lt;h2&gt;Twisted&amp;nbsp;proxy&lt;/h2&gt;
+&lt;p&gt;Since changing the request destination directly in the browser is probably difficult (I don&amp;#8217;t think
+Google Chrome even allows that), we&amp;#8217;ll use an &lt;span class="caps"&gt;HTTP&lt;/span&gt;(S) proxy. This is when Twisted comes in&amp;nbsp;handy.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twistedmatrix.com/"&gt;Twisted&lt;/a&gt; is a battery-included framework to build robust network applications. By
+&amp;#8220;battery-included&amp;#8221; they mean that most of the common functionalities have already been implemented
+so we can use them out of the box. For the purpose of this tutorial, we are only interested in its
+&lt;span class="caps"&gt;HTTP&lt;/span&gt; proxy&amp;nbsp;library.&lt;/p&gt;
+&lt;p&gt;To install twisted, use &lt;code&gt;pip&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo pip install twisted
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Since the default implementation doesn&amp;#8217;t support &lt;span class="caps"&gt;HTTPS&lt;/span&gt;, we&amp;#8217;ll use a &lt;a href="https://github.com/fmoo/twisted-connect-proxy"&gt;powered-up one&lt;/a&gt; I found on
+GitHub, written by Peter Ruibal. Let&amp;#8217;s clone this&amp;nbsp;thing:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/fmoo/twisted-connect-proxy.git
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now let&amp;#8217;s try running the proxy server: &lt;code&gt;cd&lt;/code&gt; into the cloned directory and run it with &lt;code&gt;python2&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; twisted-connect-proxy
+python2 server.py &lt;span class="m"&gt;8080&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then configure your browser to use &lt;strong&gt;localhost:8080&lt;/strong&gt; as the proxy. For Firefox it&amp;#8217;s&amp;nbsp;easy:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/hdviet_04_firefox_proxy.png"&gt;&lt;/p&gt;
+&lt;p&gt;You should now be able to surf the web through the running proxy. But hey, you still can&amp;#8217;t visit
+any blocked site! Of course you can&amp;#8217;t, since we haven&amp;#8217;t replaced the domains with IPs. Let&amp;#8217;s do&amp;nbsp;that.&lt;/p&gt;
+&lt;h2&gt;Domain to &lt;span class="caps"&gt;IP&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Open &lt;code&gt;server.py&lt;/code&gt;, look for this&amp;nbsp;part:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;ConnectProxyRequest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ProxyRequest&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;HTTP ProxyRequest handler (factory) that supports CONNECT&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;connectedProtocol&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;process&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;method&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;CONNECT&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;processConnectRequest&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;ProxyRequest&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;process&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The &lt;code&gt;process()&lt;/code&gt; method is in charge of forwarding whatever request the proxy receives to the actual
+target server. Let&amp;#8217;s intercept it with our own &lt;code&gt;redirect()&lt;/code&gt; function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;redirects&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;v-01.vn-hd.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;125.212.216.93&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# video&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;s.vn-hd.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;210.211.120.146&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# sub&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;redirect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;redirects&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;  &lt;span class="c1"&gt;# check if we&amp;#39;re requesting a blocked domain&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;requestHeaders&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;setRawHeaders&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;  &lt;span class="c1"&gt;# replace &amp;quot;Host&amp;quot; header too&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt;
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;ConnectProxyRequest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ProxyRequest&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;HTTP ProxyRequest handler (factory) that supports CONNECT&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
+    &lt;span class="n"&gt;connectedProtocol&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;
+
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;process&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;redirect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;  &lt;span class="c1"&gt;# intercept request processing&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;method&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;CONNECT&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;processConnectRequest&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="c1"&gt;# the rest of the file ...&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In the snippet above, we defined a dictionary &lt;code&gt;redirects&lt;/code&gt; that stores the blocked domains that we
+need to replace. Note that I added &lt;strong&gt;s.vn-hd.com&lt;/strong&gt; as well, which is the host that stores
+subtitles. In our actual &lt;code&gt;redirect()&lt;/code&gt; function, we check if the request being processed is pointing
+to any of the blocked domains defined earlier, then replace domain with its corresponding &lt;span class="caps"&gt;IP&lt;/span&gt; if
+there is a&amp;nbsp;match:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;requestHeaders&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;setRawHeaders&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Note that the 3rd line also changes the &amp;#8220;Host&amp;#8221; &lt;span class="caps"&gt;HTTP&lt;/span&gt; header. Yes, our beloved people from &lt;span class="caps"&gt;IT&lt;/span&gt;
+Services do inspect &lt;span class="caps"&gt;HTTP&lt;/span&gt; headers to block stuff too. This line will introduce another problem that
+I will explain later in this&amp;nbsp;post.&lt;/p&gt;
+&lt;p&gt;Now restart our proxy server and check the link again. It should work. You can now watch stuff, but
+you&amp;#8217;ll notice that English subtitles are not shown even if you turn them&amp;nbsp;on:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/hdviet_05_no_sub.png"&gt;&lt;/p&gt;
+&lt;p&gt;If you open the browser&amp;#8217;s network inspector, reload the page and try to enable English subtitles
+again, you&amp;#8217;ll see the&amp;nbsp;problem:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/hdviet_06_404.png"&gt;&lt;/p&gt;
+&lt;p&gt;The link in question&amp;nbsp;is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Since &lt;strong&gt;s.vn-hd.com&lt;/strong&gt; is in our blocked domain dictionary (&lt;code&gt;redirects&lt;/code&gt;), the proxy server will
+request&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://210.211.120.146/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If you try to open it directly in a browser (that isn&amp;#8217;t using our proxy server), you&amp;#8217;ll get a 404
+too.  Why is that? This is because the &lt;strong&gt;Host&lt;/strong&gt; header is also changed to &lt;strong&gt;210.211.120.146&lt;/strong&gt;
+instead of the original domain &lt;strong&gt;s.vn-hd.com&lt;/strong&gt;. Normally a single web server can be serving
+multiple domains at a time, and when we send an &lt;span class="caps"&gt;HTTP&lt;/span&gt; request, we need to specify &lt;code&gt;Host: &amp;lt;domain&amp;gt;&lt;/code&gt;
+for the server to know which domain we want to get the resource from. When the &lt;strong&gt;Host&lt;/strong&gt; header is
+simply the &lt;span class="caps"&gt;IP&lt;/span&gt;, the server may get confused and therefore cannot serve the correct resource. As for
+&lt;strong&gt;v-01.vn-hd.com&lt;/strong&gt;, we got lucky in that&amp;nbsp;case.&lt;/p&gt;
+&lt;p&gt;On the other hand, if we keep &lt;code&gt;Host: s.vn-hd.com&lt;/code&gt; as-is, &lt;span class="caps"&gt;RMIT&lt;/span&gt; will be able to block our request.
+This leads to our final&amp;nbsp;trick:&lt;/p&gt;
+&lt;h2&gt;Google App Engine to the&amp;nbsp;rescue!&lt;/h2&gt;
+&lt;p&gt;Because a subtitle file is just plain text, its size is negligible. We can set up an external
+website that receives our original request, fetches the requested file on hdviet&amp;#8217;s server and
+returns the requested file&amp;#8217;s content back to us. I have already set up a proof-of-concept Google
+App Engine website at &lt;strong&gt;hdviet-proxy.appspot.com&lt;/strong&gt;. It works like&amp;nbsp;this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/hdviet_07_graph.png"&gt;&lt;/p&gt;
+&lt;p&gt;Now we need to edit our server code to redirect any &lt;strong&gt;s.vn-hd.com&lt;/strong&gt; request to
+&lt;strong&gt;hdviet-proxy.appspot.com/?url=original_url&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;urllib&lt;/span&gt;
+
+&lt;span class="n"&gt;sub_server&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;s.vn-hd.com&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;remote_server&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;hdviet-proxy.appspot.com&amp;#39;&lt;/span&gt;
+&lt;span class="n"&gt;redirects&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="s1"&gt;&amp;#39;v-01.vn-hd.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;125.212.216.93&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# video&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;redirect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;redirects&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;items&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;requestHeaders&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;setRawHeaders&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt;
+        &lt;span class="k"&gt;elif&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sub_server&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+            &lt;span class="n"&gt;proxied_url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;http://&lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s1"&gt;/?&lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;remote_server&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                                             &lt;span class="n"&gt;urllib&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;urlencode&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;url&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt;&lt;span class="p"&gt;}))&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;proxied_url&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sub_server&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;remote_server&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+            &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;requestHeaders&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;setRawHeaders&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;remote_server&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+            &lt;span class="k"&gt;return&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You can view my &lt;a href="https://github.com/nhanb/twisted-connect-proxy"&gt;finished script on github&lt;/a&gt; and clone it to use right&amp;nbsp;away.&lt;/p&gt;
+&lt;p&gt;If you want to set up your own website instead of using mine, it&amp;#8217;s really simple. Just use the new
+site template provided with &lt;span class="caps"&gt;GAE&lt;/span&gt; &lt;span class="caps"&gt;SDK&lt;/span&gt; and edit &lt;code&gt;main.py&lt;/code&gt; like&amp;nbsp;so:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;webapp2&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;google.appengine.api&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;urlfetch&lt;/span&gt;
+
+&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MainHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;webapp2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;RequestHandler&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="n"&gt;url&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;request&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;url&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;resp&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;urlfetch&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;fetch&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;url&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;content&lt;/span&gt;
+        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;response&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;write&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;resp&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="n"&gt;app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;webapp2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WSGIApplication&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;
+    &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;MainHandler&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;debug&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Remember to change the &lt;code&gt;remote_server&lt;/code&gt; variable in &lt;code&gt;server.py&lt;/code&gt; to match your appspot&amp;nbsp;link.&lt;/p&gt;
+&lt;p&gt;Restart the server script, now when the browser requests for&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;code&gt;server.py&lt;/code&gt; will redirect to&amp;nbsp;this:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://hdviet-proxy.appspot.com/?url=http%3A%2F%2Fs.vn-hd.com%2Fstore6%2F21042013%2FTwo_and_a_Half_Men_S02%2FE001%2FTwo_and_a_Half_Men_S02_E001_ENG.srt
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;And the appspot site will get the original url, fetch its content, and give it right back to&amp;nbsp;us:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/hdviet_08_srt.png"&gt;&lt;/p&gt;
+&lt;p&gt;You should now be able to watch movies with subtitles.&amp;nbsp;Congratulations!&lt;/p&gt;</content><category term="ubuntu"></category><category term="linux"></category></entry><entry><title>What I did after installing Manjaro xfce</title><link href="https://hi.imnhan.com/posts/what-i-did-after-installing-manjaro-xfce/" rel="alternate"></link><published>2014-02-04T20:20:13+07:00</published><updated>2014-02-04T20:20:13+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-02-04:/posts/what-i-did-after-installing-manjaro-xfce/</id><summary type="html">&lt;p&gt;After about 2 months with elementary &lt;span class="caps"&gt;OS&lt;/span&gt;, I got sick of the guaranteed once-every-hour crashes of
+its &lt;strong&gt;Files&lt;/strong&gt; file manager (yeah, I&amp;#8217;m still hating their naming decisions with a passion), the
+flickering when I play fullscreen OpenGL games, and the automatic collapsing of workspaces. I&amp;#8217;ve
+had enough of …&lt;/p&gt;</summary><content type="html">&lt;p&gt;After about 2 months with elementary &lt;span class="caps"&gt;OS&lt;/span&gt;, I got sick of the guaranteed once-every-hour crashes of
+its &lt;strong&gt;Files&lt;/strong&gt; file manager (yeah, I&amp;#8217;m still hating their naming decisions with a passion), the
+flickering when I play fullscreen OpenGL games, and the automatic collapsing of workspaces. I&amp;#8217;ve
+had enough of that. Let&amp;#8217;s go back to xfce! But hey, (X)ubuntu 14.04 is nearly out but I don&amp;#8217;t want
+to install an alpha version right now, and installing 13.10 just to update 2 months later is insane
+(to me, at least). That&amp;#8217;s when I noticed &lt;a href="http://manjaro.org/"&gt;Manjaro&lt;/a&gt; - a battery-included distro based on Arch.
+All hail rolling&amp;nbsp;release!&lt;/p&gt;
+&lt;p&gt;Although Manjaro comes packed with most of the apps that I would install on any other distro
+anyway: &lt;span class="caps"&gt;GIMP&lt;/span&gt;, LibreOffice, Steam, etc., here are some additional steps I took to make it&amp;nbsp;rock.&lt;/p&gt;
+&lt;h2&gt;If you get a default xfce environment after&amp;nbsp;setup&amp;#8230;&lt;/h2&gt;
+&lt;p&gt;It happened to me when I tried to mount my existing &lt;code&gt;/home&lt;/code&gt; partition. Instead of the beautiful
+screenshot featured on Manjaro&amp;#8217;s home page, I got something like this (image courtesy of Xfce
+project&amp;nbsp;website):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/xfce_default.jpg"&gt;&lt;/p&gt;
+&lt;p&gt;I guess it was because of some weird bug that the partition ended up being owned by &lt;code&gt;root&lt;/code&gt; so the
+installer could not copy Manjaro-specific settings at the end. Make it your own again then copy the
+default Manjaro&amp;nbsp;files:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo chown &lt;span class="nv"&gt;$USER&lt;/span&gt; /home
+cp -a /etc/skel/. ~/
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Then restart your computer and see if it worked (it&amp;nbsp;should).&lt;/p&gt;
+&lt;h2&gt;Get Mirosoft&amp;nbsp;fonts&lt;/h2&gt;
+&lt;p&gt;Getting Micro$oft fonts is like the first thing to do after any Linux distro installation. The Arch
+community has a whole &lt;a href="https://wiki.archlinux.org/index.php/MS_Fonts"&gt;wiki page&lt;/a&gt; dedicated to it. It&amp;#8217;s worth mentioning that you can&amp;#8217;t
+&lt;em&gt;legally&lt;/em&gt; install those packages without the actual fonts already on your computer. Assuming you
+have an installed copy of Windows 7, go to its &lt;code&gt;Fonts&lt;/code&gt; folder and put the necessary fonts in the
+same folder of the extracted package downloaded from the &lt;span class="caps"&gt;AUR&lt;/span&gt; page. For some instant copy-and-paste
+shell commands: (&lt;strong&gt;warning&lt;/strong&gt;: this script assumes you already have all your Windows 7 fonts in
+&lt;code&gt;~/win_fonts/&lt;/code&gt;. Put them there before running the following&amp;nbsp;commands)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -O &lt;span class="s1"&gt;&amp;#39;https://gist.github.com/nhanb/8804875/raw/arch-ms-fonts.sh&amp;#39;&lt;/span&gt;
+bash arch-ms-fonts.sh
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Proper font&amp;nbsp;smoothing&lt;/h2&gt;
+&lt;p&gt;I won&amp;#8217;t try to reinvent the wheels here. Head to Manjaro&amp;#8217;s &lt;a href="http://wiki.manjaro.org/index.php?title=Improve_Font_Rendering"&gt;wiki page on font smoothing&lt;/a&gt;.
+They&amp;#8217;ve got everything you&amp;nbsp;need.&lt;/p&gt;
+&lt;h2&gt;Install international&amp;nbsp;fonts&lt;/h2&gt;
+&lt;p&gt;Even if you&amp;#8217;re not Japanese or Korean, you&amp;#8217;ll occasionally come across content that contains
+characters from these languages. With the default installation, all those characters will be shown
+as rectangles, which bugs me a&amp;nbsp;lot.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/jap_font_none.png"&gt;&lt;/p&gt;
+&lt;p&gt;The solution? Simple. Just install the &lt;code&gt;ttf-droid&lt;/code&gt; package:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo pacman -S ttf-droid
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img alt="" src="/images/jap_font_done.png"&gt;&lt;/p&gt;
+&lt;p&gt;Now that&amp;#8217;s&amp;nbsp;better!&lt;/p&gt;</content><category term="arch"></category><category term="linux"></category></entry><entry><title>“Have you built anything cool?”</title><link href="https://hi.imnhan.com/posts/have-you-built-anything-cool/" rel="alternate"></link><published>2014-01-25T10:37:00+07:00</published><updated>2014-01-25T10:37:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-01-25:/posts/have-you-built-anything-cool/</id><summary type="html">&lt;p&gt;So recently I went to a &lt;em&gt;networking event&lt;/em&gt;&amp;#8212;something I have never liked or been good at. I&amp;#8217;m
+not sure if I&amp;#8217;m one of those introverts or if I&amp;#8217;m just socially awkward, but the very idea of
+going around trying to converse with total strangers just to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;So recently I went to a &lt;em&gt;networking event&lt;/em&gt;&amp;#8212;something I have never liked or been good at. I&amp;#8217;m
+not sure if I&amp;#8217;m one of those introverts or if I&amp;#8217;m just socially awkward, but the very idea of
+going around trying to converse with total strangers just to exchange business cards is not at all
+appealing to me. Anyway, that&amp;#8217;s another story. Right now I want to write about something a guy
+from a non-tech company asked&amp;nbsp;me:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;- Have you built anything cool?&lt;br&gt;
+- [pause] Well, more or less&amp;#8230;&lt;br&gt;
+- What do you mean by &amp;#8220;more or less&amp;#8221;? [&amp;#8230;] Have you built anything at&amp;nbsp;all?  &lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Then I went on trying to explain what my recent side project&amp;#8212;
+&lt;a href="https://pytaku-legacy.appspot.com"&gt;pytaku&lt;/a&gt;&amp;#8212;does and why it is awesome for me. He seemed to be
+disinterested halfway through so I decided to shut up&amp;nbsp;anyway.&lt;/p&gt;
+&lt;p&gt;Sure, I have done stuff now and then, be it assignment work or something I decided to create
+for my own amusement. It is just funny how I have already stepped into to my final year without
+taking a proper look back at what I have done in these past 2 years, so I&amp;#8217;m going to do just&amp;nbsp;that.&lt;/p&gt;
+&lt;p&gt;If you&amp;#8212;Nicholas&amp;#8212;are reading this and don&amp;#8217;t want all the nerdy stuff, here are my condensed&amp;nbsp;answers:&lt;/p&gt;
+&lt;h3&gt;Have you built&amp;nbsp;anything?&lt;/h3&gt;
+&lt;p&gt;Yes, I have made desktop and Android games, a movie ticket sales program, a desktop manga
+grabber, a web version of it that talks to dropbox, and several small shell scripts / web&amp;nbsp;utilities.&lt;/p&gt;
+&lt;h3&gt;So, nothing&amp;nbsp;cool?&lt;/h3&gt;
+&lt;p&gt;If you&amp;#8217;re neither a tech geek nor an otaku (which I assume you&amp;#8217;re not) then no, there&amp;#8217;s probably
+nothing I&amp;#8217;ve done that you would find&amp;nbsp;interesting.&lt;/p&gt;
+&lt;h2&gt;Nerd&amp;nbsp;alert!&lt;/h2&gt;
+&lt;p&gt;The rest of this post is aimed at the &lt;del&gt;nerdier&lt;/del&gt; more tech-savvy audience. You have been
+warned&amp;nbsp;;)&lt;/p&gt;
+&lt;h2&gt;First year&amp;#8212;Welcome to the web, and the &lt;span class="caps"&gt;GUI&lt;/span&gt; programming&amp;nbsp;disillusionment&lt;/h2&gt;
+&lt;p&gt;I had touched &lt;em&gt;web stuff&lt;/em&gt; before in high school: a vBulletin forum that I created (unofficially)
+for students in my middle school. However, I only properly learned &lt;span class="caps"&gt;PHP&lt;/span&gt; and &lt;span class="caps"&gt;JS&lt;/span&gt; when I started the
+Web Programming course here. With (moderately) great power came great desires, so I set out to
+build a basic &lt;span class="caps"&gt;PHP&lt;/span&gt; site to scrape a youtube view page&amp;#8217;s &lt;span class="caps"&gt;HTML&lt;/span&gt; to get direct video links (not working
+anymore since a recent youtube&amp;nbsp;update)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="tubegrab v2.9" src="/images/tubegrab.jpg" title="tubegrab v2.9"&gt;&lt;/p&gt;
+&lt;p&gt;That was my first touch on jQueryUI and regular expressions; I also learned how &lt;span class="caps"&gt;RMIT&lt;/span&gt;&amp;#8217;s mekong
+server sucked to the point that it didn&amp;#8217;t allow &lt;code&gt;get_file_contents()&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;About school assignments? Nothing interesting: standard minimal &lt;span class="caps"&gt;LAMP&lt;/span&gt; &lt;span class="caps"&gt;CMS&lt;/span&gt; with jQuery glitter
+sprinkled on top. Not a bad experience but&amp;nbsp;meh.&lt;/p&gt;
+&lt;p&gt;I also learned about &lt;span class="caps"&gt;MVC&lt;/span&gt; and &lt;span class="caps"&gt;GUI&lt;/span&gt; programming with Java swing. I did write a movie ticket program
+with a (pretty minimal) seat picker and
+&lt;a href="https://github.com/nhanb/sealord"&gt;a battleship-inspired game&lt;/a&gt;: &lt;/p&gt;
+&lt;p&gt;&lt;img alt="Cinema Movie Picker" src="/images/cinema_1.png" title="Cinema Movie Picker"&gt;
+&lt;img alt="Seat Picker" src="/images/cinema_2.png" title="Seat Picker"&gt;
+&lt;img alt="Sealord" src="/images/sealord.png"&gt;&lt;/p&gt;
+&lt;p&gt;Then it occurred to me that programming &lt;span class="caps"&gt;GUI&lt;/span&gt; interfaces for desktop programs was much more tedious
+than doing it for the web, especially when working with the now-not-favored Swing toolkit.
+Nightmarish&amp;nbsp;days&amp;#8230;&lt;/p&gt;
+&lt;p&gt;Another lesson learned the hard way was that &amp;#8220;&lt;span class="caps"&gt;MVC&lt;/span&gt;&amp;#8221; is not even a concrete thing, and there is
+hardly any obvious &amp;#8220;one true way&amp;#8221; to implement that. I spent much more time planning for plumbing
+code than I the time I spent actually writing &amp;#8220;feature&amp;#8221; code. And the result, now looking back, was
+not even that good. And yeah, there was no such thing as &amp;#8220;separation of concerns&amp;#8221; in my code back
+then, which eventually led to countless times of tracing obscure stack traces for debugging (good
+thing I had a lot of free time back&amp;nbsp;then).&lt;/p&gt;
+&lt;p&gt;To rub salt in the wound, I came to realize that nobody cared how Swing looked on any desktop
+environment other than &lt;span class="caps"&gt;OS&lt;/span&gt; X and Windows. Font rendering was painful to look at, and the only way to
+make it &lt;em&gt;a little bit&lt;/em&gt; more acceptable was using a
+&lt;a href="http://www.webupd8.org/2013/06/install-openjdk-patched-with-font-fixes.html"&gt;forked version of OpenJDK&lt;/a&gt;.
+&lt;span class="caps"&gt;WTF&lt;/span&gt; guys? And that&amp;#8217;s not the only problem; let&amp;#8217;s talk Look And Feel. Java&amp;#8217;s built-in
+getSystemLookAndFeel() could only detect &lt;span class="caps"&gt;GNOME&lt;/span&gt;&amp;#8217;s. When developing &lt;code&gt;ajmg&lt;/code&gt; I discovered that and had
+to write my own method that extended the thing to detect more DEs, but soon after that I thought
+&amp;#8220;What the hell, why do I even have to do this?&amp;#8221; and decided that Swing was dead to me (or any
+desktop Linux user for that&amp;nbsp;matter).&lt;/p&gt;
+&lt;h2&gt;Second year: enough of this &lt;del&gt;bull&lt;/del&gt; school crap. I&amp;#8217;m making stuff for&amp;nbsp;myself!&lt;/h2&gt;
+&lt;p&gt;To be fair, the following year has offered a number of new stuff: C/C++ programming, a taste of the
+M$ .&lt;span class="caps"&gt;NET&lt;/span&gt; C# stack (still impressed by Visual Studio&amp;#8217;s vi mode plugin), more Java,
+&lt;a href="http://truongtx.me/2013/05/02/agent-069-game/"&gt;Android app programming&lt;/a&gt;, and some neat security
+tricks. However, none of those intrigued me much, so I decided to start making things for my&amp;nbsp;own:&lt;/p&gt;
+&lt;h3&gt;Shell&amp;nbsp;scripts&lt;/h3&gt;
+&lt;p&gt;If you have taken a look at my &lt;a href="https://github.com/nhanb/dotfiles"&gt;dotfiles&lt;/a&gt;, you&amp;#8217;ll notice that I
+do write a bunch of shell scripts to automate stuff I do often. The one I&amp;#8217;m currently proudest of
+is &lt;a href="https://github.com/nhanb/dotfiles/blob/master/scripts/rmitproxy_silent"&gt;rmiproxy_silent&lt;/a&gt;, a
+script that automatically detects whether I am using &lt;span class="caps"&gt;RMIT&lt;/span&gt;&amp;#8217;s network and set/clear the appropriate
+proxy settings. Another one that I can&amp;#8217;t live without is
+&lt;a href="https://github.com/nhanb/dotfiles/blob/master/install.sh"&gt;install.sh&lt;/a&gt;, a script that helps install
+all my dotfiles, sets up zsh and various things. It saved me &lt;em&gt;a lot&lt;/em&gt; of time whenever I reinstall
+my&amp;nbsp;system.&lt;/p&gt;
+&lt;p&gt;Obligatory shout-out to &lt;a href="https://github.com/robbyrussell/oh-my-zsh/"&gt;oh-my-zsh&lt;/a&gt;, greatest invention
+since sliced bread! Those guys are&amp;nbsp;awesome!&lt;/p&gt;
+&lt;h3&gt;&lt;span class="caps"&gt;AJMG&lt;/span&gt;, then Pytaku, then&amp;#8230; who&amp;nbsp;knows?&lt;/h3&gt;
+&lt;p&gt;The original idea was actually creating a Java Swing program that helps download manga. It was born
+out of frustration of &lt;a href="http://blog.domdomsoft.com/"&gt;DomDomSoft&lt;/a&gt;, a manga downloader that requires
+&amp;#8220;donation&amp;#8221; to unlock full functionalities. &amp;#8220;I could do that, and I&amp;#8217;ll open source the crap out of
+it, because open source is awesome&amp;#8221;, I thought. Then I spent some time and got the minimal program
+working&amp;nbsp;program:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/ajmg.png"&gt;&lt;/p&gt;
+&lt;p&gt;This program did help me get a firm knowledge of java&amp;#8217;s thread manipulation and using http proxy
+(so I could exploit &lt;span class="caps"&gt;RMIT&lt;/span&gt;&amp;#8217;s awesome network bandwidth). I also succeeded in achieving separation of
+concern to a certain level this time, allowing contributors (if any) to easily add support for
+other manga reader sites. But then again, Swing&amp;#8217;s quirks put me off, so my bad habit of losing
+interest quickly kicked in and the project stopped&amp;nbsp;there.&lt;/p&gt;
+&lt;p&gt;Then came &lt;a href="https://pytaku-legacy.appspot.com"&gt;Pytaku&lt;/a&gt;, ajmg&amp;#8217;s spiritual successor. At this point I
+knew enough of python and wanted to try out Google App Engine, so I decided to make a web version
+of &lt;span class="caps"&gt;AJMG&lt;/span&gt;, with the difference that instead of downloading directly, it forwards everything to the
+user&amp;#8217;s Dropbox folder. Why not Google Drive you ask? Because they haven&amp;#8217;t even bothered to release
+an official Linux client for it. Shame on you,&amp;nbsp;Google!&lt;/p&gt;
+&lt;p&gt;Loads of exciting things were learned along the way: how &lt;span class="caps"&gt;URL&lt;/span&gt; handling works in webapp2 and in other
+web frameworks in general, proper templating (can&amp;#8217;t believe I ever wrote &lt;code&gt;&amp;lt;title&amp;gt;&amp;lt;?php echo $title;
+?&amp;gt;&amp;lt;/title&amp;gt;&lt;/code&gt;&amp;#8230; not cool!), OAuth2 (more than a few &amp;#8220;Aha!&amp;#8221; moments working with this little guy&amp;#8230;),
+Google&amp;#8217;s Datastore and NoSQL in general, and of course, Twitter Bootstrap&amp;#8212;saving clueless
+non-designer developers since its&amp;nbsp;inception.&lt;/p&gt;
+&lt;p&gt;And now, I&amp;#8217;m rewriting it from scratch, this time trying out &lt;span class="caps"&gt;TDD&lt;/span&gt;, making use of
+&lt;a href="https://travis-ci.org/nhanb/pytaku"&gt;travis-ci&lt;/a&gt;, which will be especially helpful to periodically
+test if a manga site has changed its page layout and screwed up Pytaku&amp;#8217;s scraping code. I have
+encountered a number of quirks when trying to set up the correct testing boilerplate for a Google
+App Engine project, but it seems everything will be smooth from now on. This holiday season I plan
+to at least roll out an alpha version to show off. Stay tuned if you&amp;#8217;re&amp;nbsp;interested!&lt;/p&gt;
+&lt;h2&gt;To sum it&amp;nbsp;up&amp;#8230;&lt;/h2&gt;
+&lt;p&gt;I don&amp;#8217;t believe in developing products I myself don&amp;#8217;t want to use. I want to make things that make
+my life easier, and if that helps others too then it&amp;#8217;s a huge bonus. This is why Github is my
+favorite company right now, and
+&lt;a href="https://www.youtube.com/watch?v=qyz3jkOBbQY"&gt;How GitHub uses GitHub to build GitHub&lt;/a&gt; remains the
+best developer speech I have ever&amp;nbsp;seen.&lt;/p&gt;
+&lt;p&gt;Right now I haven&amp;#8217;t made a full-blown program that I can confidently distribute to end users, but I
+certainly have made quite a few nifty tools to improve my day-to-day computing tasks and learned a
+lot along the way. Right now I cannot confidently answer this big question by pointing them to a
+polished website detailing every nook and cranny of my shiny widely-used, battle-tested program,
+but I&amp;#8217;m confident I have the right knowledge to get there. If there is such a thing as &amp;#8220;Lunar New
+Year Resolution&amp;#8221;, I guess mine is that one year from now, I will have a satisfying answer to this
+question. Watch out world, I&amp;#8217;m&amp;nbsp;coming!&lt;/p&gt;
+&lt;p&gt;If you managed to get here, you are probably a tech geek like me. So, have &lt;em&gt;you&lt;/em&gt; built anything
+cool&amp;nbsp;recently?&lt;/p&gt;</content></entry><entry><title>Installing programs in Ubuntu</title><link href="https://hi.imnhan.com/posts/installing-programs-in-ubuntu/" rel="alternate"></link><published>2013-09-06T21:03:00+07:00</published><updated>2013-09-06T21:03:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2013-09-06:/posts/installing-programs-in-ubuntu/</id><summary type="html">&lt;p&gt;Or the story of runtime paths, executables, packages and package&amp;nbsp;managers&lt;/p&gt;</summary><content type="html">&lt;p&gt;This article will not only explain how to install stuff, but it will (hopefully) also give readers
+a better understanding about Linux&amp;#8217;s structure for storing and executing programs, ultimately
+appreciate the usefulness of package managers in&amp;nbsp;general.&lt;/p&gt;
+&lt;h2&gt;Executables&lt;/h2&gt;
+&lt;p&gt;Let&amp;#8217;s start with something simple. Fire up your favorite text editor and create a file called
+&lt;code&gt;itc.sh&lt;/code&gt; with the following&amp;nbsp;content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/bin/bash&lt;/span&gt;
+
+notify-send &lt;span class="s2"&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Let&amp;#8217;s say I put it at the desktop. Now open up a terminal, go to the Desktop directory and make
+our itc file executable. In case you&amp;#8217;re new, here are the&amp;nbsp;commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /home/your_username/Desktop
+chmod +x itc.sh
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Protip&lt;/strong&gt;: for the first command you can also type &lt;code&gt;cd ~/Desktop&lt;/code&gt;, because &lt;code&gt;~&lt;/code&gt; is the shorthand for
+your home directory (&lt;code&gt;/home/username&lt;/code&gt;)&lt;/p&gt;
+&lt;p&gt;With the &lt;code&gt;chmod&lt;/code&gt; command, we made it possible to run our little script by typing its full&amp;nbsp;path:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/Desktop/itc.sh
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Another shorthand to make your life easier: &lt;code&gt;.&lt;/code&gt; stands for &amp;#8220;current directory&amp;#8221;, meaning if you are
+currently in the &lt;code&gt;~/Desktop&lt;/code&gt; directory, you can run the script by simply&amp;nbsp;typing:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;./itc.sh
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Either way, a notification saying &amp;#8220;Hello world!&amp;#8221; should pop up. This is a program in its
+simplest form: an executable file. In this particular example it is a Bash script, but it&amp;#8217;s not
+limited to that. It can be a Python or Ruby script, or a compiled binary file. The file extension
+isn&amp;#8217;t even needed. You can rename it to simply &lt;code&gt;itc&lt;/code&gt; and it should run just&amp;nbsp;fine.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In order to run a file, you need to make it executable. This can be done with the &lt;code&gt;chmod&lt;/code&gt; command
+or via the &lt;span class="caps"&gt;GUI&lt;/span&gt; &lt;a href="http://askubuntu.com/questions/35478/how-do-i-mark-a-file-as-executable-via-a-gui"&gt;using Nautilus&amp;#8217;s &lt;strong&gt;Properties&lt;/strong&gt; dialog&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Path&lt;/h2&gt;
+&lt;p&gt;So we&amp;#8217;ve created a program that shows a useless message, good job! However, every time we call
+it, we need to specify the whole address to the file: &lt;code&gt;~/Desktop/itc&lt;/code&gt; is probably not a very cool
+looking command. In order to make it possible to simply run &lt;code&gt;itc&lt;/code&gt;, you need to move it to the
+&lt;code&gt;/usr/bin/&lt;/code&gt; directory. This requires root permission so we&amp;#8217;ll need &lt;code&gt;sudo&lt;/code&gt; too:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo mv ~/Desktop/itc /usr/bin/itc
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;We can now run our program by simply typing &lt;code&gt;itc&lt;/code&gt;. You guessed it: every executable file put in
+this directory will be available as a command. There are other directories like this too. You can
+see a whole list of such directories by typing &lt;code&gt;echo $PATH&lt;/code&gt; to your&amp;nbsp;terminal.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To make an executable file available as a command, shove it into a directory that&amp;#8217;s included in
+&lt;strong&gt;$&lt;span class="caps"&gt;PATH&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;Packages&lt;/h2&gt;
+&lt;p&gt;Unfortunately, most programs have a lot of files instead of one, and they are scattered to many
+different folders. Let&amp;#8217;s have a look at the files of &lt;code&gt;wget&lt;/code&gt; - the downloader that&amp;#8217;s included in
+every major Linux&amp;nbsp;distribution:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Wget files" src="/images/wget-installed-files.png"&gt;&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s not that the developers chose to annoy us by scattering them all over the place. It&amp;#8217;s simply
+complying to Linux structure: executable files go to &lt;strong&gt;/usr/bin&lt;/strong&gt;, man pages (user manuals that
+show up when you type &lt;code&gt;man wget&lt;/code&gt;) go to &lt;strong&gt;/usr/share/man&lt;/strong&gt;, and so on. For more complex programs,
+the number of files alone is terrifying, which makes installing and remove the program a&amp;nbsp;nightmare.&lt;/p&gt;
+&lt;p&gt;On another note, almost every Linux program depends on one or many other programs. This is
+because of the &lt;span class="caps"&gt;UNIX&lt;/span&gt; philosophy that encourages writing each program to do one thing, and do it
+well. The goal is to make each program easier to implement and maintain as well as to avoid
+duplicate work. For example, program A may provide a functionality that both programs B and C
+need. Otherwise, B and C developers both have to write code for one same functionality. In this
+case, A is called a &lt;strong&gt;dependency&lt;/strong&gt; of B and C. However, this introduces a bunch of&amp;nbsp;problems:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We need to install A before installing&amp;nbsp;B&lt;/li&gt;
+&lt;li&gt;We should know not to install A again when we install&amp;nbsp;C&lt;/li&gt;
+&lt;li&gt;We must be careful not to remove A if we are still using B or&amp;nbsp;C&lt;/li&gt;
+&lt;li&gt;What if B and C require different versions of&amp;nbsp;A?&lt;/li&gt;
+&lt;li&gt;I can go&amp;nbsp;on&amp;#8230;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is where packages jump in. A package is basically the whole set of files of a program (or a
+part of a program). It also stores necessary information such as which file goes to which
+directory, what are the dependencies of this package, etc. A special program reads the
+package, installs dependencies and puts files into their appropriate locations. This is called
+a &lt;strong&gt;package manager&lt;/strong&gt;. Of course besides installing, a package manager also manages updates
+and removals of programs. Ubuntu is based on Debian, so it inherits Debian&amp;#8217;s great package manager
+called &lt;strong&gt;aptitude&lt;/strong&gt; (or simply &lt;code&gt;apt&lt;/code&gt;). Let&amp;#8217;s take a look at wget&amp;#8217;s&amp;nbsp;dependencies:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Wget files" src="/images/wget-dependencies.png"&gt;&lt;/p&gt;
+&lt;p&gt;The package manager maintains a list of available packages and their dependency/dependant
+relationships. For Ubuntu, the list is updated regularly on Canonical&amp;#8217;s official servers. Everytime
+Ubuntu does the &amp;#8220;Check for updates&amp;#8221; thing, it is downloading the latest list of packages. And when
+Ubuntu updates, it is simply pulling newer versions of the installed packages from Canonical&amp;#8217;s
+servers too. These servers are called &lt;strong&gt;repositories&lt;/strong&gt;. All other major Linux distributions do the
+same thing: letting the package manager and the repositories work on their thing, saving users
+time to do more interesting&amp;nbsp;stuff.&lt;/p&gt;
+&lt;p&gt;Here are some basic commands to get you&amp;nbsp;started:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;sudo apt-get install package-name&lt;/code&gt; to install&amp;nbsp;package&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo apt-get remove package-name&lt;/code&gt; - it&amp;#8217;s obvious isn&amp;#8217;t&amp;nbsp;it?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo apt-get update&lt;/code&gt; - update package list. Note that it only updates the list, not the&amp;nbsp;packages&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo apt-get upgrade&lt;/code&gt; - upgrade packages to their latest&amp;nbsp;versions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There will be programs that are not available on the official repositories, but are provided as
+package files (Dropbox for example). Remember that the right package format for Ubuntu is &lt;code&gt;.deb&lt;/code&gt;
+files. Do not open &lt;code&gt;.rpm&lt;/code&gt; files since they are for Fedora&amp;#8217;s package manager called &lt;code&gt;yum&lt;/code&gt;. When
+you&amp;#8217;ve obtained the file, simply open it with Ubuntu Software Center to start&amp;nbsp;installing.&lt;/p&gt;
+&lt;h2&gt;Synaptic, Ubuntu Software&amp;nbsp;Center&lt;/h2&gt;
+&lt;p&gt;Aptitude is only a command-line program, which is not very user-friendly. Synaptic is a &lt;span class="caps"&gt;GUI&lt;/span&gt; program
+that provides a nice user interface that&amp;#8217;s easy to use, while internally it uses &lt;code&gt;apt&lt;/code&gt; to do all
+the actual&amp;nbsp;work.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Wget files" src="/images/wget-dependencies.png"&gt;&lt;/p&gt;
+&lt;p&gt;Ubuntu Software Center is more than a &lt;span class="caps"&gt;GUI&lt;/span&gt; wrapper for &lt;code&gt;apt&lt;/code&gt;. It is something similar to Apple&amp;#8217;s
+appstore with all those program ratings and promotions. It&amp;#8217;s nice for beginners but the fact that
+it hides the details like dependency list makes it undesirable for intermediate users. If you are
+comfortable with Synaptic, I strongly recommend using it as your main way to install/uninstall
+stuff. But ultimately, using the command-line &lt;code&gt;apt&lt;/code&gt; always is the fastest&amp;nbsp;way.&lt;/p&gt;</content><category term="ubuntu"></category><category term="linux"></category></entry><entry><title>Fix RMIT wi-fi issue in Ubuntu 13.04 and variants</title><link href="https://hi.imnhan.com/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/" rel="alternate"></link><published>2013-06-17T08:12:00+07:00</published><updated>2013-06-17T08:12:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2013-06-17:/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/</id><summary type="html">&lt;p&gt;The problem is NetworkManager - there&amp;#8217;s a workaround but nobody has been formally assigned to fix&amp;nbsp;it.&lt;/p&gt;</summary><content type="html">&lt;h2&gt;The&amp;nbsp;issue&lt;/h2&gt;
+&lt;p&gt;When I upgraded to Xubuntu 13.04, although I could connect to any other wi-fi network painlessly,
+the &lt;span class="caps"&gt;RMIT&lt;/span&gt;-&lt;span class="caps"&gt;WPA&lt;/span&gt; network just never allowed me to establish a connection. The most annoying part was
+that it had been working fine in previous versions (12.04,&amp;nbsp;12.10).&lt;/p&gt;
+&lt;p&gt;After days of googling, I finally pinpointed the issue: a certain version of NetworkManager
+bundled in Ubuntu 13.04 has a bug that automatically turns &lt;span class="caps"&gt;CA&lt;/span&gt; certificate usage to &lt;em&gt;true&lt;/em&gt; for any
+&lt;span class="caps"&gt;WPA2&lt;/span&gt; wifi network, even if we choose to use none in the &lt;span class="caps"&gt;GUI&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="RMIT wi-fi settings" src="/images/rmit_wifi.png"&gt;&lt;/p&gt;
+&lt;h2&gt;The&amp;nbsp;solution&lt;/h2&gt;
+&lt;p&gt;Just manually edit &lt;code&gt;/etc/NetworkManager/system-connections/RMIT-WPA&lt;/code&gt;, make sure that you have
+&lt;code&gt;system-ca-certs=false&lt;/code&gt;, then restart the wifi connection. To edit this file you will need root
+permission. If you&amp;#8217;re not sure how to do this, open a terminal and enter this command to open
+&lt;code&gt;gedit&lt;/code&gt; with sudo permission (&lt;code&gt;mousepad&lt;/code&gt; if you&amp;#8217;re using&amp;nbsp;xubuntu):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Protip: DON&amp;#39;T use sudo for GUI programs! Use gksudo instead.&lt;/span&gt;
+gksudo gedit /etc/NetworkManager/system-connections/RMIT-WPA
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This is a &lt;a href="https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/1104476"&gt;known bug&lt;/a&gt; and
+many have complained about it. There seems to be no developer assigned to fix it though. I&amp;#8217;ll keep
+you updated on the&amp;nbsp;issue.&lt;/p&gt;
+&lt;h3&gt;Update (Dec 16,&amp;nbsp;2013)&lt;/h3&gt;
+&lt;p&gt;A fix has been released in &lt;span class="caps"&gt;GNOME&lt;/span&gt; upstream but not incorporated into official Ubuntu repositories
+yet. An impatient contributor has created his own &lt;span class="caps"&gt;PPA&lt;/span&gt; to provide the fixed package. To install it,
+enter the following&amp;nbsp;commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo sudo add-apt-repository ppa:pritambaral/nms
+sudo apt-get update
+sudo apt-get install network-manager-gnome
+&lt;/pre&gt;&lt;/div&gt;</content><category term="ubuntu"></category><category term="linux"></category></entry><entry><title>Why I use Linux - Automation</title><link href="https://hi.imnhan.com/posts/why-i-use-linux-automation/" rel="alternate"></link><published>2013-06-07T08:02:00+07:00</published><updated>2013-06-07T08:02:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2013-06-07:/posts/why-i-use-linux-automation/</id><summary type="html">&lt;p&gt;Repeating is for&amp;nbsp;losers.&lt;/p&gt;</summary><content type="html">&lt;p&gt;(In this post, when I say Linux, I mean any popular &lt;span class="caps"&gt;GNU&lt;/span&gt;/Linux distribution. Hope this clarification
+will keep the nitpickers&amp;nbsp;away.)&lt;/p&gt;
+&lt;p&gt;First let&amp;#8217;s discuss &lt;em&gt;why&lt;/em&gt; automation&amp;nbsp;rocks.&lt;/p&gt;
+&lt;h2&gt;Repetition is evil (and&amp;nbsp;boring)&lt;/h2&gt;
+&lt;p&gt;As a (would-be) software engineer, the &lt;em&gt;repetition is evil&lt;/em&gt; notion has been planted in my head for
+far more times than anything else, and for good&amp;nbsp;reasons.&lt;/p&gt;
+&lt;p&gt;People are far more prone to error than computers, and doing repetitive tasks creates just too
+much room for that. Computers, on the other hand, do everything exactly how you tell them to do,
+with extreme speed and&amp;nbsp;accuracy.&lt;/p&gt;
+&lt;p&gt;Moreover, let&amp;#8217;s face it: We developers are all (or at least mostly) lazy. Not the &amp;#8220;I&amp;#8217;m don&amp;#8217;t
+wanna do anything&amp;#8221; kind of lazy, but more of the &amp;#8220;This crap is boring and not challenging at all,
+why the hell am I wasting time for it?&amp;#8221; type. We&amp;#8217;ve all got better things to do with our lives,
+like re-watching the last episode of &lt;span class="caps"&gt;BBC&lt;/span&gt;&amp;#8217;s &lt;em&gt;Sherlock&lt;/em&gt; to look for clues to how he faked his death,
+or trying to figure out what that &amp;#8220;Han shot first&amp;#8221; meme means (sorry, I&amp;#8217;m from the later&amp;nbsp;generation).&lt;/p&gt;
+&lt;h2&gt;Automation needs command line&amp;nbsp;tools&lt;/h2&gt;
+&lt;p&gt;Because, of course, &lt;span class="caps"&gt;GUI&lt;/span&gt; programs are (nearly) impossible to interact with in our scripts. Sure
+you can try mouse click emulation tools and stuff like that, but is it really worth the effort?
+And I&amp;#8217;d bet anything that those tools are far from reliable (&lt;span class="caps"&gt;GUI&lt;/span&gt; latency,&amp;nbsp;anyone?).&lt;/p&gt;
+&lt;p&gt;And this is where Windows falls short. Most (if not all) Windows tools are designed for &lt;span class="caps"&gt;GUI&lt;/span&gt;, and
+the whole Windows ecosystem is built around &lt;span class="caps"&gt;GUI&lt;/span&gt;&amp;nbsp;use.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s a whole different matter in Linux: from the good old awk, sed, grep, wget to the new shiny
+aria2&amp;#8230; Almost anything you can think of is available as a command line&amp;nbsp;tool.&lt;/p&gt;
+&lt;h2&gt;Putting them all&amp;nbsp;together&lt;/h2&gt;
+&lt;p&gt;Just like any &lt;span class="caps"&gt;UNIX&lt;/span&gt;-like system, Linux tools utilize the One True Phylosophy: Do only 1 thing, and
+do it well. (okay, I&amp;#8217;m paraphrasing a bit, but you get the&amp;nbsp;idea)&lt;/p&gt;
+&lt;p&gt;The true power of command line tools is when they are used together. Let&amp;#8217;s take a look at a
+&lt;a href="https://gist.github.com/nhanb/5726342"&gt;python script&lt;/a&gt; I wrote last night to download the whole
+beginner course from &lt;a href="http://www.justinguitar.com"&gt;justinguitar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The real flow starts from line&amp;nbsp;48:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Fetch index pages which has links to all beginner lessons&lt;/span&gt;
+&lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://www.justinguitar.com/en/BC-000-BeginnersCourse.php&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;start_page&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Search for all links to lessons&lt;/span&gt;
+&lt;span class="n"&gt;pat&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;re&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;compile&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;&amp;lt;a href=&amp;quot;(BC-[0-9]{3}-.+?)&amp;quot;&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;pages&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pat&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;findall&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;start_page&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Fetch html for each lesson&lt;/span&gt;
+&lt;span class="n"&gt;pages_html&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fetch_html&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pages&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+&lt;span class="c1"&gt;# Crawl each lesson page, pull out lesson names and youtube link code&lt;/span&gt;
+&lt;span class="n"&gt;youtube_codes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;html&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;pages_html&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;code&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;parse_info&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;html&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;code&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;code&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;youtube_codes&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;youtube_codes&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;code&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;To summarize, this snippet goes to justinguitar&amp;#8217;s beginner course index page, grab all links to
+each lesson, then grab the lesson title as well as the youtube video code to its video. The
+result is the list name &lt;code&gt;youtube_codes&lt;/code&gt;; each element is a tuple with the format
+&lt;code&gt;(title, youtube_code)&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Then I use a command line tool called &lt;code&gt;youtube-dl&lt;/code&gt; to fetch the direct link to each video. The
+tool itself can download the video too, but it doesn&amp;#8217;t support multiple connections to
+accelerate the download. This is where &lt;code&gt;aria2c&lt;/code&gt; jumps in: it takes the direct link from
+&lt;code&gt;youtube-dl&lt;/code&gt; then download the whole&amp;nbsp;thing:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Leech the hell out of them&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;lesson&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;youtube_codes&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Ignore if lesson has no video&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;lesson&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="n"&gt;call&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;touch&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;lesson&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]])&lt;/span&gt;
+        &lt;span class="k"&gt;continue&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Use youtube-dl to get fresh download link and file extension&lt;/span&gt;
+    &lt;span class="n"&gt;command&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;youtube-dl &amp;#39;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;lesson&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt;\
+            &lt;span class="s1"&gt;&amp;#39; --skip-download --get-url --get-filename -f 35/34/82/44/43/100&amp;#39;&lt;/span&gt;
+
+    &lt;span class="n"&gt;shell_output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;check_output&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;command&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;split&lt;/span&gt;&lt;span class="p"&gt;()))&lt;/span&gt;
+    &lt;span class="n"&gt;direct_link&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fname&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;shell_output&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;splitlines&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+    &lt;span class="n"&gt;file_ext&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fname&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;fname&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;rfind&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;.&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;):]&lt;/span&gt;
+    &lt;span class="n"&gt;file_name&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;lesson&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;file_ext&lt;/span&gt;
+
+    &lt;span class="c1"&gt;# Then aria2 for serious multi-part download acceleration&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;Downloading &amp;#39;&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;...&amp;#39;&lt;/span&gt;
+    &lt;span class="n"&gt;command&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;aria2c&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;-o&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;file_name&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;-x2&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;direct_link&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;shell_output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;check_output&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;command&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="n"&gt;shell_output&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;That&amp;#8217;s it! I just needed to launch this script, turn off the laptop screen and go to bed. This
+morning I woke up seeing the whole course with almost 100 lessons downloaded. Imagine having to
+manually download all that by clicking each link&amp;#8230; You don&amp;#8217;t wanna go there, do&amp;nbsp;you?&lt;/p&gt;
+&lt;p&gt;So that&amp;#8217;s just a very simple example of what automation helps your every day life. Of course its
+true power is unleashed when used in development; this is how one-click test and deployment
+works. Windows can do this too, but your choice of tool will be limited. And don&amp;#8217;t get me started
+on its lack of a decent package&amp;nbsp;manager!&lt;/p&gt;
+&lt;p&gt;To make a long story short, do yourself a favor and install a Linux&amp;nbsp;distro.&lt;/p&gt;
+&lt;p&gt;&amp;#8230; or buy a&amp;nbsp;Mac.&lt;/p&gt;</content><category term="python"></category><category term="linux"></category></entry><entry><title>Modern vim plugin management - Pathogen vs Vundle</title><link href="https://hi.imnhan.com/posts/modern-vim-plugin-management-pathogen-vs-vundle/" rel="alternate"></link><published>2013-05-13T12:00:00+07:00</published><updated>2013-05-13T12:00:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2013-05-13:/posts/modern-vim-plugin-management-pathogen-vs-vundle/</id><summary type="html">&lt;p&gt;Pimp your vim with little&amp;nbsp;effort.&lt;/p&gt;</summary><content type="html">&lt;p&gt;For the impatient ones: Vundle is better than pathogen, use&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;This post will explain how vim plugins work and how to easily manage your plugins with
+third-party tools: Pathogen or Vundle. I assume you are using a Linux distro and have git
+already installed. If not, consult Dr. Google for more&amp;nbsp;details.&lt;/p&gt;
+&lt;h2&gt;Vim plugins&amp;nbsp;anatomy&lt;/h2&gt;
+&lt;p&gt;A vim plugin is simply a set of files that alter vim&amp;#8217;s behavior or add new functionalities to it.
+To make this possible, by default vim looks for files in your home folder (which is 
+&lt;code&gt;/home/username&lt;/code&gt; or &lt;code&gt;~&lt;/code&gt;):&lt;/p&gt;
+&lt;h2&gt;~/.vimrc&amp;nbsp;(file)&lt;/h2&gt;
+&lt;p&gt;This is where you put your personalizations to vim: indentations, keybindings, etc. This post
+will not discuss in detail how you do your customizations. For now just know that it&amp;#8217;s&amp;nbsp;there.&lt;/p&gt;
+&lt;p&gt;You will probably want to move this file into your ~/.vim folder to be able to manage everything
+inside 1 folder. I will create &lt;code&gt;~/.vim/vimrc&lt;/code&gt; then create a symlink pointing to it. Open a
+terminal and&amp;nbsp;type:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ln -s ~/.vim/vimrc ~/.vimrc
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;~/.vim&amp;nbsp;(directory)&lt;/h2&gt;
+&lt;p&gt;This should contain a bunch of subdirectories. Some&amp;nbsp;examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;autoload&lt;/li&gt;
+&lt;li&gt;ftplugin&lt;/li&gt;
+&lt;li&gt;colors&lt;/li&gt;
+&lt;li&gt;syntax&lt;/li&gt;
+&lt;li&gt;doc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Each of these directories serves a particular purpose: &lt;code&gt;colors&lt;/code&gt; contains colorschemes, &lt;code&gt;syntax&lt;/code&gt;
+lets you add new rules for syntax highlighting, &lt;code&gt;doc&lt;/code&gt; contains documentation&amp;#8230;&lt;br&gt;
+A plugin will typically put its files into more than one directory here. For example, here is
+a plugin called &lt;a href="https://github.com/majutsushi/tagbar"&gt;tagbar&lt;/a&gt;, and I&amp;#8217;ve installed it by
+copying its content into my &lt;code&gt;~/.vim&lt;/code&gt; folder:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
+├── autoload
+│   └── tagbar.vim
+├── doc
+│   ├── tagbar.txt
+│   └── tags
+├── plugin
+│   └── tagbar.vim
+├── README
+└── syntax
+    └── tagbar.vim
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Everything looks good. Just copy and paste the whole thing, nice and simple. How about adding a
+decent colorscheme? Let&amp;#8217;s install &lt;a href="https://github.com/altercation/vim-colors-solarized"&gt;solarized&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;├── autoload
+│   └── togglebg.vim
+├── bitmaps
+│   └── togglebg.png
+├── colors
+│   └── solarized.vim
+├── doc
+│   ├── solarized.txt
+│   └── tags
+└── README.mkd
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Wait, &lt;code&gt;doc/tags&lt;/code&gt; is already there. Ok, no problem! Let&amp;#8217;s just copy the content of solarized&amp;#8217;s
+tags file and paste it into the existing one. Now we&amp;nbsp;have:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
+├── autoload
+│   ├── tagbar.vim
+│   └── togglebg.vim
+├── bitmaps
+│   └── togglebg.png
+├── colors
+│   └── solarized.vim
+├── doc
+│   ├── solarized.txt
+│   ├── tagbar.txt
+│   └── tags
+├── plugin
+│   └── tagbar.vim
+├── README
+├── README.mkd
+└── syntax
+    └── tagbar.vim
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now what if you you decide that solarized sucks and want to get rid of it? Good luck finding
+which file belongs to which plugin. Oh, don&amp;#8217;t forget the merged &lt;code&gt;doc/tags&lt;/code&gt; file!
+Now imagine you have 20-30 plugins installed (which is normal, by the way). It&amp;#8217;s not a
+pretty sight now, is&amp;nbsp;it?&lt;/p&gt;
+&lt;h2&gt;Pathogen to the&amp;nbsp;rescue!&lt;/h2&gt;
+&lt;p&gt;The legendary Tim Pope came up with a genius solution:
+&lt;a href="https://github.com/tpope/vim-pathogen"&gt;pathogen&lt;/a&gt;.
+Now let&amp;#8217;s install it like any regular plugin (I&amp;#8217;ve omitted the &lt;span class="caps"&gt;README&lt;/span&gt;):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
+└── autoload
+    └── pathogen.vim
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Put this at the beginning of your &lt;code&gt;~/.vimrc&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;execute pathogen#infect&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Create this directory: &lt;code&gt;~/.vim/bundle&lt;/code&gt;. To install tagbar and solarized, just create their own
+directories&amp;nbsp;here:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;path
+├── autoload
+│   └── pathogen.vim
+└── bundle
+    ├── tagbar
+    │   ├── autoload
+    │   │   └── tagbar.vim
+    │   ├── doc
+    │   │   ├── tagbar.txt
+    │   │   └── tags
+    │   ├── plugin
+    │   │   └── tagbar.vim
+    │   ├── README
+    │   └── syntax
+    │       └── tagbar.vim
+    └── vim-colors-solarized
+        ├── autoload
+        │   └── togglebg.vim
+        ├── bitmaps
+        │   └── togglebg.png
+        ├── colors
+        │   └── solarized.vim
+        ├── doc
+        │   ├── solarized.txt
+        │   └── tags
+        └── README.mkd
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;What Pathogen does is that it adds every directory inside &lt;code&gt;bundle&lt;/code&gt; into vim&amp;#8217;s &amp;#8220;runtimepath&amp;#8221;.
+It means that each folder here can be considered a new &lt;code&gt;.vim&lt;/code&gt; folder where vim looks for
+appropriate configuration files. The plugins are now isolated so removing or updating them
+becomes trivial: just remove or update its own&amp;nbsp;directory.&lt;/p&gt;
+&lt;h2&gt;Pathogen +&amp;nbsp;Git&lt;/h2&gt;
+&lt;p&gt;Everything goes to the cloud these days, and certainly your vim setup should as well. If you
+haven&amp;#8217;t created a &lt;a href="https://github.com"&gt;Github&lt;/a&gt; account, do it now. Create an empty repository
+with any name you want (mine is &lt;code&gt;.vim&lt;/code&gt;). Don&amp;#8217;t commit yet. Create a file: &lt;code&gt;~/.vim/.gitignore&lt;/code&gt;,
+add these lines to its&amp;nbsp;content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;bundle/
+.netrwhist
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;.netrwhist is a local file generated by vim that is better off ignored. We also ignore bundle
+directory because the plugins will be included as git submodules (google &lt;em&gt;git submodule&lt;/em&gt;
+for details). Remember to delete everything inside &lt;code&gt;bundle/&lt;/code&gt;, because we will install the
+plugins again with&amp;nbsp;git.&lt;/p&gt;
+&lt;p&gt;Git init, commit and push to your github repo: (on the &lt;em&gt;git remote add&amp;#8230;&lt;/em&gt; line, replace &lt;code&gt;nhanb&lt;/code&gt;
+with your github username, &lt;code&gt;.vim&lt;/code&gt; with your repo&amp;nbsp;name)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/.vim
+git init
+git add .
+git commit -m &lt;span class="s1"&gt;&amp;#39;init&amp;#39;&lt;/span&gt;
+
+git remote add origin https://github.com/nhanb/.vim.git
+git push -u origin master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Everytime you edit anything in your .vim directory, remember to commit the changes and push to&amp;nbsp;github:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git add . 
+git commit -m &lt;span class="s1"&gt;&amp;#39;some message here&amp;#39;&lt;/span&gt;
+git push
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If you want to install a plugin, see if it has a git repo (9 out of 10 times it has a
+github repo). Find its git url and add to your .vim as a&amp;nbsp;submodule:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/.vim
+git add submodule https://github.com/majutsushi/tagbar.git bundle/tagbar
+git add submodule https://github.com/altercation/vim-colors-solarized.git bundle/solarized
+git submodule update --init
+git submodule foreach git pull origin master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When you need to update your plugins, just run the last line to make git pull updates for all&amp;nbsp;plugins. &lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s the awesome part: when you&amp;#8217;re using a whole new computer and want to get all your vim settings
+from the cloud, simply clone your github repo, make a symlink for .vimrc and pull all&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~
+git clone https://github.com/nhanb/.vim.git .vim
+ln -s ~/.vim/vimrc ~/.vimrc
+&lt;span class="nb"&gt;cd&lt;/span&gt; .vim
+git submodule update --init &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; git submodule foreach git pull origin master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now you must be really excited, no? Git does everything for you: upload/download, add plugins,
+update plugins &lt;em&gt;and&lt;/em&gt; remove plugins&amp;#8230; There must be some simple git command to remove a
+submodule,&amp;nbsp;right?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;NO&lt;/span&gt;&lt;/strong&gt;. Sadly, no. To remove a git submodule, you&amp;#8217;ll need to manually edit 2 git files and
+remove the folder by hand. See
+&lt;a href="http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule"&gt;this Stackoverflow question&lt;/a&gt;
+for detailed&amp;nbsp;instructions.&lt;/p&gt;
+&lt;h2&gt;Vundle, the new cool&amp;nbsp;kid&lt;/h2&gt;
+&lt;p&gt;This time let&amp;#8217;s start fresh: remove all submodules and pathogen. Your bundle folder should be
+now empty. Clone &lt;a href="https://github.com/gmarik/vundle"&gt;Vundle&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Put this in your .vimrc (preferably at the&amp;nbsp;beginning):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nb"&gt;nocompatible&lt;/span&gt;               &lt;span class="c"&gt;&amp;quot; be iMproved&lt;/span&gt;
+&lt;span class="k"&gt;filetype&lt;/span&gt; off                   &lt;span class="c"&gt;&amp;quot; required!&lt;/span&gt;
+
+&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nb"&gt;rtp&lt;/span&gt;&lt;span class="p"&gt;+=~&lt;/span&gt;&lt;span class="sr"&gt;/.vim/&lt;/span&gt;bundle&lt;span class="sr"&gt;/vundle/&lt;/span&gt;
+&lt;span class="k"&gt;call&lt;/span&gt; vundle#rc&lt;span class="p"&gt;()&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;quot; let Vundle manage Vundle&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot; required! &lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;gmarik/vundle&amp;#39;&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;quot; My Bundles here:&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot;&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot; original repos on github&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;majutsushi/tagbar&amp;#39;&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;altercation/vim-colors-solarized&amp;#39;&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;quot; Github repos of the user &amp;#39;vim-scripts&amp;#39;&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot; =&amp;gt; can omit the username part&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;L9&amp;#39;&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;FuzzyFinder&amp;#39;&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;quot; non github repos&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;git://git.wincent.com/command-t.git&amp;#39;&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot; ...&lt;/span&gt;
+
+&lt;span class="k"&gt;filetype&lt;/span&gt; plugin indent &lt;span class="k"&gt;on&lt;/span&gt;     &lt;span class="c"&gt;&amp;quot; required!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Relaunch vim, run &lt;code&gt;:BundleInstall&lt;/code&gt; to install the &amp;#8220;bundles&amp;#8221; you listed in .vimrc. When you want
+to update them, &lt;code&gt;:BundleUpdate&lt;/code&gt;. To remove a plugin, just delete its line in your .vimrc file
+then relaunch vim and run &lt;code&gt;:BundleClean&lt;/code&gt; to remove its folder inside&amp;nbsp;~/.vim/bundle/&lt;/p&gt;
+&lt;p&gt;Vundle follows Pathogen&amp;#8217;s approach: putting plugins in their separate directories. However,
+it also takes care of the git stuff for us too! Note that by default it uses &lt;code&gt;git clone&lt;/code&gt;, not
+&lt;code&gt;git add submodule&lt;/code&gt; to add plugins. If you&amp;#8217;re using Windows, there&amp;#8217;s Vundle for Windows too,
+though I&amp;#8217;ve never tried&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;That&amp;#8217;s it, happy coding! Feel free to leave your comments if there&amp;#8217;s anything wrong/unclear&amp;nbsp;here.&lt;/p&gt;</content><category term="vim"></category></entry><entry><title>Quản lý plugin trong vim - Pathogen vs Vundle</title><link href="https://hi.imnhan.com/posts/modern-vim-plugin-management-pathogen-vs-vundle-vi/" rel="alternate"></link><published>2013-05-13T12:00:00+07:00</published><updated>2013-05-13T12:00:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2013-05-13:/posts/modern-vim-plugin-management-pathogen-vs-vundle-vi/</id><summary type="html">&lt;p&gt;Pimp your vim with little&amp;nbsp;effort.&lt;/p&gt;</summary><content type="html">&lt;p&gt;Dành cho những ai lười đọc: Vundle tốt hơn&amp;nbsp;Pathogen.&lt;/p&gt;
+&lt;p&gt;Bài viết này sẽ giải thich cách hoạt động của plugin trong vim và cách quản lý plugins bằng những
+công cụ được cộng đồng phát triển: Pathogen hoặc Vundle. Trong bài viết này tôi chỉ làm hướng dẫn
+cụ thể cho máy chạy Linux và đã cài sẵn git. Nếu không rõ cách cài git, bạn có thể hỏi&amp;nbsp;Google.&lt;/p&gt;
+&lt;h1&gt;Cấu trúc vim&amp;nbsp;plugins&lt;/h1&gt;
+&lt;p&gt;Một plugin trong vim đơn giản chỉ là 1 nhóm các files có nhiệm vụ thay đổi hoặc thêm tính
+năng cho vim. Theo mặc định thì vim sẽ tìm trong home folder của người dùng (chính là
+&lt;code&gt;/home/username&lt;/code&gt; hoặc có thể viết tắt là &lt;code&gt;~&lt;/code&gt;):&lt;/p&gt;
+&lt;h2&gt;~/.vimrc&amp;nbsp;(file)&lt;/h2&gt;
+&lt;p&gt;Đây là nơi bạn tùy biến mọi thứ trong vim: căn lề, gán phím, vân vân&amp;#8230; Bài viết này sẽ không đề
+cập chi tiết cách tùy biến như thế nào. Lúc này bạn chỉ cần biết là nó có 1 file&amp;nbsp;đó.&lt;/p&gt;
+&lt;p&gt;Để tiện quản lý, chúng ta hãy đem file này vào folder &lt;code&gt;~/.vim&lt;/code&gt;. Hãy tạo một file &lt;code&gt;~/.vim/vimrc&lt;/code&gt;
+rồi dẫn symlink trỏ vào&amp;nbsp;nó:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;touch ~/.vim/vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;~/.vim&amp;nbsp;(directory)&lt;/h2&gt;
+&lt;p&gt;Folder này sẽ chứa một vài folder con khác. Ví&amp;nbsp;dụ:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;autoload&lt;/li&gt;
+&lt;li&gt;ftplugin&lt;/li&gt;
+&lt;li&gt;colors&lt;/li&gt;
+&lt;li&gt;syntax&lt;/li&gt;
+&lt;li&gt;doc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Mỗi folder đều có một nhiệm vụ nhất định: &lt;code&gt;colors&lt;/code&gt; chứa colorschemes, &lt;code&gt;syntax&lt;/code&gt; cho phép
+bạn tùy chỉnh tô màu code, &lt;code&gt;doc&lt;/code&gt; chứa tài liệu hướng dẫn&amp;#8230; Một plugin thường sẽ chèn nhiều
+file vào nhiều folder ở đây. Hãy lấy plugin &lt;a href="https://github.com/majutsushi/tagbar"&gt;tagbar&lt;/a&gt;
+làm ví dụ: ta sẽ cài nó bằng cách copy hết nội dung của nó vào &lt;code&gt;~/.vim&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
+├── autoload
+│   └── tagbar.vim
+├── doc
+│   ├── tagbar.txt
+│   └── tags
+├── plugin
+│   └── tagbar.vim
+├── README
+└── syntax
+    └── tagbar.vim
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Everything looks good. Just copy and paste the whole thing, nice and simple. How about adding a
+decent colorscheme? Let&amp;#8217;s install &lt;a href="https://github.com/altercation/vim-colors-solarized"&gt;solarized&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;├── autoload
+│   └── togglebg.vim
+├── bitmaps
+│   └── togglebg.png
+├── colors
+│   └── solarized.vim
+├── doc
+│   ├── solarized.txt
+│   └── tags
+└── README.mkd
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Wait, &lt;code&gt;doc/tags&lt;/code&gt; is already there. Ok, no problem! Let&amp;#8217;s just copy the content of solarized&amp;#8217;s
+tags file and paste it into the existing one. Now we&amp;nbsp;have:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
+├── autoload
+│   ├── tagbar.vim
+│   └── togglebg.vim
+├── bitmaps
+│   └── togglebg.png
+├── colors
+│   └── solarized.vim
+├── doc
+│   ├── solarized.txt
+│   ├── tagbar.txt
+│   └── tags
+├── plugin
+│   └── tagbar.vim
+├── README
+├── README.mkd
+└── syntax
+    └── tagbar.vim
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now what if you you decide that solarized sucks and want to get rid of it? Good luck finding
+which file belongs to which plugin. Oh, don&amp;#8217;t forget the merged &lt;code&gt;doc/tags&lt;/code&gt; file!
+Now imagine you have 20-30 plugins installed (which is normal, by the way). It&amp;#8217;s not a
+pretty sight now, is&amp;nbsp;it?&lt;/p&gt;
+&lt;h1&gt;Pathogen to the&amp;nbsp;rescue!&lt;/h1&gt;
+&lt;p&gt;The legendary Tim Pope came up with a genius solution:
+&lt;a href="https://github.com/tpope/vim-pathogen"&gt;pathogen&lt;/a&gt;.
+Now let&amp;#8217;s install it like any regular plugin (I&amp;#8217;ve omitted the &lt;span class="caps"&gt;README&lt;/span&gt;):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
+└── autoload
+    └── pathogen.vim
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Put this at the beginning of your &lt;code&gt;~/.vimrc&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;execute pathogen#infect&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Create this directory: &lt;code&gt;~/.vim/bundle&lt;/code&gt;. To install tagbar and solarized, just create their own
+directories&amp;nbsp;here:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;path
+├── autoload
+│   └── pathogen.vim
+└── bundle
+    ├── tagbar
+    │   ├── autoload
+    │   │   └── tagbar.vim
+    │   ├── doc
+    │   │   ├── tagbar.txt
+    │   │   └── tags
+    │   ├── plugin
+    │   │   └── tagbar.vim
+    │   ├── README
+    │   └── syntax
+    │       └── tagbar.vim
+    └── vim-colors-solarized
+        ├── autoload
+        │   └── togglebg.vim
+        ├── bitmaps
+        │   └── togglebg.png
+        ├── colors
+        │   └── solarized.vim
+        ├── doc
+        │   ├── solarized.txt
+        │   └── tags
+        └── README.mkd
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;What Pathogen does is that it adds every directory inside &lt;code&gt;bundle&lt;/code&gt; into vim&amp;#8217;s &amp;#8220;runtimepath&amp;#8221;.
+It means that each folder here can be considered a new &lt;code&gt;.vim&lt;/code&gt; folder where vim looks for
+appropriate configuration files. The plugins are now isolated so removing or updating them
+becomes trivial: just remove or update its own&amp;nbsp;directory.&lt;/p&gt;
+&lt;h1&gt;Pathogen +&amp;nbsp;Git&lt;/h1&gt;
+&lt;p&gt;Everything goes to the cloud these days, and certainly your vim setup should as well. If you
+haven&amp;#8217;t created a &lt;a href="https://github.com"&gt;Github&lt;/a&gt; account, do it now. Create an empty repository
+with any name you want (mine is &lt;code&gt;.vim&lt;/code&gt;). Don&amp;#8217;t commit yet. Create a file: &lt;code&gt;~/.vim/.gitignore&lt;/code&gt;,
+add these lines to its&amp;nbsp;content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;bundle/
+.netrwhist
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;.netrwhist is a local file generated by vim that is better off ignored. We also ignore bundle
+directory because the plugins will be included as git submodules (google &lt;em&gt;git submodule&lt;/em&gt;
+for details). Remember to delete everything inside &lt;code&gt;bundle/&lt;/code&gt;, because we will install the
+plugins again with&amp;nbsp;git.&lt;/p&gt;
+&lt;p&gt;Git init, commit and push to your github repo: (on the &lt;em&gt;git remote add&amp;#8230;&lt;/em&gt; line, replace &lt;code&gt;nhanb&lt;/code&gt;
+with your github username, &lt;code&gt;.vim&lt;/code&gt; with your repo&amp;nbsp;name)&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/.vim
+git init
+git add .
+git commit -m &lt;span class="s1"&gt;&amp;#39;init&amp;#39;&lt;/span&gt;
+
+git remote add origin https://github.com/nhanb/.vim.git
+git push -u origin master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Everytime you edit anything in your .vim directory, remember to commit the changes and push to&amp;nbsp;github:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git add . 
+git commit -m &lt;span class="s1"&gt;&amp;#39;some message here&amp;#39;&lt;/span&gt;
+git push
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If you want to install a plugin, see if it has a git repo (9 out of 10 times it has a
+github repo). Find its git url and add to your .vim as a&amp;nbsp;submodule:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/.vim
+git add submodule https://github.com/majutsushi/tagbar.git bundle/tagbar
+git add submodule https://github.com/altercation/vim-colors-solarized.git bundle/solarized
+git submodule update --init
+git submodule foreach git pull origin master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When you need to update your plugins, just run the last line to make git pull updates for all&amp;nbsp;plugins. &lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s the awesome part: when you&amp;#8217;re using a whole new computer and want to get all your vim settings
+from the cloud, simply clone your github repo, make a symlink for .vimrc and pull all&amp;nbsp;plugins:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~
+git clone https://github.com/nhanb/.vim.git .vim
+ln -s ~/.vim/vimrc ~/.vimrc
+&lt;span class="nb"&gt;cd&lt;/span&gt; .vim
+git submodule update --init &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; git submodule foreach git pull origin master
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Now you must be really excited, no? Git does everything for you: upload/download, add plugins,
+update plugins &lt;em&gt;and&lt;/em&gt; remove plugins&amp;#8230; There must be some simple git command to remove a
+submodule,&amp;nbsp;right?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;NO&lt;/span&gt;&lt;/strong&gt;. Sadly, no. To remove a git submodule, you&amp;#8217;ll need to manually edit 2 git files and
+remove the folder by hand. See
+&lt;a href="http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule"&gt;this Stackoverflow question&lt;/a&gt;
+for detailed&amp;nbsp;instructions.&lt;/p&gt;
+&lt;h1&gt;Vundle, the new cool&amp;nbsp;kid&lt;/h1&gt;
+&lt;p&gt;This time let&amp;#8217;s start fresh: remove all submodules and pathogen. Your bundle folder should be
+now empty. Clone &lt;a href="https://github.com/gmarik/vundle"&gt;Vundle&lt;/a&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Put this in your .vimrc (preferably at the&amp;nbsp;beginning):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nb"&gt;nocompatible&lt;/span&gt;               &lt;span class="c"&gt;&amp;quot; be iMproved&lt;/span&gt;
+&lt;span class="k"&gt;filetype&lt;/span&gt; off                   &lt;span class="c"&gt;&amp;quot; required!&lt;/span&gt;
+
+&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nb"&gt;rtp&lt;/span&gt;&lt;span class="p"&gt;+=~&lt;/span&gt;&lt;span class="sr"&gt;/.vim/&lt;/span&gt;bundle&lt;span class="sr"&gt;/vundle/&lt;/span&gt;
+&lt;span class="k"&gt;call&lt;/span&gt; vundle#rc&lt;span class="p"&gt;()&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;quot; let Vundle manage Vundle&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot; required! &lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;gmarik/vundle&amp;#39;&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;quot; My Bundles here:&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot;&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot; original repos on github&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;majutsushi/tagbar&amp;#39;&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;altercation/vim-colors-solarized&amp;#39;&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;quot; Github repos of the user &amp;#39;vim-scripts&amp;#39;&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot; =&amp;gt; can omit the username part&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;L9&amp;#39;&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;FuzzyFinder&amp;#39;&lt;/span&gt;
+
+&lt;span class="c"&gt;&amp;quot; non github repos&lt;/span&gt;
+Bundle &lt;span class="s1"&gt;&amp;#39;git://git.wincent.com/command-t.git&amp;#39;&lt;/span&gt;
+&lt;span class="c"&gt;&amp;quot; ...&lt;/span&gt;
+
+&lt;span class="k"&gt;filetype&lt;/span&gt; plugin indent &lt;span class="k"&gt;on&lt;/span&gt;     &lt;span class="c"&gt;&amp;quot; required!&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Relaunch vim, run &lt;code&gt;:BundleInstall&lt;/code&gt; to install the &amp;#8220;bundles&amp;#8221; you listed in .vimrc. When you want
+to update them, &lt;code&gt;:BundleUpdate&lt;/code&gt;. To remove a plugin, just delete its line in your .vimrc file
+then relaunch vim and run &lt;code&gt;:BundleClean&lt;/code&gt; to remove its folder inside&amp;nbsp;~/.vim/bundle/&lt;/p&gt;
+&lt;p&gt;Vundle follows Pathogen&amp;#8217;s approach: putting plugins in their separate directories. However,
+it also takes care of the git stuff for us too! Note that by default it uses &lt;code&gt;git clone&lt;/code&gt;, not
+&lt;code&gt;git add submodule&lt;/code&gt; to add plugins. If you&amp;#8217;re using Windows, there&amp;#8217;s Vundle for Windows too,
+though I&amp;#8217;ve never tried&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;That&amp;#8217;s it, happy coding! Feel free to leave your comments if there&amp;#8217;s anything wrong/unclear&amp;nbsp;here.&lt;/p&gt;</content><category term="vim"></category></entry></feed>

@@ -37,12 +37,14 @@ $ sudo pip install virtualenvwrapper  <span class="c1"># yes, you can install vi
 $ mkvirtualenv -p <span class="sb">`</span>which python3<span class="sb">`</span> my-env-name
 </pre></div> <p>Neat,&nbsp;eh?</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> </div> <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
+    // These need to be defined in the outermost scope, apparently.
     var disqus_shortname = 'nerdyweekly';
     var disqus_identifier = '/posts/virtualenwrapper-python2-python3/';
     var disqus_url = 'https://hi.imnhan.com/posts/virtualenwrapper-python2-python3/';
     var disqus_title = 'Virtualenv(wrapper), python2 and python3';
 
     document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
+        // Immediate visual feedback is always good:
         event.target.disabled = true;
         event.target.innerHTML = 'Loading comments...';
 

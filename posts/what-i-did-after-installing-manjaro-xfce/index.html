@@ -36,12 +36,14 @@ bash arch-ms-fonts.sh
 </pre></div> <h2>Proper font&nbsp;smoothing</h2> <p>I won&#8217;t try to reinvent the wheels here. Head to Manjaro&#8217;s <a href="http://wiki.manjaro.org/index.php?title=Improve_Font_Rendering">wiki page on font smoothing</a>. They&#8217;ve got everything you&nbsp;need.</p> <h2>Install international&nbsp;fonts</h2> <p>Even if you&#8217;re not Japanese or Korean, you&#8217;ll occasionally come across content that contains characters from these languages. With the default installation, all those characters will be shown as rectangles, which bugs me a&nbsp;lot.</p> <p><img alt src="/images/jap_font_none.png"></p> <p>The solution? Simple. Just install the <code>ttf-droid</code> package:</p> <div class="highlight"><pre><span></span>sudo pacman -S ttf-droid
 </pre></div> <p><img alt src="/images/jap_font_done.png"></p> <p>Now that&#8217;s&nbsp;better!</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> </div> <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
+    // These need to be defined in the outermost scope, apparently.
     var disqus_shortname = 'nerdyweekly';
     var disqus_identifier = '/posts/what-i-did-after-installing-manjaro-xfce/';
     var disqus_url = 'https://hi.imnhan.com/posts/what-i-did-after-installing-manjaro-xfce/';
     var disqus_title = 'What I did after installing Manjaro xfce';
 
     document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
+        // Immediate visual feedback is always good:
         event.target.disabled = true;
         event.target.innerHTML = 'Loading comments...';
 

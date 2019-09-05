@@ -36,12 +36,14 @@ sudo apt-get update
 sudo apt-get install network-manager-gnome
 </pre></div> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> </div> <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
+    // These need to be defined in the outermost scope, apparently.
     var disqus_shortname = 'nerdyweekly';
     var disqus_identifier = '/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/';
     var disqus_url = 'https://hi.imnhan.com/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/';
     var disqus_title = 'Fix RMIT wi-fi issue in Ubuntu 13.04 and variants';
 
     document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
+        // Immediate visual feedback is always good:
         event.target.disabled = true;
         event.target.innerHTML = 'Loading comments...';
 

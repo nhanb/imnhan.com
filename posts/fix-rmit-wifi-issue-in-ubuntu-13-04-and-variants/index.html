@@ -34,17 +34,22 @@ gksudo gedit /etc/NetworkManager/system-connections/RMIT-WPA
 </pre></div> <p>This is a <a href="https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/1104476">known bug</a> and many have complained about it. There seems to be no developer assigned to fix it though. I&#8217;ll keep you updated on the&nbsp;issue.</p> <h3>Update (Dec 16,&nbsp;2013)</h3> <p>A fix has been released in <span class="caps">GNOME</span> upstream but not incorporated into official Ubuntu repositories yet. An impatient contributor has created his own <span class="caps">PPA</span> to provide the fixed package. To install it, enter the following&nbsp;commands:</p> <div class="highlight"><pre><span></span>sudo sudo add-apt-repository ppa:pritambaral/nms
 sudo apt-get update
 sudo apt-get install network-manager-gnome
-</pre></div> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"></div> <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'nerdyweekly';
+</pre></div> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> </div> <script type="text/javascript">
+    document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
+        event.target.disabled = true;
+        event.target.innerHTML = 'Loading comments...';
+
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'nerdyweekly';
         var disqus_identifier = '/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/';
         var disqus_url = 'https://hi.imnhan.com/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/';
         var disqus_title = 'Fix RMIT wi-fi issue in Ubuntu 13.04 and variants';
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    });
 </script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> </div> <hr id="hr-footer"> <footer>&copy; 2013–2019 Bùi Thành Nhân <br> Built with &#9829; and lots of <a target="_blank" rel="noopener" href="https://caudatfarm.com/">Cầu Đất coffee</a>. </footer> </div> </body> </html>

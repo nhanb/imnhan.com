@@ -34,17 +34,22 @@ cp -a /etc/skel/. ~/
 </pre></div> <p>Then restart your computer and see if it worked (it&nbsp;should).</p> <h2>Get Mirosoft&nbsp;fonts</h2> <p>Getting Micro$oft fonts is like the first thing to do after any Linux distro installation. The Arch community has a whole <a href="https://wiki.archlinux.org/index.php/MS_Fonts">wiki page</a> dedicated to it. It&#8217;s worth mentioning that you can&#8217;t <em>legally</em> install those packages without the actual fonts already on your computer. Assuming you have an installed copy of Windows 7, go to its <code>Fonts</code> folder and put the necessary fonts in the same folder of the extracted package downloaded from the <span class="caps">AUR</span> page. For some instant copy-and-paste shell commands: (<strong>warning</strong>: this script assumes you already have all your Windows 7 fonts in <code>~/win_fonts/</code>. Put them there before running the following&nbsp;commands)</p> <div class="highlight"><pre><span></span>curl -O <span class="s1">&#39;https://gist.github.com/nhanb/8804875/raw/arch-ms-fonts.sh&#39;</span>
 bash arch-ms-fonts.sh
 </pre></div> <h2>Proper font&nbsp;smoothing</h2> <p>I won&#8217;t try to reinvent the wheels here. Head to Manjaro&#8217;s <a href="http://wiki.manjaro.org/index.php?title=Improve_Font_Rendering">wiki page on font smoothing</a>. They&#8217;ve got everything you&nbsp;need.</p> <h2>Install international&nbsp;fonts</h2> <p>Even if you&#8217;re not Japanese or Korean, you&#8217;ll occasionally come across content that contains characters from these languages. With the default installation, all those characters will be shown as rectangles, which bugs me a&nbsp;lot.</p> <p><img alt src="/images/jap_font_none.png"></p> <p>The solution? Simple. Just install the <code>ttf-droid</code> package:</p> <div class="highlight"><pre><span></span>sudo pacman -S ttf-droid
-</pre></div> <p><img alt src="/images/jap_font_done.png"></p> <p>Now that&#8217;s&nbsp;better!</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"></div> <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'nerdyweekly';
+</pre></div> <p><img alt src="/images/jap_font_done.png"></p> <p>Now that&#8217;s&nbsp;better!</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> </div> <script type="text/javascript">
+    document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
+        event.target.disabled = true;
+        event.target.innerHTML = 'Loading comments...';
+
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'nerdyweekly';
         var disqus_identifier = '/posts/what-i-did-after-installing-manjaro-xfce/';
         var disqus_url = 'https://hi.imnhan.com/posts/what-i-did-after-installing-manjaro-xfce/';
         var disqus_title = 'What I did after installing Manjaro xfce';
 
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    });
 </script> <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript> </div> <hr id="hr-footer"> <footer>&copy; 2013–2019 Bùi Thành Nhân <br> Built with &#9829; and lots of <a target="_blank" rel="noopener" href="https://caudatfarm.com/">Cầu Đất coffee</a>. </footer> </div> </body> </html>

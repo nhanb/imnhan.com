@@ -116,15 +116,15 @@ $ <span class="c1"># cd to your project root (the one containing app/ and dist/)
 </pre></div> <p>Then:</p> <div class="highlight"><pre><span></span>$ npm install grunt grunt-node-webkit-builder --save-dev
 $ grunt
 </pre></div> <p>The first time will be slow because grunt will download precompiled nw binaries for all supported platforms, which will be stored in <strong>dist/cache/</strong>. From now you can compile for mac + linux + win with a simple <code>grunt</code> command. The compiled binaries will be stored in <strong>dist/releases/</strong>.</p> <p>Congratulations! You now know how to use yet another weird stack born out of the <span class="caps">HTML5</span> craze that isn&#8217;t guaranteed to still be alive the next year (or even next month). For extra credit, use it to piss off long-time <span class="caps">UNIX</span> Philosophy believers. The <a href="http://suckless.org/philosophy">suckless</a> community would be a good place to start.&nbsp;;)</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> </div> <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'nerdyweekly';
+    var disqus_identifier = '/posts/setting-up-your-development-environment-for-a-node-webkit-project/';
+    var disqus_url = 'https://hi.imnhan.com/posts/setting-up-your-development-environment-for-a-node-webkit-project/';
+    var disqus_title = 'Setting up your development environment for a node-webkit project';
+
     document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
         event.target.disabled = true;
         event.target.innerHTML = 'Loading comments...';
-
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = 'nerdyweekly';
-        var disqus_identifier = '/posts/setting-up-your-development-environment-for-a-node-webkit-project/';
-        var disqus_url = 'https://hi.imnhan.com/posts/setting-up-your-development-environment-for-a-node-webkit-project/';
-        var disqus_title = 'Setting up your development environment for a node-webkit project';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {

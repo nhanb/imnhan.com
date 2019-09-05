@@ -149,15 +149,15 @@ Bundle <span class="s1">&#39;git://git.wincent.com/command-t.git&#39;</span>
 
 <span class="k">filetype</span> plugin indent <span class="k">on</span>     <span class="c">&quot; required!</span>
 </pre></div> <p>Relaunch vim, run <code>:BundleInstall</code> to install the &#8220;bundles&#8221; you listed in .vimrc. When you want to update them, <code>:BundleUpdate</code>. To remove a plugin, just delete its line in your .vimrc file then relaunch vim and run <code>:BundleClean</code> to remove its folder inside&nbsp;~/.vim/bundle/</p> <p>Vundle follows Pathogen&#8217;s approach: putting plugins in their separate directories. However, it also takes care of the git stuff for us too! Note that by default it uses <code>git clone</code>, not <code>git add submodule</code> to add plugins. If you&#8217;re using Windows, there&#8217;s Vundle for Windows too, though I&#8217;ve never tried&nbsp;it.</p> <p>That&#8217;s it, happy coding! Feel free to leave your comments if there&#8217;s anything wrong/unclear&nbsp;here.</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> </div> <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'nerdyweekly';
+    var disqus_identifier = '/posts/modern-vim-plugin-management-pathogen-vs-vundle/';
+    var disqus_url = 'https://hi.imnhan.com/posts/modern-vim-plugin-management-pathogen-vs-vundle/';
+    var disqus_title = 'Modern vim plugin management - Pathogen vs Vundle';
+
     document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
         event.target.disabled = true;
         event.target.innerHTML = 'Loading comments...';
-
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = 'nerdyweekly';
-        var disqus_identifier = '/posts/modern-vim-plugin-management-pathogen-vs-vundle/';
-        var disqus_url = 'https://hi.imnhan.com/posts/modern-vim-plugin-management-pathogen-vs-vundle/';
-        var disqus_title = 'Modern vim plugin management - Pathogen vs Vundle';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {

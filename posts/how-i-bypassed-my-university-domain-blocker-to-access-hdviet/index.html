@@ -106,15 +106,15 @@ python2 server.py <span class="m">8080</span>
 </pre></div> <p>Remember to change the <code>remote_server</code> variable in <code>server.py</code> to match your appspot&nbsp;link.</p> <p>Restart the server script, now when the browser requests for&nbsp;this:</p> <div class="highlight"><pre><span></span>http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
 </pre></div> <p><code>server.py</code> will redirect to&nbsp;this:</p> <div class="highlight"><pre><span></span>http://hdviet-proxy.appspot.com/?url=http%3A%2F%2Fs.vn-hd.com%2Fstore6%2F21042013%2FTwo_and_a_Half_Men_S02%2FE001%2FTwo_and_a_Half_Men_S02_E001_ENG.srt
 </pre></div> <p>And the appspot site will get the original url, fetch its content, and give it right back to&nbsp;us:</p> <p><img alt src="/images/hdviet_08_srt.png"></p> <p>You should now be able to watch movies with subtitles.&nbsp;Congratulations!</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> </div> <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'nerdyweekly';
+    var disqus_identifier = '/posts/how-i-bypassed-my-university-domain-blocker-to-access-hdviet/';
+    var disqus_url = 'https://hi.imnhan.com/posts/how-i-bypassed-my-university-domain-blocker-to-access-hdviet/';
+    var disqus_title = 'How I bypassed my university’s domain blocker to watch movies on hdviet.com';
+
     document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
         event.target.disabled = true;
         event.target.innerHTML = 'Loading comments...';
-
-        /* * * CONFIGURATION VARIABLES * * */
-        var disqus_shortname = 'nerdyweekly';
-        var disqus_identifier = '/posts/how-i-bypassed-my-university-domain-blocker-to-access-hdviet/';
-        var disqus_url = 'https://hi.imnhan.com/posts/how-i-bypassed-my-university-domain-blocker-to-access-hdviet/';
-        var disqus_title = 'How I bypassed my university’s domain blocker to watch movies on hdviet.com';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
         (function() {

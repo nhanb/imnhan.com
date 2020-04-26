@@ -102,9 +102,9 @@ authentication behind the scene, exposing a plain &lt;span class="caps"&gt;HTTP&
 &lt;p&gt;It can run just fine as a local server, but cumbersome and not practical on
 tablets, so I put it on a publicly accessible server, protected by nginx which
 does &lt;span class="caps"&gt;TLS&lt;/span&gt; and Basic Auth. As mentioned earlier, good video players can do basic
-auth just fine. Gflick also exposes a simple web interface to browse my Google
-Drives, so now I can browse my drive on any pc/tablet, and watch things with
-full seek, subtitle/audio track support,&amp;nbsp;right?&lt;/p&gt;
+auth out of the box. Gflick also exposes a simple web interface to browse my
+Google Drives, so now I can browse my drive on any pc/tablet, and watch things
+with full seek, subtitle/audio track support,&amp;nbsp;right?&lt;/p&gt;
 &lt;p&gt;Not quite. While desktop versions of these players work fine, their Android
 versions won&amp;#8217;t play it. Now I regret selling my Surface Go!&amp;nbsp;:(&lt;/p&gt;
 &lt;p&gt;And&amp;#8230; that&amp;#8217;s where I&amp;#8217;m stuck at the moment. Not sure if I should buy one of

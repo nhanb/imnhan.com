@@ -44,8 +44,16 @@ p {
   margin-top: 1.7em;
 }
 
+li p {
+  margin: 0;
+}
+
 li {
   margin-bottom: 8px;
+}
+
+video {
+  width: 100%;
 }
 
 h1,

@@ -1,5 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân - side projects</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/side-projects.atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2015-01-02T21:19:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>Introducing Pytaku - the only online manga reader you’ll ever need</title><link href="https://hi.imnhan.com/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/" rel="alternate"></link><published>2015-01-02T21:19:00+07:00</published><updated>2015-01-02T21:19:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-01-02:/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/</id><summary type="html">&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Pytaku&lt;/a&gt; is an online manga reader that scrapes data from multiple Vietnamese and English
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân - side projects</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/side-projects.atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2020-04-26T10:06:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows. I have some strong preferences on how I view&amp;nbsp;them:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;English subtitles&lt;/strong&gt;. Most things I watch are in English.
+Although I&amp;#8217;m perfectly comfortable with face-to-face English conversations, I
+just can&amp;#8217;t keep up with English dialogue in movies.
+I also don&amp;#8217;t want …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows. I have some strong preferences on how I view&amp;nbsp;them:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;English subtitles&lt;/strong&gt;. Most things I watch are in English.
+Although I&amp;#8217;m perfectly comfortable with face-to-face English conversations, I
+just can&amp;#8217;t keep up with English dialogue in movies.
+I also don&amp;#8217;t want to put up with badly translated subs, so English subtitles
+they must be. This rules out most Vietnamese&amp;nbsp;&amp;#8220;netflixes&amp;#8221;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1080p&lt;/strong&gt;, unless it&amp;#8217;s ancient or super rare&amp;nbsp;stuff.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Streamable from tablets&lt;/strong&gt;. I shouldn&amp;#8217;t need to turn on my &lt;span class="caps"&gt;PC&lt;/span&gt; just to catch up
+on the latest Better Call Saul&amp;nbsp;episode.&lt;/p&gt;
+&lt;p&gt;In 2020, there sure are a variety of options available, all of which fall short
+in some&amp;nbsp;ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Shady ad-infested Vietnamese movie streaming sites (phimmoi etc): Obnoxious
+  pop-up tabs aside, they always &lt;a href="https://kipalog.com/posts/Cac-web-phim-da-giam-99-99--chi-phi-bang-google-drive-nhu-the-nao"&gt;abuse Google Drive&lt;/a&gt; (or even Facebook?)
+  storage behind the scene. Problem is Google Drive encoding is lossy as hell,
+  so even at 1080p they look noticeably worse than the original. Also they
+  almost always come with hardcoded Vietnamese&amp;nbsp;subs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Netflix clones by big ISPs: Pathetic catalogues. Vietnamese&amp;nbsp;subs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Netflix itself: Actually quite good thanks to usable Android app, but besides
+  the increasingly shitty catalogue, it&amp;#8217;s &lt;a href="https://help.netflix.com/en/node/23742"&gt;impossible to get 1080p from
+  Linux&lt;/a&gt;. Also I hate that I can&amp;#8217;t manually set the video quality: even if
+  my current connection gets slow I&amp;#8217;d rather pause and wait for buffering
+  instead of putting up with a pixelated 480p mess. I still have my Netflix
+  subscription today, but only&amp;nbsp;grudgingly.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class="dquo"&gt;&amp;#8220;&lt;/span&gt;dude, like, just torrent it&amp;#8221;. Solid advice since torrents usually come with
+  embedded English sub, but it requires actually downloading the thing first,
+  and can&amp;#8217;t easily switch devices without moving the file&amp;nbsp;along.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Setting up a torrent + plex server? That would require (1) amble disk space,
+  (2) generous network bandwidth, (3) actual horsepower for transcoding and (4)
+  fast enough network access from home or wherever I watch movies&amp;nbsp;from.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A local &lt;span class="caps"&gt;NAS&lt;/span&gt;-style server satisfies (1), (3) &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; (4) but struggles with (2),
+  and I don&amp;#8217;t want it to hog my home internet&amp;nbsp;pipes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Finding a &lt;span class="caps"&gt;VPS&lt;/span&gt; service with (1) &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; (2) is doable, but (3) gets expensive
+  fast and usually they&amp;#8217;re in the &lt;span class="caps"&gt;US&lt;/span&gt; or &lt;span class="caps"&gt;EU&lt;/span&gt; which can never have (4). I&amp;#8217;m
+  actually running a seedbox on Ramnode but can&amp;#8217;t run plex on it because of
+  lack of (3) and (4). If I&amp;#8217;m willing to pay more I can get a Hetzner
+  dedicated server which can probably do (3) but (4) gets even&amp;nbsp;worse.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Remote seedbox + Google&amp;nbsp;Drive&lt;/h2&gt;
+&lt;p&gt;I settled on Netflix and torrented stuff that&amp;#8217;s not available there.
+For the seedbox, I installed Transmission-web on a Ramnode &lt;span class="caps"&gt;VPS&lt;/span&gt; that has &lt;span class="caps"&gt;320GB&lt;/span&gt;
+of &lt;span class="caps"&gt;HDD&lt;/span&gt; at $50/year. The network bandwidth is meh but it gets the job&amp;nbsp;done.&lt;/p&gt;
+&lt;p&gt;Since Transmission supports hooks via external scripts, I set it up so that
+downloaded torrents get uploaded to my Google Drive using &lt;code&gt;rclone&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now whenever I find something interesting that&amp;#8217;s not on Netflix, I look for a
+working torrent file and tell my seedbox to get it. Thanks to the web interface
+I can do it from both my &lt;span class="caps"&gt;PC&lt;/span&gt; and tablet. I don&amp;#8217;t have to keep my devices running
+so it doesn&amp;#8217;t matter if the torrent is not well-seeded and takes a long&amp;nbsp;time.&lt;/p&gt;
+&lt;p&gt;Once the file lands on Google Drive, I can&amp;nbsp;either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;watch it directly from GDrive&amp;#8217;s web/Android app if I don&amp;#8217;t care about
+  subtitles or original quality,&amp;nbsp;or&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;download the file first and watch&amp;nbsp;properly&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The latter is not&amp;nbsp;ideal.&lt;/p&gt;
+&lt;h2&gt;Enter&amp;nbsp;gflick&lt;/h2&gt;
+&lt;p&gt;Turns out advanced video players like &lt;code&gt;mpv&lt;/code&gt; and &lt;code&gt;vlc&lt;/code&gt; can directly stream &lt;span class="caps"&gt;HTTP&lt;/span&gt;
+videos with full support for seeking and audio / text(a.k.a subtitles) tracks.
+See, well-formed video container formats will have metadata at the beginning of
+the file telling where each track lies within the file. The player can download
+just the metadata first, then the subtitle track, then the actual video track
+starting from a specific position. This is only possible if the http server
+supports partial content download &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Range"&gt;via the &lt;code&gt;Range&lt;/code&gt; header&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Google Drive does have a &amp;#8220;direct link&amp;#8221; &lt;span class="caps"&gt;API&lt;/span&gt; in the form of
+&lt;code&gt;https://www.googleapis.com/drive/v3/files/&amp;lt;fileId&amp;gt;?alt=media&lt;/code&gt;, which luckily
+supports partial download. The bad news is downloading private files require
+authentication via a bearer token. The only &lt;span class="caps"&gt;HTTP&lt;/span&gt; authentication scheme that
+these players support, as far as I know, is &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#Basic_authentication_scheme"&gt;Basic auth&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So I wrote &lt;a href="https://github.com/nhanb/gflick"&gt;gflick&lt;/a&gt;, which is practically an &lt;span class="caps"&gt;HTTP&lt;/span&gt; proxy that does Google
+authentication behind the scene, exposing a plain &lt;span class="caps"&gt;HTTP&lt;/span&gt; streaming endpoint so
+&lt;code&gt;mpv&lt;/code&gt; and the like can use without&amp;nbsp;modification.&lt;/p&gt;
+&lt;p&gt;Here&amp;#8217;s what it looks like in&amp;nbsp;action:&lt;/p&gt;
+&lt;video controls&gt;
+  &lt;source src="https://junk.imnhan.com/gflick.mp4" type="video/mp4"&gt;
+&lt;/video&gt;
+
+&lt;p&gt;It can run just fine as a local server, but cumbersome and not practical on
+tablets, so I put it on a publicly accessible server, protected by nginx which
+does &lt;span class="caps"&gt;TLS&lt;/span&gt; and Basic Auth. As mentioned earlier, good video players can do basic
+auth just fine. Gflick also exposes a simple web interface to browse my Google
+Drives, so now I can browse my drive on any pc/tablet, and watch things with
+full seek, subtitle/audio track support,&amp;nbsp;right?&lt;/p&gt;
+&lt;p&gt;Not quite. While desktop versions of these players work fine, their Android
+versions won&amp;#8217;t play it. Now I regret selling my Surface Go!&amp;nbsp;:(&lt;/p&gt;
+&lt;p&gt;And&amp;#8230; that&amp;#8217;s where I&amp;#8217;m stuck at the moment. Not sure if I should buy one of
+those Chinese Surface knock-offs or&amp;nbsp;what.&lt;/p&gt;
+&lt;h2&gt;Other failed&amp;nbsp;attempts&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/nhanb/mpv-gdrive"&gt;mpv-gdrive&lt;/a&gt;: Using mpv&amp;#8217;s lua scripting &lt;span class="caps"&gt;API&lt;/span&gt; to automatically set the
+  correct bearer auth headers. Worked fine on desktop, failed miserably on&amp;nbsp;android.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/nhanb/drivein"&gt;drivein&lt;/a&gt;: Uses &lt;code&gt;rclone mount&lt;/code&gt;. Worked fine on desktop, android wouldn&amp;#8217;t
+  allow mounting without&amp;nbsp;root.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also both of those required setting up each client device. Not&amp;nbsp;ideal.&lt;/p&gt;</content><category term="side projects"></category></entry><entry><title>Introducing Pytaku - the only online manga reader you’ll ever need</title><link href="https://hi.imnhan.com/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/" rel="alternate"></link><published>2015-01-02T21:19:00+07:00</published><updated>2015-01-02T21:19:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-01-02:/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/</id><summary type="html">&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Pytaku&lt;/a&gt; is an online manga reader that scrapes data from multiple Vietnamese and English
 manga sites, giving you one single place to keep track of your reading progress and watch for new
 chapters with ease. Here are some of the features implemented so&amp;nbsp;far:&lt;/p&gt;
 &lt;h2&gt;Lightning fast, ad-free reading&amp;nbsp;experience&lt;/h2&gt;
@@ -35,4 +152,4 @@ can set up their own private pytaku clone in a few minutes. Check out the &lt;a 
 benefit from? Feel free to open an issue on GitHub, or give me a shout on the official &lt;a href="https://gitter.im/nhanb/pytaku"&gt;support
 chat room&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Give it a&amp;nbsp;spin&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Click here&lt;/a&gt; to go to the app. Have fun!&amp;nbsp;:)&lt;/p&gt;</content><category term="pytaku"></category></entry></feed>
+&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Click here&lt;/a&gt; to go to the app. Have fun!&amp;nbsp;:)&lt;/p&gt;</content><category term="side projects"></category><category term="pytaku"></category></entry></feed>

@@ -41,7 +41,7 @@ a:active {
 
 p {
   line-height: 1.5;
-  margin-top: 1.7em;
+  margin-top: 1em;
 }
 
 li p {
@@ -76,7 +76,7 @@ h1 {
 
 h2 {
   font-size: 34px;
-  margin-top: 42px;
+  margin-top: 1rem;
 }
 
 h3 {
@@ -116,7 +116,7 @@ code {
 }
 
 #content {
-  margin-top: 50px;
+  margin-top: 1.5rem;
   clear: both;
 }
 

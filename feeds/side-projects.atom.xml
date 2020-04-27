@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân - side projects</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/side-projects.atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2020-04-26T10:06:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows. I have some strong preferences on how I view&amp;nbsp;them:&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân - side projects</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/side-projects.atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2020-04-26T10:06:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows.
+Naturally, I have some strong preferences on how to view&amp;nbsp;them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;English subtitles&lt;/strong&gt;. Most things I watch are in English.
 Although I&amp;#8217;m perfectly comfortable with face-to-face English conversations, I
 just can&amp;#8217;t keep up with English dialogue in movies.
-I also don&amp;#8217;t want …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows. I have some strong preferences on how I view&amp;nbsp;them:&lt;/p&gt;
+I also don&amp;#8217;t …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows.
+Naturally, I have some strong preferences on how to view&amp;nbsp;them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;English subtitles&lt;/strong&gt;. Most things I watch are in English.
 Although I&amp;#8217;m perfectly comfortable with face-to-face English conversations, I
 just can&amp;#8217;t keep up with English dialogue in movies.
@@ -88,7 +90,7 @@ starting from a specific position. This is only possible if the http server
 supports partial content download &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Range"&gt;via the &lt;code&gt;Range&lt;/code&gt; header&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Google Drive does have a &amp;#8220;direct link&amp;#8221; &lt;span class="caps"&gt;API&lt;/span&gt; in the form of
 &lt;code&gt;https://www.googleapis.com/drive/v3/files/&amp;lt;fileId&amp;gt;?alt=media&lt;/code&gt;, which luckily
-supports partial download. The bad news is downloading private files require
+supports partial download. The bad news is downloading private files requires
 authentication via a bearer token. The only &lt;span class="caps"&gt;HTTP&lt;/span&gt; authentication scheme that
 these players support, as far as I know, is &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Authentication#Basic_authentication_scheme"&gt;Basic auth&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;So I wrote &lt;a href="https://github.com/nhanb/gflick"&gt;gflick&lt;/a&gt;, which is practically an &lt;span class="caps"&gt;HTTP&lt;/span&gt; proxy that does Google

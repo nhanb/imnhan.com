@@ -1,0 +1,23 @@
+.article-title {
+    margin-bottom: 0px;
+    margin-top: 42px;
+}
+
+a.article {
+    color: black;
+    display: block;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+a.article:active {
+    color: white;
+    background-color: black;
+}
+
+ul.article-list {
+    list-style-type: none;
+    padding: 0px 0px;
+}

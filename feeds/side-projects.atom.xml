@@ -30,7 +30,7 @@ but take everything you read with a pinch of salt&amp;nbsp;anyway.&lt;/p&gt;
 &lt;p&gt;Why not use one of the existing browsers you ask? Sure enough there are a bunch
 of existing browsers, with &lt;a href="https://sr.ht/~julienxx/Castor/"&gt;Castor&lt;/a&gt; appearing to be the furthest along in
 development, but it didn&amp;#8217;t work &lt;em&gt;quite&lt;/em&gt; the way I would like. Moreover, I&amp;#8217;ve
-always wanted an excuse to try &lt;span class="caps"&gt;GUI&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; socket programming in python. The
+always wanted an excuse to try &lt;span class="caps"&gt;GUI&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; socket programming in python. Anyway, the
 following are what I disagree with in the Castor&amp;nbsp;browser:&lt;/p&gt;
 &lt;h3&gt;Visual&amp;nbsp;feedback:&lt;/h3&gt;
 &lt;p&gt;When I click a button, visit a link, or press Enter on the address bar, I

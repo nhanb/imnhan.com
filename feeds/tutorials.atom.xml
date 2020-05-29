@@ -9,7 +9,7 @@ Alhough it is doable, I prefer something&amp;nbsp;faster.&lt;/p&gt;
 &lt;p&gt;And yes, there is something faster. Today I came across a &lt;a href="http://stackoverflow.com/a/1962076"&gt;Stack Overflow answer&lt;/a&gt; that suggested
 a neat trick: installing PyQt globally, then copy the whole thing to your virtualenv
 &lt;strong&gt;site-packages&lt;/strong&gt; directory. Here&amp;#8217;s how I did it on Ubuntu 14.04, python3.4 and&amp;nbsp;PyQt5:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# assuming you already have virtualenv &amp;amp; virtualenvwrapper installed&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# assuming you already have virtualenv &amp;amp; virtualenvwrapper installed&lt;/span&gt;
 
 &lt;span class="c1"&gt;# install pyqt5 globally&lt;/span&gt;
 sudo apt-get install python3-pyqt5
@@ -20,7 +20,7 @@ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class
 &lt;span class="nv"&gt;LIBDIR&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/virtualenvs/cookies/lib/python3.4/site-packages&amp;quot;&lt;/span&gt;
 cp -r /usr/lib/python3/dist-packages/PyQt5 &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$LIBDIR&lt;/span&gt;&lt;span class="s2"&gt;/PyQt5&amp;quot;&lt;/span&gt;
 cp /usr/lib/python3/dist-packages/sip.cpython-*.so &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$LIBDIR&lt;/span&gt;&lt;span class="s2"&gt;/&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;And you&amp;#8217;re done with no compiling involved. Isn&amp;#8217;t that neat?&amp;nbsp;:)&lt;/p&gt;</content><category term="tutorials"></category></entry><entry><title>Dẹp ibus-unikey đi, dùng fcitx-unikey nhé!</title><link href="https://hi.imnhan.com/posts/ibus-is-dead-to-me-use-fcitx-instead-vi/" rel="alternate"></link><published>2015-01-29T20:41:00+07:00</published><updated>2015-01-29T20:41:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-01-29:/posts/ibus-is-dead-to-me-use-fcitx-instead-vi/</id><summary type="html">&lt;p&gt;Sáng ra Netrunner bảo có vài chục cái update, mình chủ quan &lt;code&gt;dist-upgrade -y&lt;/code&gt; rồi để đó không màng
@@ -66,18 +66,18 @@ get&amp;nbsp;started).&lt;/p&gt;
 &lt;p&gt;By default, &lt;code&gt;mkvirtualenv my-env-name&lt;/code&gt; will create a virtualenv using the &lt;span class="caps"&gt;OS&lt;/span&gt;&amp;#8217;s default python
 version (in Ubuntu&amp;#8217;s case, that&amp;#8217;s python2). If you want a virtualenv that has &lt;code&gt;python&lt;/code&gt; mapped to
 python3 instead, use the &lt;code&gt;-p&lt;/code&gt; argument:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; my-env-name
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; my-env-name
 &lt;span class="c1"&gt;# assumming you have python3 installed already, of course!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;However, on Ubuntu this will fail if you installed virtualenv as a pip package. If that&amp;#8217;s the case,
 simply remove it and install the Ubuntu package instead. It goes like this for Ubuntu&amp;nbsp;14.04:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ sudo pip uninstall virtualenv
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo pip uninstall virtualenv
 $ sudo apt-get install python-virtualenv
 $ sudo pip install virtualenvwrapper  &lt;span class="c1"&gt;# yes, you can install virtualenvwrapper via pip&lt;/span&gt;
 $ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; my-env-name
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Neat,&amp;nbsp;eh?&lt;/p&gt;</content><category term="tutorials"></category><category term="linux"></category><category term="vim"></category><category term="python"></category></entry><entry><title>Enable italic text inside vim inside tmux inside gnome-terminal</title><link href="https://hi.imnhan.com/posts/enable-italic-text-vim-tmux-gnome-terminal/" rel="alternate"></link><published>2014-08-02T16:46:00+07:00</published><updated>2014-08-02T16:46:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-08-02:/posts/enable-italic-text-vim-tmux-gnome-terminal/</id><summary type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: As &lt;code&gt;egmont&lt;/code&gt; pointed out in the comments: setting &lt;code&gt;TERM=xterm&lt;/code&gt; inside tmux is
@@ -100,8 +100,8 @@ gnome-terminal. Let&amp;#8217;s go through these&amp;nbsp;things.&lt;/p&gt;
 &lt;h2&gt;gnome-terminal&lt;/h2&gt;
 &lt;p&gt;Note that older versions of &lt;code&gt;gnome-terminal&lt;/code&gt; do not support italic text. To check if your terminal
 does support it, run this&amp;nbsp;command:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ &lt;span class="nb"&gt;echo&lt;/span&gt; -e &lt;span class="s2"&gt;&amp;quot;\e[3m foo \e[23m&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;echo&lt;/span&gt; -e &lt;span class="s2"&gt;&amp;quot;\e[3m foo \e[23m&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If your version of gnome-terminal supports it, an italic &lt;em&gt;foo&lt;/em&gt; will appear. If not, upgrade it!&amp;nbsp;:)&lt;/p&gt;
@@ -109,14 +109,14 @@ does support it, run this&amp;nbsp;command:&lt;/p&gt;
 &lt;p&gt;You may have noticed: &lt;code&gt;[3m&lt;/code&gt; and &lt;code&gt;[23m&lt;/code&gt; are the special sequences to start and stop printing
 italic text. Unfortunately, vim doesn&amp;#8217;t care about those. It expects &lt;code&gt;sitm&lt;/code&gt; and &lt;code&gt;ritm&lt;/code&gt; instead.
 We&amp;#8217;ll need to map them manually. Simply use these&amp;nbsp;commands:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Download a custom terminfo that defines sitm and ritm&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Download a custom terminfo that defines sitm and ritm&lt;/span&gt;
 $ wget https://gist.githubusercontent.com/sos4nt/3187620/raw/8e13c1fec5b72d415ed2917590348451de5f8e58/xterm-256color-italic.terminfo
 &lt;span class="c1"&gt;# Compile it&lt;/span&gt;
 $ tic xterm-256color-italic.terminfo
 &lt;span class="c1"&gt;# Activate xterm-256color-italic.terminfo automatically&lt;/span&gt;
 &lt;span class="c1"&gt;# (edit filename accordingly if you&amp;#39;re using another shell)&lt;/span&gt;
 $ &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export TERM=xterm-256color-italic&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Open a new terminal window and try the first command again. You should now see an italic &lt;em&gt;foo&lt;/em&gt;. If
@@ -129,8 +129,8 @@ reset &lt;code&gt;$TERM&lt;/code&gt; to &lt;code&gt;screen-256color&lt;/code&gt;
 &lt;p&gt;If you did the previous step, the &lt;code&gt;export&lt;/code&gt; command in your &lt;code&gt;.bashrc&lt;/code&gt; should have overridden tmux&amp;#8217;s
 &lt;code&gt;$TERM&lt;/code&gt; value. If for some reason it doesn&amp;#8217;t work, you can directly tell tmux to use the correct
 value. Add this line to &lt;code&gt;~/.tmux.conf&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;set -g default-terminal &amp;quot;xterm-256color-italic&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;set -g default-terminal &amp;quot;xterm-256color-italic&amp;quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;More on&amp;nbsp;vim&lt;/h2&gt;
@@ -167,8 +167,8 @@ kinds of stuff: Jade/Coffescript/&lt;span class="caps"&gt;LESS&lt;/span&gt; auto
 &lt;h2&gt;Install node-webkit on your&amp;nbsp;machine&lt;/h2&gt;
 &lt;p&gt;Follow the &lt;span class="caps"&gt;README&lt;/span&gt; on &lt;a href="https://github.com/rogerwang/node-webkit"&gt;node-webkit&amp;#8217;s GitHub page&lt;/a&gt; to download a precompiled &lt;code&gt;nw&lt;/code&gt; binary for your
 platform. If you&amp;#8217;re using Arch Linux, you&amp;#8217;re in luck since there&amp;#8217;s already an &lt;span class="caps"&gt;AUR&lt;/span&gt;&amp;nbsp;package:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ yaourt -S node-webkit
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ yaourt -S node-webkit
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If you&amp;#8217;re on Ubuntu or some other repo and you get some error about &lt;code&gt;libudev.so.0&lt;/code&gt;, &lt;a href="http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux"&gt;read this&lt;/a&gt;
@@ -177,17 +177,17 @@ for a&amp;nbsp;hotfix.&lt;/p&gt;
 &lt;h2&gt;Running an&amp;nbsp;app&lt;/h2&gt;
 &lt;p&gt;First, take a look at nw&amp;#8217;s &lt;a href="https://github.com/rogerwang/node-webkit#quick-start"&gt;quickstart guide&lt;/a&gt;. We&amp;#8217;ll make a somewhat different structure,
 allowing the &lt;strong&gt;dist&lt;/strong&gt; directory to store our binary&amp;nbsp;releases:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;├── app/&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;├── app/&lt;/span&gt;
 &lt;span class="err"&gt;│  ├── css/&lt;/span&gt;
 &lt;span class="err"&gt;│  ├── js/&lt;/span&gt;
 &lt;span class="err"&gt;│  ├── index.html&lt;/span&gt;
 &lt;span class="err"&gt;│  └── package.json&lt;/span&gt;
 &lt;span class="err"&gt;└── dist/&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;strong&gt;package.json&lt;/strong&gt; stores the information that &lt;code&gt;nw&lt;/code&gt; requires. Its content goes like&amp;nbsp;this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;your-project-name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;0.0.1&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;main&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;index.html&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -195,21 +195,21 @@ allowing the &lt;strong&gt;dist&lt;/strong&gt; directory to store our binary&amp
       &lt;span class="nt"&gt;&amp;quot;toolbar&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;true&lt;/span&gt;
   &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;code&gt;window.toolbar&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt; by default so we don&amp;#8217;t actually need it. Switch it to &lt;code&gt;false&lt;/code&gt; if you
 want to hide the browser-like address&amp;nbsp;bar.&lt;/p&gt;
 &lt;p&gt;To embed css/js files, don&amp;#8217;t use absolute urls. Use relative ones like&amp;nbsp;this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;link&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;css/style.css&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;rel&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;link&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;css/style.css&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;rel&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;There&amp;#8217;s no point in using CDNs because we&amp;#8217;re distributing the whole app with its assets as a
 one-time download. Things like automatic css/js minification or concatination aren&amp;#8217;t needed either.
 For simplicity&amp;#8217;s sake, we&amp;#8217;ll just download a minified version of whatever js/css library that we
 need and stuff them into &lt;strong&gt;css&lt;/strong&gt; or &lt;strong&gt;js&lt;/strong&gt; dir. For example: (&lt;strong&gt;dist&lt;/strong&gt; directory&amp;nbsp;omitted)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;app/&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;app/&lt;/span&gt;
 &lt;span class="err"&gt;├── css&lt;/span&gt;
 &lt;span class="err"&gt;│   └── bootstrap.min.css&lt;/span&gt;
 &lt;span class="err"&gt;├── js&lt;/span&gt;
@@ -219,7 +219,7 @@ need and stuff them into &lt;strong&gt;css&lt;/strong&gt; or &lt;strong&gt;js&lt
 &lt;span class="err"&gt;│   └── app.js&lt;/span&gt;
 &lt;span class="err"&gt;├── index.html&lt;/span&gt;
 &lt;span class="err"&gt;└── package.json&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If you&amp;#8217;re experienced in front-end web development tools, feel free to go wild with bower,
@@ -227,13 +227,13 @@ grunt/gulp/whatever. Again, check out the &lt;a href="https://github.com/Anonyfo
 you&amp;#8217;re&amp;nbsp;doing.&lt;/p&gt;
 &lt;p&gt;You can now test run your app with the &lt;code&gt;nw &amp;lt;directory&amp;gt;&lt;/code&gt; command. In our case: &lt;code&gt;nw app&lt;/code&gt;. Notice the
 weird url, which is why we can&amp;#8217;t use absolute urls in the first&amp;nbsp;place:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c"&gt;file:///home/nhanb/Dropbox/small_projects/ajmg-nw/app/index.html&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;file:///home/nhanb/Dropbox/small_projects/ajmg-nw/app/index.html&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Once you&amp;#8217;ve packaged your app to a single executable, the url will be something like&amp;nbsp;this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c"&gt;file:///tmp/.org.chromium.Chromium.IJWqkq/index.html&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;file:///tmp/.org.chromium.Chromium.IJWqkq/index.html&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;But let&amp;#8217;s not get ahead of ourselves. Let&amp;#8217;s solve the most obvious dev issue&amp;nbsp;first:&lt;/p&gt;
@@ -251,33 +251,33 @@ whenever a &amp;#8220;change&amp;#8221; event is&amp;nbsp;broadcast.&lt;/p&gt;
 &lt;p&gt;There are many &lt;code&gt;livereload&lt;/code&gt; daemon implementations. Considering the fact that most of us developers
 have python and pip installed, let&amp;#8217;s go with the &lt;code&gt;livereload&lt;/code&gt; pip package (it&amp;#8217;s only compatible
 with python2, by the way). If you&amp;#8217;re on Ubuntu and don&amp;#8217;t know what I&amp;#8217;m talking&amp;nbsp;about:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ sudo apt-get install python-pip
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo apt-get install python-pip
 $ sudo pip install livereload
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;There are ruby/javascript implementations too. Google them if you prefer those&amp;nbsp;things.&lt;/p&gt;
 &lt;p&gt;Either way, we can now fire off a livereload&amp;nbsp;server:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;# I don&amp;#39;t know why but seems like the python implementation doesn&amp;#39;t work&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;# I don&amp;#39;t know why but seems like the python implementation doesn&amp;#39;t work&lt;/span&gt;
 &lt;span class="err"&gt;# when I type `livereload app`. Weird.&lt;/span&gt;
 &lt;span class="err"&gt;$ cd app&lt;/span&gt;
 &lt;span class="err"&gt;$ livereload .&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now how do we inject the livereload javascript? On Google Chrome there is an official livereload
 plugin, but we&amp;#8217;re using node-webkit so that&amp;#8217;s not possible. No problem! The &lt;code&gt;livereload&lt;/code&gt; daemon we
 fired off earlier is actually a web server which also serves the necessary livereload client
 JavaScript snippet too. Simply embed it to your &lt;strong&gt;index.html&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://localhost:35729/livereload.js&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://localhost:35729/livereload.js&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Fire off the app with &lt;code&gt;nw app&lt;/code&gt; again and you&amp;#8217;ll have automatic reloading. Cool&amp;nbsp;eh?&lt;/p&gt;
 &lt;p&gt;Another problem: we only want livereload in our development version, not in the released app. Let&amp;#8217;s
 modify our javascript snippet in &lt;strong&gt;index.html&lt;/strong&gt; to only load livereload when a certain environment
 variable is set to &lt;code&gt;1&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;span class="c1"&gt;// Load livereload if in dev environment&lt;/span&gt;
 &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;process&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;NW_DEV_MY_AWESOME_PROJECT&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;script&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createElement&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
@@ -286,13 +286,13 @@ variable is set to &lt;code&gt;1&lt;/code&gt;:&lt;/p&gt;
     &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;body&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;appendChild&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;script&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now to start the&amp;nbsp;app:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ &lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;NW_DEV_MY_AWESOME_PROJECT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ &lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;NW_DEV_MY_AWESOME_PROJECT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
 $ nw app
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;Simple cross-platform build&amp;nbsp;command&lt;/h2&gt;
@@ -300,16 +300,16 @@ $ nw app
 article&lt;/a&gt; if you prefer the do-it-yourself&amp;nbsp;way.&lt;/p&gt;
 &lt;p&gt;But if you&amp;#8217;re lazy (like me) and don&amp;#8217;t have a problem using nodejs/grunt, just use the excellent
 &lt;a href="https://github.com/mllrsohn/grunt-node-webkit-builder"&gt;grunt-node-webkit-builder&lt;/a&gt;. Again, for newcomers using&amp;nbsp;Ubuntu:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ sudo add-apt-repository ppa:chris-lea/node.js
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ sudo add-apt-repository ppa:chris-lea/node.js
 $ sudo apt-get update
 $ sudo apt-get install python-software-properties python g++ make nodejs
 $ sudo npm install -g grunt-cli
 $ &lt;span class="c1"&gt;# cd to your project root (the one containing app/ and dist/)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Create &lt;code&gt;package.json&lt;/code&gt; and &lt;code&gt;Gruntfile.js&lt;/code&gt; in project&amp;nbsp;root:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;├── app/&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="err"&gt;├── app/&lt;/span&gt;
 &lt;span class="err"&gt;│   ├── css/&lt;/span&gt;
 &lt;span class="err"&gt;│   ├── js/&lt;/span&gt;
 &lt;span class="err"&gt;│   ├── index.html&lt;/span&gt;
@@ -317,21 +317,21 @@ $ &lt;span class="c1"&gt;# cd to your project root (the one containing app/ and 
 &lt;span class="err"&gt;├── dist/&lt;/span&gt;
 &lt;span class="err"&gt;├── Gruntfile.js&lt;/span&gt;
 &lt;span class="err"&gt;└── package.json&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;strong&gt;package.json&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;whatever&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;0.0.1&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;description&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Whatever&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;author&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Bui Thanh Nhan&amp;quot;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;strong&gt;Gruntfile.js&lt;/strong&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;initConfig&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;
         &lt;span class="nx"&gt;pkg&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;file&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;readJSON&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;package.json&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
         &lt;span class="nx"&gt;nodewebkit&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -350,13 +350,13 @@ $ &lt;span class="c1"&gt;# cd to your project root (the one containing app/ and 
     &lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;loadNpmTasks&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;grunt-node-webkit-builder&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
     &lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;registerTask&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;default&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;nodewebkit&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;]);&lt;/span&gt;
 &lt;span class="p"&gt;};&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Then:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ npm install grunt grunt-node-webkit-builder --save-dev
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;$ npm install grunt grunt-node-webkit-builder --save-dev
 $ grunt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;The first time will be slow because grunt will download precompiled nw binaries for all supported
@@ -404,20 +404,20 @@ Google Chrome even allows that), we&amp;#8217;ll use an &lt;span class="caps"&gt
 so we can use them out of the box. For the purpose of this tutorial, we are only interested in its
 &lt;span class="caps"&gt;HTTP&lt;/span&gt; proxy&amp;nbsp;library.&lt;/p&gt;
 &lt;p&gt;To install twisted, use &lt;code&gt;pip&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install twisted
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo pip install twisted
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Since the default implementation doesn&amp;#8217;t support &lt;span class="caps"&gt;HTTPS&lt;/span&gt;, we&amp;#8217;ll use a &lt;a href="https://github.com/fmoo/twisted-connect-proxy"&gt;powered-up one&lt;/a&gt; I found on
 GitHub, written by Peter Ruibal. Let&amp;#8217;s clone this&amp;nbsp;thing:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone https://github.com/fmoo/twisted-connect-proxy.git
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/fmoo/twisted-connect-proxy.git
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now let&amp;#8217;s try running the proxy server: &lt;code&gt;cd&lt;/code&gt; into the cloned directory and run it with &lt;code&gt;python2&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; twisted-connect-proxy
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; twisted-connect-proxy
 python2 server.py &lt;span class="m"&gt;8080&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Then configure your browser to use &lt;strong&gt;localhost:8080&lt;/strong&gt; as the proxy. For Firefox it&amp;#8217;s&amp;nbsp;easy:&lt;/p&gt;
@@ -426,7 +426,7 @@ python2 server.py &lt;span class="m"&gt;8080&lt;/span&gt;
 any blocked site! Of course you can&amp;#8217;t, since we haven&amp;#8217;t replaced the domains with IPs. Let&amp;#8217;s do&amp;nbsp;that.&lt;/p&gt;
 &lt;h2&gt;Domain to &lt;span class="caps"&gt;IP&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Open &lt;code&gt;server.py&lt;/code&gt;, look for this&amp;nbsp;part:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;ConnectProxyRequest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ProxyRequest&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;ConnectProxyRequest&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ProxyRequest&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="sd"&gt;&amp;quot;&amp;quot;&amp;quot;HTTP ProxyRequest handler (factory) that supports CONNECT&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
     &lt;span class="n"&gt;connectedProtocol&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kc"&gt;None&lt;/span&gt;
 
@@ -435,12 +435,12 @@ any blocked site! Of course you can&amp;#8217;t, since we haven&amp;#8217;t repl
             &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;processConnectRequest&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
         &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
             &lt;span class="n"&gt;ProxyRequest&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;process&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;The &lt;code&gt;process()&lt;/code&gt; method is in charge of forwarding whatever request the proxy receives to the actual
 target server. Let&amp;#8217;s intercept it with our own &lt;code&gt;redirect()&lt;/code&gt; function:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;redirects&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;redirects&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="s1"&gt;&amp;#39;v-01.vn-hd.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;125.212.216.93&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# video&lt;/span&gt;
     &lt;span class="s1"&gt;&amp;#39;s.vn-hd.com&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;210.211.120.146&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="c1"&gt;# sub&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
@@ -462,7 +462,7 @@ target server. Let&amp;#8217;s intercept it with our own &lt;code&gt;redirect()&
         &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;method&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;CONNECT&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
             &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;processConnectRequest&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
     &lt;span class="c1"&gt;# the rest of the file ...&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;In the snippet above, we defined a dictionary &lt;code&gt;redirects&lt;/code&gt; that stores the blocked domains that we
@@ -470,10 +470,10 @@ need to replace. Note that I added &lt;strong&gt;s.vn-hd.com&lt;/strong&gt; as w
 subtitles. In our actual &lt;code&gt;redirect()&lt;/code&gt; function, we check if the request being processed is pointing
 to any of the blocked domains defined earlier, then replace domain with its corresponding &lt;span class="caps"&gt;IP&lt;/span&gt; if
 there is a&amp;nbsp;match:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;uri&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;requestHeaders&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;setRawHeaders&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Note that the 3rd line also changes the &amp;#8220;Host&amp;#8221; &lt;span class="caps"&gt;HTTP&lt;/span&gt; header. Yes, our beloved people from &lt;span class="caps"&gt;IT&lt;/span&gt;
@@ -486,14 +486,14 @@ you&amp;#8217;ll notice that English subtitles are not shown even if you turn th
 again, you&amp;#8217;ll see the&amp;nbsp;problem:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="/images/hdviet_06_404.png"&gt;&lt;/p&gt;
 &lt;p&gt;The link in question&amp;nbsp;is:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Since &lt;strong&gt;s.vn-hd.com&lt;/strong&gt; is in our blocked domain dictionary (&lt;code&gt;redirects&lt;/code&gt;), the proxy server will
 request&amp;nbsp;this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://210.211.120.146/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://210.211.120.146/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If you try to open it directly in a browser (that isn&amp;#8217;t using our proxy server), you&amp;#8217;ll get a 404
@@ -513,7 +513,7 @@ App Engine website at &lt;strong&gt;hdviet-proxy.appspot.com&lt;/strong&gt;. It 
 &lt;p&gt;&lt;img alt="" src="/images/hdviet_07_graph.png"&gt;&lt;/p&gt;
 &lt;p&gt;Now we need to edit our server code to redirect any &lt;strong&gt;s.vn-hd.com&lt;/strong&gt; request to
 &lt;strong&gt;hdviet-proxy.appspot.com/?url=original_url&lt;/strong&gt;.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;urllib&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;urllib&lt;/span&gt;
 
 &lt;span class="n"&gt;sub_server&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;s.vn-hd.com&amp;#39;&lt;/span&gt;
 &lt;span class="n"&gt;remote_server&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;hdviet-proxy.appspot.com&amp;#39;&lt;/span&gt;
@@ -535,13 +535,13 @@ App Engine website at &lt;strong&gt;hdviet-proxy.appspot.com&lt;/strong&gt;. It 
             &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;sub_server&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;remote_server&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
             &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;requestHeaders&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;setRawHeaders&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;remote_server&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
             &lt;span class="k"&gt;return&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;You can view my &lt;a href="https://github.com/nhanb/twisted-connect-proxy"&gt;finished script on github&lt;/a&gt; and clone it to use right&amp;nbsp;away.&lt;/p&gt;
 &lt;p&gt;If you want to set up your own website instead of using mine, it&amp;#8217;s really simple. Just use the new
 site template provided with &lt;span class="caps"&gt;GAE&lt;/span&gt; &lt;span class="caps"&gt;SDK&lt;/span&gt; and edit &lt;code&gt;main.py&lt;/code&gt; like&amp;nbsp;so:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;webapp2&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;webapp2&lt;/span&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;google.appengine.api&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;urlfetch&lt;/span&gt;
 
 &lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;MainHandler&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;webapp2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;RequestHandler&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -553,18 +553,18 @@ site template provided with &lt;span class="caps"&gt;GAE&lt;/span&gt; &lt;span c
 &lt;span class="n"&gt;app&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;webapp2&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WSGIApplication&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;
     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;/&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;MainHandler&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;debug&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Remember to change the &lt;code&gt;remote_server&lt;/code&gt; variable in &lt;code&gt;server.py&lt;/code&gt; to match your appspot&amp;nbsp;link.&lt;/p&gt;
 &lt;p&gt;Restart the server script, now when the browser requests for&amp;nbsp;this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;code&gt;server.py&lt;/code&gt; will redirect to&amp;nbsp;this:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://hdviet-proxy.appspot.com/?url=http%3A%2F%2Fs.vn-hd.com%2Fstore6%2F21042013%2FTwo_and_a_Half_Men_S02%2FE001%2FTwo_and_a_Half_Men_S02_E001_ENG.srt
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;http://hdviet-proxy.appspot.com/?url=http%3A%2F%2Fs.vn-hd.com%2Fstore6%2F21042013%2FTwo_and_a_Half_Men_S02%2FE001%2FTwo_and_a_Half_Men_S02_E001_ENG.srt
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;And the appspot site will get the original url, fetch its content, and give it right back to&amp;nbsp;us:&lt;/p&gt;
@@ -589,9 +589,9 @@ project&amp;nbsp;website):&lt;/p&gt;
 &lt;p&gt;I guess it was because of some weird bug that the partition ended up being owned by &lt;code&gt;root&lt;/code&gt; so the
 installer could not copy Manjaro-specific settings at the end. Make it your own again then copy the
 default Manjaro&amp;nbsp;files:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo chown &lt;span class="nv"&gt;$USER&lt;/span&gt; /home
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo chown &lt;span class="nv"&gt;$USER&lt;/span&gt; /home
 cp -a /etc/skel/. ~/
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Then restart your computer and see if it worked (it&amp;nbsp;should).&lt;/p&gt;
@@ -603,9 +603,9 @@ have an installed copy of Windows 7, go to its &lt;code&gt;Fonts&lt;/code&gt; fo
 same folder of the extracted package downloaded from the &lt;span class="caps"&gt;AUR&lt;/span&gt; page. For some instant copy-and-paste
 shell commands: (&lt;strong&gt;warning&lt;/strong&gt;: this script assumes you already have all your Windows 7 fonts in
 &lt;code&gt;~/win_fonts/&lt;/code&gt;. Put them there before running the following&amp;nbsp;commands)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;curl -O &lt;span class="s1"&gt;&amp;#39;https://gist.github.com/nhanb/8804875/raw/arch-ms-fonts.sh&amp;#39;&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;curl -O &lt;span class="s1"&gt;&amp;#39;https://gist.github.com/nhanb/8804875/raw/arch-ms-fonts.sh&amp;#39;&lt;/span&gt;
 bash arch-ms-fonts.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;Proper font&amp;nbsp;smoothing&lt;/h2&gt;
@@ -617,8 +617,8 @@ characters from these languages. With the default installation, all those charac
 as rectangles, which bugs me a&amp;nbsp;lot.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="/images/jap_font_none.png"&gt;&lt;/p&gt;
 &lt;p&gt;The solution? Simple. Just install the &lt;code&gt;ttf-droid&lt;/code&gt; package:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pacman -S ttf-droid
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo pacman -S ttf-droid
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;img alt="" src="/images/jap_font_done.png"&gt;&lt;/p&gt;
@@ -628,30 +628,30 @@ appreciate the usefulness of package managers in&amp;nbsp;general.&lt;/p&gt;
 &lt;h2&gt;Executables&lt;/h2&gt;
 &lt;p&gt;Let&amp;#8217;s start with something simple. Fire up your favorite text editor and create a file called
 &lt;code&gt;itc.sh&lt;/code&gt; with the following&amp;nbsp;content:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="ch"&gt;#!/bin/bash&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="ch"&gt;#!/bin/bash&lt;/span&gt;
 
 notify-send &lt;span class="s2"&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Let&amp;#8217;s say I put it at the desktop. Now open up a terminal, go to the Desktop directory and make
 our itc file executable. In case you&amp;#8217;re new, here are the&amp;nbsp;commands:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /home/your_username/Desktop
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /home/your_username/Desktop
 chmod +x itc.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;strong&gt;Protip&lt;/strong&gt;: for the first command you can also type &lt;code&gt;cd ~/Desktop&lt;/code&gt;, because &lt;code&gt;~&lt;/code&gt; is the shorthand for
 your home directory (&lt;code&gt;/home/username&lt;/code&gt;)&lt;/p&gt;
 &lt;p&gt;With the &lt;code&gt;chmod&lt;/code&gt; command, we made it possible to run our little script by typing its full&amp;nbsp;path:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;~/Desktop/itc.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/Desktop/itc.sh
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Another shorthand to make your life easier: &lt;code&gt;.&lt;/code&gt; stands for &amp;#8220;current directory&amp;#8221;, meaning if you are
 currently in the &lt;code&gt;~/Desktop&lt;/code&gt; directory, you can run the script by simply&amp;nbsp;typing:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;./itc.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;./itc.sh
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Either way, a notification saying &amp;#8220;Hello world!&amp;#8221; should pop up. This is a program in its
@@ -667,8 +667,8 @@ or via the &lt;span class="caps"&gt;GUI&lt;/span&gt; &lt;a href="http://askubunt
 it, we need to specify the whole address to the file: &lt;code&gt;~/Desktop/itc&lt;/code&gt; is probably not a very cool
 looking command. In order to make it possible to simply run &lt;code&gt;itc&lt;/code&gt;, you need to move it to the
 &lt;code&gt;/usr/bin/&lt;/code&gt; directory. This requires root permission so we&amp;#8217;ll need &lt;code&gt;sudo&lt;/code&gt; too:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo mv ~/Desktop/itc /usr/bin/itc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo mv ~/Desktop/itc /usr/bin/itc
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;We can now run our program by simply typing &lt;code&gt;itc&lt;/code&gt;. You guessed it: every executable file put in
@@ -748,9 +748,9 @@ bundled in Ubuntu 13.04 has a bug that automatically turns &lt;span class="caps"
 &lt;code&gt;system-ca-certs=false&lt;/code&gt;, then restart the wifi connection. To edit this file you will need root
 permission. If you&amp;#8217;re not sure how to do this, open a terminal and enter this command to open
 &lt;code&gt;gedit&lt;/code&gt; with sudo permission (&lt;code&gt;mousepad&lt;/code&gt; if you&amp;#8217;re using&amp;nbsp;xubuntu):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Protip: DON&amp;#39;T use sudo for GUI programs! Use gksudo instead.&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Protip: DON&amp;#39;T use sudo for GUI programs! Use gksudo instead.&lt;/span&gt;
 gksudo gedit /etc/NetworkManager/system-connections/RMIT-WPA
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;This is a &lt;a href="https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/1104476"&gt;known bug&lt;/a&gt; and
@@ -760,10 +760,10 @@ you updated on the&amp;nbsp;issue.&lt;/p&gt;
 &lt;p&gt;A fix has been released in &lt;span class="caps"&gt;GNOME&lt;/span&gt; upstream but not incorporated into official Ubuntu repositories
 yet. An impatient contributor has created his own &lt;span class="caps"&gt;PPA&lt;/span&gt; to provide the fixed package. To install it,
 enter the following&amp;nbsp;commands:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo sudo add-apt-repository ppa:pritambaral/nms
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;sudo sudo add-apt-repository ppa:pritambaral/nms
 sudo apt-get update
 sudo apt-get install network-manager-gnome
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content><category term="tutorials"></category><category term="ubuntu"></category><category term="linux"></category></entry><entry><title>Why I use Linux - Automation</title><link href="https://hi.imnhan.com/posts/why-i-use-linux-automation/" rel="alternate"></link><published>2013-06-07T08:02:00+07:00</published><updated>2013-06-07T08:02:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2013-06-07:/posts/why-i-use-linux-automation/</id><summary type="html">&lt;p&gt;Repeating is for&amp;nbsp;losers.&lt;/p&gt;</summary><content type="html">&lt;p&gt;(In this post, when I say Linux, I mean any popular &lt;span class="caps"&gt;GNU&lt;/span&gt;/Linux distribution. Hope this clarification
+&lt;/pre&gt;&lt;/div&gt;</content><category term="tutorials"></category><category term="ubuntu"></category><category term="linux"></category></entry><entry><title>Why I use Linux - Automation</title><link href="https://hi.imnhan.com/posts/why-i-use-linux-automation/" rel="alternate"></link><published>2013-06-07T08:02:00+07:00</published><updated>2013-06-07T08:02:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2013-06-07:/posts/why-i-use-linux-automation/</id><summary type="html">&lt;p&gt;Repeating is for&amp;nbsp;losers.&lt;/p&gt;</summary><content type="html">&lt;p&gt;(In this post, when I say Linux, I mean any popular &lt;span class="caps"&gt;GNU&lt;/span&gt;/Linux distribution. Hope this clarification
 will keep the nitpickers&amp;nbsp;away.)&lt;/p&gt;
 &lt;p&gt;First let&amp;#8217;s discuss &lt;em&gt;why&lt;/em&gt; automation&amp;nbsp;rocks.&lt;/p&gt;
 &lt;h2&gt;Repetition is evil (and&amp;nbsp;boring)&lt;/h2&gt;
@@ -792,7 +792,7 @@ do it well. (okay, I&amp;#8217;m paraphrasing a bit, but you get the&amp;nbsp;id
 &lt;a href="https://gist.github.com/nhanb/5726342"&gt;python script&lt;/a&gt; I wrote last night to download the whole
 beginner course from &lt;a href="http://www.justinguitar.com"&gt;justinguitar&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The real flow starts from line&amp;nbsp;48:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Fetch index pages which has links to all beginner lessons&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Fetch index pages which has links to all beginner lessons&lt;/span&gt;
 &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;requests&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;http://www.justinguitar.com/en/BC-000-BeginnersCourse.php&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;start_page&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;
 
@@ -810,7 +810,7 @@ beginner course from &lt;a href="http://www.justinguitar.com"&gt;justinguitar&lt
     &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;code&lt;/span&gt;
     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;code&lt;/span&gt; &lt;span class="ow"&gt;not&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;youtube_codes&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
         &lt;span class="n"&gt;youtube_codes&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;code&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;To summarize, this snippet goes to justinguitar&amp;#8217;s beginner course index page, grab all links to
@@ -821,7 +821,7 @@ result is the list name &lt;code&gt;youtube_codes&lt;/code&gt;; each element is 
 tool itself can download the video too, but it doesn&amp;#8217;t support multiple connections to
 accelerate the download. This is where &lt;code&gt;aria2c&lt;/code&gt; jumps in: it takes the direct link from
 &lt;code&gt;youtube-dl&lt;/code&gt; then download the whole&amp;nbsp;thing:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Leech the hell out of them&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# Leech the hell out of them&lt;/span&gt;
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;lesson&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;youtube_codes&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
 
     &lt;span class="c1"&gt;# Ignore if lesson has no video&lt;/span&gt;
@@ -844,7 +844,7 @@ accelerate the download. This is where &lt;code&gt;aria2c&lt;/code&gt; jumps in:
             &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;direct_link&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
     &lt;span class="n"&gt;shell_output&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;check_output&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;command&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;shell_output&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;That&amp;#8217;s it! I just needed to launch this script, turn off the laptop screen and go to bed. This
@@ -869,8 +869,8 @@ will not discuss in detail how you do your customizations. For now just know tha
 &lt;p&gt;You will probably want to move this file into your ~/.vim folder to be able to manage everything
 inside 1 folder. I will create &lt;code&gt;~/.vim/vimrc&lt;/code&gt; then create a symlink pointing to it. Open a
 terminal and&amp;nbsp;type:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ln -s ~/.vim/vimrc ~/.vimrc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;ln -s ~/.vim/vimrc ~/.vimrc
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;h2&gt;~/.vim&amp;nbsp;(directory)&lt;/h2&gt;
@@ -887,7 +887,7 @@ lets you add new rules for syntax highlighting, &lt;code&gt;doc&lt;/code&gt; con
 A plugin will typically put its files into more than one directory here. For example, here is
 a plugin called &lt;a href="https://github.com/majutsushi/tagbar"&gt;tagbar&lt;/a&gt;, and I&amp;#8217;ve installed it by
 copying its content into my &lt;code&gt;~/.vim&lt;/code&gt; folder:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;~/.vim
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
 ├── autoload
 │   └── tagbar.vim
 ├── doc
@@ -898,12 +898,12 @@ copying its content into my &lt;code&gt;~/.vim&lt;/code&gt; folder:&lt;/p&gt;
 ├── README
 └── syntax
     └── tagbar.vim
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Everything looks good. Just copy and paste the whole thing, nice and simple. How about adding a
 decent colorscheme? Let&amp;#8217;s install &lt;a href="https://github.com/altercation/vim-colors-solarized"&gt;solarized&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;├── autoload
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;├── autoload
 │   └── togglebg.vim
 ├── bitmaps
 │   └── togglebg.png
@@ -913,12 +913,12 @@ decent colorscheme? Let&amp;#8217;s install &lt;a href="https://github.com/alter
 │   ├── solarized.txt
 │   └── tags
 └── README.mkd
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Wait, &lt;code&gt;doc/tags&lt;/code&gt; is already there. Ok, no problem! Let&amp;#8217;s just copy the content of solarized&amp;#8217;s
 tags file and paste it into the existing one. Now we&amp;nbsp;have:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;~/.vim
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
 ├── autoload
 │   ├── tagbar.vim
 │   └── togglebg.vim
@@ -936,7 +936,7 @@ tags file and paste it into the existing one. Now we&amp;nbsp;have:&lt;/p&gt;
 ├── README.mkd
 └── syntax
     └── tagbar.vim
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now what if you you decide that solarized sucks and want to get rid of it? Good luck finding
@@ -947,20 +947,20 @@ pretty sight now, is&amp;nbsp;it?&lt;/p&gt;
 &lt;p&gt;The legendary Tim Pope came up with a genius solution:
 &lt;a href="https://github.com/tpope/vim-pathogen"&gt;pathogen&lt;/a&gt;.
 Now let&amp;#8217;s install it like any regular plugin (I&amp;#8217;ve omitted the &lt;span class="caps"&gt;README&lt;/span&gt;):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;~/.vim
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;~/.vim
 └── autoload
     └── pathogen.vim
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Put this at the beginning of your &lt;code&gt;~/.vimrc&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;execute pathogen#infect&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;execute pathogen#infect&lt;span class="p"&gt;()&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Create this directory: &lt;code&gt;~/.vim/bundle&lt;/code&gt;. To install tagbar and solarized, just create their own
 directories&amp;nbsp;here:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;path
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;path
 ├── autoload
 │   └── pathogen.vim
 └── bundle
@@ -986,7 +986,7 @@ directories&amp;nbsp;here:&lt;/p&gt;
         │   ├── solarized.txt
         │   └── tags
         └── README.mkd
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;What Pathogen does is that it adds every directory inside &lt;code&gt;bundle&lt;/code&gt; into vim&amp;#8217;s &amp;#8220;runtimepath&amp;#8221;.
@@ -998,9 +998,9 @@ becomes trivial: just remove or update its own&amp;nbsp;directory.&lt;/p&gt;
 haven&amp;#8217;t created a &lt;a href="https://github.com"&gt;Github&lt;/a&gt; account, do it now. Create an empty repository
 with any name you want (mine is &lt;code&gt;.vim&lt;/code&gt;). Don&amp;#8217;t commit yet. Create a file: &lt;code&gt;~/.vim/.gitignore&lt;/code&gt;,
 add these lines to its&amp;nbsp;content:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;bundle/
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;bundle/
 .netrwhist
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;.netrwhist is a local file generated by vim that is better off ignored. We also ignore bundle
@@ -1009,42 +1009,42 @@ for details). Remember to delete everything inside &lt;code&gt;bundle/&lt;/code&
 plugins again with&amp;nbsp;git.&lt;/p&gt;
 &lt;p&gt;Git init, commit and push to your github repo: (on the &lt;em&gt;git remote add&amp;#8230;&lt;/em&gt; line, replace &lt;code&gt;nhanb&lt;/code&gt;
 with your github username, &lt;code&gt;.vim&lt;/code&gt; with your repo&amp;nbsp;name)&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/.vim
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/.vim
 git init
 git add .
 git commit -m &lt;span class="s1"&gt;&amp;#39;init&amp;#39;&lt;/span&gt;
 
 git remote add origin https://github.com/nhanb/.vim.git
 git push -u origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Everytime you edit anything in your .vim directory, remember to commit the changes and push to&amp;nbsp;github:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git add . 
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git add . 
 git commit -m &lt;span class="s1"&gt;&amp;#39;some message here&amp;#39;&lt;/span&gt;
 git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;If you want to install a plugin, see if it has a git repo (9 out of 10 times it has a
 github repo). Find its git url and add to your .vim as a&amp;nbsp;submodule:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/.vim
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~/.vim
 git add submodule https://github.com/majutsushi/tagbar.git bundle/tagbar
 git add submodule https://github.com/altercation/vim-colors-solarized.git bundle/solarized
 git submodule update --init
 git submodule foreach git pull origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;When you need to update your plugins, just run the last line to make git pull updates for all&amp;nbsp;plugins. &lt;/p&gt;
 &lt;p&gt;Here&amp;#8217;s the awesome part: when you&amp;#8217;re using a whole new computer and want to get all your vim settings
 from the cloud, simply clone your github repo, make a symlink for .vimrc and pull all&amp;nbsp;plugins:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; ~
 git clone https://github.com/nhanb/.vim.git .vim
 ln -s ~/.vim/vimrc ~/.vimrc
 &lt;span class="nb"&gt;cd&lt;/span&gt; .vim
 git submodule update --init &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; git submodule foreach git pull origin master
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Now you must be really excited, no? Git does everything for you: upload/download, add plugins,
@@ -1057,12 +1057,12 @@ for detailed&amp;nbsp;instructions.&lt;/p&gt;
 &lt;h2&gt;Vundle, the new cool&amp;nbsp;kid&lt;/h2&gt;
 &lt;p&gt;This time let&amp;#8217;s start fresh: remove all submodules and pathogen. Your bundle folder should be
 now empty. Clone &lt;a href="https://github.com/gmarik/vundle"&gt;Vundle&lt;/a&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Put this in your .vimrc (preferably at the&amp;nbsp;beginning):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nb"&gt;nocompatible&lt;/span&gt;               &lt;span class="c"&gt;&amp;quot; be iMproved&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nb"&gt;nocompatible&lt;/span&gt;               &lt;span class="c"&gt;&amp;quot; be iMproved&lt;/span&gt;
 &lt;span class="k"&gt;filetype&lt;/span&gt; off                   &lt;span class="c"&gt;&amp;quot; required!&lt;/span&gt;
 
 &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nb"&gt;rtp&lt;/span&gt;&lt;span class="p"&gt;+=~&lt;/span&gt;&lt;span class="sr"&gt;/.vim/&lt;/span&gt;bundle&lt;span class="sr"&gt;/vundle/&lt;/span&gt;
@@ -1088,7 +1088,7 @@ Bundle &lt;span class="s1"&gt;&amp;#39;git://git.wincent.com/command-t.git&amp;#
 &lt;span class="c"&gt;&amp;quot; ...&lt;/span&gt;
 
 &lt;span class="k"&gt;filetype&lt;/span&gt; plugin indent &lt;span class="k"&gt;on&lt;/span&gt;     &lt;span class="c"&gt;&amp;quot; required!&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Relaunch vim, run &lt;code&gt;:BundleInstall&lt;/code&gt; to install the &amp;#8220;bundles&amp;#8221; you listed in .vimrc. When you want

@@ -32,7 +32,7 @@ of existing browsers, with &lt;a href="https://sr.ht/~julienxx/Castor/"&gt;Casto
 development, but it didn&amp;#8217;t work &lt;em&gt;quite&lt;/em&gt; the way I would like. Moreover, I&amp;#8217;ve
 always wanted an excuse to try &lt;span class="caps"&gt;GUI&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; socket programming in python. The
 following are what I disagree with in the Castor&amp;nbsp;browser:&lt;/p&gt;
-&lt;h2&gt;Visual&amp;nbsp;feedback:&lt;/h2&gt;
+&lt;h3&gt;Visual&amp;nbsp;feedback:&lt;/h3&gt;
 &lt;p&gt;When I click a button, visit a link, or press Enter on the address bar, I
 expect some kind of visual feedback that tells me my input registered
 correctly, and the browser is working on my request, not hanging. This sounds
@@ -43,7 +43,7 @@ just completely freezes the &lt;span class="caps"&gt;GUI&lt;/span&gt; during eve
 threads to make sure the program&amp;#8217;s always responsive. I also paid attention to
 small details like the loading cursor and real-time status bar. At no point
 should the program hang or crash without displaying a proper&amp;nbsp;message.&lt;/p&gt;
-&lt;h2&gt;Aesthetics:&lt;/h2&gt;
+&lt;h3&gt;Aesthetics:&lt;/h3&gt;
 &lt;p&gt;Call me picky but I don&amp;#8217;t like how links are presented as buttons and they
 don&amp;#8217;t even have breathing room between&amp;nbsp;them:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Castor links" src="/images/mcross_02_castor.png"&gt;&lt;/p&gt;
@@ -63,7 +63,7 @@ applied to special lines (heading, list, code block&amp;#8230;), their textual c
 is kept the same as source, with the special characters (&lt;code&gt;#&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, etc.)
 intact. This way when someone has read a gemini page, they already know how to
 write one. I lifted this idea off of &lt;a href="https://4chan.org/"&gt;imageboards&lt;/a&gt; and &lt;a href="https://textboard.org/"&gt;textboards&lt;/a&gt;.&lt;/p&gt;
-&lt;h2&gt;Installation:&lt;/h2&gt;
+&lt;h3&gt;Installation:&lt;/h3&gt;
 &lt;p&gt;Castor is written in Rust. One of Rust&amp;#8217;s strong points is the ability to
 compile to a single statically linked executable that users can just download
 and run. Unfortunately, Castor doesn&amp;#8217;t currently provide those compiled

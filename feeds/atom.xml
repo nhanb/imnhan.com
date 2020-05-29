@@ -47,17 +47,16 @@ should the program hang or crash without displaying a proper&amp;nbsp;message.&l
 &lt;p&gt;Call me picky but I don&amp;#8217;t like how links are presented as buttons and they
 don&amp;#8217;t even have breathing room between&amp;nbsp;them:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Castor links" src="/images/mcross_02_castor.png"&gt;&lt;/p&gt;
-&lt;p&gt;Another admittedly petty issue I have is that it&amp;#8217;s &lt;span class="caps"&gt;GTK&lt;/span&gt;, and I&amp;#8217;m using &lt;span class="caps"&gt;KDE&lt;/span&gt;
-Plasma which although has a compatibility layer that tries to render &lt;span class="caps"&gt;GTK&lt;/span&gt; widget
-as close to &lt;span class="caps"&gt;KDE&lt;/span&gt; counterparts as possible, the result is still&amp;#8230;&amp;nbsp;subpar.&lt;/p&gt;
+&lt;p&gt;Another admittedly petty issue I have is that it&amp;#8217;s &lt;span class="caps"&gt;GTK&lt;/span&gt; while I&amp;#8217;m using &lt;span class="caps"&gt;KDE&lt;/span&gt;
+Plasma, and although &lt;span class="caps"&gt;KDE&lt;/span&gt; has a compatibility layer that tries to render &lt;span class="caps"&gt;GTK&lt;/span&gt;
+widgets as close to &lt;span class="caps"&gt;KDE&lt;/span&gt; counterparts as possible, the result is still&amp;#8230;&amp;nbsp;subpar.&lt;/p&gt;
 &lt;p&gt;McRoss on the other hand uses the tk gui toolkit, and as of tk 8.6, it
 automatically gives you the native look and feel on Windows and Mac &lt;span class="caps"&gt;OS&lt;/span&gt; (well,
 not automatically but it takes trivial work anyway). Linux however doesn&amp;#8217;t have
 such a thing, but the bundled &lt;code&gt;clam&lt;/code&gt; theme looks pleasing enough for me. Yes, I
-do think a retro/classic looking theme fares better than the gtk-on-kde look,
-and its simple scrollbar looks and &lt;em&gt;works&lt;/em&gt; way better than those
-nigh-unclickable abominations that &lt;span class="caps"&gt;KDE&lt;/span&gt; and &lt;span class="caps"&gt;GTK&lt;/span&gt; call their &amp;#8220;modern scrollbar&amp;#8221;,
-fight&amp;nbsp;me.&lt;/p&gt;
+do think a retro looking theme fares better than the gtk-on-kde look, and its
+simple scrollbar looks and &lt;em&gt;works&lt;/em&gt; way better than those nigh-unclickable
+abominations that &lt;span class="caps"&gt;KDE&lt;/span&gt; and &lt;span class="caps"&gt;GTK&lt;/span&gt; call their &amp;#8220;modern scrollbar&amp;#8221;, fight&amp;nbsp;me.&lt;/p&gt;
 &lt;p&gt;Another explicit design decision in McRoss is that while custom styling is
 applied to special lines (heading, list, code block&amp;#8230;), their textual content
 is kept the same as source, with the special characters (&lt;code&gt;#&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, etc.)
@@ -75,18 +74,19 @@ library and &lt;code&gt;curio&lt;/code&gt; so installation should be super fast.
 requiring python in the first place is its own can of worms. I do plan to
 improve the situation with &amp;#8220;frozen&amp;#8221; executables some time down the&amp;nbsp;line.&lt;/p&gt;
 &lt;h1&gt;Closing&amp;nbsp;thoughts&lt;/h1&gt;
-&lt;p&gt;To me the whole gemini ecosystem represents the long-lost positive naivety, not
+&lt;p&gt;To me the whole gemini ecosystem represents the long-lost naive optimism, not
 necessarily of the early web, but of my younger self when I first hopped on the
 relatively early iteration of the web. It was not even as far as the &amp;#8220;good old
 gopher/bbs days&amp;#8221; those boomers keep ranting about - it was the days of early
 MMORPGs, of crappy Yahoo! 360 blogs riced up with copy-pasted html/css all over
-the place, of Vietnamese warez forums powered by pirated vBulletin running on
-shady free shared CPanel hosts, of monthly Drupal/Joomla &lt;span class="caps"&gt;SQL&lt;/span&gt; injection
-zero-days. It was truly the wild wild web, insanely accessible, insanely
-unsafe, and insanely fun. It was the web where a young clueless highschool me
-could find fun random stuff everyday, put fun random stuff out there for
-everyone to see, no matter how shitty and unsecure they are, because it didn&amp;#8217;t
-matter if I get pwn&amp;#8217;d: my life back then wasn&amp;#8217;t that much dependent on the&amp;nbsp;web.&lt;/p&gt;
+the place, of numerous Vietnamese warez forums powered by pirated vBulletin
+running on shady free shared CPanel hosts, of monthly Drupal/Joomla &lt;span class="caps"&gt;SQL&lt;/span&gt;
+injection zero-days. It was truly the wild wild web, insanely accessible,
+insanely unsafe, and insanely fun. It was the web where a young clueless
+teenage me could find fun random stuff everyday, put fun random stuff out
+there for everyone to see, no matter how shitty and unsecure they are, because
+it didn&amp;#8217;t matter if I get pwn&amp;#8217;d: my life back then wasn&amp;#8217;t that much dependent
+on the&amp;nbsp;web.&lt;/p&gt;
 &lt;p&gt;Can I get all that back? I think not. The web, or more broadly, the internet
 grew up, just like anything where there&amp;#8217;s enough profit to be made. I&amp;#8217;m not
 saying it&amp;#8217;s a bad thing (hell, I make a living out of building webstuff), but

@@ -1,35 +1,4 @@
-<!DOCTYPE html><html> <head><meta charset="utf-8"><title>Modern vim plugin management - Pathogen vs Vundle | Hi, I'm Nhân</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/theme/fonts/fonts.css"><link rel="stylesheet" href="/theme/css/zenburn.css"><link rel="stylesheet" href="/theme/css/main.css"><link rel="stylesheet" href="/theme/css/article.css"><meta property="og:title" content="Modern vim plugin management - Pathogen vs Vundle"><meta property="og:description" content="For the impatient ones: Vundle is better than pathogen, use it. This post will explain how vim plugins work and how to easily manage your plugins with third-party tools: Pathogen or Vundle. I assume you are using a Linux distro and have git already..."><meta property="og:image" content="https://hi.imnhan.com/images/nhan.jpg"></head> <!--
-
-Why hello there, source viewer. Here's a dragon for no particular reason:
-
-       ^                       ^
-       |\   \        /        /|
-      /  \  |\__  __/|       /  \_
-     / /\ \ \ _ \/ _ /      /    \_
-    / / /\ \ {*}\/{*}      /  / \ \_
-    | | | \ \( (00) )     /  // |\ \_
-    | | | |\ \(V""V)\    /  / | || \|
-    | | | | \ |^--^| \  /  / || || ||
-   / / /  | |( WWWW__ \/  /| || || ||
-  | | | | | |  \______\  / / || || ||
-  | | | / | | )|______\ ) | / | || ||
-  / / /  / /  /______/   /| \ \ || ||
- / / /  / /  /\_____/  |/ /__\ \ \ \ \_
- | | | / /  /\______/    \   \__| \ \ \_
- | | | | | |\______ __    \_    \__|_| \_
- | | ,___ /\______ _  _     \_       \  |
- | |/    /\_____  /    \      \__     \ |    /\_
- |/ |   |\______ |      |        \___  \ |__/  \_
- v  |   |\______ |      |            \___/     |
-    |   |\______ |      |                    __/
-     \   \________\_    _\               ____/
-   __/   /\_____ __/   /   )\_,      _____/
-  /  ___/  \____/  ___/___)    \______/
-  VVV  V        VVV  V
-
-(ripped off from http://www.retrojunkie.com/asciiart/myth/dragons.htm)
-
---> <body> <div id="main"> <header role="banner"><h1 id="site-name"><a href="/">Hi, I'm Nhân</a></h1> <h2 id="site-subtitle">and this is my humble corner on the interwebs.</h2></header> <hr> <nav role="navigation"><ul class="navbar" id="left-navbar"> <li><a href="/">Blog</a></li> <li><a href="https://hi.imnhan.com/about/">About</a></li> </ul> <ul class="navbar" id="right-navbar"> <li> <a href="/feeds/atom.xml">Feed</a> </li> </ul></nav> <hr id="hr-nav"> <div id="content"> <div class="article-content"> <article> <h1 class="article-title"> Modern vim plugin management - Pathogen vs Vundle </h1> <time datetime="2013-05-13 12:00:00+07:00"> May 13, 2013 </time> <p>For the impatient ones: Vundle is better than pathogen, use&nbsp;it.</p> <p>This post will explain how vim plugins work and how to easily manage your plugins with third-party tools: Pathogen or Vundle. I assume you are using a Linux distro and have git already installed. If not, consult Dr. Google for more&nbsp;details.</p> <h2>Vim plugins&nbsp;anatomy</h2> <p>A vim plugin is simply a set of files that alter vim&#8217;s behavior or add new functionalities to it. To make this possible, by default vim looks for files in your home folder (which is <code>/home/username</code> or <code>~</code>):</p> <h2>~/.vimrc&nbsp;(file)</h2> <p>This is where you put your personalizations to vim: indentations, keybindings, etc. This post will not discuss in detail how you do your customizations. For now just know that it&#8217;s&nbsp;there.</p> <p>You will probably want to move this file into your ~/.vim folder to be able to manage everything inside 1 folder. I will create <code>~/.vim/vimrc</code> then create a symlink pointing to it. Open a terminal and&nbsp;type:</p> <div class="highlight"><pre><span></span><code>ln -s ~/.vim/vimrc ~/.vimrc
+<!DOCTYPE html><html lang="en"> <head><title>Hi, I'm Nhân - Modern vim plugin management - Pathogen vs&nbsp;Vundle</title><meta charset="utf-8"><link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hi, I'm Nhân Full Atom Feed"><link href="/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Hi, I'm Nhân Atom Feed"><link href="/feeds/tutorials.atom.xml" type="application/atom+xml" rel="alternate" title="Hi, I'm Nhân Categories Atom Feed"><link rel="alternate" hreflang="vi" href="https://hi.imnhan.com/posts/modern-vim-plugin-management-pathogen-vs-vundle-vi/"><meta name="tags" content="vim"></head> <body id="index" class="home"> <header id="banner" class="body"> <h1><a href="https://hi.imnhan.com/">Hi, I'm Nhân <strong>and this is my humble corner on the interwebs.</strong></a></h1> </header><!-- /#banner --> <nav id="menu"><ul> <li><a href="/">Blog</a></li> <li><a href="https://hi.imnhan.com/about/">About</a></li> <li><a href="https://hi.imnhan.com/random-notes/">Random&nbsp;notes</a></li> <li><a href="https://hi.imnhan.com/category/misc/">misc</a></li> <li><a href="https://hi.imnhan.com/category/posts/">posts</a></li> <li><a href="https://hi.imnhan.com/category/side-projects/">side projects</a></li> <li class="active"><a href="https://hi.imnhan.com/category/tutorials/">tutorials</a></li> </ul></nav><!-- /#menu --> <section id="content" class="body"> <header> <h2 class="entry-title"> <a href="https://hi.imnhan.com/posts/modern-vim-plugin-management-pathogen-vs-vundle/" rel="bookmark" title="Permalink to Modern vim plugin management - Pathogen vs Vundle">Modern vim plugin management - Pathogen vs&nbsp;Vundle</a></h2> Translations: <a href="https://hi.imnhan.com/posts/modern-vim-plugin-management-pathogen-vs-vundle-vi/" hreflang="vi">vi</a> </header> <footer class="post-info"> <time class="published" datetime="2013-05-13T12:00:00+07:00"> Mon 13 May 2013 </time> <address class="vcard author"> By <a class="url fn" href="https://hi.imnhan.com/author/bui-thanh-nhan/">Bùi Thành Nhân</a> </address> <div class="category"> Category: <a href="https://hi.imnhan.com/category/tutorials/">tutorials</a> </div> <div class="tags"> Tags: <a href="https://hi.imnhan.com/tag/vim/">vim</a> </div> </footer><!-- /.post-info --> <div class="entry-content"> <p>For the impatient ones: Vundle is better than pathogen, use&nbsp;it.</p> <p>This post will explain how vim plugins work and how to easily manage your plugins with third-party tools: Pathogen or Vundle. I assume you are using a Linux distro and have git already installed. If not, consult Dr. Google for more&nbsp;details.</p> <h2>Vim plugins&nbsp;anatomy</h2> <p>A vim plugin is simply a set of files that alter vim&#8217;s behavior or add new functionalities to it. To make this possible, by default vim looks for files in your home folder (which is <code>/home/username</code> or <code>~</code>):</p> <h2>~/.vimrc&nbsp;(file)</h2> <p>This is where you put your personalizations to vim: indentations, keybindings, etc. This post will not discuss in detail how you do your customizations. For now just know that it&#8217;s&nbsp;there.</p> <p>You will probably want to move this file into your ~/.vim folder to be able to manage everything inside 1 folder. I will create <code>~/.vim/vimrc</code> then create a symlink pointing to it. Open a terminal and&nbsp;type:</p> <div class="highlight"><pre><span></span><code>ln -s ~/.vim/vimrc ~/.vimrc
 </code></pre></div> <h2>~/.vim&nbsp;(directory)</h2> <p>This should contain a bunch of subdirectories. Some&nbsp;examples:</p> <ul> <li>autoload</li> <li>ftplugin</li> <li>colors</li> <li>syntax</li> <li>doc</li> </ul> <p>Each of these directories serves a particular purpose: <code>colors</code> contains colorschemes, <code>syntax</code> lets you add new rules for syntax highlighting, <code>doc</code> contains documentation&#8230;<br> A plugin will typically put its files into more than one directory here. For example, here is a plugin called <a href="https://github.com/majutsushi/tagbar">tagbar</a>, and I&#8217;ve installed it by copying its content into my <code>~/.vim</code> folder:</p> <div class="highlight"><pre><span></span><code>~/.vim
 ├── autoload
 │   └── tagbar.vim
@@ -148,24 +117,4 @@ Bundle <span class="s1">&#39;git://git.wincent.com/command-t.git&#39;</span>
 <span class="c">&quot; ...</span>
 
 <span class="k">filetype</span> plugin indent <span class="k">on</span>     <span class="c">&quot; required!</span>
-</code></pre></div> <p>Relaunch vim, run <code>:BundleInstall</code> to install the &#8220;bundles&#8221; you listed in .vimrc. When you want to update them, <code>:BundleUpdate</code>. To remove a plugin, just delete its line in your .vimrc file then relaunch vim and run <code>:BundleClean</code> to remove its folder inside&nbsp;~/.vim/bundle/</p> <p>Vundle follows Pathogen&#8217;s approach: putting plugins in their separate directories. However, it also takes care of the git stuff for us too! Note that by default it uses <code>git clone</code>, not <code>git add submodule</code> to add plugins. If you&#8217;re using Windows, there&#8217;s Vundle for Windows too, though I&#8217;ve never tried&nbsp;it.</p> <p>That&#8217;s it, happy coding! Feel free to leave your comments if there&#8217;s anything wrong/unclear&nbsp;here.</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> <noscript><br>(enable JavaScript first though)</noscript> </div> <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    // These need to be defined in the outermost scope, apparently.
-    var disqus_shortname = 'nerdyweekly';
-    var disqus_identifier = '/posts/modern-vim-plugin-management-pathogen-vs-vundle/';
-    var disqus_url = 'https://hi.imnhan.com/posts/modern-vim-plugin-management-pathogen-vs-vundle/';
-    var disqus_title = 'Modern vim plugin management - Pathogen vs Vundle';
-
-    document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
-        // Immediate visual feedback is always good:
-        event.target.disabled = true;
-        event.target.innerHTML = 'Loading comments...';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    });
-</script> </div> <hr id="hr-footer"> <footer>&copy; 2013–2020 Bùi Thành Nhân <br> Built with &#9829; and probably too much <a target="_blank" rel="noopener" href="https://trungnguyenlegend.com/g7/">G7 X2</a>. </footer> </div> </body> </html>
+</code></pre></div> <p>Relaunch vim, run <code>:BundleInstall</code> to install the &#8220;bundles&#8221; you listed in .vimrc. When you want to update them, <code>:BundleUpdate</code>. To remove a plugin, just delete its line in your .vimrc file then relaunch vim and run <code>:BundleClean</code> to remove its folder inside&nbsp;~/.vim/bundle/</p> <p>Vundle follows Pathogen&#8217;s approach: putting plugins in their separate directories. However, it also takes care of the git stuff for us too! Note that by default it uses <code>git clone</code>, not <code>git add submodule</code> to add plugins. If you&#8217;re using Windows, there&#8217;s Vundle for Windows too, though I&#8217;ve never tried&nbsp;it.</p> <p>That&#8217;s it, happy coding! Feel free to leave your comments if there&#8217;s anything wrong/unclear&nbsp;here.</p> </div><!-- /.entry-content --> </section> <footer id="contentinfo" class="body"> <address id="about" class="vcard body"> Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>. </address><!-- /#about --> </footer><!-- /#contentinfo --> </body> </html>

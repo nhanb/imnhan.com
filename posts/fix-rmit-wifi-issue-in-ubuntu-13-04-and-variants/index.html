@@ -1,57 +1,6 @@
-<!DOCTYPE html><html> <head><meta charset="utf-8"><title>Fix RMIT wi-fi issue in Ubuntu 13.04 and variants | Hi, I'm Nhân</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/theme/fonts/fonts.css"><link rel="stylesheet" href="/theme/css/zenburn.css"><link rel="stylesheet" href="/theme/css/main.css"><link rel="stylesheet" href="/theme/css/article.css"><meta property="og:title" content="Fix RMIT wi-fi issue in Ubuntu 13.04 and variants"><meta property="og:description" content="The issue When I upgraded to Xubuntu 13.04, although I could connect to any other wi-fi network painlessly, the RMIT-WPA network just never allowed me to establish a connection. The most annoying part was that it had been working fine in previous..."><meta property="og:image" content="https://hi.imnhan.com/images/rmit_wifi.png"></head> <!--
-
-Why hello there, source viewer. Here's a dragon for no particular reason:
-
-       ^                       ^
-       |\   \        /        /|
-      /  \  |\__  __/|       /  \_
-     / /\ \ \ _ \/ _ /      /    \_
-    / / /\ \ {*}\/{*}      /  / \ \_
-    | | | \ \( (00) )     /  // |\ \_
-    | | | |\ \(V""V)\    /  / | || \|
-    | | | | \ |^--^| \  /  / || || ||
-   / / /  | |( WWWW__ \/  /| || || ||
-  | | | | | |  \______\  / / || || ||
-  | | | / | | )|______\ ) | / | || ||
-  / / /  / /  /______/   /| \ \ || ||
- / / /  / /  /\_____/  |/ /__\ \ \ \ \_
- | | | / /  /\______/    \   \__| \ \ \_
- | | | | | |\______ __    \_    \__|_| \_
- | | ,___ /\______ _  _     \_       \  |
- | |/    /\_____  /    \      \__     \ |    /\_
- |/ |   |\______ |      |        \___  \ |__/  \_
- v  |   |\______ |      |            \___/     |
-    |   |\______ |      |                    __/
-     \   \________\_    _\               ____/
-   __/   /\_____ __/   /   )\_,      _____/
-  /  ___/  \____/  ___/___)    \______/
-  VVV  V        VVV  V
-
-(ripped off from http://www.retrojunkie.com/asciiart/myth/dragons.htm)
-
---> <body> <div id="main"> <header role="banner"><h1 id="site-name"><a href="/">Hi, I'm Nhân</a></h1> <h2 id="site-subtitle">and this is my humble corner on the interwebs.</h2></header> <hr> <nav role="navigation"><ul class="navbar" id="left-navbar"> <li><a href="/">Blog</a></li> <li><a href="https://hi.imnhan.com/about/">About</a></li> </ul> <ul class="navbar" id="right-navbar"> <li> <a href="/feeds/atom.xml">Feed</a> </li> </ul></nav> <hr id="hr-nav"> <div id="content"> <div class="article-content"> <article> <h1 class="article-title"> Fix RMIT wi-fi issue in Ubuntu 13.04 and variants </h1> <time datetime="2013-06-17 08:12:00+07:00"> June 17, 2013 </time> <h2>The&nbsp;issue</h2> <p>When I upgraded to Xubuntu 13.04, although I could connect to any other wi-fi network painlessly, the <span class="caps">RMIT</span>-<span class="caps">WPA</span> network just never allowed me to establish a connection. The most annoying part was that it had been working fine in previous versions (12.04,&nbsp;12.10).</p> <p>After days of googling, I finally pinpointed the issue: a certain version of NetworkManager bundled in Ubuntu 13.04 has a bug that automatically turns <span class="caps">CA</span> certificate usage to <em>true</em> for any <span class="caps">WPA2</span> wifi network, even if we choose to use none in the <span class="caps">GUI</span>.</p> <p><img alt="RMIT wi-fi settings" src="/images/rmit_wifi.png"></p> <h2>The&nbsp;solution</h2> <p>Just manually edit <code>/etc/NetworkManager/system-connections/RMIT-WPA</code>, make sure that you have <code>system-ca-certs=false</code>, then restart the wifi connection. To edit this file you will need root permission. If you&#8217;re not sure how to do this, open a terminal and enter this command to open <code>gedit</code> with sudo permission (<code>mousepad</code> if you&#8217;re using&nbsp;xubuntu):</p> <div class="highlight"><pre><span></span><code><span class="c1"># Protip: DON&#39;T use sudo for GUI programs! Use gksudo instead.</span>
+<!DOCTYPE html><html lang="en"> <head><title>Hi, I'm Nhân - Fix<span class="caps"> RMIT</span> wi-fi issue in Ubuntu 13.04 and&nbsp;variants</title><meta charset="utf-8"><link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Hi, I'm Nhân Full Atom Feed"><link href="/feeds/atom.xml" type="application/atom+xml" rel="alternate" title="Hi, I'm Nhân Atom Feed"><link href="/feeds/tutorials.atom.xml" type="application/atom+xml" rel="alternate" title="Hi, I'm Nhân Categories Atom Feed"><meta name="tags" content="ubuntu"><meta name="tags" content="linux"></head> <body id="index" class="home"> <header id="banner" class="body"> <h1><a href="https://hi.imnhan.com/">Hi, I'm Nhân <strong>and this is my humble corner on the interwebs.</strong></a></h1> </header><!-- /#banner --> <nav id="menu"><ul> <li><a href="/">Blog</a></li> <li><a href="https://hi.imnhan.com/about/">About</a></li> <li><a href="https://hi.imnhan.com/random-notes/">Random&nbsp;notes</a></li> <li><a href="https://hi.imnhan.com/category/misc/">misc</a></li> <li><a href="https://hi.imnhan.com/category/posts/">posts</a></li> <li><a href="https://hi.imnhan.com/category/side-projects/">side projects</a></li> <li class="active"><a href="https://hi.imnhan.com/category/tutorials/">tutorials</a></li> </ul></nav><!-- /#menu --> <section id="content" class="body"> <header> <h2 class="entry-title"> <a href="https://hi.imnhan.com/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/" rel="bookmark" title="Permalink to Fix RMIT wi-fi issue in Ubuntu 13.04 and variants">Fix <span class="caps">RMIT</span> wi-fi issue in Ubuntu 13.04 and&nbsp;variants</a></h2> </header> <footer class="post-info"> <time class="published" datetime="2013-06-17T08:12:00+07:00"> Mon 17 June 2013 </time> <address class="vcard author"> By <a class="url fn" href="https://hi.imnhan.com/author/bui-thanh-nhan/">Bùi Thành Nhân</a> </address> <div class="category"> Category: <a href="https://hi.imnhan.com/category/tutorials/">tutorials</a> </div> <div class="tags"> Tags: <a href="https://hi.imnhan.com/tag/ubuntu/">ubuntu</a> <a href="https://hi.imnhan.com/tag/linux/">linux</a> </div> </footer><!-- /.post-info --> <div class="entry-content"> <h2>The&nbsp;issue</h2> <p>When I upgraded to Xubuntu 13.04, although I could connect to any other wi-fi network painlessly, the <span class="caps">RMIT</span>-<span class="caps">WPA</span> network just never allowed me to establish a connection. The most annoying part was that it had been working fine in previous versions (12.04,&nbsp;12.10).</p> <p>After days of googling, I finally pinpointed the issue: a certain version of NetworkManager bundled in Ubuntu 13.04 has a bug that automatically turns <span class="caps">CA</span> certificate usage to <em>true</em> for any <span class="caps">WPA2</span> wifi network, even if we choose to use none in the <span class="caps">GUI</span>.</p> <p><img alt="RMIT wi-fi settings" src="/images/rmit_wifi.png"></p> <h2>The&nbsp;solution</h2> <p>Just manually edit <code>/etc/NetworkManager/system-connections/RMIT-WPA</code>, make sure that you have <code>system-ca-certs=false</code>, then restart the wifi connection. To edit this file you will need root permission. If you&#8217;re not sure how to do this, open a terminal and enter this command to open <code>gedit</code> with sudo permission (<code>mousepad</code> if you&#8217;re using&nbsp;xubuntu):</p> <div class="highlight"><pre><span></span><code><span class="c1"># Protip: DON&#39;T use sudo for GUI programs! Use gksudo instead.</span>
 gksudo gedit /etc/NetworkManager/system-connections/RMIT-WPA
 </code></pre></div> <p>This is a <a href="https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/1104476">known bug</a> and many have complained about it. There seems to be no developer assigned to fix it though. I&#8217;ll keep you updated on the&nbsp;issue.</p> <h3>Update (Dec 16,&nbsp;2013)</h3> <p>A fix has been released in <span class="caps">GNOME</span> upstream but not incorporated into official Ubuntu repositories yet. An impatient contributor has created his own <span class="caps">PPA</span> to provide the fixed package. To install it, enter the following&nbsp;commands:</p> <div class="highlight"><pre><span></span><code>sudo sudo add-apt-repository ppa:pritambaral/nms
 sudo apt-get update
 sudo apt-get install network-manager-gnome
-</code></pre></div> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> <noscript><br>(enable JavaScript first though)</noscript> </div> <script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    // These need to be defined in the outermost scope, apparently.
-    var disqus_shortname = 'nerdyweekly';
-    var disqus_identifier = '/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/';
-    var disqus_url = 'https://hi.imnhan.com/posts/fix-rmit-wifi-issue-in-ubuntu-13-04-and-variants/';
-    var disqus_title = 'Fix RMIT wi-fi issue in Ubuntu 13.04 and variants';
-
-    document.querySelector('#showCommentBtn').addEventListener('click', function (event) {
-        // Immediate visual feedback is always good:
-        event.target.disabled = true;
-        event.target.innerHTML = 'Loading comments...';
-
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    });
-</script> </div> <hr id="hr-footer"> <footer>&copy; 2013–2020 Bùi Thành Nhân <br> Built with &#9829; and probably too much <a target="_blank" rel="noopener" href="https://trungnguyenlegend.com/g7/">G7 X2</a>. </footer> </div> </body> </html>
+</code></pre></div> </div><!-- /.entry-content --> </section> <footer id="contentinfo" class="body"> <address id="about" class="vcard body"> Proudly powered by <a href="http://getpelican.com/">Pelican</a>, which takes great advantage of <a href="http://python.org">Python</a>. </address><!-- /#about --> </footer><!-- /#contentinfo --> </body> </html>

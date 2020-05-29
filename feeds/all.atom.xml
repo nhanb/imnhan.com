@@ -19,7 +19,6 @@ and the overly privacy-concious&amp;#8221; demographic, so I naturally want to s
 cool stuff people on the gemini-verse are up to. Therefore, I need a gemini
 browser. &lt;em&gt;Naturally&lt;/em&gt;, I &lt;a href="https://sr.ht/~nhanb/mcross/"&gt;wrote one&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="McRoss Browser screenshot" src="/images/mcross_01_screenshot.png"&gt;&lt;/p&gt;
-&lt;p&gt;Or check out a &lt;a href="https://sr.ht/~nhanb/mcross/"&gt;demo video&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;At this stage it can browse plaintext and gemini content, but not binary yet.
 It also doesn&amp;#8217;t verify &lt;span class="caps"&gt;TLS&lt;/span&gt; certificates, because turns out &lt;a href="https://todo.sr.ht/~nhanb/mcross/1"&gt;in the gemini
 world&lt;/a&gt; it&amp;#8217;s preferable for browser to use self-signed certs and expect
@@ -88,12 +87,12 @@ there for everyone to see, no matter how shitty and unsecure they are, because
 it didn&amp;#8217;t matter if I get pwn&amp;#8217;d: my life back then wasn&amp;#8217;t that much dependent
 on the&amp;nbsp;web.&lt;/p&gt;
 &lt;p&gt;Can I get all that back? I think not. The web, or more broadly, the internet
-grew up, just like anything where there&amp;#8217;s enough profit to be made. I&amp;#8217;m not
-saying it&amp;#8217;s a bad thing (hell, I make a living out of building webstuff), but
-it is undeniably a sad thing. Gemini may be a spark that begins a push back
-against unjustified complexity, or it may end up being just another niche tech
-curiosity. I&amp;#8217;m leaning towards the latter but hey at least with McRoss it&amp;#8217;s a
-halfway usable tech&amp;nbsp;curiosity.&lt;/p&gt;</content><category term="side projects"></category></entry><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows.
+grew up (to be a nasty adult, but an adult nevertheless), just like anything
+where there&amp;#8217;s enough profit to be made. I&amp;#8217;m not saying it&amp;#8217;s a bad thing (hell,
+I make a living out of building webstuff), but it is undeniably a sad thing.
+Gemini may be a spark that begins a push back against unjustified complexity,
+or it may end up being just another niche tech curiosity. I&amp;#8217;m leaning towards
+the latter but hey at least with McRoss it&amp;#8217;s a halfway usable tech&amp;nbsp;curiosity.&lt;/p&gt;</content><category term="side projects"></category></entry><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows.
 Naturally, I have some strong preferences on how to view&amp;nbsp;them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;English subtitles&lt;/strong&gt;. Most things I watch are in English.
 Although I&amp;#8217;m perfectly comfortable with face-to-face English conversations, I

@@ -1,5 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân - side projects</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/side-projects.atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2020-04-26T10:06:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows.
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân - side projects</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/side-projects.atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2020-05-29T09:44:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>Introducing McRoss - a minimal gemini browser</title><link href="https://hi.imnhan.com/posts/introducing-mcross-a-minimal-gemini-browser/" rel="alternate"></link><published>2020-05-29T09:44:00+07:00</published><updated>2020-05-29T09:44:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-05-29:/posts/introducing-mcross-a-minimal-gemini-browser/</id><summary type="html">&lt;p&gt;The last couple of months saw the first &amp;#8220;&lt;span class="caps"&gt;PR&lt;/span&gt;&amp;#8221; wave of &lt;a href="https://gemini.circumlunar.space/"&gt;the gemini protocol&lt;/a&gt;
+on the usual online &lt;a href="https://lobste.rs/s/79pu7o/gemini_protocol_inbetween_gopher_web"&gt;tech&lt;/a&gt;&lt;a href="https://news.ycombinator.com/item?id=23042424"&gt;(bro)&lt;/a&gt; forums. Its pitch is simple: the web
+has gone out of hand, gopher is too barebones and insecure by default, here&amp;#8217;s a
+new thing that sits in the&amp;nbsp;middle …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The last couple of months saw the first &amp;#8220;&lt;span class="caps"&gt;PR&lt;/span&gt;&amp;#8221; wave of &lt;a href="https://gemini.circumlunar.space/"&gt;the gemini protocol&lt;/a&gt;
+on the usual online &lt;a href="https://lobste.rs/s/79pu7o/gemini_protocol_inbetween_gopher_web"&gt;tech&lt;/a&gt;&lt;a href="https://news.ycombinator.com/item?id=23042424"&gt;(bro)&lt;/a&gt; forums. Its pitch is simple: the web
+has gone out of hand, gopher is too barebones and insecure by default, here&amp;#8217;s a
+new thing that sits in the&amp;nbsp;middle.&lt;/p&gt;
+&lt;p&gt;Personally I&amp;#8217;m skeptical if this thing will take off any time soon (or ever).
+Sure I agree the web is &lt;a href="https://idlewords.com/talks/website_obesity.htm"&gt;comically bloated&lt;/a&gt;, &lt;a href="https://neustadt.fr/essays/against-a-user-hostile-web/"&gt;openly user-hostile&lt;/a&gt;, and
+tech&amp;#8217;s knight in shining armor of yesteryear has somehow managed to become both
+a &lt;a href="https://www.theverge.com/2019/11/20/20974832/facebook-google-surveillance-data-assault-privacy-amnesty-international"&gt;creepy big brother&lt;/a&gt; and a shameless &lt;a href="https://developers.google.com/amp"&gt;snake oil&lt;/a&gt; peddler at the same
+time, so on and so forth&amp;#8230; But the fact remains that the web is the most
+convenient thing there is, both from a user&amp;#8217;s and developer&amp;#8217;s perspective.
+Gemini is a fun experiment. It may even be a hit among &lt;strike&gt;nerds&lt;/strike&gt;
+power users and the overly privacy-concious, but that&amp;#8217;s&amp;nbsp;it.&lt;/p&gt;
+&lt;p&gt;But then again, I consider myself among the &amp;#8220;&lt;strike&gt;nerds&lt;/strike&gt; power users
+and the overly privacy-concious&amp;#8221; demographic, so I naturally want to see what
+cool stuff people on the gemini-verse are up to. Therefore, I need a gemini
+browser. &lt;em&gt;Naturally&lt;/em&gt;, I &lt;a href="https://sr.ht/~nhanb/mcross/"&gt;wrote one&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="McRoss Browser screenshot" src="/images/mcross_01_screenshot.png"&gt;&lt;/p&gt;
+&lt;p&gt;Or check out a demo video:&amp;nbsp;https://junk.imnhan.com/mcross.mp4&lt;/p&gt;
+&lt;p&gt;At this stage it can browse plaintext and gemini content, but not binary yet.
+It also doesn&amp;#8217;t verify &lt;span class="caps"&gt;TLS&lt;/span&gt; certificates, because turns out &lt;a href="https://todo.sr.ht/~nhanb/mcross/1"&gt;in the gemini
+world&lt;/a&gt; it&amp;#8217;s preferable for browser to use self-signed certs and expect
+clients to trust on first use (&lt;span class="caps"&gt;TOFU&lt;/span&gt;), just like how basic &lt;span class="caps"&gt;SSH&lt;/span&gt; works. I haven&amp;#8217;t
+implemented &lt;span class="caps"&gt;TOFU&lt;/span&gt; yet so the browser trusts whatever and is vulnerable to &lt;span class="caps"&gt;MITM&lt;/span&gt;
+attacks for every request. It&amp;#8217;s highly unlikely that anyone would bother to,
+but take everything you read with a pinch of salt&amp;nbsp;anyway.&lt;/p&gt;
+&lt;p&gt;Why not use one of the existing browsers you ask? Sure enough there are a bunch
+of existing browsers, with &lt;a href="https://sr.ht/~julienxx/Castor/"&gt;Castor&lt;/a&gt; appearing to be the furthest along in
+development, but it didn&amp;#8217;t work &lt;em&gt;quite&lt;/em&gt; the way I would like. Moreover, I&amp;#8217;ve
+always wanted an excuse to try &lt;span class="caps"&gt;GUI&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; socket programming in python. The
+following are what I disagree with in the Castor&amp;nbsp;browser:&lt;/p&gt;
+&lt;h2&gt;Visual&amp;nbsp;feedback:&lt;/h2&gt;
+&lt;p&gt;When I click a button, visit a link, or press Enter on the address bar, I
+expect some kind of visual feedback that tells me my input registered
+correctly, and the browser is working on my request, not hanging. This sounds
+ridiculously elementary considering that&amp;#8217;s how, say, all Windows 95 programs
+worked, but here we are two decades and a half later and the Castor browser
+just completely freezes the &lt;span class="caps"&gt;GUI&lt;/span&gt; during every network&amp;nbsp;request.&lt;/p&gt;
+&lt;p&gt;With McRoss I intentionally put the &lt;span class="caps"&gt;GUI&lt;/span&gt; and I/O event loops in their separate
+threads to make sure the program&amp;#8217;s always responsive. I also paid attention to
+small details like the loading cursor and real-time status bar. At no point
+should the program hang or crash without displaying a proper&amp;nbsp;message.&lt;/p&gt;
+&lt;h2&gt;Aesthetics:&lt;/h2&gt;
+&lt;p&gt;Call me picky but I don&amp;#8217;t like how links are presented as buttons and they
+don&amp;#8217;t even have breathing room between&amp;nbsp;them:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Castor links" src="/images/mcross_02_castor.png"&gt;&lt;/p&gt;
+&lt;p&gt;Another admittedly petty issue I have is that it&amp;#8217;s &lt;span class="caps"&gt;GTK&lt;/span&gt;, and I&amp;#8217;m using &lt;span class="caps"&gt;KDE&lt;/span&gt;
+Plasma which although has a compatibility layer that tries to render &lt;span class="caps"&gt;GTK&lt;/span&gt; widget
+as close to &lt;span class="caps"&gt;KDE&lt;/span&gt; counterparts as possible, the result is still&amp;#8230;&amp;nbsp;subpar.&lt;/p&gt;
+&lt;p&gt;McRoss on the other hand uses the tk gui toolkit, and as of tk 8.6, it
+automatically gives you the native look and feel on Windows and Mac &lt;span class="caps"&gt;OS&lt;/span&gt; (well,
+not automatically but it takes trivial work anyway). Linux however doesn&amp;#8217;t have
+such a thing, but the bundled &lt;code&gt;clam&lt;/code&gt; theme looks pleasing enough for me. Yes, I
+do think a retro/classic looking theme fares better than the gtk-on-kde look,
+and its simple scrollbar looks and &lt;em&gt;works&lt;/em&gt; way better than those
+nigh-unclickable abominations that &lt;span class="caps"&gt;KDE&lt;/span&gt; and &lt;span class="caps"&gt;GTK&lt;/span&gt; call their &amp;#8220;modern scrollbar&amp;#8221;,
+fight&amp;nbsp;me.&lt;/p&gt;
+&lt;p&gt;Another explicit design decision in McRoss is that while custom styling is
+applied to special lines (heading, list, code block&amp;#8230;), their textual content
+is kept the same as source, with the special characters (&lt;code&gt;#&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, etc.)
+intact. This way when someone has read a gemini page, they already know how to
+write one. I lifted this idea off of &lt;a href="https://4chan.org/"&gt;imageboards&lt;/a&gt; and &lt;a href="https://textboard.org/"&gt;textboards&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Installation:&lt;/h2&gt;
+&lt;p&gt;Castor is written in Rust. One of Rust&amp;#8217;s strong points is the ability to
+compile to a single statically linked executable that users can just download
+and run. Unfortunately, Castor doesn&amp;#8217;t currently provide those compiled
+executables so users are supposed to install the Rust toolchain then build
+Castor themselves. Compiling a gtk-enabled Rust project is&amp;#8230; not a quick&amp;nbsp;affair.&lt;/p&gt;
+&lt;p&gt;McRoss is currently packaged as a well-behaved PyPI package and can be
+installed with &lt;code&gt;pip3 install mcross&lt;/code&gt;. Its only dependencies are the standard
+library and &lt;code&gt;curio&lt;/code&gt; so installation should be super fast. I know I know,
+requiring python in the first place is its own can of worms. I do plan to
+improve the situation with &amp;#8220;frozen&amp;#8221; executables some time down the&amp;nbsp;line.&lt;/p&gt;
+&lt;h1&gt;Closing&amp;nbsp;thoughts&lt;/h1&gt;
+&lt;p&gt;To me the whole gemini ecosystem represents the long-lost positive naivety, not
+necessarily of the early web, but of my younger self when I first hopped on the
+relatively early iteration of the web. It was not even as far as the &amp;#8220;good old
+gopher/bbs days&amp;#8221; those boomers keep ranting about - it was the days of early
+MMORPGs, of crappy Yahoo! 360 blogs riced up with copy-pasted html/css all over
+the place, of Vietnamese warez forums powered by pirated vBulletin running on
+shady free shared CPanel hosts, of monthly Drupal/Joomla &lt;span class="caps"&gt;SQL&lt;/span&gt; injection
+zero-days. It was truly the wild wild web, insanely accessible, insanely
+unsafe, and insanely fun. It was the web where a young clueless highschool me
+could find fun random stuff everyday, put fun random stuff out there for
+everyone to see, no matter how shitty and unsecure they are, because it didn&amp;#8217;t
+matter if I get pwn&amp;#8217;d: my life back then wasn&amp;#8217;t that much dependent on the&amp;nbsp;web.&lt;/p&gt;
+&lt;p&gt;Can I get all that back? I think not. The web, or more broadly, the internet
+grew up, just like anything where there&amp;#8217;s enough profit to be made. I&amp;#8217;m not
+saying it&amp;#8217;s a bad thing (hell, I make a living out of building webstuff), but
+it is undeniably a sad thing. Gemini may be a spark that begins a push back
+against unjustified complexity, or it may end up being just another niche tech
+curiosity. I&amp;#8217;m leaning towards the latter but hey at least with McRoss it&amp;#8217;s a
+halfway usable tech&amp;nbsp;curiosity.&lt;/p&gt;</content><category term="side projects"></category></entry><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows.
 Naturally, I have some strong preferences on how to view&amp;nbsp;them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;English subtitles&lt;/strong&gt;. Most things I watch are in English.
 Although I&amp;#8217;m perfectly comfortable with face-to-face English conversations, I

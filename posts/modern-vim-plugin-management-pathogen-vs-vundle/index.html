@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Modern vim plugin management - Pathogen vs Vundle | Hi, I'm Nhân </title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/theme/fonts/fonts.css">
-    <link rel="stylesheet" href="/theme/css/zenburn.css">
-    <link rel="stylesheet" href="/theme/css/main.css">
-
-  <link rel="stylesheet" href="/theme/css/article.css">
-  <meta property="og:title" content="Modern vim plugin management - Pathogen vs Vundle" />
-  <meta property="og:description" content="For the impatient ones: Vundle is better than pathogen, use it. This post will explain how vim plugins work and how to easily manage your plugins with third-party tools: Pathogen or Vundle. I assume you are using a Linux distro and have git already..." />
-
-    <meta property="og:image" content="https://hi.imnhan.com/images/nhan.jpg" />
-
-
-</head>
-
-<!--
+<!DOCTYPE html><html> <head><meta charset="utf-8"><title>Modern vim plugin management - Pathogen vs Vundle | Hi, I'm Nhân</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="/theme/fonts/fonts.css"><link rel="stylesheet" href="/theme/css/zenburn.css"><link rel="stylesheet" href="/theme/css/main.css"><link rel="stylesheet" href="/theme/css/article.css"><meta property="og:title" content="Modern vim plugin management - Pathogen vs Vundle"><meta property="og:description" content="For the impatient ones: Vundle is better than pathogen, use it. This post will explain how vim plugins work and how to easily manage your plugins with third-party tools: Pathogen or Vundle. I assume you are using a Linux distro and have git already..."><meta property="og:image" content="https://hi.imnhan.com/images/nhan.jpg"></head> <!--
 
 Why hello there, source viewer. Here's a dragon for no particular reason:
 
@@ -48,74 +29,8 @@ Why hello there, source viewer. Here's a dragon for no particular reason:
 
 (ripped off from http://www.retrojunkie.com/asciiart/myth/dragons.htm)
 
--->
-
-<body>
-
-    <div id="main">
-
-        <header role="banner"><h1 id="site-name"><a href="/">Hi, I'm Nhân</a></h1>
-<h2 id="site-subtitle">and this is my humble corner on the interwebs.</h2></header>
-        <hr>
-        <nav role="navigation"><ul class="navbar" id="left-navbar">
-        <li><a href="/">Blog</a></li>
-
-        <li><a href="https://hi.imnhan.com/about/">About</a></li>
-</ul>
-
-<ul class="navbar" id="right-navbar">
-    <li>
-        <a href="/feeds/atom.xml">Feed</a>
-    </li>
-
-</ul></nav>
-        <hr id="hr-nav">
-
-        <div id="content">
-
-<div class="article-content">
-    <article>
-        <h1 class="article-title">
-            Modern vim plugin management - Pathogen vs Vundle
-        </h1>
-
-        <time datetime="2013-05-13 12:00:00+07:00">
-          May 13, 2013
-        </time>
-
-        <p>For the impatient ones: Vundle is better than pathogen, use&nbsp;it.</p>
-<p>This post will explain how vim plugins work and how to easily manage your plugins with
-third-party tools: Pathogen or Vundle. I assume you are using a Linux distro and have git
-already installed. If not, consult Dr. Google for more&nbsp;details.</p>
-<h2>Vim plugins&nbsp;anatomy</h2>
-<p>A vim plugin is simply a set of files that alter vim&#8217;s behavior or add new functionalities to it.
-To make this possible, by default vim looks for files in your home folder (which is 
-<code>/home/username</code> or <code>~</code>):</p>
-<h2>~/.vimrc&nbsp;(file)</h2>
-<p>This is where you put your personalizations to vim: indentations, keybindings, etc. This post
-will not discuss in detail how you do your customizations. For now just know that it&#8217;s&nbsp;there.</p>
-<p>You will probably want to move this file into your ~/.vim folder to be able to manage everything
-inside 1 folder. I will create <code>~/.vim/vimrc</code> then create a symlink pointing to it. Open a
-terminal and&nbsp;type:</p>
-<div class="highlight"><pre><span></span>ln -s ~/.vim/vimrc ~/.vimrc
-</pre></div>
-
-
-<h2>~/.vim&nbsp;(directory)</h2>
-<p>This should contain a bunch of subdirectories. Some&nbsp;examples:</p>
-<ul>
-<li>autoload</li>
-<li>ftplugin</li>
-<li>colors</li>
-<li>syntax</li>
-<li>doc</li>
-</ul>
-<p>Each of these directories serves a particular purpose: <code>colors</code> contains colorschemes, <code>syntax</code>
-lets you add new rules for syntax highlighting, <code>doc</code> contains documentation&#8230;<br>
-A plugin will typically put its files into more than one directory here. For example, here is
-a plugin called <a href="https://github.com/majutsushi/tagbar">tagbar</a>, and I&#8217;ve installed it by
-copying its content into my <code>~/.vim</code> folder:</p>
-<div class="highlight"><pre><span></span>~/.vim
+--> <body> <div id="main"> <header role="banner"><h1 id="site-name"><a href="/">Hi, I'm Nhân</a></h1> <h2 id="site-subtitle">and this is my humble corner on the interwebs.</h2></header> <hr> <nav role="navigation"><ul class="navbar" id="left-navbar"> <li><a href="/">Blog</a></li> <li><a href="https://hi.imnhan.com/about/">About</a></li> </ul> <ul class="navbar" id="right-navbar"> <li> <a href="/feeds/atom.xml">Feed</a> </li> </ul></nav> <hr id="hr-nav"> <div id="content"> <div class="article-content"> <article> <h1 class="article-title"> Modern vim plugin management - Pathogen vs Vundle </h1> <time datetime="2013-05-13 12:00:00+07:00"> May 13, 2013 </time> <p>For the impatient ones: Vundle is better than pathogen, use&nbsp;it.</p> <p>This post will explain how vim plugins work and how to easily manage your plugins with third-party tools: Pathogen or Vundle. I assume you are using a Linux distro and have git already installed. If not, consult Dr. Google for more&nbsp;details.</p> <h2>Vim plugins&nbsp;anatomy</h2> <p>A vim plugin is simply a set of files that alter vim&#8217;s behavior or add new functionalities to it. To make this possible, by default vim looks for files in your home folder (which is <code>/home/username</code> or <code>~</code>):</p> <h2>~/.vimrc&nbsp;(file)</h2> <p>This is where you put your personalizations to vim: indentations, keybindings, etc. This post will not discuss in detail how you do your customizations. For now just know that it&#8217;s&nbsp;there.</p> <p>You will probably want to move this file into your ~/.vim folder to be able to manage everything inside 1 folder. I will create <code>~/.vim/vimrc</code> then create a symlink pointing to it. Open a terminal and&nbsp;type:</p> <div class="highlight"><pre><span></span><code>ln -s ~/.vim/vimrc ~/.vimrc
+</code></pre></div> <h2>~/.vim&nbsp;(directory)</h2> <p>This should contain a bunch of subdirectories. Some&nbsp;examples:</p> <ul> <li>autoload</li> <li>ftplugin</li> <li>colors</li> <li>syntax</li> <li>doc</li> </ul> <p>Each of these directories serves a particular purpose: <code>colors</code> contains colorschemes, <code>syntax</code> lets you add new rules for syntax highlighting, <code>doc</code> contains documentation&#8230;<br> A plugin will typically put its files into more than one directory here. For example, here is a plugin called <a href="https://github.com/majutsushi/tagbar">tagbar</a>, and I&#8217;ve installed it by copying its content into my <code>~/.vim</code> folder:</p> <div class="highlight"><pre><span></span><code>~/.vim
 ├── autoload
 │   └── tagbar.vim
 ├── doc
@@ -126,12 +41,7 @@ copying its content into my <code>~/.vim</code> folder:</p>
 ├── README
 └── syntax
     └── tagbar.vim
-</pre></div>
-
-
-<p>Everything looks good. Just copy and paste the whole thing, nice and simple. How about adding a
-decent colorscheme? Let&#8217;s install <a href="https://github.com/altercation/vim-colors-solarized">solarized</a>:</p>
-<div class="highlight"><pre><span></span>├── autoload
+</code></pre></div> <p>Everything looks good. Just copy and paste the whole thing, nice and simple. How about adding a decent colorscheme? Let&#8217;s install <a href="https://github.com/altercation/vim-colors-solarized">solarized</a>:</p> <div class="highlight"><pre><span></span><code>├── autoload
 │   └── togglebg.vim
 ├── bitmaps
 │   └── togglebg.png
@@ -141,12 +51,7 @@ decent colorscheme? Let&#8217;s install <a href="https://github.com/altercation/
 │   ├── solarized.txt
 │   └── tags
 └── README.mkd
-</pre></div>
-
-
-<p>Wait, <code>doc/tags</code> is already there. Ok, no problem! Let&#8217;s just copy the content of solarized&#8217;s
-tags file and paste it into the existing one. Now we&nbsp;have:</p>
-<div class="highlight"><pre><span></span>~/.vim
+</code></pre></div> <p>Wait, <code>doc/tags</code> is already there. Ok, no problem! Let&#8217;s just copy the content of solarized&#8217;s tags file and paste it into the existing one. Now we&nbsp;have:</p> <div class="highlight"><pre><span></span><code>~/.vim
 ├── autoload
 │   ├── tagbar.vim
 │   └── togglebg.vim
@@ -164,31 +69,11 @@ tags file and paste it into the existing one. Now we&nbsp;have:</p>
 ├── README.mkd
 └── syntax
     └── tagbar.vim
-</pre></div>
-
-
-<p>Now what if you you decide that solarized sucks and want to get rid of it? Good luck finding
-which file belongs to which plugin. Oh, don&#8217;t forget the merged <code>doc/tags</code> file!
-Now imagine you have 20-30 plugins installed (which is normal, by the way). It&#8217;s not a
-pretty sight now, is&nbsp;it?</p>
-<h2>Pathogen to the&nbsp;rescue!</h2>
-<p>The legendary Tim Pope came up with a genius solution:
-<a href="https://github.com/tpope/vim-pathogen">pathogen</a>.
-Now let&#8217;s install it like any regular plugin (I&#8217;ve omitted the <span class="caps">README</span>):</p>
-<div class="highlight"><pre><span></span>~/.vim
+</code></pre></div> <p>Now what if you you decide that solarized sucks and want to get rid of it? Good luck finding which file belongs to which plugin. Oh, don&#8217;t forget the merged <code>doc/tags</code> file! Now imagine you have 20-30 plugins installed (which is normal, by the way). It&#8217;s not a pretty sight now, is&nbsp;it?</p> <h2>Pathogen to the&nbsp;rescue!</h2> <p>The legendary Tim Pope came up with a genius solution: <a href="https://github.com/tpope/vim-pathogen">pathogen</a>. Now let&#8217;s install it like any regular plugin (I&#8217;ve omitted the <span class="caps">README</span>):</p> <div class="highlight"><pre><span></span><code>~/.vim
 └── autoload
     └── pathogen.vim
-</pre></div>
-
-
-<p>Put this at the beginning of your <code>~/.vimrc</code>:</p>
-<div class="highlight"><pre><span></span>execute pathogen#infect<span class="p">()</span>
-</pre></div>
-
-
-<p>Create this directory: <code>~/.vim/bundle</code>. To install tagbar and solarized, just create their own
-directories&nbsp;here:</p>
-<div class="highlight"><pre><span></span>path
+</code></pre></div> <p>Put this at the beginning of your <code>~/.vimrc</code>:</p> <div class="highlight"><pre><span></span><code>execute pathogen#infect<span class="p">()</span>
+</code></pre></div> <p>Create this directory: <code>~/.vim/bundle</code>. To install tagbar and solarized, just create their own directories&nbsp;here:</p> <div class="highlight"><pre><span></span><code>path
 ├── autoload
 │   └── pathogen.vim
 └── bundle
@@ -214,83 +99,30 @@ directories&nbsp;here:</p>
         │   ├── solarized.txt
         │   └── tags
         └── README.mkd
-</pre></div>
-
-
-<p>What Pathogen does is that it adds every directory inside <code>bundle</code> into vim&#8217;s &#8220;runtimepath&#8221;.
-It means that each folder here can be considered a new <code>.vim</code> folder where vim looks for
-appropriate configuration files. The plugins are now isolated so removing or updating them
-becomes trivial: just remove or update its own&nbsp;directory.</p>
-<h2>Pathogen +&nbsp;Git</h2>
-<p>Everything goes to the cloud these days, and certainly your vim setup should as well. If you
-haven&#8217;t created a <a href="https://github.com">Github</a> account, do it now. Create an empty repository
-with any name you want (mine is <code>.vim</code>). Don&#8217;t commit yet. Create a file: <code>~/.vim/.gitignore</code>,
-add these lines to its&nbsp;content:</p>
-<div class="highlight"><pre><span></span>bundle/
+</code></pre></div> <p>What Pathogen does is that it adds every directory inside <code>bundle</code> into vim&#8217;s &#8220;runtimepath&#8221;. It means that each folder here can be considered a new <code>.vim</code> folder where vim looks for appropriate configuration files. The plugins are now isolated so removing or updating them becomes trivial: just remove or update its own&nbsp;directory.</p> <h2>Pathogen +&nbsp;Git</h2> <p>Everything goes to the cloud these days, and certainly your vim setup should as well. If you haven&#8217;t created a <a href="https://github.com">Github</a> account, do it now. Create an empty repository with any name you want (mine is <code>.vim</code>). Don&#8217;t commit yet. Create a file: <code>~/.vim/.gitignore</code>, add these lines to its&nbsp;content:</p> <div class="highlight"><pre><span></span><code>bundle/
 .netrwhist
-</pre></div>
-
-
-<p>.netrwhist is a local file generated by vim that is better off ignored. We also ignore bundle
-directory because the plugins will be included as git submodules (google <em>git submodule</em>
-for details). Remember to delete everything inside <code>bundle/</code>, because we will install the
-plugins again with&nbsp;git.</p>
-<p>Git init, commit and push to your github repo: (on the <em>git remote add&#8230;</em> line, replace <code>nhanb</code>
-with your github username, <code>.vim</code> with your repo&nbsp;name)</p>
-<div class="highlight"><pre><span></span><span class="nb">cd</span> ~/.vim
+</code></pre></div> <p>.netrwhist is a local file generated by vim that is better off ignored. We also ignore bundle directory because the plugins will be included as git submodules (google <em>git submodule</em> for details). Remember to delete everything inside <code>bundle/</code>, because we will install the plugins again with&nbsp;git.</p> <p>Git init, commit and push to your github repo: (on the <em>git remote add&#8230;</em> line, replace <code>nhanb</code> with your github username, <code>.vim</code> with your repo&nbsp;name)</p> <div class="highlight"><pre><span></span><code><span class="nb">cd</span> ~/.vim
 git init
 git add .
 git commit -m <span class="s1">&#39;init&#39;</span>
 
 git remote add origin https://github.com/nhanb/.vim.git
 git push -u origin master
-</pre></div>
-
-
-<p>Everytime you edit anything in your .vim directory, remember to commit the changes and push to&nbsp;github:</p>
-<div class="highlight"><pre><span></span>git add . 
+</code></pre></div> <p>Everytime you edit anything in your .vim directory, remember to commit the changes and push to&nbsp;github:</p> <div class="highlight"><pre><span></span><code>git add . 
 git commit -m <span class="s1">&#39;some message here&#39;</span>
 git push
-</pre></div>
-
-
-<p>If you want to install a plugin, see if it has a git repo (9 out of 10 times it has a
-github repo). Find its git url and add to your .vim as a&nbsp;submodule:</p>
-<div class="highlight"><pre><span></span><span class="nb">cd</span> ~/.vim
+</code></pre></div> <p>If you want to install a plugin, see if it has a git repo (9 out of 10 times it has a github repo). Find its git url and add to your .vim as a&nbsp;submodule:</p> <div class="highlight"><pre><span></span><code><span class="nb">cd</span> ~/.vim
 git add submodule https://github.com/majutsushi/tagbar.git bundle/tagbar
 git add submodule https://github.com/altercation/vim-colors-solarized.git bundle/solarized
 git submodule update --init
 git submodule foreach git pull origin master
-</pre></div>
-
-
-<p>When you need to update your plugins, just run the last line to make git pull updates for all&nbsp;plugins. </p>
-<p>Here&#8217;s the awesome part: when you&#8217;re using a whole new computer and want to get all your vim settings
-from the cloud, simply clone your github repo, make a symlink for .vimrc and pull all&nbsp;plugins:</p>
-<div class="highlight"><pre><span></span><span class="nb">cd</span> ~
+</code></pre></div> <p>When you need to update your plugins, just run the last line to make git pull updates for all&nbsp;plugins. </p> <p>Here&#8217;s the awesome part: when you&#8217;re using a whole new computer and want to get all your vim settings from the cloud, simply clone your github repo, make a symlink for .vimrc and pull all&nbsp;plugins:</p> <div class="highlight"><pre><span></span><code><span class="nb">cd</span> ~
 git clone https://github.com/nhanb/.vim.git .vim
 ln -s ~/.vim/vimrc ~/.vimrc
 <span class="nb">cd</span> .vim
 git submodule update --init <span class="o">&amp;&amp;</span> git submodule foreach git pull origin master
-</pre></div>
-
-
-<p>Now you must be really excited, no? Git does everything for you: upload/download, add plugins,
-update plugins <em>and</em> remove plugins&#8230; There must be some simple git command to remove a
-submodule,&nbsp;right?</p>
-<p><strong><span class="caps">NO</span></strong>. Sadly, no. To remove a git submodule, you&#8217;ll need to manually edit 2 git files and
-remove the folder by hand. See
-<a href="http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule">this Stackoverflow question</a>
-for detailed&nbsp;instructions.</p>
-<h2>Vundle, the new cool&nbsp;kid</h2>
-<p>This time let&#8217;s start fresh: remove all submodules and pathogen. Your bundle folder should be
-now empty. Clone <a href="https://github.com/gmarik/vundle">Vundle</a>:</p>
-<div class="highlight"><pre><span></span>git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-</pre></div>
-
-
-<p>Put this in your .vimrc (preferably at the&nbsp;beginning):</p>
-<div class="highlight"><pre><span></span><span class="k">set</span> <span class="nb">nocompatible</span>               <span class="c">&quot; be iMproved</span>
+</code></pre></div> <p>Now you must be really excited, no? Git does everything for you: upload/download, add plugins, update plugins <em>and</em> remove plugins&#8230; There must be some simple git command to remove a submodule,&nbsp;right?</p> <p><strong><span class="caps">NO</span></strong>. Sadly, no. To remove a git submodule, you&#8217;ll need to manually edit 2 git files and remove the folder by hand. See <a href="http://stackoverflow.com/questions/1260748/how-do-i-remove-a-git-submodule">this Stackoverflow question</a> for detailed&nbsp;instructions.</p> <h2>Vundle, the new cool&nbsp;kid</h2> <p>This time let&#8217;s start fresh: remove all submodules and pathogen. Your bundle folder should be now empty. Clone <a href="https://github.com/gmarik/vundle">Vundle</a>:</p> <div class="highlight"><pre><span></span><code>git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+</code></pre></div> <p>Put this in your .vimrc (preferably at the&nbsp;beginning):</p> <div class="highlight"><pre><span></span><code><span class="k">set</span> <span class="nb">nocompatible</span>               <span class="c">&quot; be iMproved</span>
 <span class="k">filetype</span> off                   <span class="c">&quot; required!</span>
 
 <span class="k">set</span> <span class="nb">rtp</span><span class="p">+=~</span><span class="sr">/.vim/</span>bundle<span class="sr">/vundle/</span>
@@ -316,31 +148,7 @@ Bundle <span class="s1">&#39;git://git.wincent.com/command-t.git&#39;</span>
 <span class="c">&quot; ...</span>
 
 <span class="k">filetype</span> plugin indent <span class="k">on</span>     <span class="c">&quot; required!</span>
-</pre></div>
-
-
-<p>Relaunch vim, run <code>:BundleInstall</code> to install the &#8220;bundles&#8221; you listed in .vimrc. When you want
-to update them, <code>:BundleUpdate</code>. To remove a plugin, just delete its line in your .vimrc file
-then relaunch vim and run <code>:BundleClean</code> to remove its folder inside&nbsp;~/.vim/bundle/</p>
-<p>Vundle follows Pathogen&#8217;s approach: putting plugins in their separate directories. However,
-it also takes care of the git stuff for us too! Note that by default it uses <code>git clone</code>, not
-<code>git add submodule</code> to add plugins. If you&#8217;re using Windows, there&#8217;s Vundle for Windows too,
-though I&#8217;ve never tried&nbsp;it.</p>
-<p>That&#8217;s it, happy coding! Feel free to leave your comments if there&#8217;s anything wrong/unclear&nbsp;here.</p>
-    </article>
-</div>
-
-
-<hr id="hr-comment">
-
-<h2>Comments</h2>
-
-<div id="disqus_thread">
-    <button id="showCommentBtn">Show comments via Disqus</button>
-    <noscript><br>(enable JavaScript first though)</noscript>
-</div>
-
-<script type="text/javascript">
+</code></pre></div> <p>Relaunch vim, run <code>:BundleInstall</code> to install the &#8220;bundles&#8221; you listed in .vimrc. When you want to update them, <code>:BundleUpdate</code>. To remove a plugin, just delete its line in your .vimrc file then relaunch vim and run <code>:BundleClean</code> to remove its folder inside&nbsp;~/.vim/bundle/</p> <p>Vundle follows Pathogen&#8217;s approach: putting plugins in their separate directories. However, it also takes care of the git stuff for us too! Note that by default it uses <code>git clone</code>, not <code>git add submodule</code> to add plugins. If you&#8217;re using Windows, there&#8217;s Vundle for Windows too, though I&#8217;ve never tried&nbsp;it.</p> <p>That&#8217;s it, happy coding! Feel free to leave your comments if there&#8217;s anything wrong/unclear&nbsp;here.</p> </article> </div> <hr id="hr-comment"> <h2>Comments</h2> <div id="disqus_thread"> <button id="showCommentBtn">Show comments via Disqus</button> <noscript><br>(enable JavaScript first though)</noscript> </div> <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     // These need to be defined in the outermost scope, apparently.
     var disqus_shortname = 'nerdyweekly';
@@ -360,20 +168,4 @@ though I&#8217;ve never tried&nbsp;it.</p>
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
     });
-</script>
-
-
-        </div>
-
-        <hr id="hr-footer">
-        <footer>&copy; 2013–2020
-Bùi Thành Nhân
-<br>
-
-Built with &#9829; and probably too much
-<a target="_blank" rel="noopener" href="https://trungnguyenlegend.com/g7/">G7 X2</a>.
-</footer>
-    </div>
-
-</body>
-</html>
+</script> </div> <hr id="hr-footer"> <footer>&copy; 2013–2020 Bùi Thành Nhân <br> Built with &#9829; and probably too much <a target="_blank" rel="noopener" href="https://trungnguyenlegend.com/g7/">G7 X2</a>. </footer> </div> </body> </html>

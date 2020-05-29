@@ -19,7 +19,7 @@ and the overly privacy-concious&amp;#8221; demographic, so I naturally want to s
 cool stuff people on the gemini-verse are up to. Therefore, I need a gemini
 browser. &lt;em&gt;Naturally&lt;/em&gt;, I &lt;a href="https://sr.ht/~nhanb/mcross/"&gt;wrote one&lt;/a&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="McRoss Browser screenshot" src="/images/mcross_01_screenshot.png"&gt;&lt;/p&gt;
-&lt;p&gt;Or check out a demo video:&amp;nbsp;https://junk.imnhan.com/mcross.mp4&lt;/p&gt;
+&lt;p&gt;Or check out a &lt;a href="https://sr.ht/~nhanb/mcross/"&gt;demo video&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;At this stage it can browse plaintext and gemini content, but not binary yet.
 It also doesn&amp;#8217;t verify &lt;span class="caps"&gt;TLS&lt;/span&gt; certificates, because turns out &lt;a href="https://todo.sr.ht/~nhanb/mcross/1"&gt;in the gemini
 world&lt;/a&gt; it&amp;#8217;s preferable for browser to use self-signed certs and expect

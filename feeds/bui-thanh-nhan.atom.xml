@@ -65,13 +65,13 @@ application startup, but then, like user token, I should probably stop relying
 on the script restarting to do cleanup&amp;nbsp;operations.&lt;/p&gt;
 &lt;p&gt;With this setup I can freely share the &lt;code&gt;/v/&amp;lt;slug&amp;gt;&lt;/code&gt; url to other people without
 leaking any auth credentials, and they eventually expire too. There&amp;#8217;s tuning to
-be done on how expirations are done the foundations are&amp;nbsp;there.&lt;/p&gt;
+be done for expiration mechanisms but the foundations are&amp;nbsp;there.&lt;/p&gt;
 &lt;h3&gt;Aesthetics&lt;/h3&gt;
 &lt;p&gt;The web interface has been revamped to make it easier for &lt;strike&gt;fat-fingered
 people on $current_year&amp;#8217;s trendy stupidly thin&lt;/strike&gt; phones. Also present
 are folder icons and thumbnails, so it finally gives me everything I want from
 Google Drive&amp;#8217;s web &lt;span class="caps"&gt;UI&lt;/span&gt; and nothing that I don&amp;#8217;t. Fun fact: it works on
-&lt;a href="https://www.netsurf-browser.org/"&gt;NetSurf&lt;/a&gt; too (but then why wouldn&amp;#8217;t&amp;nbsp;it?).&lt;/p&gt;
+&lt;a href="https://www.netsurf-browser.org/"&gt;NetSurf&lt;/a&gt; too (but then again why wouldn&amp;#8217;t&amp;nbsp;it?).&lt;/p&gt;
 &lt;p&gt;&lt;img alt="gflick screenshot" src="/images/gflick_01_mobile.png"&gt;&lt;/p&gt;
 &lt;h2&gt;What&amp;#8217;s the&amp;nbsp;catch?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Client device is solely responsible for decoding the raw file.&lt;/strong&gt; This is both

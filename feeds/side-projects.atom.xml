@@ -18,8 +18,8 @@ mpv-android&amp;nbsp;installed:&lt;/p&gt;
 &lt;p&gt;The longer version&amp;nbsp;follows.&lt;/p&gt;
 &lt;p&gt;&lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;Previously&lt;/a&gt; I was writing a proxy of sorts that adapted Google Drive&amp;#8217;s
 &amp;#8220;bearer token&amp;#8221; auth to the more widely supported &amp;#8220;basic auth&amp;#8221; so I could watch
-movies. I was stuck at the point where desktop videos could stream just fine
-while their android ports would do&amp;nbsp;nothing.&lt;/p&gt;
+movies. I was stuck at the point where desktop video players could stream just
+fine while their android ports would do&amp;nbsp;nothing.&lt;/p&gt;
 &lt;p&gt;Turns out it was a &lt;span class="caps"&gt;TLS&lt;/span&gt; issue: I configured nginx to use TLSv1.3 which is the
 latest and greatest, but mpv/vlc on android came bundled with older &lt;span class="caps"&gt;TLS&lt;/span&gt;
 libraries which only supported up to v1.2. This led me to another surprise: the

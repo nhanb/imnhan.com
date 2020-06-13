@@ -101,12 +101,10 @@ has gone out of hand, gopher is too barebones and insecure by default, here&amp;
 new thing that sits in the&amp;nbsp;middle.&lt;/p&gt;
 &lt;p&gt;Personally I&amp;#8217;m skeptical if this thing will take off any time soon (or ever).
 Sure I agree the web is &lt;a href="https://idlewords.com/talks/website_obesity.htm"&gt;comically bloated&lt;/a&gt;, &lt;a href="https://neustadt.fr/essays/against-a-user-hostile-web/"&gt;openly user-hostile&lt;/a&gt;, and
-tech&amp;#8217;s knight in shining armor of yesteryear has somehow managed to become both
-a &lt;a href="https://www.theverge.com/2019/11/20/20974832/facebook-google-surveillance-data-assault-privacy-amnesty-international"&gt;creepy big brother&lt;/a&gt; and a shameless &lt;a href="https://developers.google.com/amp"&gt;snake oil&lt;/a&gt; peddler at the same
-time, so on and so forth&amp;#8230; But the fact remains that the web is the most
-convenient thing there is, both from a user&amp;#8217;s and developer&amp;#8217;s perspective.
-Gemini is a fun experiment. It may even be a hit among &lt;strike&gt;nerds&lt;/strike&gt;
-power users and the overly privacy-concious, but that&amp;#8217;s&amp;nbsp;it.&lt;/p&gt;
+the big players are only &lt;a href="https://developers.google.com/amp"&gt;adding to the problem&lt;/a&gt;, but the fact remains that
+the web is the most convenient thing there is, both from a user&amp;#8217;s and
+developer&amp;#8217;s perspective. Gemini is a fun experiment. It may even be a hit among
+&lt;strike&gt;nerds&lt;/strike&gt; power users and the overly privacy-concious, but that&amp;#8217;s&amp;nbsp;it.&lt;/p&gt;
 &lt;p&gt;But then again, I consider myself among the &amp;#8220;&lt;strike&gt;nerds&lt;/strike&gt; power users
 and the overly privacy-concious&amp;#8221; demographic, so I naturally want to see what
 cool stuff people on the gemini-verse are up to. Therefore, I need a gemini
@@ -121,9 +119,10 @@ attacks for every request. It&amp;#8217;s highly unlikely that anyone would both
 but take everything you read with a pinch of salt&amp;nbsp;anyway.&lt;/p&gt;
 &lt;p&gt;Why not use one of the existing browsers you ask? Sure enough there are a bunch
 of existing browsers, with &lt;a href="https://sr.ht/~julienxx/Castor/"&gt;Castor&lt;/a&gt; appearing to be the furthest along in
-development, but it didn&amp;#8217;t work &lt;em&gt;quite&lt;/em&gt; the way I would like. Moreover, I&amp;#8217;ve
-always wanted an excuse to try &lt;span class="caps"&gt;GUI&lt;/span&gt; &lt;span class="amp"&gt;&amp;amp;&lt;/span&gt; socket programming in python. Anyway, the
-following are what I disagree with in the Castor&amp;nbsp;browser:&lt;/p&gt;
+development, but it didn&amp;#8217;t work &lt;em&gt;quite&lt;/em&gt; the way I would like. This made me want
+to find out for myself just how hard it is to build a reasonably user-friendly
+desktop &lt;span class="caps"&gt;GUI&lt;/span&gt; application. For the rest of this blog post I try to elaborate on
+my idea of a &lt;em&gt;user-friendly desktop &lt;span class="caps"&gt;GUI&lt;/span&gt; application&lt;/em&gt;.&lt;/p&gt;
 &lt;h3&gt;Visual&amp;nbsp;feedback:&lt;/h3&gt;
 &lt;p&gt;When I click a button, visit a link, or press Enter on the address bar, I
 expect some kind of visual feedback that tells me my input registered
@@ -136,8 +135,8 @@ threads to make sure the program&amp;#8217;s always responsive. I also paid atte
 small details like the loading cursor and real-time status bar. At no point
 should the program hang or crash without displaying a proper&amp;nbsp;message.&lt;/p&gt;
 &lt;h3&gt;Aesthetics:&lt;/h3&gt;
-&lt;p&gt;Call me picky but I don&amp;#8217;t like how links are presented as buttons and they
-don&amp;#8217;t even have breathing room between&amp;nbsp;them:&lt;/p&gt;
+&lt;p&gt;Call me picky but I don&amp;#8217;t like how in Castor links are presented as buttons and
+they don&amp;#8217;t even have breathing room between&amp;nbsp;them:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Castor links" src="/images/mcross_02_castor.png"&gt;&lt;/p&gt;
 &lt;p&gt;Another admittedly petty issue I have is that it&amp;#8217;s &lt;span class="caps"&gt;GTK&lt;/span&gt; while I&amp;#8217;m using &lt;span class="caps"&gt;KDE&lt;/span&gt;
 Plasma, and although &lt;span class="caps"&gt;KDE&lt;/span&gt; has a compatibility layer that tries to render &lt;span class="caps"&gt;GTK&lt;/span&gt;
@@ -147,8 +146,9 @@ automatically gives you the native look and feel on Windows and Mac &lt;span cla
 not automatically but it takes trivial work anyway). Linux however doesn&amp;#8217;t have
 such a thing, but the bundled &lt;code&gt;clam&lt;/code&gt; theme looks pleasing enough for me. Yes, I
 do think a retro looking theme fares better than the gtk-on-kde look, and its
-simple scrollbar looks and &lt;em&gt;works&lt;/em&gt; way better than those nigh-unclickable
-abominations that &lt;span class="caps"&gt;KDE&lt;/span&gt; and &lt;span class="caps"&gt;GTK&lt;/span&gt; call their &amp;#8220;modern scrollbar&amp;#8221;, fight&amp;nbsp;me.&lt;/p&gt;
+simple scrollbar looks and, more importantly, &lt;em&gt;works&lt;/em&gt; way better than those
+nigh-unclickable abominations that &lt;span class="caps"&gt;KDE&lt;/span&gt; and &lt;span class="caps"&gt;GTK&lt;/span&gt; call their &amp;#8220;modern scrollbar&amp;#8221;,
+fight&amp;nbsp;me.&lt;/p&gt;
 &lt;p&gt;Another explicit design decision in McRoss is that while custom styling is
 applied to special lines (heading, list, code block&amp;#8230;), their textual content
 is kept the same as source, with the special characters (&lt;code&gt;#&lt;/code&gt;, &lt;code&gt;*&lt;/code&gt;, etc.)
@@ -166,9 +166,8 @@ library and &lt;code&gt;curio&lt;/code&gt; so installation should be super fast.
 requiring python in the first place is its own can of worms. I do plan to
 improve the situation with &amp;#8220;frozen&amp;#8221; executables some time down the&amp;nbsp;line.&lt;/p&gt;
 &lt;h1&gt;Closing&amp;nbsp;thoughts&lt;/h1&gt;
-&lt;p&gt;To me the whole gemini ecosystem represents the long-lost naive optimism, not
-necessarily of the early web, but of my younger self when I first hopped on the
-relatively early iteration of the web. It was not even as far as the &amp;#8220;good old
+&lt;p&gt;To me the whole gemini ecosystem represents the long-lost naive optimism of an
+earlier web ecosystem. It was not even as far as the &amp;#8220;good old
 gopher/bbs days&amp;#8221; those boomers keep ranting about - it was the days of early
 MMORPGs, of crappy Yahoo! 360 blogs riced up with copy-pasted html/css all over
 the place, of numerous Vietnamese warez forums powered by pirated vBulletin
@@ -185,7 +184,8 @@ where there&amp;#8217;s enough profit to be made. I&amp;#8217;m not saying it&am
 I make a living out of building webstuff), but it is undeniably a sad thing.
 Gemini may be a spark that begins a push back against unjustified complexity,
 or it may end up being just another niche tech curiosity. I&amp;#8217;m leaning towards
-the latter but hey at least with McRoss it&amp;#8217;s a halfway usable tech&amp;nbsp;curiosity.&lt;/p&gt;</content><category term="side projects"></category></entry><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows.
+the latter, but in the meantime, I&amp;#8217;ll keep peaking at the geminiverse with my
+comfy trusty&amp;nbsp;browser.&lt;/p&gt;</content><category term="side projects"></category></entry><entry><title>Towards an acceptable video playing experience</title><link href="https://hi.imnhan.com/posts/towards-an-acceptable-video-playing-experience/" rel="alternate"></link><published>2020-04-26T10:06:00+07:00</published><updated>2020-04-26T10:06:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-04-26:/posts/towards-an-acceptable-video-playing-experience/</id><summary type="html">&lt;p&gt;I watch movies and &lt;span class="caps"&gt;TV&lt;/span&gt; shows.
 Naturally, I have some strong preferences on how to view&amp;nbsp;them:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;English subtitles&lt;/strong&gt;. Most things I watch are in English.
 Although I&amp;#8217;m perfectly comfortable with face-to-face English conversations, I

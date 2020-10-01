@@ -6,6 +6,12 @@ wouldn't turn down a free techbro tee.
 Seriously guys if you want a nerdy tee just do it on your own repo. Waste your
 own time not other people's.
 
+Before you go on berating me for exploiting the poor poor [NYC unicorn techbros
+club](https://news.crunchbase.com/news/new-yorks-newest-unicorn-based-digitalocean-raises-50m-at-1-15b-valuation/),
+think about how they could have made the thing opt-in instead of bullying
+unpaid FOSS developers into this cliched, uninspired yearly publicity stunt.
+
+
 # My blog
 
 This is the source code for https://hi.imnhan.com using

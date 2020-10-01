@@ -1,3 +1,8 @@
+# Plz can I haz free t-shirt
+
+Hacktoberfest is [dumb and all](https://blog.domenic.me/hacktoberfest/) but I
+wouldn't turn down a free techbro tee.
+
 # My blog
 
 This is the source code for https://hi.imnhan.com using

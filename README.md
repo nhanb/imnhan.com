@@ -3,6 +3,9 @@
 Hacktoberfest is [dumb and all](https://blog.domenic.me/hacktoberfest/) but I
 wouldn't turn down a free techbro tee.
 
+Seriously guys if you want a nerdy tee just do it on your own repo. Waste your
+own time not other people's.
+
 # My blog
 
 This is the source code for https://hi.imnhan.com using

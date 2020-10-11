@@ -1,23 +1,18 @@
-.article-title {
-    margin-bottom: 0px;
-    margin-top: 42px;
+.article-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-a.article {
-    color: black;
-    display: block;
-    margin-left: -15px;
-    margin-right: -15px;
-    padding-left: 15px;
-    padding-right: 15px;
+.article-list li {
+  margin-bottom: 1rem;
 }
 
-a.article:active {
-    color: white;
-    background-color: black;
+.article-list a {
+  display: block;
+  font-weight: bold;
 }
 
-ul.article-list {
-    list-style-type: none;
-    padding: 0px 0px;
+time {
+  font-size: 0.9em;
 }

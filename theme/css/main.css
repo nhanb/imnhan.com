@@ -1,233 +1,143 @@
-/* ====================================
- * Basic stuff
- * ==================================== */
-
 body {
-  background-color: beige;
-  color: black;
-  font-family: "Source Serif Pro", serif;
-  font-size: 20px;
-  text-rendering: optimizeLegibility;
-  margin: 0 0;
-  padding: 0 0;
-  border: none;
-}
-
-#main {
-  max-width: 750px;
-  margin: 0px auto 0px auto;
-  padding: 20px;
-}
-
-hr {
-  border: 1px solid #777;
+  font-family: sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+  background-color: white;
+  /* always show vertical scrollbar to avoid content shifting: */
+  overflow-y: scroll;
 }
 
 a {
-  color: #ce0000;
   text-decoration: none;
-  padding-top: 4px;
-  padding-bottom: 2px;
+  color: #990d0d;
 }
-
 a:hover {
-  background-color: #fffbe8;
+  text-decoration: underline;
 }
 
-a:active {
-  background-color: #ce0000;
-  color: white;
-}
-
-p {
-  line-height: 1.5;
-  margin-top: 1em;
-}
-
-li p {
-  margin: 0;
-}
-
-li {
-  margin-bottom: 8px;
-}
-
+figure,
+img,
 video {
-  width: 100%;
-}
-
-blockquote {
-  margin: 1em 0 1em 2em;
-  background-color: #fafaed;
-  padding: 0.2em 0.2em 0.2em 0.5em;
-  border-left: 4px solid grey;
-  font-size: 0.9em;
-}
-
-blockquote p {
-  margin: 0;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  line-height: 1.2;
-}
-
-h1 + p,
-h2 + p,
-h3 + p,
-h4 + p {
-  margin-top: -10px;
-}
-
-h1 {
-  font-size: 35px;
-}
-
-h2 {
-  font-size: 34px;
-  margin-top: 1rem;
-}
-
-h3 {
-  font-size: 30px;
-  font-style: italic;
-  font-weight: 600;
-}
-
-article img {
+  display: block;
   max-width: 100%;
 }
 
-pre {
-  padding: 15px 15px;
-  width: calc(100% - 30px); /* Cancels out the left/right paddings */
-  font-size: 16px;
-  overflow-x: auto;
+video {
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
-code {
-  background-color: #ffedcd;
-  border-radius: 3px;
-  font-size: 0.8em;
-  padding: 3px 5px 1px 5px;
+p {
+  line-height: 1.5rem;
 }
 
-.pagination {
-  margin-top: 40px;
+li {
+  margin-bottom: 0.5rem;
 }
 
-.next {
-  float: right;
+iframe {
+  max-width: 100%;
 }
 
-.prev {
-  float: left;
+figure {
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  display: inline-block;
+  font-style: italic;
+}
+figcaption {
+  padding: 5px;
 }
 
-#content {
-  margin-top: 1.5rem;
-  clear: both;
+blockquote {
+  background-color: #efefef;
+  border-left: 4px solid #ccc;
+  padding: 5px;
+  margin-left: 2rem;
+  margin-right: 0;
+}
+blockquote > * {
+  margin: 0;
 }
 
 time {
-  color: black;
-  font-size: 0.9em;
+  white-space: nowrap;
+  font-family: inherit;
+  font-size: inherit;
 }
 
-/* ====================================
- * Navbar
- * ==================================== */
+ul {
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid black;
+}
+
+.clearfix {
+  clear: both;
+}
+
+code {
+  font-size: 1rem;
+  font-family: monospace;
+  background-color: #eaeaea;
+}
+
+pre {
+  padding: 0.5rem;
+  overflow-x: auto;
+  font-family: monospace;
+}
+pre code {
+  font-size: 0.9rem;
+}
+
+/* site-specific stuff follows */
 
 nav {
-  font-weight: 600;
-  font-size: 28px;
+  border: 1px solid black;
+  border-left: 0;
+  border-right: 0;
+  margin: 0.8rem auto 1rem auto;
 }
 
-.navbar {
-  padding: 0px 0px;
-  margin: 5px -15px 12px 0px;
-  /* -15 to cancel out navbar>li's right margin */
+nav ul {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+footer {
+  margin-top: 1.5rem;
+  border-top: 1px solid black;
+  padding: 0.5rem 0;
+}
+
+#site-name {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+#site-subtitle {
+  margin: 0;
 }
 
 .navbar > li {
   display: inline;
   list-style-type: none;
-  margin: 0px 15px 0px 0px;
 }
-
 #left-navbar {
   float: left;
 }
-
+#left-navbar li {
+  margin-right: 1rem;
+}
 #right-navbar {
   float: right;
 }
-
-#hr-nav {
-  clear: both;
-}
-
-/* ====================================
- * Header
- * ==================================== */
-
-#site-name {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  font-size: 40px;
-  font-weight: 700;
-}
-
-#site-subtitle {
-  margin-top: 0px;
-  font-size: 20px;
-  font-weight: 400;
-}
-/* ====================================
- * Footer
- * ==================================== */
-
-footer {
-  font-size: 18px;
-}
-
-#hr-comment,
-#hr-footer {
-  margin-top: 40px;
-}
-
-/* ====================================
- * Phone / small tablet sizes
- * ==================================== */
-@media (max-width: 767px) {
-  nav {
-    font-size: 24px;
-  }
-
-  body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 26px;
-  }
-
-  h3 {
-    font-size: 20px;
-    font-weight: 700;
-  }
-}
-
-@media (min-width: 480px) {
-  #main {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
+#right-navbar li {
+  margin-left: 1rem;
 }

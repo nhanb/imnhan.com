@@ -242,12 +242,15 @@ Hell, I may even redo the whole thing using machine-cut pieces for absolute accu
 myself from a world of&amp;nbsp;pain.&lt;/p&gt;
 &lt;p&gt;I took a lot of photos as I went, so if you want to see more photos of my progress, just check out
 my &lt;a href="https://www.flickr.com/photos/nhanb/albums/72157661059385592"&gt;flickr album&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Till next&amp;nbsp;time!&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Look ma, no stock theme!</title><link href="https://hi.imnhan.com/posts/look-ma-no-stock-theme/" rel="alternate"></link><published>2015-06-05T13:54:00+07:00</published><updated>2015-06-05T13:54:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-06-05:/posts/look-ma-no-stock-theme/</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;October 2017 Update&lt;/strong&gt;: Now that I like high contrast more, I just updated the theme to a
-black/white/red palette with a &lt;a href="https://github.com/adobe-fonts/source-serif-pro"&gt;high-quality serif font&lt;/a&gt; instead. Thanks &lt;a href="https://practicaltypography.com/"&gt;Mr. Butterick&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;p&gt;I just redesigned my&amp;nbsp;blog.&lt;/p&gt;
-&lt;p&gt;To be totally honest, the previous design was not mine at all. I&amp;#8217;ve always …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;October 2017 Update&lt;/strong&gt;: Now that I like high contrast more, I just updated the theme to a
+&lt;p&gt;Till next&amp;nbsp;time!&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Look ma, no stock theme!</title><link href="https://hi.imnhan.com/posts/look-ma-no-stock-theme/" rel="alternate"></link><published>2015-06-05T13:54:00+07:00</published><updated>2015-06-05T13:54:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-06-05:/posts/look-ma-no-stock-theme/</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;2020 Update&lt;/strong&gt;: I bit the bullet and removed all web fonts, relying on the
+browser&amp;#8217;s configured sans-serif/monospace fonts instead. It&amp;#8217;s probably fine,
+since event stock fonts seem to cover Vietnamese glyphs well these days.
+Otherwise, people who care enough to be bothered by fallback fonts are likely …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;2020 Update&lt;/strong&gt;: I bit the bullet and removed all web fonts, relying on the
+browser&amp;#8217;s configured sans-serif/monospace fonts instead. It&amp;#8217;s probably fine,
+since event stock fonts seem to cover Vietnamese glyphs well these days.
+Otherwise, people who care enough to be bothered by fallback fonts are likely
+to know how to configure their browser with proper fonts&amp;nbsp;anyway.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;2017 Update&lt;/strong&gt;: Now that I like high contrast more, I just updated the theme to a
 black/white/red palette with a &lt;a href="https://github.com/adobe-fonts/source-serif-pro"&gt;high-quality serif font&lt;/a&gt; instead. Thanks &lt;a href="https://practicaltypography.com/"&gt;Mr. Butterick&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 

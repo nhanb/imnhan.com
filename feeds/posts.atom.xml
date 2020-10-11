@@ -268,7 +268,7 @@ with that&amp;#8230; &lt;a href="https://developers.google.com/fonts/docs/gettin
 whatever reason, some people now think it&amp;#8217;s cool to include Bootstrap/Foundation to every project,
 or to include that new shiny parallax library to ruin scrolling for everybody. Oh, and don&amp;#8217;t forget
 the marvellous invention that is &lt;a href="https://xkcd.com/1309/"&gt;&amp;#8220;infinite scrolling&amp;#8221;&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="http://imgs.xkcd.com/comics/infinite_scrolling.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://imgs.xkcd.com/comics/infinite_scrolling.png"&gt;&lt;/p&gt;
 &lt;p&gt;In fact, the main motivation of my new theme is &lt;a href="http://motherfuckingwebsite.com/"&gt;this satire page&lt;/a&gt; on the sad state of the web
 we&amp;#8217;re in&amp;nbsp;today.&lt;/p&gt;
 &lt;p&gt;That&amp;#8217;s why I decided to do no fancy cosmetic &lt;span class="caps"&gt;JS&lt;/span&gt; and try to keep my use of static assets to a&amp;nbsp;minimum:&lt;/p&gt;

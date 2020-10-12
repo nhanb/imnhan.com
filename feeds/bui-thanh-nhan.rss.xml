@@ -2,10 +2,9 @@
 <rss version="2.0"><channel><title>Hi, I'm Nhân - Bùi Thành Nhân</title><link>https://hi.imnhan.com/</link><description>and this is my humble corner on the interwebs.</description><lastBuildDate>Wed, 10 Jun 2020 08:25:00 +0700</lastBuildDate><item><title>Streaming videos from Google Drive - 2nd attempt</title><link>https://hi.imnhan.com/posts/streaming-videos-from-google-drive-2nd-attempt/</link><description>&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
 an &lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;earlier blog post&lt;/a&gt;. It now works like this on an Android phone with
 mpv-android&amp;nbsp;installed:&lt;/p&gt;
-&lt;video controls&gt;
+&lt;p&gt;&lt;video controls&gt;
   &lt;source src="https://junk.imnhan.com/gflick-phone-demo.mp4" type="video/mp4"&gt;
-&lt;/video&gt;
-
+&lt;/video&gt;&lt;/p&gt;
 &lt;p&gt;The longer version&amp;nbsp;follows.&lt;/p&gt;
 &lt;p&gt;&lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;Previously&lt;/a&gt; I was writing a proxy of sorts that adapted Google Drive&amp;#8217;s
 &amp;#8220;bearer token&amp;#8221; auth to the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bùi Thành Nhân</dc:creator><pubDate>Wed, 10 Jun 2020 08:25:00 +0700</pubDate><guid isPermaLink="false">tag:hi.imnhan.com,2020-06-10:/posts/streaming-videos-from-google-drive-2nd-attempt/</guid><category>side projects</category></item><item><title>Introducing McRoss - a minimal gemini browser</title><link>https://hi.imnhan.com/posts/introducing-mcross-a-minimal-gemini-browser/</link><description>&lt;p&gt;The last couple of months saw the first &amp;#8220;&lt;span class="caps"&gt;PR&lt;/span&gt;&amp;#8221; wave of &lt;a href="https://gemini.circumlunar.space/"&gt;the gemini protocol&lt;/a&gt;

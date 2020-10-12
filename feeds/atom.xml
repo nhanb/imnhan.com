@@ -2,19 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2020-06-10T08:25:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>Streaming videos from Google Drive - 2nd attempt</title><link href="https://hi.imnhan.com/posts/streaming-videos-from-google-drive-2nd-attempt/" rel="alternate"></link><published>2020-06-10T08:25:00+07:00</published><updated>2020-06-10T08:25:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-06-10:/posts/streaming-videos-from-google-drive-2nd-attempt/</id><summary type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
 an &lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;earlier blog post&lt;/a&gt;. It now works like this on an Android phone with
 mpv-android&amp;nbsp;installed:&lt;/p&gt;
-&lt;video controls&gt;
+&lt;p&gt;&lt;video controls&gt;
   &lt;source src="https://junk.imnhan.com/gflick-phone-demo.mp4" type="video/mp4"&gt;
-&lt;/video&gt;
-
+&lt;/video&gt;&lt;/p&gt;
 &lt;p&gt;The longer version&amp;nbsp;follows.&lt;/p&gt;
 &lt;p&gt;&lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;Previously&lt;/a&gt; I was writing a proxy of sorts that adapted Google Drive&amp;#8217;s
 &amp;#8220;bearer token&amp;#8221; auth to the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
 an &lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;earlier blog post&lt;/a&gt;. It now works like this on an Android phone with
 mpv-android&amp;nbsp;installed:&lt;/p&gt;
-&lt;video controls&gt;
+&lt;p&gt;&lt;video controls&gt;
   &lt;source src="https://junk.imnhan.com/gflick-phone-demo.mp4" type="video/mp4"&gt;
-&lt;/video&gt;
-
+&lt;/video&gt;&lt;/p&gt;
 &lt;p&gt;The longer version&amp;nbsp;follows.&lt;/p&gt;
 &lt;p&gt;&lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;Previously&lt;/a&gt; I was writing a proxy of sorts that adapted Google Drive&amp;#8217;s
 &amp;#8220;bearer token&amp;#8221; auth to the more widely supported &amp;#8220;basic auth&amp;#8221; so I could watch
@@ -283,10 +281,9 @@ these players support, as far as I know, is &lt;a href="https://developer.mozill
 authentication behind the scene, exposing a plain &lt;span class="caps"&gt;HTTP&lt;/span&gt; streaming endpoint so
 &lt;code&gt;mpv&lt;/code&gt; and the like can use without&amp;nbsp;modification.&lt;/p&gt;
 &lt;p&gt;Here&amp;#8217;s what it looks like in&amp;nbsp;action:&lt;/p&gt;
-&lt;video controls&gt;
+&lt;p&gt;&lt;video controls&gt;
   &lt;source src="https://junk.imnhan.com/gflick.mp4" type="video/mp4"&gt;
-&lt;/video&gt;
-
+&lt;/video&gt;&lt;/p&gt;
 &lt;p&gt;It can run just fine as a local server, but cumbersome and not practical on
 tablets, so I put it on a publicly accessible server, protected by nginx which
 does &lt;span class="caps"&gt;TLS&lt;/span&gt; and Basic Auth. As mentioned earlier, good video players can do basic
@@ -558,49 +555,75 @@ since even stock fonts seem to cover Vietnamese glyphs well these days.
 Otherwise, people who care enough to be bothered by fallback fonts are likely
 to know how to configure their browser with proper fonts&amp;nbsp;anyway.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;2017 Update&lt;/strong&gt;: Now that I like high contrast more, I just updated the theme to a
-black/white/red palette with a &lt;a href="https://github.com/adobe-fonts/source-serif-pro"&gt;high-quality serif font&lt;/a&gt; instead. Thanks &lt;a href="https://practicaltypography.com/"&gt;Mr. Butterick&lt;/a&gt;!&lt;/em&gt;&lt;/p&gt;
+black/white/red palette with a [high-quality serif font][8] instead. Thanks [Mr.&amp;nbsp;Butterick][9]!&lt;/em&gt;&lt;/p&gt;
 &lt;hr&gt;
 
-&lt;p&gt;I just redesigned my&amp;nbsp;blog.&lt;/p&gt;
-&lt;p&gt;To be totally honest, the previous design was not mine at all. I&amp;#8217;ve always been using
-&lt;a href="https://github.com/duilio/pelican-octopress-theme/"&gt;pelican-octopress-theme&lt;/a&gt;, which is a Pelican port of the default theme for Octopress. It&amp;#8217;s not
+I just redesigned my blog.
+
+To be totally honest, the previous design was not mine at all. I&amp;#8217;ve always been using
+[pelican-octopress-theme][1], which is a Pelican port of the default theme for Octopress. It&amp;#8217;s not
 that I have anything to complain about that theme: it was clean, readable and easy on the eyes. I
 just want my site to look unique. Content is king, sure, but it wouldn&amp;#8217;t hurt to stand out from the
-crowd once in a&amp;nbsp;while.&lt;/p&gt;
-&lt;p&gt;I&amp;#8217;m not a professional designer, but everything turned out quite well if I could say so. In this
-post I&amp;#8217;ll explain my design goals and how I (hopefully) achieved&amp;nbsp;them.&lt;/p&gt;
-&lt;h2&gt;Clean and&amp;nbsp;lightweight&lt;/h2&gt;
-&lt;p&gt;The web is messy. I&amp;#8217;m not talking blinking-marquee-fire-animated-header messy (thank god we&amp;#8217;re done
-with that&amp;#8230; &lt;a href="https://developers.google.com/fonts/docs/getting_started#Effects"&gt;or are we?&lt;/a&gt;). I&amp;#8217;m talking megabytes-of-useless-javascript-and-css messy. For
+crowd once in a while.
+
+I&amp;#8217;m not a professional designer, but everything turned out quite well if I could say so. In this
+post I&amp;#8217;ll explain my design goals and how I (hopefully) achieved them.
+
+## Clean and lightweight
+
+The web is messy. I&amp;#8217;m not talking blinking-marquee-fire-animated-header messy (thank god we&amp;#8217;re done
+with that&amp;#8230; [or are we?][2]). I&amp;#8217;m talking megabytes-of-useless-javascript-and-css messy. For
 whatever reason, some people now think it&amp;#8217;s cool to include Bootstrap/Foundation to every project,
 or to include that new shiny parallax library to ruin scrolling for everybody. Oh, and don&amp;#8217;t forget
-the marvellous invention that is &lt;a href="https://xkcd.com/1309/"&gt;&amp;#8220;infinite scrolling&amp;#8221;&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="https://imgs.xkcd.com/comics/infinite_scrolling.png"&gt;&lt;/p&gt;
-&lt;p&gt;In fact, the main motivation of my new theme is &lt;a href="http://motherfuckingwebsite.com/"&gt;this satire page&lt;/a&gt; on the sad state of the web
-we&amp;#8217;re in&amp;nbsp;today.&lt;/p&gt;
-&lt;p&gt;That&amp;#8217;s why I decided to do no fancy cosmetic &lt;span class="caps"&gt;JS&lt;/span&gt; and try to keep my use of static assets to a&amp;nbsp;minimum:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="/images/mofo_01_loads.png"&gt;&lt;/p&gt;
-&lt;p&gt;I guess there&amp;#8217;s nothing I can do about the font files though, since I need to make sure my
-Vietnamese posts are rendered in a font that supports it. Oh well, at least it looks&amp;nbsp;awesome.&lt;/p&gt;
-&lt;h2&gt;Content is&amp;nbsp;king&lt;/h2&gt;
-&lt;p&gt;No more distracting sidebar with &amp;#8220;latest news&amp;#8221;, &amp;#8220;related posts&amp;#8221;, etc. with thumbnails popping up
-all over the place, just a good old article body from start to&amp;nbsp;finish.&lt;/p&gt;
-&lt;h2&gt;Easy on the&amp;nbsp;eye&lt;/h2&gt;
-&lt;p&gt;While &lt;a href="http://bettermotherfuckingwebsite.com/"&gt;bettermotherfuckingwebsite&lt;/a&gt; does a good job at demonstrating how far you can go with a
-few simple &lt;span class="caps"&gt;CSS&lt;/span&gt; rules (hint: very far), I found Tommi Kaikkonen&amp;#8217;s &lt;a href="http://www.kaikkonendesign.fi/typography/"&gt;Interactive Guide to Blog
-Typography&lt;/a&gt; much more comprehensive and informative. I implemented many of the ideas found
-in that&amp;nbsp;guide:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Big body&amp;nbsp;font&lt;/li&gt;
-&lt;li&gt;Constrained line width to aid&amp;nbsp;reading&lt;/li&gt;
-&lt;li&gt;Generous line height, liberal whitespace to help with visual&amp;nbsp;hierarchy&lt;/li&gt;
-&lt;li&gt;Lower background-foreground contrast. I also find the slightly yellow-ish background somewhat&amp;nbsp;soothing.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;That&amp;#8217;s&amp;nbsp;it!&lt;/h2&gt;
-&lt;p&gt;You can find the source code to my theme &lt;a href="https://github.com/nhanb/motherfucking-pelican-theme"&gt;on GitHub&lt;/a&gt;. I don&amp;#8217;t recommend using it as-is though,
+the marvellous invention that is [&amp;#8220;infinite scrolling&amp;#8221;][3]:
+
+![](https://imgs.xkcd.com/comics/infinite_scrolling.png)
+
+In fact, the main motivation of my new theme is [this satire page][4] on the sad state of the web
+we&amp;#8217;re in today.
+
+That&amp;#8217;s why I decided to do no fancy cosmetic &lt;span class="caps"&gt;JS&lt;/span&gt; and try to keep my use of static assets to a
+minimum:
+
+![](/images/mofo_01_loads.png)
+
+I guess there&amp;#8217;s nothing I can do about the font files though, since I need to make sure my
+Vietnamese posts are rendered in a font that supports it. Oh well, at least it looks awesome.
+
+## Content is king
+
+No more distracting sidebar with &amp;#8220;latest news&amp;#8221;, &amp;#8220;related posts&amp;#8221;, etc. with thumbnails popping up
+all over the place, just a good old article body from start to finish.
+
+## Easy on the eye
+
+While [bettermotherfuckingwebsite][5] does a good job at demonstrating how far you can go with a
+few simple &lt;span class="caps"&gt;CSS&lt;/span&gt; rules (hint: very far), I found Tommi Kaikkonen&amp;#8217;s [Interactive Guide to Blog
+Typography][6] much more comprehensive and informative. I implemented many of the ideas found
+in that guide:
+
+- Big body font
+- Constrained line width to aid reading
+- Generous line height, liberal whitespace to help with visual hierarchy
+- Lower background-foreground contrast. I also find the slightly yellow-ish background somewhat
+  soothing.
+
+## That&amp;#8217;s it!
+
+You can find the source code to my theme [on GitHub][7]. I don&amp;#8217;t recommend using it as-is though,
 since I haven&amp;#8217;t implemented many required templates (authors, tags, categories, etc.) because I
 don&amp;#8217;t use them. There&amp;#8217;s also the hardcoded content in footer and probably a few more places. Maybe
-someday I&amp;#8217;ll stop being lazy and fix all that. &lt;em&gt;Maybe&lt;/em&gt;.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>How to install PyQt5 on a virtualenv on Ubuntu 14.04</title><link href="https://hi.imnhan.com/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/" rel="alternate"></link><published>2015-02-14T22:33:00+07:00</published><updated>2015-02-14T22:33:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-02-14:/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/</id><summary type="html">&lt;p&gt;The official way to install PyQt5 for development is to download and compile &lt;span class="caps"&gt;SIP&lt;/span&gt; + PyQt5 from
+someday I&amp;#8217;ll stop being lazy and fix all that. *Maybe*.
+
+[1]: https://github.com/duilio/pelican-octopress-theme/
+[2]: https://developers.google.com/fonts/docs/getting_started#Effects
+[3]: https://xkcd.com/1309/
+[4]: http://motherfuckingwebsite.com/
+[5]: http://bettermotherfuckingwebsite.com/
+[6]: http://www.kaikkonendesign.fi/typography/
+[7]: https://github.com/nhanb/motherfucking-pelican-theme
+[8]: https://github.com/adobe-fonts/source-serif-pro
+[9]:&amp;nbsp;https://practicaltypography.com/</content><category term="posts"></category></entry><entry><title>How to install PyQt5 on a virtualenv on Ubuntu 14.04</title><link href="https://hi.imnhan.com/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/" rel="alternate"></link><published>2015-02-14T22:33:00+07:00</published><updated>2015-02-14T22:33:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-02-14:/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/</id><summary type="html">&lt;p&gt;The official way to install PyQt5 for development is to download and compile &lt;span class="caps"&gt;SIP&lt;/span&gt; + PyQt5 from
 source, which is painstakingly slow (compiling PyQt5 took like 10 minutes on my &lt;span class="caps"&gt;PC&lt;/span&gt;). If you&amp;#8217;re
 &lt;a href="https://michalcodes4life.wordpress.com/2014/03/16/pyqt5-python-3-3-in-virtualenv-on-ubuntu/"&gt;compiling it against a virtualenv&lt;/a&gt;, rinse and repeat for each new virtualenv you create.
 Alhough it is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The official way to install PyQt5 for development is to download and compile &lt;span class="caps"&gt;SIP&lt;/span&gt; + PyQt5 from
@@ -610,7 +633,7 @@ Alhough it is doable, I prefer something&amp;nbsp;faster.&lt;/p&gt;
 &lt;p&gt;And yes, there is something faster. Today I came across a &lt;a href="http://stackoverflow.com/a/1962076"&gt;Stack Overflow answer&lt;/a&gt; that suggested
 a neat trick: installing PyQt globally, then copy the whole thing to your virtualenv
 &lt;strong&gt;site-packages&lt;/strong&gt; directory. Here&amp;#8217;s how I did it on Ubuntu 14.04, python3.4 and&amp;nbsp;PyQt5:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# assuming you already have virtualenv &amp;amp; virtualenvwrapper installed&lt;/span&gt;
+&lt;div class="bash highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# assuming you already have virtualenv &amp;amp; virtualenvwrapper installed&lt;/span&gt;
 
 &lt;span class="c1"&gt;# install pyqt5 globally&lt;/span&gt;
 sudo apt-get install python3-pyqt5
@@ -622,7 +645,6 @@ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class
 cp -r /usr/lib/python3/dist-packages/PyQt5 &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$LIBDIR&lt;/span&gt;&lt;span class="s2"&gt;/PyQt5&amp;quot;&lt;/span&gt;
 cp /usr/lib/python3/dist-packages/sip.cpython-*.so &lt;span class="s2"&gt;&amp;quot;&lt;/span&gt;&lt;span class="nv"&gt;$LIBDIR&lt;/span&gt;&lt;span class="s2"&gt;/&amp;quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;And you&amp;#8217;re done with no compiling involved. Isn&amp;#8217;t that neat?&amp;nbsp;:)&lt;/p&gt;</content><category term="tutorials"></category></entry><entry><title>Dẹp ibus-unikey đi, dùng fcitx-unikey nhé!</title><link href="https://hi.imnhan.com/posts/ibus-is-dead-to-me-use-fcitx-instead-vi/" rel="alternate"></link><published>2015-01-29T20:41:00+07:00</published><updated>2015-01-29T20:41:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-01-29:/posts/ibus-is-dead-to-me-use-fcitx-instead-vi/</id><summary type="html">&lt;p&gt;Sáng ra Netrunner bảo có vài chục cái update, mình chủ quan &lt;code&gt;dist-upgrade -y&lt;/code&gt; rồi để đó không màng
 đến nữa. Nửa tiếng sau, ibus không thèm chơi với firefox!&amp;nbsp;:|&lt;/p&gt;
@@ -703,19 +725,17 @@ get&amp;nbsp;started).&lt;/p&gt;
 &lt;p&gt;By default, &lt;code&gt;mkvirtualenv my-env-name&lt;/code&gt; will create a virtualenv using the &lt;span class="caps"&gt;OS&lt;/span&gt;&amp;#8217;s default python
 version (in Ubuntu&amp;#8217;s case, that&amp;#8217;s python2). If you want a virtualenv that has &lt;code&gt;python&lt;/code&gt; mapped to
 python3 instead, use the &lt;code&gt;-p&lt;/code&gt; argument:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; my-env-name
+&lt;div class="bash highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; my-env-name
 &lt;span class="c1"&gt;# assumming you have python3 installed already, of course!&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;However, on Ubuntu this will fail if you installed virtualenv as a pip package. If that&amp;#8217;s the case,
 simply remove it and install the Ubuntu package instead. It goes like this for Ubuntu&amp;nbsp;14.04:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ sudo pip uninstall virtualenv
+&lt;div class="bash highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ sudo pip uninstall virtualenv
 $ sudo apt-get install python-virtualenv
 $ sudo pip install virtualenvwrapper  &lt;span class="c1"&gt;# yes, you can install virtualenvwrapper via pip&lt;/span&gt;
 $ mkvirtualenv -p &lt;span class="sb"&gt;`&lt;/span&gt;which python3&lt;span class="sb"&gt;`&lt;/span&gt; my-env-name
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Neat,&amp;nbsp;eh?&lt;/p&gt;</content><category term="tutorials"></category><category term="linux"></category><category term="vim"></category><category term="python"></category></entry><entry><title>Enable italic text inside vim inside tmux inside gnome-terminal</title><link href="https://hi.imnhan.com/posts/enable-italic-text-vim-tmux-gnome-terminal/" rel="alternate"></link><published>2014-08-02T16:46:00+07:00</published><updated>2014-08-02T16:46:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-08-02:/posts/enable-italic-text-vim-tmux-gnome-terminal/</id><summary type="html">&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt;: As &lt;code&gt;egmont&lt;/code&gt; pointed out in the comments: setting &lt;code&gt;TERM=xterm&lt;/code&gt; inside tmux is
 discouraged and will cause wrong behavior in some programs. Changing all instances of
@@ -737,16 +757,15 @@ gnome-terminal. Let&amp;#8217;s go through these&amp;nbsp;things.&lt;/p&gt;
 &lt;h2&gt;gnome-terminal&lt;/h2&gt;
 &lt;p&gt;Note that older versions of &lt;code&gt;gnome-terminal&lt;/code&gt; do not support italic text. To check if your terminal
 does support it, run this&amp;nbsp;command:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ &lt;span class="nb"&gt;echo&lt;/span&gt; -e &lt;span class="s2"&gt;&amp;quot;\e[3m foo \e[23m&amp;quot;&lt;/span&gt;
+&lt;div class="bash highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ &lt;span class="nb"&gt;echo&lt;/span&gt; -e &lt;span class="s2"&gt;&amp;quot;\e[3m foo \e[23m&amp;quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;If your version of gnome-terminal supports it, an italic &lt;em&gt;foo&lt;/em&gt; will appear. If not, upgrade it!&amp;nbsp;:)&lt;/p&gt;
 &lt;h2&gt;vim&lt;/h2&gt;
 &lt;p&gt;You may have noticed: &lt;code&gt;[3m&lt;/code&gt; and &lt;code&gt;[23m&lt;/code&gt; are the special sequences to start and stop printing
 italic text. Unfortunately, vim doesn&amp;#8217;t care about those. It expects &lt;code&gt;sitm&lt;/code&gt; and &lt;code&gt;ritm&lt;/code&gt; instead.
 We&amp;#8217;ll need to map them manually. Simply use these&amp;nbsp;commands:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Download a custom terminfo that defines sitm and ritm&lt;/span&gt;
+&lt;div class="bash highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# Download a custom terminfo that defines sitm and ritm&lt;/span&gt;
 $ wget https://gist.githubusercontent.com/sos4nt/3187620/raw/8e13c1fec5b72d415ed2917590348451de5f8e58/xterm-256color-italic.terminfo
 &lt;span class="c1"&gt;# Compile it&lt;/span&gt;
 $ tic xterm-256color-italic.terminfo
@@ -754,7 +773,6 @@ $ tic xterm-256color-italic.terminfo
 &lt;span class="c1"&gt;# (edit filename accordingly if you&amp;#39;re using another shell)&lt;/span&gt;
 $ &lt;span class="nb"&gt;echo&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;export TERM=xterm-256color-italic&amp;#39;&lt;/span&gt; &amp;gt;&amp;gt; ~/.bashrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Open a new terminal window and try the first command again. You should now see an italic &lt;em&gt;foo&lt;/em&gt;. If
 not, I can&amp;#8217;t help you any further&amp;nbsp;:P&lt;/p&gt;
@@ -768,7 +786,6 @@ reset &lt;code&gt;$TERM&lt;/code&gt; to &lt;code&gt;screen-256color&lt;/code&gt;
 value. Add this line to &lt;code&gt;~/.tmux.conf&lt;/code&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;set -g default-terminal &amp;quot;xterm-256color-italic&amp;quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;h2&gt;More on&amp;nbsp;vim&lt;/h2&gt;
 &lt;p&gt;If you still can&amp;#8217;t see any italic text in a markdown file, it might be because your colorscheme
@@ -807,7 +824,6 @@ platform. If you&amp;#8217;re using Arch Linux, you&amp;#8217;re in luck since t
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ yaourt -S node-webkit
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;If you&amp;#8217;re on Ubuntu or some other repo and you get some error about &lt;code&gt;libudev.so.0&lt;/code&gt;, &lt;a href="http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux"&gt;read this&lt;/a&gt;
 for a&amp;nbsp;hotfix.&lt;/p&gt;
 &lt;p&gt;The rest of this tutorial will assume that you have &lt;code&gt;nw&lt;/code&gt; accessible as an executable in your $&lt;span class="caps"&gt;PATH&lt;/span&gt;.&lt;/p&gt;
@@ -822,7 +838,6 @@ allowing the &lt;strong&gt;dist&lt;/strong&gt; directory to store our binary&amp
 &lt;span class="err"&gt;└── dist/&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;&lt;strong&gt;package.json&lt;/strong&gt; stores the information that &lt;code&gt;nw&lt;/code&gt; requires. Its content goes like&amp;nbsp;this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;your-project-name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -834,13 +849,11 @@ allowing the &lt;strong&gt;dist&lt;/strong&gt; directory to store our binary&amp
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;&lt;code&gt;window.toolbar&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt; by default so we don&amp;#8217;t actually need it. Switch it to &lt;code&gt;false&lt;/code&gt; if you
 want to hide the browser-like address&amp;nbsp;bar.&lt;/p&gt;
 &lt;p&gt;To embed css/js files, don&amp;#8217;t use absolute urls. Use relative ones like&amp;nbsp;this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;link&lt;/span&gt; &lt;span class="na"&gt;href&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;css/style.css&amp;quot;&lt;/span&gt; &lt;span class="na"&gt;rel&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;stylesheet&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;There&amp;#8217;s no point in using CDNs because we&amp;#8217;re distributing the whole app with its assets as a
 one-time download. Things like automatic css/js minification or concatination aren&amp;#8217;t needed either.
@@ -858,7 +871,6 @@ need and stuff them into &lt;strong&gt;css&lt;/strong&gt; or &lt;strong&gt;js&lt
 &lt;span class="err"&gt;└── package.json&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;If you&amp;#8217;re experienced in front-end web development tools, feel free to go wild with bower,
 grunt/gulp/whatever. Again, check out the &lt;a href="https://github.com/Anonyfox/node-webkit-hipster-seed"&gt;node-webkit-hipster-seed&lt;/a&gt; project if you know what
 you&amp;#8217;re&amp;nbsp;doing.&lt;/p&gt;
@@ -867,11 +879,9 @@ weird url, which is why we can&amp;#8217;t use absolute urls in the first&amp;nb
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c"&gt;file:///home/nhanb/Dropbox/small_projects/ajmg-nw/app/index.html&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Once you&amp;#8217;ve packaged your app to a single executable, the url will be something like&amp;nbsp;this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c"&gt;file:///tmp/.org.chromium.Chromium.IJWqkq/index.html&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;But let&amp;#8217;s not get ahead of ourselves. Let&amp;#8217;s solve the most obvious dev issue&amp;nbsp;first:&lt;/p&gt;
 &lt;h2&gt;Automatic&amp;nbsp;reload&lt;/h2&gt;
@@ -892,15 +902,13 @@ with python2, by the way). If you&amp;#8217;re on Ubuntu and don&amp;#8217;t kno
 $ sudo pip install livereload
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;There are ruby/javascript implementations too. Google them if you prefer those&amp;nbsp;things.&lt;/p&gt;
 &lt;p&gt;Either way, we can now fire off a livereload&amp;nbsp;server:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;# I don&amp;#39;t know why but seems like the python implementation doesn&amp;#39;t work&lt;/span&gt;
-&lt;span class="err"&gt;# when I type `livereload app`. Weird.&lt;/span&gt;
-&lt;span class="err"&gt;$ cd app&lt;/span&gt;
-&lt;span class="err"&gt;$ livereload .&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="c1"&gt;# I don&amp;#39;t know why but seems like the python implementation doesn&amp;#39;t work&lt;/span&gt;
+&lt;span class="c1"&gt;# when I type `livereload app`. Weird.&lt;/span&gt;
+&lt;span class="o"&gt;$&lt;/span&gt; &lt;span class="n"&gt;cd&lt;/span&gt; &lt;span class="n"&gt;app&lt;/span&gt;
+&lt;span class="o"&gt;$&lt;/span&gt; &lt;span class="n"&gt;livereload&lt;/span&gt; &lt;span class="o"&gt;.&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Now how do we inject the livereload javascript? On Google Chrome there is an official livereload
 plugin, but we&amp;#8217;re using node-webkit so that&amp;#8217;s not possible. No problem! The &lt;code&gt;livereload&lt;/code&gt; daemon we
@@ -909,14 +917,13 @@ JavaScript snippet too. Simply embed it to your &lt;strong&gt;index.html&lt;/str
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt; &lt;span class="na"&gt;src&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;http://localhost:35729/livereload.js&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Fire off the app with &lt;code&gt;nw app&lt;/code&gt; again and you&amp;#8217;ll have automatic reloading. Cool&amp;nbsp;eh?&lt;/p&gt;
 &lt;p&gt;Another problem: we only want livereload in our development version, not in the released app. Let&amp;#8217;s
 modify our javascript snippet in &lt;strong&gt;index.html&lt;/strong&gt; to only load livereload when a certain environment
 variable is set to &lt;code&gt;1&lt;/code&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;&amp;lt;&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;span class="c1"&gt;// Load livereload if in dev environment&lt;/span&gt;
-&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;process&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;NW_DEV_MY_AWESOME_PROJECT&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;process&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;env&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;NW_DEV_MY_AWESOME_PROJECT&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mf"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
     &lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;script&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;createElement&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;script&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
     &lt;span class="nx"&gt;script&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;type&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;text/javascript&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
     &lt;span class="nx"&gt;script&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;src&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;http://localhost:35729/livereload.js&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
@@ -925,12 +932,10 @@ variable is set to &lt;code&gt;1&lt;/code&gt;:&lt;/p&gt;
 &lt;span class="p"&gt;&amp;lt;/&lt;/span&gt;&lt;span class="nt"&gt;script&lt;/span&gt;&lt;span class="p"&gt;&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Now to start the&amp;nbsp;app:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ &lt;span class="nb"&gt;export&lt;/span&gt; &lt;span class="nv"&gt;NW_DEV_MY_AWESOME_PROJECT&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="m"&gt;1&lt;/span&gt;
 $ nw app
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;h2&gt;Simple cross-platform build&amp;nbsp;command&lt;/h2&gt;
 &lt;p&gt;To be honest, you can manually write shell scripts to build for each platform. Check out &lt;a href="https://github.com/rogerwang/node-webkit/wiki/How-to-package-and-distribute-your-apps"&gt;this wiki
@@ -944,7 +949,6 @@ $ sudo npm install -g grunt-cli
 $ &lt;span class="c1"&gt;# cd to your project root (the one containing app/ and dist/)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Create &lt;code&gt;package.json&lt;/code&gt; and &lt;code&gt;Gruntfile.js&lt;/code&gt; in project&amp;nbsp;root:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;├── app/&lt;/span&gt;
 &lt;span class="err"&gt;│   ├── css/&lt;/span&gt;
@@ -956,7 +960,6 @@ $ &lt;span class="c1"&gt;# cd to your project root (the one containing app/ and 
 &lt;span class="err"&gt;└── package.json&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;&lt;strong&gt;package.json&lt;/strong&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="p"&gt;{&lt;/span&gt;
   &lt;span class="nt"&gt;&amp;quot;name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;whatever&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
@@ -965,7 +968,6 @@ $ &lt;span class="c1"&gt;# cd to your project root (the one containing app/ and 
   &lt;span class="nt"&gt;&amp;quot;author&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Bui Thanh Nhan&amp;quot;&lt;/span&gt;
 &lt;span class="p"&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;&lt;strong&gt;Gruntfile.js&lt;/strong&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nx"&gt;module&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;exports&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;grunt&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -989,12 +991,10 @@ $ &lt;span class="c1"&gt;# cd to your project root (the one containing app/ and 
 &lt;span class="p"&gt;};&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Then:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;$ npm install grunt grunt-node-webkit-builder --save-dev
 $ grunt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;The first time will be slow because grunt will download precompiled nw binaries for all supported
 platforms, which will be stored in &lt;strong&gt;dist/cache/&lt;/strong&gt;. From now you can compile for mac + linux + win
@@ -1044,18 +1044,15 @@ so we can use them out of the box. For the purpose of this tutorial, we are only
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pip install twisted
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Since the default implementation doesn&amp;#8217;t support &lt;span class="caps"&gt;HTTPS&lt;/span&gt;, we&amp;#8217;ll use a &lt;a href="https://github.com/fmoo/twisted-connect-proxy"&gt;powered-up one&lt;/a&gt; I found on
 GitHub, written by Peter Ruibal. Let&amp;#8217;s clone this&amp;nbsp;thing:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone https://github.com/fmoo/twisted-connect-proxy.git
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Now let&amp;#8217;s try running the proxy server: &lt;code&gt;cd&lt;/code&gt; into the cloned directory and run it with &lt;code&gt;python2&lt;/code&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; twisted-connect-proxy
 python2 server.py &lt;span class="m"&gt;8080&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Then configure your browser to use &lt;strong&gt;localhost:8080&lt;/strong&gt; as the proxy. For Firefox it&amp;#8217;s&amp;nbsp;easy:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="/images/hdviet_04_firefox_proxy.png"&gt;&lt;/p&gt;
@@ -1073,7 +1070,6 @@ any blocked site! Of course you can&amp;#8217;t, since we haven&amp;#8217;t repl
         &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
             &lt;span class="n"&gt;ProxyRequest&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;process&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;The &lt;code&gt;process()&lt;/code&gt; method is in charge of forwarding whatever request the proxy receives to the actual
 target server. Let&amp;#8217;s intercept it with our own &lt;code&gt;redirect()&lt;/code&gt; function:&lt;/p&gt;
@@ -1101,7 +1097,6 @@ target server. Let&amp;#8217;s intercept it with our own &lt;code&gt;redirect()&
     &lt;span class="c1"&gt;# the rest of the file ...&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;In the snippet above, we defined a dictionary &lt;code&gt;redirects&lt;/code&gt; that stores the blocked domains that we
 need to replace. Note that I added &lt;strong&gt;s.vn-hd.com&lt;/strong&gt; as well, which is the host that stores
 subtitles. In our actual &lt;code&gt;redirect()&lt;/code&gt; function, we check if the request being processed is pointing
@@ -1111,7 +1106,6 @@ there is a&amp;nbsp;match:&lt;/p&gt;
 &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;replace&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;domain&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;req&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;requestHeaders&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;setRawHeaders&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;&amp;#39;host&amp;#39;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ip&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Note that the 3rd line also changes the &amp;#8220;Host&amp;#8221; &lt;span class="caps"&gt;HTTP&lt;/span&gt; header. Yes, our beloved people from &lt;span class="caps"&gt;IT&lt;/span&gt;
 Services do inspect &lt;span class="caps"&gt;HTTP&lt;/span&gt; headers to block stuff too. This line will introduce another problem that
@@ -1126,12 +1120,10 @@ again, you&amp;#8217;ll see the&amp;nbsp;problem:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Since &lt;strong&gt;s.vn-hd.com&lt;/strong&gt; is in our blocked domain dictionary (&lt;code&gt;redirects&lt;/code&gt;), the proxy server will
 request&amp;nbsp;this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://210.211.120.146/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;If you try to open it directly in a browser (that isn&amp;#8217;t using our proxy server), you&amp;#8217;ll get a 404
 too.  Why is that? This is because the &lt;strong&gt;Host&lt;/strong&gt; header is also changed to &lt;strong&gt;210.211.120.146&lt;/strong&gt;
@@ -1174,7 +1166,6 @@ App Engine website at &lt;strong&gt;hdviet-proxy.appspot.com&lt;/strong&gt;. It 
             &lt;span class="k"&gt;return&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;You can view my &lt;a href="https://github.com/nhanb/twisted-connect-proxy"&gt;finished script on github&lt;/a&gt; and clone it to use right&amp;nbsp;away.&lt;/p&gt;
 &lt;p&gt;If you want to set up your own website instead of using mine, it&amp;#8217;s really simple. Just use the new
 site template provided with &lt;span class="caps"&gt;GAE&lt;/span&gt; &lt;span class="caps"&gt;SDK&lt;/span&gt; and edit &lt;code&gt;main.py&lt;/code&gt; like&amp;nbsp;so:&lt;/p&gt;
@@ -1192,17 +1183,14 @@ site template provided with &lt;span class="caps"&gt;GAE&lt;/span&gt; &lt;span c
 &lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;debug&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="kc"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Remember to change the &lt;code&gt;remote_server&lt;/code&gt; variable in &lt;code&gt;server.py&lt;/code&gt; to match your appspot&amp;nbsp;link.&lt;/p&gt;
 &lt;p&gt;Restart the server script, now when the browser requests for&amp;nbsp;this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://s.vn-hd.com/store6/21042013/Two_and_a_Half_Men_S02/E001/Two_and_a_Half_Men_S02_E001_ENG.srt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;&lt;code&gt;server.py&lt;/code&gt; will redirect to&amp;nbsp;this:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;http://hdviet-proxy.appspot.com/?url=http%3A%2F%2Fs.vn-hd.com%2Fstore6%2F21042013%2FTwo_and_a_Half_Men_S02%2FE001%2FTwo_and_a_Half_Men_S02_E001_ENG.srt
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;And the appspot site will get the original url, fetch its content, and give it right back to&amp;nbsp;us:&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="/images/hdviet_08_srt.png"&gt;&lt;/p&gt;
@@ -1230,7 +1218,6 @@ default Manjaro&amp;nbsp;files:&lt;/p&gt;
 cp -a /etc/skel/. ~/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Then restart your computer and see if it worked (it&amp;nbsp;should).&lt;/p&gt;
 &lt;h2&gt;Get Mirosoft&amp;nbsp;fonts&lt;/h2&gt;
 &lt;p&gt;Getting Micro$oft fonts is like the first thing to do after any Linux distro installation. The Arch
@@ -1244,7 +1231,6 @@ shell commands: (&lt;strong&gt;warning&lt;/strong&gt;: this script assumes you a
 bash arch-ms-fonts.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;h2&gt;Proper font&amp;nbsp;smoothing&lt;/h2&gt;
 &lt;p&gt;I won&amp;#8217;t try to reinvent the wheels here. Head to Manjaro&amp;#8217;s &lt;a href="http://wiki.manjaro.org/index.php?title=Improve_Font_Rendering"&gt;wiki page on font smoothing&lt;/a&gt;.
 They&amp;#8217;ve got everything you&amp;nbsp;need.&lt;/p&gt;
@@ -1256,7 +1242,6 @@ as rectangles, which bugs me a&amp;nbsp;lot.&lt;/p&gt;
 &lt;p&gt;The solution? Simple. Just install the &lt;code&gt;ttf-droid&lt;/code&gt; package:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo pacman -S ttf-droid
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;&lt;img alt="" src="/images/jap_font_done.png"&gt;&lt;/p&gt;
 &lt;p&gt;Now that&amp;#8217;s&amp;nbsp;better!&lt;/p&gt;</content><category term="tutorials"></category><category term="arch"></category><category term="linux"></category></entry><entry><title>“Have you built anything cool?”</title><link href="https://hi.imnhan.com/posts/have-you-built-anything-cool/" rel="alternate"></link><published>2014-01-25T10:37:00+07:00</published><updated>2014-01-25T10:37:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2014-01-25:/posts/have-you-built-anything-cool/</id><summary type="html">&lt;p&gt;So recently I went to a &lt;em&gt;networking event&lt;/em&gt;&amp;#8212;something I have never liked or been good at. I&amp;#8217;m
@@ -1391,13 +1376,11 @@ appreciate the usefulness of package managers in&amp;nbsp;general.&lt;/p&gt;
 notify-send &lt;span class="s2"&gt;&amp;quot;Hello world!&amp;quot;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Let&amp;#8217;s say I put it at the desktop. Now open up a terminal, go to the Desktop directory and make
 our itc file executable. In case you&amp;#8217;re new, here are the&amp;nbsp;commands:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="nb"&gt;cd&lt;/span&gt; /home/your_username/Desktop
 chmod +x itc.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;&lt;strong&gt;Protip&lt;/strong&gt;: for the first command you can also type &lt;code&gt;cd ~/Desktop&lt;/code&gt;, because &lt;code&gt;~&lt;/code&gt; is the shorthand for
 your home directory (&lt;code&gt;/home/username&lt;/code&gt;)&lt;/p&gt;
@@ -1405,12 +1388,10 @@ your home directory (&lt;code&gt;/home/username&lt;/code&gt;)&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;~/Desktop/itc.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Another shorthand to make your life easier: &lt;code&gt;.&lt;/code&gt; stands for &amp;#8220;current directory&amp;#8221;, meaning if you are
 currently in the &lt;code&gt;~/Desktop&lt;/code&gt; directory, you can run the script by simply&amp;nbsp;typing:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;./itc.sh
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Either way, a notification saying &amp;#8220;Hello world!&amp;#8221; should pop up. This is a program in its
 simplest form: an executable file. In this particular example it is a Bash script, but it&amp;#8217;s not
@@ -1427,7 +1408,6 @@ looking command. In order to make it possible to simply run &lt;code&gt;itc&lt;/
 &lt;code&gt;/usr/bin/&lt;/code&gt; directory. This requires root permission so we&amp;#8217;ll need &lt;code&gt;sudo&lt;/code&gt; too:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;sudo mv ~/Desktop/itc /usr/bin/itc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;We can now run our program by simply typing &lt;code&gt;itc&lt;/code&gt;. You guessed it: every executable file put in
 this directory will be available as a command. There are other directories like this too. You can
@@ -1510,7 +1490,6 @@ permission. If you&amp;#8217;re not sure how to do this, open a terminal and ent
 gksudo gedit /etc/NetworkManager/system-connections/RMIT-WPA
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;This is a &lt;a href="https://bugs.launchpad.net/ubuntu/+source/network-manager/+bug/1104476"&gt;known bug&lt;/a&gt; and
 many have complained about it. There seems to be no developer assigned to fix it though. I&amp;#8217;ll keep
 you updated on the&amp;nbsp;issue.&lt;/p&gt;
@@ -1570,7 +1549,6 @@ beginner course from &lt;a href="http://www.justinguitar.com"&gt;justinguitar&lt
         &lt;span class="n"&gt;youtube_codes&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;code&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;To summarize, this snippet goes to justinguitar&amp;#8217;s beginner course index page, grab all links to
 each lesson, then grab the lesson title as well as the youtube video code to its video. The
 result is the list name &lt;code&gt;youtube_codes&lt;/code&gt;; each element is a tuple with the format
@@ -1604,7 +1582,6 @@ accelerate the download. This is where &lt;code&gt;aria2c&lt;/code&gt; jumps in:
     &lt;span class="nb"&gt;print&lt;/span&gt; &lt;span class="n"&gt;shell_output&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;That&amp;#8217;s it! I just needed to launch this script, turn off the laptop screen and go to bed. This
 morning I woke up seeing the whole course with almost 100 lessons downloaded. Imagine having to
 manually download all that by clicking each link&amp;#8230; You don&amp;#8217;t wanna go there, do&amp;nbsp;you?&lt;/p&gt;
@@ -1629,7 +1606,6 @@ inside 1 folder. I will create &lt;code&gt;~/.vim/vimrc&lt;/code&gt; then create
 terminal and&amp;nbsp;type:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;ln -s ~/.vim/vimrc ~/.vimrc
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;h2&gt;~/.vim&amp;nbsp;(directory)&lt;/h2&gt;
 &lt;p&gt;This should contain a bunch of subdirectories. Some&amp;nbsp;examples:&lt;/p&gt;
@@ -1658,7 +1634,6 @@ copying its content into my &lt;code&gt;~/.vim&lt;/code&gt; folder:&lt;/p&gt;
     └── tagbar.vim
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Everything looks good. Just copy and paste the whole thing, nice and simple. How about adding a
 decent colorscheme? Let&amp;#8217;s install &lt;a href="https://github.com/altercation/vim-colors-solarized"&gt;solarized&lt;/a&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;├── autoload
@@ -1672,7 +1647,6 @@ decent colorscheme? Let&amp;#8217;s install &lt;a href="https://github.com/alter
 │   └── tags
 └── README.mkd
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Wait, &lt;code&gt;doc/tags&lt;/code&gt; is already there. Ok, no problem! Let&amp;#8217;s just copy the content of solarized&amp;#8217;s
 tags file and paste it into the existing one. Now we&amp;nbsp;have:&lt;/p&gt;
@@ -1696,7 +1670,6 @@ tags file and paste it into the existing one. Now we&amp;nbsp;have:&lt;/p&gt;
     └── tagbar.vim
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Now what if you you decide that solarized sucks and want to get rid of it? Good luck finding
 which file belongs to which plugin. Oh, don&amp;#8217;t forget the merged &lt;code&gt;doc/tags&lt;/code&gt; file!
 Now imagine you have 20-30 plugins installed (which is normal, by the way). It&amp;#8217;s not a
@@ -1710,11 +1683,9 @@ Now let&amp;#8217;s install it like any regular plugin (I&amp;#8217;ve omitted t
     └── pathogen.vim
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Put this at the beginning of your &lt;code&gt;~/.vimrc&lt;/code&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;execute pathogen#infect&lt;span class="p"&gt;()&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Create this directory: &lt;code&gt;~/.vim/bundle&lt;/code&gt;. To install tagbar and solarized, just create their own
 directories&amp;nbsp;here:&lt;/p&gt;
@@ -1746,7 +1717,6 @@ directories&amp;nbsp;here:&lt;/p&gt;
         └── README.mkd
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;What Pathogen does is that it adds every directory inside &lt;code&gt;bundle&lt;/code&gt; into vim&amp;#8217;s &amp;#8220;runtimepath&amp;#8221;.
 It means that each folder here can be considered a new &lt;code&gt;.vim&lt;/code&gt; folder where vim looks for
 appropriate configuration files. The plugins are now isolated so removing or updating them
@@ -1759,7 +1729,6 @@ add these lines to its&amp;nbsp;content:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;bundle/
 .netrwhist
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;.netrwhist is a local file generated by vim that is better off ignored. We also ignore bundle
 directory because the plugins will be included as git submodules (google &lt;em&gt;git submodule&lt;/em&gt;
@@ -1776,13 +1745,11 @@ git remote add origin https://github.com/nhanb/.vim.git
 git push -u origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;Everytime you edit anything in your .vim directory, remember to commit the changes and push to&amp;nbsp;github:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git add . 
 git commit -m &lt;span class="s1"&gt;&amp;#39;some message here&amp;#39;&lt;/span&gt;
 git push
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;If you want to install a plugin, see if it has a git repo (9 out of 10 times it has a
 github repo). Find its git url and add to your .vim as a&amp;nbsp;submodule:&lt;/p&gt;
@@ -1793,7 +1760,6 @@ git submodule update --init
 git submodule foreach git pull origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
-
 &lt;p&gt;When you need to update your plugins, just run the last line to make git pull updates for all&amp;nbsp;plugins. &lt;/p&gt;
 &lt;p&gt;Here&amp;#8217;s the awesome part: when you&amp;#8217;re using a whole new computer and want to get all your vim settings
 from the cloud, simply clone your github repo, make a symlink for .vimrc and pull all&amp;nbsp;plugins:&lt;/p&gt;
@@ -1803,7 +1769,6 @@ ln -s ~/.vim/vimrc ~/.vimrc
 &lt;span class="nb"&gt;cd&lt;/span&gt; .vim
 git submodule update --init &lt;span class="o"&gt;&amp;amp;&amp;amp;&lt;/span&gt; git submodule foreach git pull origin master
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Now you must be really excited, no? Git does everything for you: upload/download, add plugins,
 update plugins &lt;em&gt;and&lt;/em&gt; remove plugins&amp;#8230; There must be some simple git command to remove a
@@ -1817,7 +1782,6 @@ for detailed&amp;nbsp;instructions.&lt;/p&gt;
 now empty. Clone &lt;a href="https://github.com/gmarik/vundle"&gt;Vundle&lt;/a&gt;:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Put this in your .vimrc (preferably at the&amp;nbsp;beginning):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="nb"&gt;nocompatible&lt;/span&gt;               &lt;span class="c"&gt;&amp;quot; be iMproved&lt;/span&gt;
@@ -1847,7 +1811,6 @@ Bundle &lt;span class="s1"&gt;&amp;#39;git://git.wincent.com/command-t.git&amp;#
 
 &lt;span class="k"&gt;filetype&lt;/span&gt; plugin indent &lt;span class="k"&gt;on&lt;/span&gt;     &lt;span class="c"&gt;&amp;quot; required!&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
 
 &lt;p&gt;Relaunch vim, run &lt;code&gt;:BundleInstall&lt;/code&gt; to install the &amp;#8220;bundles&amp;#8221; you listed in .vimrc. When you want
 to update them, &lt;code&gt;:BundleUpdate&lt;/code&gt;. To remove a plugin, just delete its line in your .vimrc file

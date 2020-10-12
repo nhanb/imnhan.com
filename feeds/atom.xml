@@ -546,84 +546,63 @@ Hell, I may even redo the whole thing using machine-cut pieces for absolute accu
 myself from a world of&amp;nbsp;pain.&lt;/p&gt;
 &lt;p&gt;I took a lot of photos as I went, so if you want to see more photos of my progress, just check out
 my &lt;a href="https://www.flickr.com/photos/nhanb/albums/72157661059385592"&gt;flickr album&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Till next&amp;nbsp;time!&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Look ma, no stock theme!</title><link href="https://hi.imnhan.com/posts/look-ma-no-stock-theme/" rel="alternate"></link><published>2015-06-05T13:54:00+07:00</published><updated>2015-06-05T13:54:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-06-05:/posts/look-ma-no-stock-theme/</id><summary type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;2020 Update&lt;/strong&gt;: I bit the bullet and removed all web fonts, relying on the
+&lt;p&gt;Till next&amp;nbsp;time!&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Look ma, no stock theme!</title><link href="https://hi.imnhan.com/posts/look-ma-no-stock-theme/" rel="alternate"></link><published>2015-06-05T13:54:00+07:00</published><updated>2015-06-05T13:54:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-06-05:/posts/look-ma-no-stock-theme/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2020 Update&lt;/strong&gt;: I bit the bullet and removed all web fonts, relying on the
 browser&amp;#8217;s configured sans-serif/monospace fonts instead. It&amp;#8217;s probably fine,
 since even stock fonts seem to cover Vietnamese glyphs well these days.
-Otherwise, people who care enough to be bothered by fallback fonts are likely …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;&lt;strong&gt;2020 Update&lt;/strong&gt;: I bit the bullet and removed all web fonts, relying on the
+Otherwise, people who care enough to be bothered by fallback fonts are likely …&lt;/p&gt;&lt;/blockquote&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2020 Update&lt;/strong&gt;: I bit the bullet and removed all web fonts, relying on the
 browser&amp;#8217;s configured sans-serif/monospace fonts instead. It&amp;#8217;s probably fine,
 since even stock fonts seem to cover Vietnamese glyphs well these days.
 Otherwise, people who care enough to be bothered by fallback fonts are likely
-to know how to configure their browser with proper fonts&amp;nbsp;anyway.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;2017 Update&lt;/strong&gt;: Now that I like high contrast more, I just updated the theme to a
-black/white/red palette with a [high-quality serif font][8] instead. Thanks [Mr.&amp;nbsp;Butterick][9]!&lt;/em&gt;&lt;/p&gt;
-&lt;hr&gt;
-
-I just redesigned my blog.
-
-To be totally honest, the previous design was not mine at all. I&amp;#8217;ve always been using
-[pelican-octopress-theme][1], which is a Pelican port of the default theme for Octopress. It&amp;#8217;s not
+to know how to configure their browser with proper fonts&amp;nbsp;anyway.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;2017 Update&lt;/strong&gt;: Now that I like high contrast more, I just updated the
+theme to a black/white/red palette with a &lt;a href="https://github.com/adobe-fonts/source-serif-pro"&gt;high-quality serif font&lt;/a&gt;
+instead. Thanks &lt;a href="https://practicaltypography.com/"&gt;Mr. Butterick&lt;/a&gt;!&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I just redesigned my&amp;nbsp;blog.&lt;/p&gt;
+&lt;p&gt;To be totally honest, the previous design was not mine at all. I&amp;#8217;ve always been using
+&lt;a href="https://github.com/duilio/pelican-octopress-theme/"&gt;pelican-octopress-theme&lt;/a&gt;, which is a Pelican port of the default theme for Octopress. It&amp;#8217;s not
 that I have anything to complain about that theme: it was clean, readable and easy on the eyes. I
 just want my site to look unique. Content is king, sure, but it wouldn&amp;#8217;t hurt to stand out from the
-crowd once in a while.
-
-I&amp;#8217;m not a professional designer, but everything turned out quite well if I could say so. In this
-post I&amp;#8217;ll explain my design goals and how I (hopefully) achieved them.
-
-## Clean and lightweight
-
-The web is messy. I&amp;#8217;m not talking blinking-marquee-fire-animated-header messy (thank god we&amp;#8217;re done
-with that&amp;#8230; [or are we?][2]). I&amp;#8217;m talking megabytes-of-useless-javascript-and-css messy. For
+crowd once in a&amp;nbsp;while.&lt;/p&gt;
+&lt;p&gt;I&amp;#8217;m not a professional designer, but everything turned out quite well if I could say so. In this
+post I&amp;#8217;ll explain my design goals and how I (hopefully) achieved&amp;nbsp;them.&lt;/p&gt;
+&lt;h2&gt;Clean and&amp;nbsp;lightweight&lt;/h2&gt;
+&lt;p&gt;The web is messy. I&amp;#8217;m not talking blinking-marquee-fire-animated-header messy (thank god we&amp;#8217;re done
+with that&amp;#8230; &lt;a href="https://developers.google.com/fonts/docs/getting_started#Effects"&gt;or are we?&lt;/a&gt;). I&amp;#8217;m talking megabytes-of-useless-javascript-and-css messy. For
 whatever reason, some people now think it&amp;#8217;s cool to include Bootstrap/Foundation to every project,
 or to include that new shiny parallax library to ruin scrolling for everybody. Oh, and don&amp;#8217;t forget
-the marvellous invention that is [&amp;#8220;infinite scrolling&amp;#8221;][3]:
-
-![](https://imgs.xkcd.com/comics/infinite_scrolling.png)
-
-In fact, the main motivation of my new theme is [this satire page][4] on the sad state of the web
-we&amp;#8217;re in today.
-
-That&amp;#8217;s why I decided to do no fancy cosmetic &lt;span class="caps"&gt;JS&lt;/span&gt; and try to keep my use of static assets to a
-minimum:
-
-![](/images/mofo_01_loads.png)
-
-I guess there&amp;#8217;s nothing I can do about the font files though, since I need to make sure my
-Vietnamese posts are rendered in a font that supports it. Oh well, at least it looks awesome.
-
-## Content is king
-
-No more distracting sidebar with &amp;#8220;latest news&amp;#8221;, &amp;#8220;related posts&amp;#8221;, etc. with thumbnails popping up
-all over the place, just a good old article body from start to finish.
-
-## Easy on the eye
-
-While [bettermotherfuckingwebsite][5] does a good job at demonstrating how far you can go with a
-few simple &lt;span class="caps"&gt;CSS&lt;/span&gt; rules (hint: very far), I found Tommi Kaikkonen&amp;#8217;s [Interactive Guide to Blog
-Typography][6] much more comprehensive and informative. I implemented many of the ideas found
-in that guide:
-
-- Big body font
-- Constrained line width to aid reading
-- Generous line height, liberal whitespace to help with visual hierarchy
-- Lower background-foreground contrast. I also find the slightly yellow-ish background somewhat
-  soothing.
-
-## That&amp;#8217;s it!
-
-You can find the source code to my theme [on GitHub][7]. I don&amp;#8217;t recommend using it as-is though,
+the marvellous invention that is &lt;a href="https://xkcd.com/1309/"&gt;&amp;#8220;infinite scrolling&amp;#8221;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="https://imgs.xkcd.com/comics/infinite_scrolling.png"&gt;&lt;/p&gt;
+&lt;p&gt;In fact, the main motivation of my new theme is &lt;a href="http://motherfuckingwebsite.com/"&gt;this satire page&lt;/a&gt; on the sad state of the web
+we&amp;#8217;re in&amp;nbsp;today.&lt;/p&gt;
+&lt;p&gt;That&amp;#8217;s why I decided to do no fancy cosmetic &lt;span class="caps"&gt;JS&lt;/span&gt; and try to keep my use of static assets to a&amp;nbsp;minimum:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="" src="/images/mofo_01_loads.png"&gt;&lt;/p&gt;
+&lt;p&gt;I guess there&amp;#8217;s nothing I can do about the font files though, since I need to make sure my
+Vietnamese posts are rendered in a font that supports it. Oh well, at least it looks&amp;nbsp;awesome.&lt;/p&gt;
+&lt;h2&gt;Content is&amp;nbsp;king&lt;/h2&gt;
+&lt;p&gt;No more distracting sidebar with &amp;#8220;latest news&amp;#8221;, &amp;#8220;related posts&amp;#8221;, etc. with thumbnails popping up
+all over the place, just a good old article body from start to&amp;nbsp;finish.&lt;/p&gt;
+&lt;h2&gt;Easy on the&amp;nbsp;eye&lt;/h2&gt;
+&lt;p&gt;While &lt;a href="http://bettermotherfuckingwebsite.com/"&gt;bettermotherfuckingwebsite&lt;/a&gt; does a good job at demonstrating how far you can go with a
+few simple &lt;span class="caps"&gt;CSS&lt;/span&gt; rules (hint: very far), I found Tommi Kaikkonen&amp;#8217;s &lt;a href="http://www.kaikkonendesign.fi/typography/"&gt;Interactive Guide to Blog
+Typography&lt;/a&gt; much more comprehensive and informative. I implemented many of the ideas found
+in that&amp;nbsp;guide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Big body&amp;nbsp;font&lt;/li&gt;
+&lt;li&gt;Constrained line width to aid&amp;nbsp;reading&lt;/li&gt;
+&lt;li&gt;Generous line height, liberal whitespace to help with visual&amp;nbsp;hierarchy&lt;/li&gt;
+&lt;li&gt;Lower background-foreground contrast. I also find the slightly yellow-ish background somewhat&amp;nbsp;soothing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;That&amp;#8217;s&amp;nbsp;it!&lt;/h2&gt;
+&lt;p&gt;You can find the source code to my theme &lt;a href="https://github.com/nhanb/motherfucking-pelican-theme"&gt;on GitHub&lt;/a&gt;. I don&amp;#8217;t recommend using it as-is though,
 since I haven&amp;#8217;t implemented many required templates (authors, tags, categories, etc.) because I
 don&amp;#8217;t use them. There&amp;#8217;s also the hardcoded content in footer and probably a few more places. Maybe
-someday I&amp;#8217;ll stop being lazy and fix all that. *Maybe*.
-
-[1]: https://github.com/duilio/pelican-octopress-theme/
-[2]: https://developers.google.com/fonts/docs/getting_started#Effects
-[3]: https://xkcd.com/1309/
-[4]: http://motherfuckingwebsite.com/
-[5]: http://bettermotherfuckingwebsite.com/
-[6]: http://www.kaikkonendesign.fi/typography/
-[7]: https://github.com/nhanb/motherfucking-pelican-theme
-[8]: https://github.com/adobe-fonts/source-serif-pro
-[9]:&amp;nbsp;https://practicaltypography.com/</content><category term="posts"></category></entry><entry><title>How to install PyQt5 on a virtualenv on Ubuntu 14.04</title><link href="https://hi.imnhan.com/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/" rel="alternate"></link><published>2015-02-14T22:33:00+07:00</published><updated>2015-02-14T22:33:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-02-14:/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/</id><summary type="html">&lt;p&gt;The official way to install PyQt5 for development is to download and compile &lt;span class="caps"&gt;SIP&lt;/span&gt; + PyQt5 from
+someday I&amp;#8217;ll stop being lazy and fix all that. &lt;em&gt;Maybe&lt;/em&gt;.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>How to install PyQt5 on a virtualenv on Ubuntu 14.04</title><link href="https://hi.imnhan.com/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/" rel="alternate"></link><published>2015-02-14T22:33:00+07:00</published><updated>2015-02-14T22:33:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-02-14:/posts/how-to-install-pyqt5-on-virtualenv-on-ubuntu-14.04/</id><summary type="html">&lt;p&gt;The official way to install PyQt5 for development is to download and compile &lt;span class="caps"&gt;SIP&lt;/span&gt; + PyQt5 from
 source, which is painstakingly slow (compiling PyQt5 took like 10 minutes on my &lt;span class="caps"&gt;PC&lt;/span&gt;). If you&amp;#8217;re
 &lt;a href="https://michalcodes4life.wordpress.com/2014/03/16/pyqt5-python-3-3-in-virtualenv-on-ubuntu/"&gt;compiling it against a virtualenv&lt;/a&gt;, rinse and repeat for each new virtualenv you create.
 Alhough it is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The official way to install PyQt5 for development is to download and compile &lt;span class="caps"&gt;SIP&lt;/span&gt; + PyQt5 from

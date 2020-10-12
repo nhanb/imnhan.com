@@ -1,16 +1,14 @@
-body {
-  font-family: sans-serif;
-  max-width: 700px;
-  margin: 0 auto;
-  padding: 0 0.5rem;
-  background-color: white;
+html {
+  font-size: 100%;
+  background-color: cornsilk;
   /* always show vertical scrollbar to avoid content shifting: */
   overflow-y: scroll;
+  font-family: sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #990d0d;
+  color: brown;
 }
 a:hover {
   text-decoration: underline;
@@ -24,8 +22,12 @@ video {
 }
 
 video {
+  /* On netsurf browser, a border for <video> tag will enclose all its
+   * following siblings, which is probably a bug.
+   * Therefore, no video border for now :(
   border: 1px solid black;
   box-sizing: border-box;
+   */
 }
 
 p {
@@ -52,8 +54,9 @@ figcaption {
 }
 
 blockquote {
-  background-color: #efefef;
-  border-left: 4px solid #ccc;
+  background-color: blanchedalmond;
+  border: 2px solid burlywood;
+  border-left: 4px solid burlywood;
   padding: 5px;
   margin-left: 2rem;
   margin-right: 0;
@@ -82,9 +85,13 @@ hr {
 }
 
 code {
-  font-size: 1rem;
   font-family: monospace;
-  background-color: #eaeaea;
+}
+
+p code {
+  padding: 0.2rem 0.2rem 0.1rem 0.2rem;
+  border-radius: 0.2rem;
+  border: 1px solid lightgray;
 }
 
 pre {
@@ -98,8 +105,14 @@ pre code {
 
 /* site-specific stuff follows */
 
+#main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 0.5rem;
+}
+
 nav {
-  border: 1px solid black;
+  border: 2px solid brown;
   border-left: 0;
   border-right: 0;
   margin: 0.8rem auto 1rem auto;
@@ -112,8 +125,12 @@ nav ul {
 
 footer {
   margin-top: 1.5rem;
-  border-top: 1px solid black;
+  border-top: 2px solid brown;
   padding: 0.5rem 0;
+  font-size: 0.9rem;
+}
+footer a {
+  white-space: nowrap;
 }
 
 #site-name {

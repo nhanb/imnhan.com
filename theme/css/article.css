@@ -1,5 +1,6 @@
 .article-title {
-  margin-bottom: 0px;
+  line-height: 1.1em;
+  margin-bottom: 0.2em;
 }
 
 #comments {

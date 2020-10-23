@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2020-06-10T08:25:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>Streaming videos from Google Drive - 2nd attempt</title><link href="https://hi.imnhan.com/posts/streaming-videos-from-google-drive-2nd-attempt/" rel="alternate"></link><published>2020-06-10T08:25:00+07:00</published><updated>2020-06-10T08:25:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-06-10:/posts/streaming-videos-from-google-drive-2nd-attempt/</id><summary type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Hi, I'm Nhân</title><link href="https://hi.imnhan.com/" rel="alternate"></link><link href="/feeds/atom.xml" rel="self"></link><id>https://hi.imnhan.com/</id><updated>2020-10-21T11:45:00+07:00</updated><subtitle>and this is my humble corner on the interwebs.</subtitle><entry><title>The video streaming finale, or why put.io is awesome</title><link href="https://hi.imnhan.com/posts/the-video-streaming-finale-or-why-putio-is-awesome/" rel="alternate"></link><published>2020-10-21T11:45:00+07:00</published><updated>2020-10-21T11:45:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-10-21:/posts/the-video-streaming-finale-or-why-putio-is-awesome/</id><summary type="html">&lt;p&gt;&lt;a href="/posts/streaming-videos-from-google-drive-a-second-attempt/"&gt;Previously&lt;/a&gt;,
+&lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;previously&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I ditched the whole self hosted mess and just bought a &lt;a href="https://put.io"&gt;put.io&lt;/a&gt;
+subscription instead. This has become the smoothest, most no-nonsense video
+streaming experience I&amp;#8217;ve ever&amp;nbsp;had.&lt;/p&gt;
+&lt;p&gt;It&amp;nbsp;transcodes.&lt;/p&gt;
+&lt;p&gt;It&amp;nbsp;streams.&lt;/p&gt;
+&lt;p&gt;It has a web-based video player that lets me pick&amp;nbsp;subtitles.&lt;/p&gt;
+&lt;p&gt;In cases when the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="/posts/streaming-videos-from-google-drive-a-second-attempt/"&gt;Previously&lt;/a&gt;,
+&lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;previously&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I ditched the whole self hosted mess and just bought a &lt;a href="https://put.io"&gt;put.io&lt;/a&gt;
+subscription instead. This has become the smoothest, most no-nonsense video
+streaming experience I&amp;#8217;ve ever&amp;nbsp;had.&lt;/p&gt;
+&lt;p&gt;It&amp;nbsp;transcodes.&lt;/p&gt;
+&lt;p&gt;It&amp;nbsp;streams.&lt;/p&gt;
+&lt;p&gt;It has a web-based video player that lets me pick&amp;nbsp;subtitles.&lt;/p&gt;
+&lt;p&gt;In cases when the subtitles aren&amp;#8217;t recognized, or I want to switch between
+audio tracks, I can always drag-n-drop the original file&amp;#8217;s streaming &lt;span class="caps"&gt;URL&lt;/span&gt; from
+browser to an mpv launcher like&amp;nbsp;this:&lt;/p&gt;
+&lt;p&gt;&lt;video controls&gt;
+  &lt;source src="/images/put.io_01_mpv.mp4" type="video/mp4"&gt;
+&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;It also has a third-party Android app that lets me browse and stream via&amp;nbsp;mpv-android.&lt;/p&gt;
+&lt;p&gt;The above is only possible because put.io exposes a powerful, well-documented
+&lt;span class="caps"&gt;API&lt;/span&gt; for everyone to play&amp;nbsp;with.&lt;/p&gt;
+&lt;p&gt;The web player is clean, snappy (see that, Google Drive team?) and has
+autoplay disabled by default (screw you,&amp;nbsp;Netflix).&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s refreshing to find software that works &lt;em&gt;for&lt;/em&gt; instead of &lt;em&gt;against&lt;/em&gt; its
+users these&amp;nbsp;days.&lt;/p&gt;</content><category term="posts"></category></entry><entry><title>Streaming videos from Google Drive - a second attempt</title><link href="https://hi.imnhan.com/posts/streaming-videos-from-google-drive-a-second-attempt/" rel="alternate"></link><published>2020-06-10T08:25:00+07:00</published><updated>2020-06-10T08:25:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-06-10:/posts/streaming-videos-from-google-drive-a-second-attempt/</id><summary type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
 an &lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;earlier blog post&lt;/a&gt;. It now works like this on an Android phone with
 mpv-android&amp;nbsp;installed:&lt;/p&gt;
 &lt;p&gt;&lt;video controls&gt;

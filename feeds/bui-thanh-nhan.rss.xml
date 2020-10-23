@@ -4,10 +4,10 @@
 &lt;p&gt;I ditched the whole self hosted mess and just bought a &lt;a href="https://put.io"&gt;put.io&lt;/a&gt;
 subscription instead. This has become the smoothest, most no-nonsense video
 streaming experience I&amp;#8217;ve ever&amp;nbsp;had.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s a&amp;nbsp;seedbox.&lt;/p&gt;
 &lt;p&gt;It&amp;nbsp;transcodes.&lt;/p&gt;
 &lt;p&gt;It&amp;nbsp;streams.&lt;/p&gt;
-&lt;p&gt;It has a web-based video player that lets me pick&amp;nbsp;subtitles.&lt;/p&gt;
-&lt;p&gt;In cases when the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bùi Thành Nhân</dc:creator><pubDate>Wed, 21 Oct 2020 11:45:00 +0700</pubDate><guid isPermaLink="false">tag:hi.imnhan.com,2020-10-21:/posts/the-video-streaming-finale-or-why-putio-is-awesome/</guid><category>posts</category></item><item><title>Streaming videos from Google Drive - a second attempt</title><link>https://hi.imnhan.com/posts/streaming-videos-from-google-drive-a-second-attempt/</link><description>&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
+&lt;p&gt;It has a web-based video player that lets me pick&amp;nbsp;subtitles …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bùi Thành Nhân</dc:creator><pubDate>Wed, 21 Oct 2020 11:45:00 +0700</pubDate><guid isPermaLink="false">tag:hi.imnhan.com,2020-10-21:/posts/the-video-streaming-finale-or-why-putio-is-awesome/</guid><category>posts</category></item><item><title>Streaming videos from Google Drive - a second attempt</title><link>https://hi.imnhan.com/posts/streaming-videos-from-google-drive-a-second-attempt/</link><description>&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
 an &lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;earlier blog post&lt;/a&gt;. It now works like this on an Android phone with
 mpv-android&amp;nbsp;installed:&lt;/p&gt;
 &lt;p&gt;&lt;video controls&gt;

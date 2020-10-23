@@ -4,14 +4,15 @@
 &lt;p&gt;I ditched the whole self hosted mess and just bought a &lt;a href="https://put.io"&gt;put.io&lt;/a&gt;
 subscription instead. This has become the smoothest, most no-nonsense video
 streaming experience I&amp;#8217;ve ever&amp;nbsp;had.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s a&amp;nbsp;seedbox.&lt;/p&gt;
 &lt;p&gt;It&amp;nbsp;transcodes.&lt;/p&gt;
 &lt;p&gt;It&amp;nbsp;streams.&lt;/p&gt;
-&lt;p&gt;It has a web-based video player that lets me pick&amp;nbsp;subtitles.&lt;/p&gt;
-&lt;p&gt;In cases when the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="/posts/streaming-videos-from-google-drive-a-second-attempt/"&gt;Previously&lt;/a&gt;,
+&lt;p&gt;It has a web-based video player that lets me pick&amp;nbsp;subtitles …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="/posts/streaming-videos-from-google-drive-a-second-attempt/"&gt;Previously&lt;/a&gt;,
 &lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;previously&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I ditched the whole self hosted mess and just bought a &lt;a href="https://put.io"&gt;put.io&lt;/a&gt;
 subscription instead. This has become the smoothest, most no-nonsense video
 streaming experience I&amp;#8217;ve ever&amp;nbsp;had.&lt;/p&gt;
+&lt;p&gt;It&amp;#8217;s a&amp;nbsp;seedbox.&lt;/p&gt;
 &lt;p&gt;It&amp;nbsp;transcodes.&lt;/p&gt;
 &lt;p&gt;It&amp;nbsp;streams.&lt;/p&gt;
 &lt;p&gt;It has a web-based video player that lets me pick&amp;nbsp;subtitles.&lt;/p&gt;
@@ -21,7 +22,9 @@ browser to an mpv launcher like&amp;nbsp;this:&lt;/p&gt;
 &lt;p&gt;&lt;video controls&gt;
   &lt;source src="/images/put.io_01_mpv.mp4" type="video/mp4"&gt;
 &lt;/video&gt;&lt;/p&gt;
-&lt;p&gt;It also has a third-party Android app that lets me browse and stream via&amp;nbsp;mpv-android.&lt;/p&gt;
+&lt;p&gt;It also has a open source third-party &lt;a href="https://github.com/DSteve595/Put.io"&gt;Android app&lt;/a&gt; that lets me browse and
+stream via mpv-android. As icing on the cake, this app supports casting to
+Chromecast-enabled TVs - everything This Works&amp;nbsp;(tm).&lt;/p&gt;
 &lt;p&gt;The above is only possible because put.io exposes a powerful, well-documented
 &lt;span class="caps"&gt;API&lt;/span&gt; for everyone to play&amp;nbsp;with.&lt;/p&gt;
 &lt;p&gt;The web player is clean, snappy (see that, Google Drive team?) and has

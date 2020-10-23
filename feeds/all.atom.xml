@@ -18,7 +18,7 @@ streaming experience I&amp;#8217;ve ever&amp;nbsp;had.&lt;/p&gt;
 &lt;p&gt;It has a web-based video player that lets me pick&amp;nbsp;subtitles.&lt;/p&gt;
 &lt;p&gt;In cases when the subtitles aren&amp;#8217;t recognized, or I want to switch between
 audio tracks, I can always drag-n-drop the original file&amp;#8217;s streaming &lt;span class="caps"&gt;URL&lt;/span&gt; from
-browser to an mpv launcher like&amp;nbsp;this:&lt;/p&gt;
+the browser straight to an mpv launcher like&amp;nbsp;this:&lt;/p&gt;
 &lt;p&gt;&lt;video controls&gt;
   &lt;source src="/images/put.io_01_mpv.mp4" type="video/mp4"&gt;
 &lt;/video&gt;&lt;/p&gt;

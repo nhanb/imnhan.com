@@ -60,8 +60,9 @@ figcaption {
 blockquote {
   background-color: blanchedalmond;
   border: 2px solid burlywood;
-  border-left: 4px solid burlywood;
+  border-left: 5px solid burlywood;
   padding: 5px;
+  padding-left: 7px;
   margin-left: 2rem;
   margin-right: 0;
 }

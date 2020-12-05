@@ -9,10 +9,11 @@
 }
 
 .article-list a {
-  display: block;
   font-weight: bold;
 }
 
-time {
+.article-list time {
   font-size: 0.9em;
+  display: block;
+  margin-top: 0.1rem;
 }

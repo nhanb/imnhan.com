@@ -24,7 +24,7 @@ the browser straight to an mpv launcher like&amp;nbsp;this:&lt;/p&gt;
 &lt;/video&gt;&lt;/p&gt;
 &lt;p&gt;It also has a open source third-party &lt;a href="https://github.com/DSteve595/Put.io"&gt;Android app&lt;/a&gt; that lets me browse and
 stream via mpv-android. As icing on the cake, this app supports casting to
-Chromecast-enabled TVs - everything This Works&amp;nbsp;(tm).&lt;/p&gt;
+Chromecast-enabled TVs - everything Just Works&amp;nbsp;(tm).&lt;/p&gt;
 &lt;p&gt;The above is only possible because put.io exposes a powerful, well-documented
 &lt;span class="caps"&gt;API&lt;/span&gt; for everyone to play&amp;nbsp;with.&lt;/p&gt;
 &lt;p&gt;The web player is clean, snappy (see that, Google Drive team?) and has

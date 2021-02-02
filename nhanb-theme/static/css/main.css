@@ -1,7 +1,7 @@
 html {
-  --bg-color: cornsilk;
-  --fg-color: black;
-  --link-color: brown;
+  --bg-color: #013040;
+  --fg-color: #acc9e3;
+  --link-color: #ff9168;
   --hr-border: 2px solid var(--link-color);
 
   font-size: 100%;

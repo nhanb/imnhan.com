@@ -54,7 +54,12 @@ Vietnam at all), and &lt;span class="caps"&gt;DIY&lt;/span&gt;-ing a hard pad fr
 &lt;p&gt;Between this and working through &lt;a href="https://pages.cs.wisc.edu/~remzi/OSTEP/"&gt;the comet
 book&lt;/a&gt;, I think I&amp;#8217;ll keep myself
 entertained enough during Saigon&amp;#8217;s potential second &lt;span class="caps"&gt;COVID&lt;/span&gt;-19 lockdown.
-I&amp;#8217;d prefer it didn&amp;#8217;t happen&amp;nbsp;though.&lt;/p&gt;</content><category term="side projects"></category></entry><entry><title>Streaming videos from Google Drive - a second attempt</title><link href="https://hi.imnhan.com/posts/streaming-videos-from-google-drive-a-second-attempt/" rel="alternate"></link><published>2020-06-10T08:25:00+07:00</published><updated>2020-06-10T08:25:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-06-10:/posts/streaming-videos-from-google-drive-a-second-attempt/</id><summary type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
+I&amp;#8217;d prefer it didn&amp;#8217;t happen&amp;nbsp;though.&lt;/p&gt;
+&lt;p&gt;P/s here it is in&amp;nbsp;action:&lt;/p&gt;
+&lt;p&gt;&lt;video controls&gt;
+  &lt;source src="https://junk.imnhan.com/softpadmod.mp4" type="video/mp4"&gt;
+&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;(man I wonder if we&amp;#8217;ll ever get a Melty Blood&amp;nbsp;2)&lt;/p&gt;</content><category term="side projects"></category></entry><entry><title>Streaming videos from Google Drive - a second attempt</title><link href="https://hi.imnhan.com/posts/streaming-videos-from-google-drive-a-second-attempt/" rel="alternate"></link><published>2020-06-10T08:25:00+07:00</published><updated>2020-06-10T08:25:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2020-06-10:/posts/streaming-videos-from-google-drive-a-second-attempt/</id><summary type="html">&lt;p&gt;&lt;strong&gt;&lt;span class="caps"&gt;TL&lt;/span&gt;;&lt;span class="caps"&gt;DR&lt;/span&gt;:&lt;/strong&gt; I improved the Google Drive video streaming experience mentioned in
 an &lt;a href="/posts/towards-an-acceptable-video-playing-experience/"&gt;earlier blog post&lt;/a&gt;. It now works like this on an Android phone with
 mpv-android&amp;nbsp;installed:&lt;/p&gt;
 &lt;p&gt;&lt;video controls&gt;

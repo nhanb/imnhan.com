@@ -754,11 +754,20 @@ trong insert mode làm hư &lt;code&gt;inoremap jj &amp;lt;esc&amp;gt;&lt;/code&
 bằng cách sửa mã nguồn của&amp;nbsp;fcitx-unikey.&lt;/p&gt;
 &lt;p&gt;Mình gõ tiếng Việt kiểu &lt;span class="caps"&gt;VNI&lt;/span&gt; nên bộ gõ chắc chắn không bao giờ xử lý ký tự &lt;code&gt;j&lt;/code&gt; =&amp;gt; có thể thêm ký tự
 &lt;code&gt;j&lt;/code&gt; vào danh sách WordBreakSyms trong &lt;strong&gt;src/unikey-im.cpp&lt;/strong&gt;. (&lt;a href="https://github.com/nhanb/fcitx-unikey/commit/d976a64f560510125bfddf02bd892d42bc94e5b5"&gt;xem tại đây&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;Sau đó chỉ cần compile lại fcitx-unikey là&amp;nbsp;xong!&lt;/p&gt;</content><category term="tutorials"></category></entry><entry><title>Introducing Pytaku - the only online manga reader you’ll ever need</title><link href="https://hi.imnhan.com/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/" rel="alternate"></link><published>2015-01-02T21:19:00+07:00</published><updated>2015-01-02T21:19:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-01-02:/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/</id><summary type="html">&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Pytaku&lt;/a&gt; is an online manga reader that scrapes data from multiple Vietnamese and English
-manga sites, giving you one single place to keep track of your reading progress and watch for new
-chapters with ease. Here are some of the features implemented so&amp;nbsp;far:&lt;/p&gt;
-&lt;h2&gt;Lightning fast, ad-free reading&amp;nbsp;experience&lt;/h2&gt;
-&lt;p&gt;All …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Pytaku&lt;/a&gt; is an online manga reader that scrapes data from multiple Vietnamese and English
+&lt;p&gt;Sau đó chỉ cần compile lại fcitx-unikey là&amp;nbsp;xong!&lt;/p&gt;</content><category term="tutorials"></category></entry><entry><title>Introducing Pytaku - the only online manga reader you’ll ever need</title><link href="https://hi.imnhan.com/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/" rel="alternate"></link><published>2015-01-02T21:19:00+07:00</published><updated>2015-01-02T21:19:00+07:00</updated><author><name>Bùi Thành Nhân</name></author><id>tag:hi.imnhan.com,2015-01-02:/posts/introducing-pytaku-the-only-online-manga-reader-youll-ever-need/</id><summary type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Heads up from 2021!&lt;/strong&gt; This post describes a previous incarnation of Pytaku
+which is no longer alive.  The new Pytaku is a slightly different thing which
+is being (relatively) actively developed &lt;a href="https://sr.ht/~nhanb/pytaku/"&gt;on
+sourcehut&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Pytaku&lt;/a&gt; is an online manga reader that scrapes data from multiple Vietnamese and English
+manga sites, giving …&lt;/p&gt;</summary><content type="html">&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Heads up from 2021!&lt;/strong&gt; This post describes a previous incarnation of Pytaku
+which is no longer alive.  The new Pytaku is a slightly different thing which
+is being (relatively) actively developed &lt;a href="https://sr.ht/~nhanb/pytaku/"&gt;on
+sourcehut&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://pytaku.appspot.com"&gt;Pytaku&lt;/a&gt; is an online manga reader that scrapes data from multiple Vietnamese and English
 manga sites, giving you one single place to keep track of your reading progress and watch for new
 chapters with ease. Here are some of the features implemented so&amp;nbsp;far:&lt;/p&gt;
 &lt;h2&gt;Lightning fast, ad-free reading&amp;nbsp;experience&lt;/h2&gt;
@@ -778,13 +787,13 @@ chapters for the series you&amp;nbsp;love.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Bookmarked series" src="/images/pytaku_02_bookmarked_series.png"&gt;&lt;/p&gt;
 &lt;h2&gt;English, Vietnamese and support for other&amp;nbsp;languages&lt;/h2&gt;
 &lt;p&gt;Pytaku comes in English by default and configurable to be in Vietnamese. If you want to translate
-it to your own language, feel free to download the &lt;a href="https://github.com/nhanb/pytaku/blob/master/frontend/languages/en.yaml"&gt;English language file&lt;/a&gt; and start translating
-on that, then send it to me to&amp;nbsp;install.&lt;/p&gt;
+it to your own language, feel free to follow the example from the &lt;a href="https://github.com/nhanb/pytaku-old-gae/blob/master/frontend/languages/en.yaml"&gt;English language file&lt;/a&gt; and
+send me a pull&amp;nbsp;request.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Vietnamese interface" src="/images/pytaku_03_vietnamese.png"&gt;&lt;/p&gt;
 &lt;h2&gt;Open source and free to run your own&amp;nbsp;site&lt;/h2&gt;
-&lt;p&gt;Pytaku&amp;#8217;s source code is released under the free-as-in-freedom &lt;a href="https://www.gnu.org/licenses/quick-guide-gplv3.html"&gt;GPLv3&lt;/a&gt; and &lt;a href="https://github.com/nhanb/pytaku"&gt;put on GitHub&lt;/a&gt;.
+&lt;p&gt;Pytaku&amp;#8217;s source code is released under the free-as-in-freedom &lt;a href="https://www.gnu.org/licenses/quick-guide-gplv3.html"&gt;GPLv3&lt;/a&gt; and &lt;a href="https://github.com/nhanb/pytaku-old-gae/"&gt;put on GitHub&lt;/a&gt;.
 Since it&amp;#8217;s written to be run on Google App Engine which is free for small sites, tech-savvy people
-can set up their own private pytaku clone in a few minutes. Check out the &lt;a href="https://github.com/nhanb/pytaku/blob/master/README.markdown"&gt;&lt;span class="caps"&gt;README&lt;/span&gt; file&lt;/a&gt; for&amp;nbsp;instructions.&lt;/p&gt;
+can set up their own private pytaku clone in a few minutes. Check out the &lt;a href="https://github.com/nhanb/pytaku-old-gae/blob/master/README.markdown"&gt;&lt;span class="caps"&gt;README&lt;/span&gt; file&lt;/a&gt; for&amp;nbsp;instructions.&lt;/p&gt;
 &lt;h2&gt;Open to suggestions and (hopefully contructive)&amp;nbsp;criticism&lt;/h2&gt;
 &lt;p&gt;Want another manga site to be included as source? Need a feature that you think many others can
 benefit from? Feel free to open an issue on GitHub, or give me a shout on the official &lt;a href="https://gitter.im/nhanb/pytaku"&gt;support
